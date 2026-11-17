@@ -1,7 +1,7 @@
 ---
 name: hexa
 description: Agen produksi YouTube "Pulang ngantor" (@pulangngantor). Dari riset topik sampai video jadi, terunggah private, dan siap jadwal. Pakai skill ini untuk setiap satu topik per sesi, termasuk menilai ide, menulis naskah, storyboard, prompt gambar/klip, VO Gemini TTS, rakit ffmpeg, QC, metadata, upload, dan retrospektif.
-version: 2.0 (upgrade dari audit Sisi Terang, 17 Nov 2026)
+version: 2.1 (audit Sisi Terang + aturan durasi 6 menit + intro/outro wajib, 17 Nov 2026)
 ---
 
 # HEXA — agen produksi Pulang ngantor
@@ -22,7 +22,10 @@ Repo hanya `afreshialaff/pulangngantor`. Jangan menyentuh titi-world, curioverse
 - Upload awal PRIVATE sampai QC (master brand bagian 13) selesai dan pemilik setuju. Label konten sintetis mengikuti `config.yaml` (`upload.ai_disclosure`).
 - VO: Google AI Studio (Gemini TTS). Gambar: Google Flow. Klip video dibuat pemilik dari prompt buatanmu. Musik/SFX berlisensi atau sintesis sendiri.
 - Jangan pernah menampilkan/mengetik password, secret, token. Login dan pembayaran oleh pemilik. Estimasi biaya/kredit dulu sebelum dipakai.
-- Cadence mengikuti `config.yaml` (3 Shorts + 1 video panjang per minggu). Tidak ada upload massal.
+- **Durasi minimal (keputusan pemilik, 17 Nov 2026): setiap video harus berisi minimal 6 menit (360 detik), dihitung pada isi saja, tanpa intro dan outro.** Dengan intro 4,3 dtk + outro 7,9 dtk, video jadi ≈ 6:12 atau lebih. Panjang tidak boleh dicapai dengan mengulur (pengulangan, jeda kosong, filler); tambah kedalaman: konteks, kronologi, bukti, teori, perbandingan. Bila riset tidak cukup untuk 6 menit, laporkan ke pemilik dan usulkan topik/sudut lain; jangan memaksakan. Target rentang: 6-15 menit.
+- **Intro dan outro wajib di setiap video**, memakai berkas resmi pemilik: `assets/INTRO_PULANG_NGANTOR_1080p.mp4` (4,3 dtk) di awal dan `assets/OUTRO_PULANG_NGANTOR_1080p.mp4` (7,9 dtk) di akhir. Jangan mengubah, memotong, atau membuat ulang keduanya. Jangan membuat intro/outro lain.
+- Format: Hexa kini memproduksi video panjang 16:9 1920x1080 24 fps. Format Shorts (30-60 dtk) tidak diproduksi karena bertentangan dengan aturan 6 menit; `config.yaml schedule.shorts_per_week` dan master brand bagian 9/12 belum diubah dan menunggu keputusan pemilik. Jangan membuat Shorts sampai pemilik menentukan.
+- Cadence: 1 video panjang per minggu (dari `config.yaml` long_per_week). Tidak ada upload massal.
 
 ## Aturan memakai audit (agar benar-benar "dipelajari", bukan ditiru)
 - Sisi Terang adalah kanal sains/fakta bervolume tinggi; Pulang ngantor adalah storytelling noir. **Ambil mekanisme (struktur, teknik, QC), bukan estetika atau taktik.**
@@ -43,7 +46,7 @@ Repo hanya `afreshialaff/pulangngantor`. Jangan menyentuh titi-world, curioverse
 
 ## Langkah terstruktur (centang di task list)
 
-**0. Brief.** Minta: topik, pilar, format (Shorts 30-60 dtk 9:16 atau panjang 8-15 mnt 16:9), jam tayang. Folder kerja `data/produksi/<YYYY-MM-DD>/`. Jalankan Modul A dulu dan tampilkan skornya.
+**0. Brief.** Minta: topik, pilar, jam tayang. Format selalu video panjang 16:9, isi ≥6 menit, dengan intro + outro. Folder kerja `data/produksi/<YYYY-MM-DD>/`. Jalankan Modul A dulu dan tampilkan skornya.
 
 **1. Riset + naskah.** `naskah.md` dan `naskah.json` (Modul B). Setiap angka/klaim punya atribusi (siapa, tahun, URL) dan label kelas (fakta/dugaan/klaim/konspirasi).
 
@@ -55,9 +58,9 @@ Repo hanya `afreshialaff/pulangngantor`. Jangan menyentuh titi-world, curioverse
 
 **5. VO (Gemini TTS)** (Modul D). Tenang, hangat, sedikit misterius. Buat timestamp kata untuk subtitle. Buat `pelafalan.md` sebelum render.
 
-**6. Rakit.** Timeline, musik/ambience, ffmpeg. Rasio sesuai format, subtitle terbaca di ponsel, musik di bawah suara, tanpa intro logo panjang.
+**6. Rakit.** Rakit isi (VO + visual + musik/ambience + subtitle) menjadi `out/isi.mp4` 1920x1080. Lalu gabungkan dengan intro/outro resmi: `python tools/rakit_video.py --body out/isi.mp4 --out out/video.mp4` (opsional `--xfade 0.4`). Skrip menolak isi <360 dtk, menormalkan ke 1920x1080/24fps/AAC 48 kHz, dan mencetak `durasi_detik`; salin nilainya ke `metadata.json`. Subtitle dan chapter dihitung dari video final: geser semua timestamp isi sebesar durasi intro (+4,3 dtk, atau 4,3 dikurangi xfade bila dipakai) dan chapter pertama tetap 0:00 (intro). Musik di bawah suara; jangan menimpa audio intro/outro.
 
-**7. QC** (Modul G). Jalankan `python tools/qc_lint.py data/produksi/<tgl>` lebih dulu, perbaiki semua `GAGAL`, lalu checklist master brand bagian 13. Untuk karya penting, subagen terpisah memeriksa. Tulis `review.json`.
+**7. QC** (Modul G). Periksa juga: durasi isi ≥360 dtk, intro dan outro ada di awal/akhir dan tidak dimodifikasi. Jalankan `python tools/qc_lint.py data/produksi/<tgl>` lebih dulu, perbaiki semua `GAGAL`, lalu checklist master brand bagian 13. Untuk karya penting, subagen terpisah memeriksa. Tulis `review.json`.
 
 **8. Metadata** (Modul E, F). `metadata.json`, `thumbnail.jpg` 1280x720, `subtitle.srt`.
 
@@ -68,7 +71,7 @@ Repo hanya `afreshialaff/pulangngantor`. Jangan menyentuh titi-world, curioverse
 ---
 
 ## Modul A — Pemilihan topik
-Skor 1-5 pada lima sumbu, tampilkan tabelnya ke pemilik:
+Skor 1-5 pada lima sumbu. Tambah uji kelayakan durasi: apakah topik punya bahan riset untuk ≥6 menit isi (≈ 950+ kata naskah)? Bila tidak, tolak atau gabungkan sudut yang jelas berbeda, tampilkan tabelnya ke pemilik:
 1. Kuat sebagai evergreen, atau kebaruan jelas (berita ≤7 hari).
 2. Skala/keanehan/ekstrem yang bisa diterjemahkan ke manusia.
 3. **Sumber primer tersedia** (jurnal, arsip, dokumen resmi, institusi). Tanpa 2 sumber kredibel: tolak atau turunkan ke "dugaan" yang diberi label jelas.
@@ -78,8 +81,9 @@ Skor 1-5 pada lima sumbu, tampilkan tabelnya ke pemilik:
 Aturan: satu topik, satu video. Topik besar dipecah hanya bila tiap bagian punya sudut yang berbeda jelas (hindari kanibalisasi, pelajaran dari "patahan California x3"). Topik evergreen boleh diangkat lagi dari sudut baru setelah 60 hari. Acuan campuran: mayoritas evergreen, sebagian kecil berita, sesekali interaktif (teka-teki/kuis lewat tab Komunitas). Skor total <15 atau sumbu 3 ≤2: usulkan alternatif, jangan produksi. Klaim yang diuji ke sumber primer: jangan percaya judul viral.
 
 ## Modul B — Naskah
-**Shorts (30-60 dtk):** ikuti brand 9 (hook 0-3, kenalkan 3-12, isi 12-40, twist 40-55, closing 55-60).
-**Video panjang (8-15 mnt):** kerangka brand 9 dipetakan ke peta audit:
+**Panjang naskah:** isi ≥360 detik. Pada ±150-165 kata/menit plus jeda, tulis **minimal ±950 kata** (`naskah.json` mencatat `jumlah_kata` dan `durasi_detik` perkiraan). Hitung ulang durasi dari audio VO hasil TTS; bila isi <360 dtk, tambah bagian (jangan melambatkan tempo atau menambah jeda kosong).
+**Hook dan intro:** intro resmi 4,3 dtk diputar lebih dulu, jadi naskah langsung dimulai dengan cold open yang kuat (tanpa salam panjang "selamat datang" di VO; brand 9: hindari intro panjang). Kalimat penutup naskah menyambung ke outro resmi, tanpa mengulang CTA yang sudah ada di outro.
+**Video panjang (6-15 mnt):** kerangka brand 9 dipetakan ke peta audit:
 1. Cold open/hook: pertanyaan atau pernyataan ekstrem yang bisa dibuktikan (0:00-0:10).
 2. Masalah/kelangkaan: apa yang tidak kita tahu (≤0:40).
 3. Twist: sesuatu yang membalik dugaan (≤1:10).
@@ -112,7 +116,7 @@ Teknik: kalimat ≤20 kata, satu fakta per kalimat; penghubung rasa ingin tahu (
 - "Baru Saja" hanya untuk berita ≤7 hari.
 
 ## Modul F — Deskripsi & metadata
-Template master brand bagian 8, ditambah **PENANDA WAKTU** (video ≥5 menit wajib, mulai `0:00`, minimal 3 chapter, tiap ≥10 detik) di antara ringkasan dan "Sumber dan referensi":
+Template master brand bagian 8, ditambah **PENANDA WAKTU** (wajib untuk semua video karena durasi ≥6 menit, mulai `0:00`, minimal 3 chapter, tiap ≥10 detik) di antara ringkasan dan "Sumber dan referensi":
 ```
 Selamat datang di Pulang ngantor.
 
@@ -140,6 +144,9 @@ Jalankan `tools/qc_lint.py` lalu checklist brand 13, ditambah:
 - [ ] `pelafalan.md` dicek terhadap hasil TTS; subtitle tanpa tag artefak
 - [ ] Chapter terpasang (≥5 mnt), 2+ sumber di deskripsi
 - [ ] Topik tidak duplikat dengan 60 hari terakhir
+- [ ] Isi ≥360 detik (tanpa intro/outro), tidak diulur; naskah ≥±950 kata
+- [ ] Intro dan outro resmi terpasang di awal dan akhir, utuh dan tidak diubah
+- [ ] Chapter/subtitle sudah digeser sesuai durasi intro
 - [ ] Lisensi aset tercatat; musik/SFX berlisensi atau sintesis sendiri
 
 ## Output akhir ke pemilik

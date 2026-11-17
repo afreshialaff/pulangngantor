@@ -2,6 +2,15 @@
 
 Dibaca di awal setiap sesi. Tambahkan entri baru di atas. Format: tanggal, 3 hal yang bisa diperbaiki, perbaikan yang diterapkan.
 
+## 2026-11-17 (2) — Durasi ≥6 menit + intro/outro wajib
+**3 hal yang bisa diperbaiki**
+1. Aturan durasi hanya di prompt/brand (8-15 menit, Shorts 30-60 dtk) dan tidak ditegakkan; video bisa lolos terlalu pendek.
+2. Intro/outro belum punya berkas resmi; perakitan ffmpeg ditulis ulang tiap sesi, rawan beda format (resolusi, fps, audio).
+3. Timestamp subtitle/chapter bisa meleset setelah intro ditambahkan.
+
+**Perbaikan yang diterapkan:** `tools/rakit_video.py` (normalisasi + tolak isi <360 dtk), `assets/` intro 4,3 dtk dan outro 7,9 dtk, `config.yaml: video`, cek durasi/kata/intro-outro di `tools/qc_lint.py`, aturan geser timestamp di SKILL.md.
+**Konflik yang menunggu keputusan pemilik:** master brand bagian 9/12 dan `config.yaml shorts_per_week` masih menyebut Shorts 30-60 dtk; Hexa tidak memproduksi Shorts sampai diputuskan.
+
 ## 2026-11-17 — Upgrade skill dari audit Sisi Terang (belum ada video diproduksi)
 Sumber: `docs/referensi/audit-sisi-terang.md`.
 

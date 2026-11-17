@@ -60,15 +60,25 @@ def main(folder):
             add("GAGAL", "tag lebih dari 15")
         durasi = (meta.get("durasi_detik") or (naskah or {}).get("durasi_detik") or 0)
         if durasi >= 300 and len(CHAPTER.findall(deskripsi)) < 3:
-            add("GAGAL", "video >=5 menit wajib punya >=3 chapter (PENANDA WAKTU, mulai 0:00)")
+            add("GAGAL", "semua video (>=6 menit) wajib punya >=3 chapter (PENANDA WAKTU, mulai 0:00)")
         if durasi >= 300 and not re.search(r"^\s*0:00\b", deskripsi, re.M):
             add("GAGAL", "chapter pertama harus 0:00")
+        isi = meta.get("isi_detik") or (naskah or {}).get("isi_detik") or 0
+        if durasi and durasi < 372:
+            add("GAGAL", f"durasi total {durasi} dtk; isi harus >=360 dtk + intro/outro (~372 dtk)")
+        if isi and isi < 360:
+            add("GAGAL", f"isi video {isi} dtk < 360 dtk (6 menit)")
+        if not durasi:
+            add("PERINGATAN", "durasi_detik belum dicatat di metadata.json (hasil tools/rakit_video.py)")
         if len(meta.get("judul_varian", [])) < 3:
             add("PERINGATAN", "simpan 3 varian judul di metadata.json (judul_varian)")
 
     if naskah is None:
         add("PERINGATAN", "naskah.json belum ada")
     else:
+        kata = sum(len(b.get("vo", "").split()) for b in naskah.get("bagian", []))
+        if kata and kata < 900:
+            add("GAGAL", f"naskah {kata} kata; butuh >=~950 kata untuk isi 6 menit")
         for b in naskah.get("bagian", []):
             if not b.get("sumber"):
                 add("GAGAL", f"bagian '{b.get('id')}' tanpa sumber/atribusi")
@@ -87,6 +97,9 @@ def main(folder):
     else:
         add("PERINGATAN", "subtitle.srt belum ada")
 
+    for nama in ("INTRO", "OUTRO"):
+        if not os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", f"{nama}_PULANG_NGANTOR_1080p.mp4")):
+            add("GAGAL", f"assets/{nama}_PULANG_NGANTOR_1080p.mp4 tidak ada")
     if not os.path.exists(os.path.join(folder, "pelafalan.md")):
         add("PERINGATAN", "pelafalan.md belum ada (QC pelafalan TTS)")
     if not os.path.exists(os.path.join(folder, "thumbnail.jpg")):

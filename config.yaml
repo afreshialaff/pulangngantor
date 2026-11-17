@@ -22,6 +22,11 @@ upload:
   ai_disclosure: true           # label konten sintetis kalau ada visual/suara AI
   made_for_kids: false          # audiens 18-35, bukan konten anak
 
+video:
+  min_isi_detik: 360            # isi video (tanpa intro/outro) minimal 6 menit; keputusan pemilik 2026-11-17
+  intro: "assets/INTRO_PULANG_NGANTOR_1080p.mp4"   # 4,3 dtk, wajib di awal setiap video
+  outro: "assets/OUTRO_PULANG_NGANTOR_1080p.mp4"   # 7,9 dtk, wajib di akhir setiap video
+
 voice:
   provider: "google-ai-studio"  # Gemini TTS (pilihan standar pemilik)
 

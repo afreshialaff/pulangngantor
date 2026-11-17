@@ -1,0 +1,548 @@
+{
+ "judul_kerja": "Naskah Voynich: Buku Abad ke-15 yang Belum Ada yang Bisa Membacanya",
+ "format": "video panjang 16:9 1920x1080 24fps",
+ "pilar": "Mystery & Unsolved Cases",
+ "jumlah_kata": 950,
+ "durasi_detik": 383.7,
+ "isi_detik": 383.7,
+ "bagian": [
+  {
+   "id": "S01",
+   "vo": "Bayangin kamu menemukan sebuah buku tua. Isinya gambar tanaman yang aneh sekali, ditulis dengan huruf yang tidak dikenal siapa pun. Ini bukan film. Bukunya nyata, tersimpan di Yale, dan sampai sekarang belum ada yang bisa membacanya.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Cold open S01",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Cold open S01",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "vo": "Namanya Naskah Voynich. Di Yale kodenya Beinecke MS 408. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Pengenalan S02",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Pengenalan S02",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "vo": "Menurut para peneliti, isinya terbagi enam bagian. Bagian tumbuhan paling tebal, sekitar seratus dua puluh enam halaman. Lalu ada diagram bintang, perempuan telanjang di antara kolam dan pipa, gambar botol obat, dan bagian yang mirip daftar resep.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Pengenalan S03",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Pengenalan S03",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "vo": "Tulisannya yang paling bikin pusing. Sekitar dua puluh sampai dua puluh lima karakter menyusun sebagian besar teks, mengalir dari kiri ke kanan, hampir tanpa tanda baca. Totalnya sekitar tiga puluh delapan ribu kata, tak satu pun kita tahu artinya.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Pengenalan S04",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Pengenalan S04",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "vo": "Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulit kalfnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Latar belakang S05",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Latar belakang S05",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "vo": "Satu catatan penting: yang diuji kulitnya, bukan tintanya. Tapi pemindaian multispektral tidak menemukan tulisan lama di bawahnya, jadi ini bukan kulit bekas. Dan hasil ini mematahkan dugaan lama bahwa penulisnya Roger Bacon, ilmuwan abad ketiga belas.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Latar belakang S06",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Latar belakang S06",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "vo": "Jejak pertamanya baru muncul hampir dua abad kemudian, di kota Praha. Ada tanda tangan samar di halaman pertama: Jacobus Horčický de Tepenec, yang diangkat jadi bangsawan kecil. Siapa pemilik sebelum dia? Tidak ada yang tahu pasti.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S07",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S07",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "vo": "Menurut surat tahun seribu enam ratus enam puluh lima, Kaisar Rudolf II pernah membelinya seharga enam ratus dukat emas. Tapi itu kabar turunan. Istana memang mencatat pembelian buku tahun seribu lima ratus sembilan puluh sembilan, belum terbukti itu naskah ini.",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "spekulatif",
+   "sumber": [
+    {
+     "klaim": "Kronologi S08",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S08",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "vo": "Pemilik pertama yang pasti terdokumentasi adalah Georg Baresch, seorang alkemis di Praha. Tahun seribu enam ratus tiga puluh sembilan ia menulis surat kepada Athanasius Kircher di Roma dan mengirim contoh tulisan dari buku itu.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S09",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S09",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "vo": "Setelah Baresch wafat, bukunya diwariskan ke Johannes Marcus Marci, yang mengirimnya ke Kircher lewat surat tahun seribu enam ratus enam puluh lima. Dari surat itulah kisah Rudolf dan Roger Bacon bermula, dan Marci sendiri tidak menjaminnya.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S10",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S10",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "vo": "Naskah itu tersimpan di perpustakaan Jesuit di Roma selama berabad-abad, sampai harta mereka disita tahun seribu delapan ratus tujuh puluh tiga. Tahun seribu sembilan ratus dua belas, pedagang buku langka Wilfrid Voynich membelinya, dan namanya melekat sampai sekarang.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S11",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S11",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "vo": "Setelah Voynich meninggal, bukunya akhirnya dibeli pedagang buku Hans Kraus tahun seribu sembilan ratus enam puluh satu seharga dua puluh empat ribu lima ratus dolar. Delapan tahun kemudian, ia menyumbangkannya ke Perpustakaan Beinecke di Yale.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S12",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S12",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "vo": "Tentu banyak yang mencoba membacanya. Di abad kedua puluh, para pemecah sandi terbaik, termasuk tim William Friedman, ikut mengerjakannya. Pendekatan utamanya menganggap ini sandi huruf biasa, yang diacak dengan aturan tertentu. Semuanya gagal.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S13",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S13",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "vo": "Anehnya, teksnya tidak terlihat ngawur. Pola kata-katanya mirip bahasa asli lewat hukum Zipf: kata paling sering muncul sekitar dua kali lebih sering dari kata kedua, dan tiga kali dari kata ketiga. Itu pola yang sulit ditiru asal-asalan.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S14",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S14",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "vo": "Tahun dua ribu tiga belas, Marcelo Montemurro dan Damián Zanette menemukan kata-kata kunci naskah ini mengelompok mengikuti topik, dan bagian bertanaman berbagi kosakata. Mereka menyimpulkan ada struktur layaknya bahasa. Tapi itu bukan pembacaan, kata mereka sendiri.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S15",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    },
+    {
+     "klaim": "Bukti & analisis S15",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "vo": "Tapi ada sisi yang janggal juga. Keteraturan huruf demi huruf, yang disebut entropi kondisional, hanya sekitar dua, sedangkan bahasa alami umumnya tiga sampai empat. Hurufnya terlalu mudah ditebak, dan itu membuat sebagian peneliti ragu ini bahasa biasa.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S16",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S16",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "vo": "Teori pertama: tipuan. Tahun dua ribu tiga, Gordon Rugg menunjukkan teks yang mirip bisa dibuat dengan tabel suku kata dan kartu berlubang Cardan grille. Tapi mirip belum tentu sama, dan Montemurro menilai bukti strukturnya membatasi kemungkinan tipuan.",
+   "kelas": "dugaan",
+   "tingkat_keyakinan": "diperdebatkan",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S17",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S17",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "vo": "Teori kedua: ini bahasa sungguhan, atau mungkin bahasa buatan dengan aksara khusus. Usulannya banyak, dari Nahuatl, Ibrani, sampai Turki kuno. Masalahnya, tiap usulan diuji peneliti lain dan sampai sekarang belum ada satu pun yang diterima luas.",
+   "kelas": "dugaan",
+   "tingkat_keyakinan": "spekulatif",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S18",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S18",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "vo": "Tahun dua ribu sembilan belas, Gerard Cheshire dari Universitas Bristol mengaku memecahkannya dalam dua minggu: bahasa proto-Romance. Universitas segera menarik beritanya, karena ada kekhawatiran soal validitas penelitiannya. Paleograf Lisa Fagin Davis menyebut terjemahannya melingkar dan membenarkan dirinya sendiri.",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "ditolak ahli",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S19",
+     "atribusi": "Shropshire Star / PA, 17 Mei 2019: universitas menarik klaim Cheshire",
+     "tahun": null,
+     "url": "https://www.shropshirestar.com/news/uk-news/2019/05/17/university-backtracks-over-voynich-manuscript-translation-claims"
+    },
+    {
+     "klaim": "Bukti & analisis S19",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "vo": "Ada juga klaim yang lebih hati-hati. Stephen Bax, tahun dua ribu empat belas, mengusulkan pembacaan sebagian: sepuluh nama diri dan empat belas karakter. Itu masih usulan, belum terbukti, dan Bax wafat tahun dua ribu tujuh belas.",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "spekulatif",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S20",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S20",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "vo": "Pertanyaan lain yang menarik: berapa orang menulisnya? Lisa Fagin Davis, lewat analisis tulisan tangan digital tahun dua ribu dua puluh, berpendapat naskah ini dikerjakan beberapa penulis dalam satu komunitas. Kalau benar, ini bukan coretan satu orang iseng.",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "didukung sebagian",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S21",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S21",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "vo": "Cara menimbang semua ini? Anggap papan investigasi di kantor: ada bukti keras, ada dugaan, ada tebakan. Yang keras: umur kulitnya, jalur kepemilikan sejak sekitar seribu enam ratus, dan pola statistik teksnya. Sisanya, termasuk soal isinya, masih dugaan.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S22",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S22",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    },
+    {
+     "klaim": "Kesimpulan S22",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "vo": "Bayangin ruang arsip kantor penuh map berlabel kode yang kamusnya tidak ada. Kamu bisa melihat polanya: map mana yang mirip, mana yang berkelompok. Tapi tanpa kamus, kamu tidak tahu isinya. Itulah posisi para peneliti Voynich sampai sekarang.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S23",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S23",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "vo": "Kenapa susah? Ada sekitar seribu label yang menempel pada gambar, tapi jarang berulang, jadi sulit dipakai sebagai kunci. Dan sampai hari ini, belum ada pembacaan yang diterima luas oleh para ahli, sekeras apa pun mereka mencoba.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S24",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S24",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "vo": "Jadi apa yang kita tahu? Ini buku asli abad kelima belas, ditulis dengan aksara unik, dan menurut sebagian peneliti teksnya terlalu berstruktur untuk sekadar tipuan, tapi juga tidak sepenuhnya seperti bahasa biasa. Sisanya, jujur saja, masih gelap.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S25",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S25",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    },
+    {
+     "klaim": "Kesimpulan S25",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "vo": "Mungkin suatu hari ada yang menemukan kuncinya. Mungkin juga tidak. Tapi buku ini sudah lama menemani orang-orang yang lembur dengan pertanyaan yang sama, dan mungkin masih lama. Menurutmu ini bahasa, sandi, atau tipuan? Tulis di kolom komentar.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Closing S26",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    }
+   ]
+  }
+ ],
+ "analogi": [
+  "papan investigasi kantor (S22)",
+  "ruang arsip penuh map berkode tanpa kamus (S23)"
+ ],
+ "sumber": [
+  "https://en.wikipedia.org/wiki/Voynich_manuscript",
+  "https://www.voynich.nu/history.html",
+  "https://www.britannica.com/print/article/2059077",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824",
+  "https://www.shropshirestar.com/news/uk-news/2019/05/17/university-backtracks-over-voynich-manuscript-translation-claims",
+  "https://archive.org/details/voynich_MS_408/mode/2up"
+ ]
+}

@@ -1,0 +1,895 @@
+{
+ "gaya_global": "cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark",
+ "scenes": [
+  {
+   "id": "S01",
+   "bagian": "Cold open",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Cold open S01",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Cold open S01",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Bayangin kamu menemukan sebuah buku tua. Isinya gambar tanaman yang aneh sekali, ditulis dengan huruf yang tidak dikenal siapa pun. Ini bukan film. Bukunya nyata, tersimpan di Yale, dan sampai sekarang belum ada yang bisa membacanya.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "BUKU YANG TAK BISA DIBACA",
+   "kamera": "slow push-in",
+   "sfx": "drone rendah, detak jam jauh",
+   "flow_prompt": "an old leather-bound medieval codex lying open on a lone office desk at night, a single amber desk lamp, empty dark office behind, the open pages show invented herbal drawings with an unreadable made-up script. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: kamera dolly masuk perlahan ke buku di meja; 5-10s: debu melayang di cahaya lampu amber, lampu berkedip halus sekali; 10-15s: kamera berhenti di halaman terbuka, bayangan jendela kantor bergeser pelan.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 0.0
+  },
+  {
+   "id": "S02",
+   "bagian": "Pengenalan",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Pengenalan S02",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Pengenalan S02",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Namanya Naskah Voynich. Di Yale kodenya Beinecke MS 408. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "BEINECKE MS 408",
+   "kamera": "static, lalu geser kiri",
+   "sfx": "kertas dibalik pelan",
+   "flow_prompt": "a closed small thick medieval codex with worn vellum cover beside a ruler on a dark archive table, warm amber lamp rim light, shallow depth of field. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: close-up sampul tua, kamera diam; 5-10s: tangan bersarung putih (tanpa wajah) membuka sampul pelan; 10-15s: kamera geser kiri menyusuri tepi halaman yang tebal.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": "scan sampul/halaman Beinecke sebagai inset",
+   "mulai_perkiraan": 14.7
+  },
+  {
+   "id": "S03",
+   "bagian": "Pengenalan",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Pengenalan S03",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Pengenalan S03",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Menurut para peneliti, isinya terbagi enam bagian. Bagian tumbuhan paling tebal, sekitar seratus dua puluh enam halaman. Lalu ada diagram bintang, perempuan telanjang di antara kolam dan pipa, gambar botol obat, dan bagian yang mirip daftar resep.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "6 BAGIAN",
+   "kamera": "pan horizontal lambat",
+   "sfx": "gesekan kertas",
+   "flow_prompt": "a cinematic spread of six invented medieval-style illustration cards laid on a dark desk: plants, star diagram, bathing pools with pipes, jars, recipe lines; all drawings are original inventions with unreadable glyphs, amber lamp light. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: kamera pan lambat melewati kartu tumbuhan; 5-10s: lanjut ke diagram bintang dan kolam; 10-15s: berhenti di botol dan baris resep, cahaya amber menguat sedikit.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": "scan halaman herbal, astronomi, balneologi dari Beinecke",
+   "mulai_perkiraan": 29.4
+  },
+  {
+   "id": "S04",
+   "bagian": "Pengenalan",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Pengenalan S04",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Pengenalan S04",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Tulisannya yang paling bikin pusing. Sekitar dua puluh sampai dua puluh lima karakter menyusun sebagian besar teks, mengalir dari kiri ke kanan, hampir tanpa tanda baca. Totalnya sekitar tiga puluh delapan ribu kata, tak satu pun kita tahu artinya.",
+   "jumlah_kata": 39,
+   "durasi_vo_perkiraan": 15.9,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "38.000 KATA, 0 ARTI",
+   "kamera": "extreme macro",
+   "sfx": "goresan pena",
+   "flow_prompt": "extreme macro of lines of invented unreadable script in dark brown ink on aged vellum, warm amber raking light, visible parchment grain, shallow focus. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: macro baris tulisan, kamera diam; 5-10s: fokus bergeser dari kata ke kata dari kiri ke kanan; 10-15s: kamera mundur perlahan, memperlihatkan seluruh paragraf.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": "scan halaman teks murni",
+   "mulai_perkiraan": 44.4
+  },
+  {
+   "id": "S05",
+   "bagian": "Latar belakang",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Latar belakang S05",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Latar belakang S05",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulit kalfnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "1404-1438",
+   "kamera": "slow tilt up",
+   "sfx": "dengung laboratorium halus",
+   "flow_prompt": "a small vellum sample in a dim laboratory under a warm amber lamp, scientific instruments blurred in the dark background, no readable screens. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: tilt up dari meja lab ke sampel perkamen; 5-10s: titik cahaya amber berdenyut pelan di instrumen buram; 10-15s: kamera mendekat ke tekstur perkamen.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 59.4
+  },
+  {
+   "id": "S06",
+   "bagian": "Latar belakang",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Latar belakang S06",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Latar belakang S06",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Satu catatan penting: yang diuji kulitnya, bukan tintanya. Tapi pemindaian multispektral tidak menemukan tulisan lama di bawahnya, jadi ini bukan kulit bekas. Dan hasil ini mematahkan dugaan lama bahwa penulisnya Roger Bacon, ilmuwan abad ketiga belas.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "BUKAN ROGER BACON",
+   "kamera": "static, rack focus",
+   "sfx": "bisikan angin",
+   "flow_prompt": "a dark study with a stack of old scholarly books and a silhouette-less empty chair, an amber lamp, a glowing ultraviolet-blue line sweeping across a page, restrained. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: rack focus dari tumpukan buku ke halaman; 5-10s: garis cahaya biru tipis menyapu halaman sekali; 10-15s: cahaya padam, tinggal lampu amber.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 74.1
+  },
+  {
+   "id": "S07",
+   "bagian": "Kronologi",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S07",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S07",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ],
+   "vo": "Jejak pertamanya baru muncul hampir dua abad kemudian, di kota Praha. Ada tanda tangan samar di halaman pertama: Jacobus Horčický de Tepenec, yang diangkat jadi bangsawan kecil. Siapa pemilik sebelum dia? Tidak ada yang tahu pasti.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "PRAHA, ABAD 17",
+   "kamera": "slow dolly",
+   "sfx": "lonceng jauh",
+   "flow_prompt": "a 17th-century Prague alchemist's study at night, candle and amber light, shelves of jars and books, a faint erased signature glowing on an old page, no faces. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: dolly lambat melewati rak botol alkemis; 5-10s: cahaya lilin bergoyang; 10-15s: kamera berhenti pada tanda tangan pudar di halaman.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 88.8
+  },
+  {
+   "id": "S08",
+   "bagian": "Kronologi",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "spekulatif",
+   "sumber": [
+    {
+     "klaim": "Kronologi S08",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S08",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ],
+   "vo": "Menurut surat tahun seribu enam ratus enam puluh lima, Kaisar Rudolf II pernah membelinya seharga enam ratus dukat emas. Tapi itu kabar turunan. Istana memang mencatat pembelian buku tahun seribu lima ratus sembilan puluh sembilan, belum terbukti itu naskah ini.",
+   "jumlah_kata": 40,
+   "durasi_vo_perkiraan": 16.3,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "600 DUKAT?",
+   "kamera": "slow push-in",
+   "sfx": "denting koin",
+   "flow_prompt": "a Renaissance imperial court treasury at night, a small pile of gold ducats on a dark table, a wax-sealed letter, amber candlelight, no faces. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: close-up koin emas di meja; 5-10s: kamera bergeser ke surat bersegel; 10-15s: cahaya lilin meredup sebagian, koin tetap berkilau.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 103.5
+  },
+  {
+   "id": "S09",
+   "bagian": "Kronologi",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S09",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S09",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ],
+   "vo": "Pemilik pertama yang pasti terdokumentasi adalah Georg Baresch, seorang alkemis di Praha. Tahun seribu enam ratus tiga puluh sembilan ia menulis surat kepada Athanasius Kircher di Roma dan mengirim contoh tulisan dari buku itu.",
+   "jumlah_kata": 34,
+   "durasi_vo_perkiraan": 13.9,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 13.9,
+   "on_screen": "SURAT 1639",
+   "kamera": "side tracking",
+   "sfx": "goresan pena, kertas",
+   "flow_prompt": "a 17th-century desk with a quill, an inkwell and a handwritten letter being folded, a hand only, amber candle light, dark room. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: tangan menulis surat (tanpa wajah); 5-10s: surat dilipat dan disegel lilin; 10-15s: kamera mengikuti surat yang ditaruh di tumpukan pengiriman.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 118.5
+  },
+  {
+   "id": "S10",
+   "bagian": "Kronologi",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S10",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S10",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ],
+   "vo": "Setelah Baresch wafat, bukunya diwariskan ke Johannes Marcus Marci, yang mengirimnya ke Kircher lewat surat tahun seribu enam ratus enam puluh lima. Dari surat itulah kisah Rudolf dan Roger Bacon bermula, dan Marci sendiri tidak menjaminnya.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "SURAT 1665",
+   "kamera": "slow pan",
+   "sfx": "kertas, derap kuda jauh",
+   "flow_prompt": "a courier's saddlebag with a wrapped package and a sealed letter on a stone ledge, moonlit cobblestone street leading toward distant Rome rooftops, amber lantern. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: bungkusan dimasukkan ke tas pelana; 5-10s: kamera pan mengikuti jalan batu yang basah; 10-15s: lampu lentera mengecil di kejauhan.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 132.4
+  },
+  {
+   "id": "S11",
+   "bagian": "Kronologi",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S11",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S11",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ],
+   "vo": "Naskah itu tersimpan di perpustakaan Jesuit di Roma selama berabad-abad, sampai harta mereka disita tahun seribu delapan ratus tujuh puluh tiga. Tahun seribu sembilan ratus dua belas, pedagang buku langka Wilfrid Voynich membelinya, dan namanya melekat sampai sekarang.",
+   "jumlah_kata": 38,
+   "durasi_vo_perkiraan": 15.5,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "1912: VOYNICH",
+   "kamera": "slow dolly",
+   "sfx": "gema perpustakaan",
+   "flow_prompt": "a vast dim Jesuit library corridor with towering bookshelves and a lone amber lantern, dust in the air, a rare-book dealer's trunk in the foreground, no faces. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: dolly menyusuri lorong rak buku; 5-10s: kamera menemukan peti buku di sudut; 10-15s: peti dibuka sedikit, cahaya amber keluar dari dalam.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 147.1
+  },
+  {
+   "id": "S12",
+   "bagian": "Kronologi",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kronologi S12",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kronologi S12",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    }
+   ],
+   "vo": "Setelah Voynich meninggal, bukunya akhirnya dibeli pedagang buku Hans Kraus tahun seribu sembilan ratus enam puluh satu seharga dua puluh empat ribu lima ratus dolar. Delapan tahun kemudian, ia menyumbangkannya ke Perpustakaan Beinecke di Yale.",
+   "jumlah_kata": 35,
+   "durasi_vo_perkiraan": 14.3,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.3,
+   "on_screen": "1969: YALE",
+   "kamera": "static, lalu tilt up",
+   "sfx": "langkah di marmer",
+   "flow_prompt": "a modern university rare-book library at night, a glass reading room with a single amber lamp, a sealed archival box on a table, long shadows. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: kotak arsip di meja; 5-10s: kamera tilt up ke jendela kaca besar perpustakaan; 10-15s: lampu amber menyala satu per satu di ruangan.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 162.1
+  },
+  {
+   "id": "S13",
+   "bagian": "Bukti & analisis",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S13",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S13",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Tentu banyak yang mencoba membacanya. Di abad kedua puluh, para pemecah sandi terbaik, termasuk tim William Friedman, ikut mengerjakannya. Pendekatan utamanya menganggap ini sandi huruf biasa, yang diacak dengan aturan tertentu. Semuanya gagal.",
+   "jumlah_kata": 33,
+   "durasi_vo_perkiraan": 13.5,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 13.5,
+   "on_screen": "SEMUA GAGAL",
+   "kamera": "slow push-in",
+   "sfx": "ketikan mesin sandi",
+   "flow_prompt": "a mid-20th-century codebreaking office at night, stacks of papers with invented cipher tables, a vintage cipher machine, amber desk lamp, silhouette-less. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: tumpukan kertas sandi di meja; 5-10s: roda mesin sandi berputar pelan; 10-15s: kamera mendekat ke kertas penuh coretan merah, lalu diam.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 176.4
+  },
+  {
+   "id": "S14",
+   "bagian": "Bukti & analisis",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S14",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S14",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Anehnya, teksnya tidak terlihat ngawur. Pola kata-katanya mirip bahasa asli lewat hukum Zipf: kata paling sering muncul sekitar dua kali lebih sering dari kata kedua, dan tiga kali dari kata ketiga. Itu pola yang sulit ditiru asal-asalan.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "POLA BAHASA?",
+   "kamera": "static macro",
+   "sfx": "detak halus",
+   "flow_prompt": "a dark desk with a hand-drawn bar chart of descending frequencies on aged paper, red pencil circles, amber lamp, shallow focus. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: grafik batang tulisan tangan; 5-10s: lingkaran merah tergambar pada batang pertama dan kedua; 10-15s: lingkaran ketiga, kamera diam.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 189.9
+  },
+  {
+   "id": "S15",
+   "bagian": "Bukti & analisis",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S15",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    },
+    {
+     "klaim": "Bukti & analisis S15",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    }
+   ],
+   "vo": "Tahun dua ribu tiga belas, Marcelo Montemurro dan Damián Zanette menemukan kata-kata kunci naskah ini mengelompok mengikuti topik, dan bagian bertanaman berbagi kosakata. Mereka menyimpulkan ada struktur layaknya bahasa. Tapi itu bukan pembacaan, kata mereka sendiri.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "ADA STRUKTUR",
+   "kamera": "slow pan",
+   "sfx": "dengung data",
+   "flow_prompt": "an investigation board wall in a dark office with red string connecting index cards and invented plant sketches, amber lamp, no readable text. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: papan investigasi, benang merah; 5-10s: kamera pan mengikuti benang antar kartu; 10-15s: berhenti di satu kartu kosong.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 204.9
+  },
+  {
+   "id": "S16",
+   "bagian": "Bukti & analisis",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S16",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S16",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Tapi ada sisi yang janggal juga. Keteraturan huruf demi huruf, yang disebut entropi kondisional, hanya sekitar dua, sedangkan bahasa alami umumnya tiga sampai empat. Hurufnya terlalu mudah ditebak, dan itu membuat sebagian peneliti ragu ini bahasa biasa.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "TERLALU TERATUR",
+   "kamera": "rack focus",
+   "sfx": "denging tipis",
+   "flow_prompt": "two aged paper strips of different pattern density side by side under an amber lamp, one chaotic and one overly regular, dark desk, macro. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: dua strip kertas berdampingan; 5-10s: fokus bergeser dari yang acak ke yang teratur; 10-15s: lampu meredup sedikit.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": "scan halaman teks sebagai pembanding",
+   "mulai_perkiraan": 219.6
+  },
+  {
+   "id": "S17",
+   "bagian": "Bukti & analisis",
+   "kelas": "dugaan",
+   "tingkat_keyakinan": "diperdebatkan",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S17",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S17",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Teori pertama: tipuan. Tahun dua ribu tiga, Gordon Rugg menunjukkan teks yang mirip bisa dibuat dengan tabel suku kata dan kartu berlubang Cardan grille. Tapi mirip belum tentu sama, dan Montemurro menilai bukti strukturnya membatasi kemungkinan tipuan.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "TEORI 1: TIPUAN",
+   "kamera": "slow push-in",
+   "sfx": "klik mekanis",
+   "flow_prompt": "a medieval Cardan grille, a perforated card laid over a table of syllables on parchment, amber lamp, dark workshop. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: tabel suku kata di perkamen; 5-10s: kartu berlubang diturunkan menutupi tabel; 10-15s: potongan kata terlihat lewat lubang, kamera diam.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 234.6
+  },
+  {
+   "id": "S18",
+   "bagian": "Bukti & analisis",
+   "kelas": "dugaan",
+   "tingkat_keyakinan": "spekulatif",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S18",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S18",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Teori kedua: ini bahasa sungguhan, atau mungkin bahasa buatan dengan aksara khusus. Usulannya banyak, dari Nahuatl, Ibrani, sampai Turki kuno. Masalahnya, tiap usulan diuji peneliti lain dan sampai sekarang belum ada satu pun yang diterima luas.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "TEORI 2: BAHASA",
+   "kamera": "slow dolly",
+   "sfx": "bisik banyak suara samar",
+   "flow_prompt": "a dark room with many floating invented scripts projected faintly on walls, a lone desk and amber lamp, no readable letters, moody. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: aksara samar muncul di dinding gelap; 5-10s: kamera dolly melewati meja kosong; 10-15s: satu aksara menyala amber lalu memudar.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 249.6
+  },
+  {
+   "id": "S19",
+   "bagian": "Bukti & analisis",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "ditolak ahli",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S19",
+     "atribusi": "Shropshire Star / PA, 17 Mei 2019: universitas menarik klaim Cheshire",
+     "tahun": null,
+     "url": "https://www.shropshirestar.com/news/uk-news/2019/05/17/university-backtracks-over-voynich-manuscript-translation-claims"
+    },
+    {
+     "klaim": "Bukti & analisis S19",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    }
+   ],
+   "vo": "Tahun dua ribu sembilan belas, Gerard Cheshire dari Universitas Bristol mengaku memecahkannya dalam dua minggu: bahasa proto-Romance. Universitas segera menarik beritanya, karena ada kekhawatiran soal validitas penelitiannya. Paleograf Lisa Fagin Davis menyebut terjemahannya melingkar dan membenarkan dirinya sendiri.",
+   "jumlah_kata": 38,
+   "durasi_vo_perkiraan": 15.5,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "KLAIM DITARIK",
+   "kamera": "static, lalu zoom out",
+   "sfx": "bunyi surat kabar jatuh",
+   "flow_prompt": "a university press office at night, a newspaper being pulled from a corkboard, a pinned page torn halfway, amber desk lamp, no faces or readable headlines. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: koran terpasang di papan; 5-10s: koran ditarik lepas; 10-15s: paku kosong, kamera zoom out.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 264.3
+  },
+  {
+   "id": "S20",
+   "bagian": "Bukti & analisis",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "spekulatif",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S20",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S20",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Ada juga klaim yang lebih hati-hati. Stephen Bax, tahun dua ribu empat belas, mengusulkan pembacaan sebagian: sepuluh nama diri dan empat belas karakter. Itu masih usulan, belum terbukti, dan Bax wafat tahun dua ribu tujuh belas.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "BACAAN SEBAGIAN",
+   "kamera": "slow push-in",
+   "sfx": "denting piano tunggal",
+   "flow_prompt": "a researcher's desk with index cards of ten invented plant labels and a magnifying glass, an empty chair, amber lamp, dim study. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: kartu label tanaman di meja; 5-10s: kaca pembesar bergerak di atas kartu; 10-15s: kursi kosong mengisi bingkai, lampu meredup perlahan.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 279.3
+  },
+  {
+   "id": "S21",
+   "bagian": "Bukti & analisis",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "didukung sebagian",
+   "sumber": [
+    {
+     "klaim": "Bukti & analisis S21",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Bukti & analisis S21",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    }
+   ],
+   "vo": "Pertanyaan lain yang menarik: berapa orang menulisnya? Lisa Fagin Davis, lewat analisis tulisan tangan digital tahun dua ribu dua puluh, berpendapat naskah ini dikerjakan beberapa penulis dalam satu komunitas. Kalau benar, ini bukan coretan satu orang iseng.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "SIAPA PENULISNYA?",
+   "kamera": "slow tilt",
+   "sfx": "goresan pena bergantian",
+   "flow_prompt": "a medieval scriptorium at night with several empty writing desks each lit by a small amber lamp, no faces, shadows of hands only. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: deretan meja penulis kosong; 5-10s: bayangan tangan menulis di dinding; 10-15s: lampu menyala satu per satu.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 294.0
+  },
+  {
+   "id": "S22",
+   "bagian": "Kesimpulan",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S22",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S22",
+     "atribusi": "voynich.nu: Ownership history (R. Zandbergen)",
+     "tahun": null,
+     "url": "https://www.voynich.nu/history.html"
+    },
+    {
+     "klaim": "Kesimpulan S22",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Cara menimbang semua ini? Anggap papan investigasi di kantor: ada bukti keras, ada dugaan, ada tebakan. Yang keras: umur kulitnya, jalur kepemilikan sejak sekitar seribu enam ratus, dan pola statistik teksnya. Sisanya, termasuk soal isinya, masih dugaan.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "BUKTI vs DUGAAN",
+   "kamera": "slow pan",
+   "sfx": "detak jam",
+   "flow_prompt": "an office investigation board split into three zones with index cards, solid red-string connections on one side and loose cards on the other, amber lamp, no readable text. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: papan terbagi tiga zona; 5-10s: benang merah mengencang di sisi bukti keras; 10-15s: kartu di sisi dugaan bergoyang pelan.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 309.0
+  },
+  {
+   "id": "S23",
+   "bagian": "Kesimpulan",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S23",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S23",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Bayangin ruang arsip kantor penuh map berlabel kode yang kamusnya tidak ada. Kamu bisa melihat polanya: map mana yang mirip, mana yang berkelompok. Tapi tanpa kamus, kamu tidak tahu isinya. Itulah posisi para peneliti Voynich sampai sekarang.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "TANPA KAMUS",
+   "kamera": "slow dolly",
+   "sfx": "kertas, hening kantor",
+   "flow_prompt": "an empty night office archive room with rows of filing cabinets labelled with invented symbols, a single amber lamp at the far end, long perspective. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: dolly menyusuri lorong lemari arsip; 5-10s: kamera melewati satu map yang menyembul; 10-15s: berhenti di lampu amber di ujung lorong.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 324.0
+  },
+  {
+   "id": "S24",
+   "bagian": "Kesimpulan",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S24",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S24",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Kenapa susah? Ada sekitar seribu label yang menempel pada gambar, tapi jarang berulang, jadi sulit dipakai sebagai kunci. Dan sampai hari ini, belum ada pembacaan yang diterima luas oleh para ahli, sekeras apa pun mereka mencoba.",
+   "jumlah_kata": 36,
+   "durasi_vo_perkiraan": 14.7,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 14.7,
+   "on_screen": "BELUM ADA KUNCI",
+   "kamera": "static macro",
+   "sfx": "dengung halus",
+   "flow_prompt": "macro of a medieval illustration with small invented labels next to a plant drawing, aged parchment, amber raking light, shallow focus, unreadable glyphs. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: macro satu gambar tumbuhan dengan label; 5-10s: fokus berpindah antar label; 10-15s: kamera mundur memperlihatkan banyak label.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": "scan halaman herbal berlabel",
+   "mulai_perkiraan": 339.0
+  },
+  {
+   "id": "S25",
+   "bagian": "Kesimpulan",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "kuat",
+   "sumber": [
+    {
+     "klaim": "Kesimpulan S25",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+     "klaim": "Kesimpulan S25",
+     "atribusi": "Encyclopaedia Britannica: Voynich manuscript",
+     "tahun": null,
+     "url": "https://www.britannica.com/print/article/2059077"
+    },
+    {
+     "klaim": "Kesimpulan S25",
+     "atribusi": "Montemurro & Zanette 2013, PLoS ONE 8(6): e66344",
+     "tahun": null,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3689824"
+    }
+   ],
+   "vo": "Jadi apa yang kita tahu? Ini buku asli abad kelima belas, ditulis dengan aksara unik, dan menurut sebagian peneliti teksnya terlalu berstruktur untuk sekadar tipuan, tapi juga tidak sepenuhnya seperti bahasa biasa. Sisanya, jujur saja, masih gelap.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "YANG KITA TAHU",
+   "kamera": "slow push-in",
+   "sfx": "drone naik",
+   "flow_prompt": "the open codex on the lone desk again in a dark office, amber lamp, the window now showing a distant night city, calm, high contrast. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: buku terbuka di meja; 5-10s: kamera mendekat pelan; 10-15s: lampu amber menerangi satu halaman, sisanya gelap.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 353.7
+  },
+  {
+   "id": "S26",
+   "bagian": "Closing",
+   "kelas": "fakta",
+   "tingkat_keyakinan": null,
+   "sumber": [
+    {
+     "klaim": "Closing S26",
+     "atribusi": "Wikipedia: Voynich manuscript (merangkum literatur primer)",
+     "tahun": null,
+     "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    }
+   ],
+   "vo": "Mungkin suatu hari ada yang menemukan kuncinya. Mungkin juga tidak. Tapi buku ini sudah lama menemani orang-orang yang lembur dengan pertanyaan yang sama, dan mungkin masih lama. Menurutmu ini bahasa, sandi, atau tipuan? Tulis di kolom komentar.",
+   "jumlah_kata": 37,
+   "durasi_vo_perkiraan": 15.1,
+   "durasi_klip_generate": 15,
+   "durasi_pakai": 15.0,
+   "on_screen": "BAHASA, SANDI, ATAU TIPUAN?",
+   "kamera": "slow pull-back",
+   "sfx": "drone memudar, satu detak jam",
+   "flow_prompt": "a lone desk lamp turning off in a dark office, the codex a faint silhouette, city lights through the window, quiet and warm amber fading to navy. Style: cinematic noir still, 35mm film grain, low-key lighting, warm amber lamp light against deep midnight navy and black shadows, archival paper texture, single clear focal subject, high contrast, 16:9, no text, no watermark.",
+   "flow_negative": "bright colors, cartoon, cheerful, flat lighting, text overlay, watermark, logo, real person's face, readable letters, extra fingers",
+   "video_prompt": "0-5s: lampu amber redup perlahan; 5-10s: kamera menarik mundur memperlihatkan kantor kosong; 10-15s: gelap, hanya lampu kota jauh.",
+   "video_negative": "fast cuts, shaky camera, morphing faces, warping text, glitch, flicker, subtitles, watermark, logo, cartoon, bright saturated colors, jump cut, zoom burst",
+   "scan_asli_opsional": null,
+   "mulai_perkiraan": 368.7
+  }
+ ]
+}

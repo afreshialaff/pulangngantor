@@ -54,5 +54,6 @@ jobs:
         if: always()
         run: |
           git config user.name "pulangngantor-bot"; git config user.email "actions@users.noreply.github.com"
+          V="${{ github.event.inputs.video_path }}"; ls "$V".part-* >/dev/null 2>&1 && rm -f "$V"
           git add data/
           git diff --cached --quiet || { git commit -m "upload ${{ github.event.inputs.tanggal }}" && git push; }

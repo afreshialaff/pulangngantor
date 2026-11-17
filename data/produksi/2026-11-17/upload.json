@@ -1,0 +1,13 @@
+{
+ "video_id": "ARR6gQeVy6w",
+ "url": "https://youtu.be/ARR6gQeVy6w",
+ "status": "private",
+ "diminta": "private",
+ "diunggah": "2026-11-17T18:29:36.271599+00:00",
+ "thumbnail": false,
+ "thumbnail_error": "HttpError 403 thumbnails.set: the authenticated user doesn't have permissions (kemungkinan channel belum terverifikasi untuk thumbnail kustom)",
+ "captions": false,
+ "captions_error": "HttpError 403 captions.insert: Request had insufficient authentication scopes",
+ "playlist": "PLPdgf6oWm_JA",
+ "catatan": "Dicatat manual dari log run 44148311378; langkah commit di workflow gagal karena video gabungan ikut ter-add (sudah diperbaiki)."
+}

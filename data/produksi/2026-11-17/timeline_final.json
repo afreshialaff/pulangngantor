@@ -1,0 +1,1187 @@
+{
+ "scenes": [
+  {
+   "id": "S01",
+   "vo_start": 0.315,
+   "vo_end": 16.841,
+   "sents": [
+    {
+     "i": 0,
+     "para": 0,
+     "start": 0.315,
+     "end": 2.815,
+     "text": "Bayangin kamu menemukan sebuah buku tua.",
+     "exp": 2.18
+    },
+    {
+     "i": 1,
+     "para": 0,
+     "start": 3.318,
+     "end": 9.24,
+     "text": "Isinya gambar tanaman yang aneh sekali, ditulis dengan huruf yang tidak dikenal siapa pun.",
+     "exp": 4.67
+    },
+    {
+     "i": 2,
+     "para": 0,
+     "start": 9.908,
+     "end": 10.618,
+     "text": "Ini bukan film.",
+     "exp": 0.78
+    },
+    {
+     "i": 3,
+     "para": 0,
+     "start": 10.967,
+     "end": 16.841,
+     "text": "Bukunya nyata, tersimpan di Yale, dan sampai sekarang belum ada yang bisa membacanya.",
+     "exp": 4.36
+    }
+   ],
+   "bagian": "Cold open",
+   "label": "BUKU YANG TAK BISA DIBACA",
+   "vo_dur": 16.526,
+   "trans": [
+    "fadeblack",
+    0.8
+   ],
+   "slot": 17.526,
+   "seg_len": 18.326,
+   "stretch": 1.2185,
+   "t0": 0.0,
+   "vo_at": 0.45,
+   "seg_actual": 18.291667
+  },
+  {
+   "id": "S02",
+   "vo_start": 17.476,
+   "vo_end": 33.706,
+   "sents": [
+    {
+     "i": 4,
+     "para": 1,
+     "start": 17.476,
+     "end": 19.404,
+     "text": "Namanya Naskah Voynich.",
+     "exp": 1.09
+    },
+    {
+     "i": 5,
+     "para": 1,
+     "start": 19.84,
+     "end": 23.285,
+     "text": "Di Yale kodenya Beinecke MS empat ratus delapan.",
+     "exp": 2.49
+    },
+    {
+     "i": 6,
+     "para": 1,
+     "start": 23.957,
+     "end": 28.202,
+     "text": "Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter.",
+     "exp": 4.67
+    },
+    {
+     "i": 7,
+     "para": 1,
+     "start": 28.822,
+     "end": 33.706,
+     "text": "Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.",
+     "exp": 5.29
+    }
+   ],
+   "bagian": "Pengenalan",
+   "label": "BEINECKE MS 408",
+   "vo_dur": 16.23,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 17.23,
+   "seg_len": 17.83,
+   "stretch": 1.1855,
+   "t0": 17.492,
+   "vo_at": 17.942,
+   "seg_actual": 17.791667
+  },
+  {
+   "id": "S03",
+   "vo_start": 34.257,
+   "vo_end": 50.538,
+   "sents": [
+    {
+     "i": 8,
+     "para": 2,
+     "start": 34.257,
+     "end": 38.061,
+     "text": "Menurut para peneliti, isinya terbagi enam bagian.",
+     "exp": 2.96
+    },
+    {
+     "i": 9,
+     "para": 2,
+     "start": 38.629,
+     "end": 43.998,
+     "text": "Bagian tumbuhan paling tebal, sekitar seratus dua puluh enam halaman.",
+     "exp": 3.58
+    },
+    {
+     "i": 10,
+     "para": 2,
+     "start": 44.392,
+     "end": 50.538,
+     "text": "Lalu ada diagram bintang, perempuan telanjang di antara kolam dan pipa, gambar botol obat, dan bagian yang mirip daftar resep.",
+     "exp": 6.07
+    }
+   ],
+   "bagian": "Pengenalan",
+   "label": "6 BAGIAN",
+   "vo_dur": 16.281,
+   "trans": [
+    "zoomin",
+    0.6
+   ],
+   "slot": 17.281,
+   "seg_len": 17.881,
+   "stretch": 1.1889,
+   "t0": 34.683,
+   "vo_at": 35.133,
+   "seg_actual": 17.833333
+  },
+  {
+   "id": "S04",
+   "vo_start": 51.098,
+   "vo_end": 66.684,
+   "sents": [
+    {
+     "i": 11,
+     "para": 3,
+     "start": 51.098,
+     "end": 54.279,
+     "text": "Tulisannya yang paling bikin pusing.",
+     "exp": 1.71
+    },
+    {
+     "i": 12,
+     "para": 3,
+     "start": 54.87,
+     "end": 62.13,
+     "text": "Sekitar dua puluh sampai dua puluh lima karakter menyusun sebagian besar teks, mengalir dari kiri ke kanan, hampir tanpa tanda baca.",
+     "exp": 6.69
+    },
+    {
+     "i": 13,
+     "para": 3,
+     "start": 62.699,
+     "end": 66.684,
+     "text": "Totalnya sekitar tiga puluh delapan ribu kata, tak satu pun kita tahu artinya.",
+     "exp": 4.36
+    }
+   ],
+   "bagian": "Pengenalan",
+   "label": "38.000 KATA, 0 ARTI",
+   "vo_dur": 15.586,
+   "trans": [
+    "fadeblack",
+    0.8
+   ],
+   "slot": 16.586,
+   "seg_len": 17.386,
+   "stretch": 1.156,
+   "t0": 51.917,
+   "vo_at": 52.367,
+   "seg_actual": 17.333333
+  },
+  {
+   "id": "S05",
+   "vo_start": 67.139,
+   "vo_end": 80.701,
+   "sents": [
+    {
+     "i": 14,
+     "para": 4,
+     "start": 67.139,
+     "end": 68.723,
+     "text": "Lalu kapan ditulis?",
+     "exp": 1.09
+    },
+    {
+     "i": 15,
+     "para": 4,
+     "start": 69.343,
+     "end": 73.864,
+     "text": "Tahun dua ribu sembilan, Universitas Arizona menguji umur kulitnya dengan radiokarbon.",
+     "exp": 4.83
+    },
+    {
+     "i": 16,
+     "para": 4,
+     "start": 74.235,
+     "end": 78.201,
+     "text": "Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan.",
+     "exp": 4.98
+    },
+    {
+     "i": 17,
+     "para": 4,
+     "start": 78.618,
+     "end": 80.701,
+     "text": "Jadi ini memang naskah abad kelima belas.",
+     "exp": 2.34
+    }
+   ],
+   "bagian": "Latar belakang",
+   "label": "1404-1438",
+   "vo_dur": 13.562,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 14.562,
+   "seg_len": 15.162,
+   "stretch": 1.0081,
+   "t0": 68.45,
+   "vo_at": 68.9,
+   "seg_actual": 15.125
+  },
+  {
+   "id": "S06",
+   "vo_start": 81.404,
+   "vo_end": 96.987,
+   "sents": [
+    {
+     "i": 18,
+     "para": 5,
+     "start": 81.404,
+     "end": 85.395,
+     "text": "Satu catatan penting: yang diuji kulitnya, bukan tintanya.",
+     "exp": 2.8
+    },
+    {
+     "i": 19,
+     "para": 5,
+     "start": 86.041,
+     "end": 91.249,
+     "text": "Tapi pemindaian multispektral tidak menemukan tulisan lama di bawahnya, jadi ini bukan kulit bekas.",
+     "exp": 5.29
+    },
+    {
+     "i": 20,
+     "para": 5,
+     "start": 91.835,
+     "end": 96.987,
+     "text": "Dan hasil ini mematahkan dugaan lama bahwa penulisnya Roger Bacon, ilmuwan abad ketiga belas.",
+     "exp": 5.14
+    }
+   ],
+   "bagian": "Latar belakang",
+   "label": "BUKAN ROGER BACON",
+   "vo_dur": 15.583,
+   "trans": [
+    "fadeblack",
+    0.8
+   ],
+   "slot": 16.583,
+   "seg_len": 17.383,
+   "stretch": 1.1558,
+   "t0": 82.975,
+   "vo_at": 83.425,
+   "seg_actual": 17.333333
+  },
+  {
+   "id": "S07",
+   "vo_start": 97.542,
+   "vo_end": 111.654,
+   "sents": [
+    {
+     "i": 21,
+     "para": 6,
+     "start": 97.542,
+     "end": 101.833,
+     "text": "Jejak pertamanya baru muncul hampir dua abad kemudian, di kota Praha.",
+     "exp": 3.58
+    },
+    {
+     "i": 22,
+     "para": 6,
+     "start": 102.313,
+     "end": 108.151,
+     "text": "Ada tanda tangan samar di halaman pertama: Jacobus Horčický de Tepenec, yang diangkat jadi bangsawan kecil.",
+     "exp": 5.45
+    },
+    {
+     "i": 23,
+     "para": 6,
+     "start": 108.797,
+     "end": 110.044,
+     "text": "Siapa pemilik sebelum dia?",
+     "exp": 1.4
+    },
+    {
+     "i": 24,
+     "para": 6,
+     "start": 110.521,
+     "end": 111.654,
+     "text": "Tidak ada yang tahu pasti.",
+     "exp": 1.4
+    }
+   ],
+   "bagian": "Kronologi",
+   "label": "PRAHA, ABAD 17",
+   "vo_dur": 14.112,
+   "trans": [
+    "smoothleft",
+    0.5
+   ],
+   "slot": 15.112,
+   "seg_len": 15.612,
+   "stretch": 1.038,
+   "t0": 99.508,
+   "vo_at": 99.958,
+   "seg_actual": 15.583333
+  },
+  {
+   "id": "S08",
+   "vo_start": 112.136,
+   "vo_end": 125.88,
+   "sents": [
+    {
+     "i": 25,
+     "para": 7,
+     "start": 112.136,
+     "end": 119.112,
+     "text": "Menurut surat tahun seribu enam ratus enam puluh lima, Kaisar Rudolf II pernah membelinya seharga enam ratus dukat emas.",
+     "exp": 6.54
+    },
+    {
+     "i": 26,
+     "para": 7,
+     "start": 119.537,
+     "end": 120.526,
+     "text": "Tapi itu kabar turunan.",
+     "exp": 1.4
+    },
+    {
+     "i": 27,
+     "para": 7,
+     "start": 120.996,
+     "end": 125.88,
+     "text": "Istana memang mencatat pembelian buku tahun seribu lima ratus sembilan puluh sembilan, belum terbukti itu naskah ini.",
+     "exp": 6.38
+    }
+   ],
+   "bagian": "Kronologi",
+   "label": "600 DUKAT?",
+   "vo_dur": 13.744,
+   "trans": [
+    "smoothleft",
+    0.5
+   ],
+   "slot": 14.744,
+   "seg_len": 15.244,
+   "stretch": 1.0136,
+   "t0": 114.592,
+   "vo_at": 115.042,
+   "seg_actual": 15.208333
+  },
+  {
+   "id": "S09",
+   "vo_start": 126.287,
+   "vo_end": 140.226,
+   "sents": [
+    {
+     "i": 28,
+     "para": 8,
+     "start": 126.287,
+     "end": 132.37,
+     "text": "Pemilik pertama yang pasti terdokumentasi adalah Georg Baresch, seorang alkemis di Praha.",
+     "exp": 4.51
+    },
+    {
+     "i": 29,
+     "para": 8,
+     "start": 132.983,
+     "end": 140.226,
+     "text": "Tahun seribu enam ratus tiga puluh sembilan ia menulis surat kepada Athanasius Kircher di Roma dan mengirim contoh tulisan dari buku itu.",
+     "exp": 7.63
+    }
+   ],
+   "bagian": "Kronologi",
+   "label": "SURAT 1639",
+   "vo_dur": 13.939,
+   "trans": [
+    "smoothleft",
+    0.5
+   ],
+   "slot": 14.939,
+   "seg_len": 15.439,
+   "stretch": 1.0265,
+   "t0": 129.3,
+   "vo_at": 129.75,
+   "seg_actual": 15.416667
+  },
+  {
+   "id": "S10",
+   "vo_start": 140.878,
+   "vo_end": 155.271,
+   "sents": [
+    {
+     "i": 30,
+     "para": 9,
+     "start": 140.878,
+     "end": 149.109,
+     "text": "Setelah Baresch wafat, bukunya diwariskan ke Johannes Marcus Marci, yang mengirimnya ke Kircher lewat surat tahun seribu enam ratus enam puluh lima.",
+     "exp": 7.63
+    },
+    {
+     "i": 31,
+     "para": 9,
+     "start": 149.815,
+     "end": 155.271,
+     "text": "Dari surat itulah kisah Rudolf dan Roger Bacon bermula, dan Marci sendiri tidak menjaminnya.",
+     "exp": 4.83
+    }
+   ],
+   "bagian": "Kronologi",
+   "label": "SURAT 1665",
+   "vo_dur": 14.393,
+   "trans": [
+    "smoothleft",
+    0.5
+   ],
+   "slot": 15.393,
+   "seg_len": 15.893,
+   "stretch": 1.0567,
+   "t0": 144.217,
+   "vo_at": 144.667,
+   "seg_actual": 15.833333
+  },
+  {
+   "id": "S11",
+   "vo_start": 155.946,
+   "vo_end": 170.69,
+   "sents": [
+    {
+     "i": 32,
+     "para": 10,
+     "start": 155.946,
+     "end": 163.496,
+     "text": "Naskah itu tersimpan di perpustakaan Jesuit di Roma selama berabad-abad, sampai harta mereka disita tahun seribu delapan ratus tujuh puluh tiga.",
+     "exp": 7.94
+    },
+    {
+     "i": 33,
+     "para": 10,
+     "start": 164.054,
+     "end": 170.69,
+     "text": "Tahun seribu sembilan ratus dua belas, pedagang buku langka Wilfrid Voynich membelinya, dan namanya melekat sampai sekarang.",
+     "exp": 6.23
+    }
+   ],
+   "bagian": "Kronologi",
+   "label": "1912: VOYNICH",
+   "vo_dur": 14.744,
+   "trans": [
+    "smoothleft",
+    0.5
+   ],
+   "slot": 15.744,
+   "seg_len": 16.244,
+   "stretch": 1.0801,
+   "t0": 159.55,
+   "vo_at": 160.0,
+   "seg_actual": 16.208333
+  },
+  {
+   "id": "S12",
+   "vo_start": 171.311,
+   "vo_end": 184.775,
+   "sents": [
+    {
+     "i": 34,
+     "para": 11,
+     "start": 171.311,
+     "end": 179.974,
+     "text": "Setelah Voynich meninggal, bukunya akhirnya dibeli pedagang buku Hans Kraus tahun seribu sembilan ratus enam puluh satu seharga dua puluh empat ribu lima ratus dolar.",
+     "exp": 8.72
+    },
+    {
+     "i": 35,
+     "para": 11,
+     "start": 180.667,
+     "end": 184.775,
+     "text": "Delapan tahun kemudian, ia menyumbangkannya ke Perpustakaan Beinecke di Yale.",
+     "exp": 3.89
+    }
+   ],
+   "bagian": "Kronologi",
+   "label": "1969: YALE",
+   "vo_dur": 13.464,
+   "trans": [
+    "fadeblack",
+    0.8
+   ],
+   "slot": 14.464,
+   "seg_len": 15.264,
+   "stretch": 1.0149,
+   "t0": 175.258,
+   "vo_at": 175.708,
+   "seg_actual": 15.208333
+  },
+  {
+   "id": "S13",
+   "vo_start": 185.447,
+   "vo_end": 200.229,
+   "sents": [
+    {
+     "i": 36,
+     "para": 12,
+     "start": 185.447,
+     "end": 187.086,
+     "text": "Tentu banyak yang mencoba membacanya.",
+     "exp": 1.87
+    },
+    {
+     "i": 37,
+     "para": 12,
+     "start": 187.515,
+     "end": 193.183,
+     "text": "Di abad kedua puluh, para pemecah sandi terbaik, termasuk tim William Friedman, ikut mengerjakannya.",
+     "exp": 4.83
+    },
+    {
+     "i": 38,
+     "para": 12,
+     "start": 193.893,
+     "end": 198.918,
+     "text": "Pendekatan utamanya menganggap ini sandi huruf biasa, yang diacak dengan aturan tertentu.",
+     "exp": 4.67
+    },
+    {
+     "i": 39,
+     "para": 12,
+     "start": 199.407,
+     "end": 200.229,
+     "text": "Semuanya gagal.",
+     "exp": 0.78
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "SEMUA GAGAL",
+   "vo_dur": 14.782,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 15.782,
+   "seg_len": 16.382,
+   "stretch": 1.0892,
+   "t0": 189.667,
+   "vo_at": 190.117,
+   "seg_actual": 16.333333
+  },
+  {
+   "id": "S14",
+   "vo_start": 200.906,
+   "vo_end": 215.3,
+   "sents": [
+    {
+     "i": 40,
+     "para": 13,
+     "start": 200.906,
+     "end": 203.117,
+     "text": "Anehnya, teksnya tidak terlihat ngawur.",
+     "exp": 1.87
+    },
+    {
+     "i": 41,
+     "para": 13,
+     "start": 203.662,
+     "end": 212.665,
+     "text": "Pola kata-katanya mirip bahasa asli lewat hukum Zipf: kata paling sering muncul sekitar dua kali lebih sering dari kata kedua, dan tiga kali dari kata ketiga.",
+     "exp": 8.56
+    },
+    {
+     "i": 42,
+     "para": 13,
+     "start": 213.259,
+     "end": 215.3,
+     "text": "Itu pola yang sulit ditiru asal-asalan.",
+     "exp": 2.34
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "POLA BAHASA?",
+   "vo_dur": 14.394,
+   "trans": [
+    "zoomin",
+    0.6
+   ],
+   "slot": 15.394,
+   "seg_len": 15.994,
+   "stretch": 1.0634,
+   "t0": 205.4,
+   "vo_at": 205.85,
+   "seg_actual": 15.958333
+  },
+  {
+   "id": "S15",
+   "vo_start": 216.027,
+   "vo_end": 232.229,
+   "sents": [
+    {
+     "i": 43,
+     "para": 14,
+     "start": 216.027,
+     "end": 226.023,
+     "text": "Tahun dua ribu tiga belas, Marcelo Montemurro dan Damián Zanette menemukan kata-kata kunci naskah ini mengelompok mengikuti topik, dan bagian bertanaman berbagi kosakata.",
+     "exp": 9.34
+    },
+    {
+     "i": 44,
+     "para": 14,
+     "start": 226.665,
+     "end": 229.155,
+     "text": "Mereka menyimpulkan ada struktur layaknya bahasa.",
+     "exp": 2.65
+    },
+    {
+     "i": 45,
+     "para": 14,
+     "start": 229.812,
+     "end": 232.229,
+     "text": "Tapi itu bukan pembacaan, kata mereka sendiri.",
+     "exp": 2.65
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "ADA STRUKTUR",
+   "vo_dur": 16.202,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 17.202,
+   "seg_len": 17.802,
+   "stretch": 1.1836,
+   "t0": 220.758,
+   "vo_at": 221.208,
+   "seg_actual": 17.75
+  },
+  {
+   "id": "S16",
+   "vo_start": 232.966,
+   "vo_end": 248.205,
+   "sents": [
+    {
+     "i": 46,
+     "para": 15,
+     "start": 232.966,
+     "end": 234.593,
+     "text": "Tapi ada sisi yang janggal juga.",
+     "exp": 1.71
+    },
+    {
+     "i": 47,
+     "para": 15,
+     "start": 235.154,
+     "end": 242.565,
+     "text": "Keteraturan huruf demi huruf, yang disebut entropi kondisional, hanya sekitar dua, sedangkan bahasa alami umumnya tiga sampai empat.",
+     "exp": 7.16
+    },
+    {
+     "i": 48,
+     "para": 15,
+     "start": 242.993,
+     "end": 248.205,
+     "text": "Hurufnya terlalu mudah ditebak, dan itu membuat sebagian peneliti ragu ini bahasa biasa.",
+     "exp": 4.98
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "TERLALU TERATUR",
+   "vo_dur": 15.239,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 16.239,
+   "seg_len": 16.839,
+   "stretch": 1.1196,
+   "t0": 237.908,
+   "vo_at": 238.358,
+   "seg_actual": 16.791667
+  },
+  {
+   "id": "S17",
+   "vo_start": 248.473,
+   "vo_end": 264.205,
+   "sents": [
+    {
+     "i": 49,
+     "para": 16,
+     "start": 248.473,
+     "end": 250.084,
+     "text": "Teori pertama: tipuan.",
+     "exp": 1.09
+    },
+    {
+     "i": 50,
+     "para": 16,
+     "start": 250.634,
+     "end": 257.875,
+     "text": "Tahun dua ribu tiga, Gordon Rugg menunjukkan teks yang mirip bisa dibuat dengan tabel suku kata dan kartu berlubang Cardan grille.",
+     "exp": 6.23
+    },
+    {
+     "i": 51,
+     "para": 16,
+     "start": 258.221,
+     "end": 264.205,
+     "text": "Tapi mirip belum tentu sama, dan Montemurro menilai bukti strukturnya membatasi kemungkinan tipuan.",
+     "exp": 5.14
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "TEORI 1: TIPUAN",
+   "vo_dur": 15.732,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 16.732,
+   "seg_len": 17.332,
+   "stretch": 1.1524,
+   "t0": 254.1,
+   "vo_at": 254.55,
+   "seg_actual": 17.291667
+  },
+  {
+   "id": "S18",
+   "vo_start": 264.634,
+   "vo_end": 280.141,
+   "sents": [
+    {
+     "i": 52,
+     "para": 17,
+     "start": 264.634,
+     "end": 270.031,
+     "text": "Teori kedua: ini bahasa sungguhan, atau mungkin bahasa buatan dengan aksara khusus.",
+     "exp": 4.36
+    },
+    {
+     "i": 53,
+     "para": 17,
+     "start": 270.327,
+     "end": 274.257,
+     "text": "Usulannya banyak, dari Nahuatl, Ibrani, sampai Turki kuno.",
+     "exp": 2.96
+    },
+    {
+     "i": 54,
+     "para": 17,
+     "start": 274.62,
+     "end": 280.141,
+     "text": "Masalahnya, tiap usulan diuji peneliti lain dan sampai sekarang belum ada satu pun yang diterima luas.",
+     "exp": 5.29
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "TEORI 2: BAHASA",
+   "vo_dur": 15.507,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 16.507,
+   "seg_len": 17.107,
+   "stretch": 1.1374,
+   "t0": 270.792,
+   "vo_at": 271.242,
+   "seg_actual": 17.041667
+  },
+  {
+   "id": "S19",
+   "vo_start": 280.726,
+   "vo_end": 294.596,
+   "sents": [
+    {
+     "i": 55,
+     "para": 18,
+     "start": 280.726,
+     "end": 287.696,
+     "text": "Tahun dua ribu sembilan belas, Gerard Cheshire dari Universitas Bristol mengaku memecahkannya dalam dua minggu: bahasa proto-Romance.",
+     "exp": 7.01
+    },
+    {
+     "i": 56,
+     "para": 18,
+     "start": 288.156,
+     "end": 289.557,
+     "text": "Universitas menarik beritanya.",
+     "exp": 1.87
+    },
+    {
+     "i": 57,
+     "para": 18,
+     "start": 289.967,
+     "end": 294.596,
+     "text": "Paleograf Lisa Fagin Davis menyebut terjemahannya melingkar dan membenarkan dirinya sendiri.",
+     "exp": 4.83
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "KLAIM DITARIK",
+   "vo_dur": 13.87,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 14.87,
+   "seg_len": 15.47,
+   "stretch": 1.0286,
+   "t0": 287.233,
+   "vo_at": 287.683,
+   "seg_actual": 15.416667
+  },
+  {
+   "id": "S20",
+   "vo_start": 295.174,
+   "vo_end": 307.64,
+   "sents": [
+    {
+     "i": 58,
+     "para": 19,
+     "start": 295.174,
+     "end": 296.84,
+     "text": "Ada juga klaim yang lebih hati-hati.",
+     "exp": 1.87
+    },
+    {
+     "i": 59,
+     "para": 19,
+     "start": 297.136,
+     "end": 303.492,
+     "text": "Stephen Bax, tahun dua ribu empat belas, mengusulkan pembacaan sebagian: sepuluh nama diri dan empat belas karakter.",
+     "exp": 5.76
+    },
+    {
+     "i": 60,
+     "para": 19,
+     "start": 303.717,
+     "end": 307.64,
+     "text": "Itu masih usulan, belum terbukti, dan Bax wafat tahun dua ribu tujuh belas.",
+     "exp": 3.89
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "BACAAN SEBAGIAN",
+   "vo_dur": 12.466,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 13.466,
+   "seg_len": 14.066,
+   "stretch": 0.9352,
+   "t0": 302.05,
+   "vo_at": 302.5,
+   "seg_actual": 14.041667
+  },
+  {
+   "id": "S21",
+   "vo_start": 308.124,
+   "vo_end": 322.247,
+   "sents": [
+    {
+     "i": 61,
+     "para": 20,
+     "start": 308.124,
+     "end": 310.808,
+     "text": "Pertanyaan lain yang menarik: berapa orang menulisnya?",
+     "exp": 2.65
+    },
+    {
+     "i": 62,
+     "para": 20,
+     "start": 311.425,
+     "end": 319.42,
+     "text": "Lisa Fagin Davis, lewat analisis tulisan tangan digital tahun dua ribu dua puluh, berpendapat naskah ini dikerjakan beberapa penulis dalam satu komunitas.",
+     "exp": 8.56
+    },
+    {
+     "i": 63,
+     "para": 20,
+     "start": 319.778,
+     "end": 322.247,
+     "text": "Kalau benar, ini bukan coretan satu orang iseng.",
+     "exp": 2.65
+    }
+   ],
+   "bagian": "Bukti & analisis",
+   "label": "SIAPA PENULISNYA?",
+   "vo_dur": 14.123,
+   "trans": [
+    "fadeblack",
+    0.8
+   ],
+   "slot": 15.123,
+   "seg_len": 15.923,
+   "stretch": 1.0587,
+   "t0": 315.492,
+   "vo_at": 315.942,
+   "seg_actual": 15.875
+  },
+  {
+   "id": "S22",
+   "vo_start": 322.891,
+   "vo_end": 336.804,
+   "sents": [
+    {
+     "i": 64,
+     "para": 21,
+     "start": 322.891,
+     "end": 323.928,
+     "text": "Cara menimbang semua ini?",
+     "exp": 1.4
+    },
+    {
+     "i": 65,
+     "para": 21,
+     "start": 324.464,
+     "end": 329.382,
+     "text": "Anggap papan investigasi di kantor: ada bukti keras, ada dugaan, ada tebakan.",
+     "exp": 4.2
+    },
+    {
+     "i": 66,
+     "para": 21,
+     "start": 329.894,
+     "end": 335.114,
+     "text": "Yang keras: umur kulitnya, jalur kepemilikannya, dan pola statistik teksnya.",
+     "exp": 3.74
+    },
+    {
+     "i": 67,
+     "para": 21,
+     "start": 335.609,
+     "end": 336.804,
+     "text": "Sisanya masih dugaan.",
+     "exp": 1.09
+    }
+   ],
+   "bagian": "Kesimpulan",
+   "label": "BUKTI vs DUGAAN",
+   "vo_dur": 13.913,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 14.913,
+   "seg_len": 15.513,
+   "stretch": 1.0314,
+   "t0": 330.567,
+   "vo_at": 331.017,
+   "seg_actual": 15.458333
+  },
+  {
+   "id": "S23",
+   "vo_start": 337.334,
+   "vo_end": 351.667,
+   "sents": [
+    {
+     "i": 68,
+     "para": 22,
+     "start": 337.334,
+     "end": 341.769,
+     "text": "Bayangin ruang arsip kantor penuh map berlabel kode yang kamusnya tidak ada.",
+     "exp": 3.74
+    },
+    {
+     "i": 69,
+     "para": 22,
+     "start": 342.274,
+     "end": 346.231,
+     "text": "Kamu bisa melihat polanya: map mana yang mirip, mana yang berkelompok.",
+     "exp": 3.58
+    },
+    {
+     "i": 70,
+     "para": 22,
+     "start": 346.522,
+     "end": 348.641,
+     "text": "Tapi tanpa kamus, kamu tidak tahu isinya.",
+     "exp": 2.34
+    },
+    {
+     "i": 71,
+     "para": 22,
+     "start": 349.258,
+     "end": 351.667,
+     "text": "Itulah posisi para peneliti Voynich sampai sekarang.",
+     "exp": 2.96
+    }
+   ],
+   "bagian": "Kesimpulan",
+   "label": "TANPA KAMUS",
+   "vo_dur": 14.333,
+   "trans": [
+    "dissolve",
+    0.6
+   ],
+   "slot": 15.333,
+   "seg_len": 15.933,
+   "stretch": 1.0594,
+   "t0": 345.425,
+   "vo_at": 345.875,
+   "seg_actual": 15.875
+  },
+  {
+   "id": "S24",
+   "vo_start": 352.257,
+   "vo_end": 365.13,
+   "sents": [
+    {
+     "i": 72,
+     "para": 23,
+     "start": 352.257,
+     "end": 352.858,
+     "text": "Kenapa susah?",
+     "exp": 0.78
+    },
+    {
+     "i": 73,
+     "para": 23,
+     "start": 353.376,
+     "end": 359.148,
+     "text": "Ada sekitar seribu label yang menempel pada gambar, tapi jarang berulang, jadi sulit dipakai sebagai kunci.",
+     "exp": 5.76
+    },
+    {
+     "i": 74,
+     "para": 23,
+     "start": 359.677,
+     "end": 365.13,
+     "text": "Dan sampai hari ini, belum ada pembacaan yang diterima luas oleh para ahli, sekeras apa pun mereka mencoba.",
+     "exp": 5.92
+    }
+   ],
+   "bagian": "Kesimpulan",
+   "label": "BELUM ADA KUNCI",
+   "vo_dur": 12.873,
+   "trans": [
+    "zoomin",
+    0.6
+   ],
+   "slot": 13.873,
+   "seg_len": 14.473,
+   "stretch": 0.9623,
+   "t0": 360.7,
+   "vo_at": 361.15,
+   "seg_actual": 14.416667
+  },
+  {
+   "id": "S25",
+   "vo_start": 365.675,
+   "vo_end": 382.208,
+   "sents": [
+    {
+     "i": 75,
+     "para": 24,
+     "start": 365.675,
+     "end": 367.442,
+     "text": "Jadi apa yang kita tahu?",
+     "exp": 1.4
+    },
+    {
+     "i": 76,
+     "para": 24,
+     "start": 367.747,
+     "end": 379.15,
+     "text": "Ini buku asli abad kelima belas, ditulis dengan aksara unik, dan menurut sebagian peneliti teksnya terlalu berstruktur untuk sekadar tipuan, tapi juga tidak sepenuhnya seperti bahasa biasa.",
+     "exp": 10.43
+    },
+    {
+     "i": 77,
+     "para": 24,
+     "start": 379.836,
+     "end": 382.208,
+     "text": "Sisanya, jujur saja, masih gelap.",
+     "exp": 1.71
+    }
+   ],
+   "bagian": "Kesimpulan",
+   "label": "YANG KITA TAHU",
+   "vo_dur": 16.533,
+   "trans": [
+    "fadeblack",
+    0.8
+   ],
+   "slot": 17.533,
+   "seg_len": 18.333,
+   "stretch": 1.2189,
+   "t0": 374.517,
+   "vo_at": 374.967,
+   "seg_actual": 18.291667
+  },
+  {
+   "id": "S26",
+   "vo_start": 382.969,
+   "vo_end": 399.553,
+   "sents": [
+    {
+     "i": 78,
+     "para": 25,
+     "start": 382.969,
+     "end": 385.193,
+     "text": "Mungkin suatu hari ada yang menemukan kuncinya.",
+     "exp": 2.49
+    },
+    {
+     "i": 79,
+     "para": 25,
+     "start": 385.82,
+     "end": 386.528,
+     "text": "Mungkin juga tidak.",
+     "exp": 0.93
+    },
+    {
+     "i": 80,
+     "para": 25,
+     "start": 387.32,
+     "end": 393.28,
+     "text": "Tapi buku ini sudah lama menemani orang-orang yang lembur dengan pertanyaan yang sama, dan mungkin masih lama.",
+     "exp": 5.6
+    },
+    {
+     "i": 81,
+     "para": 25,
+     "start": 394.116,
+     "end": 397.846,
+     "text": "Menurutmu ini bahasa, sandi, atau tipuan?",
+     "exp": 2.34
+    },
+    {
+     "i": 82,
+     "para": 25,
+     "start": 398.615,
+     "end": 399.553,
+     "text": "Tulis di kolom komentar.",
+     "exp": 1.25
+    }
+   ],
+   "bagian": "Closing",
+   "label": "BAHASA, SANDI, ATAU TIPUAN?",
+   "vo_dur": 16.584,
+   "trans": null,
+   "slot": 17.584,
+   "seg_len": 17.584,
+   "stretch": 1.1691,
+   "t0": 392.008,
+   "vo_at": 392.458,
+   "seg_actual": 17.541667
+  }
+ ],
+ "body": 409.55,
+ "LEAD": 0.45
+}

@@ -1,0 +1,558 @@
+1
+00:00:04,242 --> 00:00:07,225
+Bayangin kamu menemukan sebuah buku tua.
+
+2
+00:00:07,245 --> 00:00:09,989
+Isinya gambar tanaman yang aneh sekali,
+
+3
+00:00:10,009 --> 00:00:13,417
+ditulis dengan huruf yang
+tidak dikenal siapa pun.
+
+4
+00:00:13,835 --> 00:00:14,874
+Ini bukan film.
+
+5
+00:00:14,894 --> 00:00:17,811
+Bukunya nyata, tersimpan
+di Yale, dan sampai
+
+6
+00:00:17,831 --> 00:00:21,018
+sekarang belum ada yang bisa membacanya.
+
+7
+00:00:21,734 --> 00:00:24,078
+Namanya Naskah Voynich.
+
+8
+00:00:24,098 --> 00:00:27,793
+Di Yale kodenya Beinecke MS 408.
+
+9
+00:00:28,215 --> 00:00:32,710
+Ukurannya seperti buku catatan,
+sekitar 23 kali 16 sentimeter.
+
+10
+00:00:33,080 --> 00:00:38,214
+Sekitar 240 halaman bertahan,
+padahal aslinya setidaknya 272.
+
+11
+00:00:38,925 --> 00:00:43,277
+Menurut para peneliti,
+isinya terbagi enam bagian.
+
+12
+00:00:43,297 --> 00:00:49,040
+Bagian tumbuhan paling tebal,
+sekitar 126 halaman.
+
+13
+00:00:49,060 --> 00:00:52,192
+Lalu ada diagram bintang,
+perempuan telanjang di antara kolam
+
+14
+00:00:52,212 --> 00:00:55,456
+dan pipa, gambar botol obat,
+dan bagian yang mirip daftar resep.
+
+15
+00:00:56,159 --> 00:00:59,911
+Tulisannya yang paling bikin pusing.
+
+16
+00:00:59,931 --> 00:01:03,437
+Sekitar 20 sampai 25 karakter
+menyusun sebagian besar teks,
+
+17
+00:01:03,457 --> 00:01:07,740
+mengalir dari kiri ke kanan,
+hampir tanpa tanda baca.
+
+18
+00:01:07,760 --> 00:01:11,995
+Totalnya sekitar 38.000 kata,
+tak satu pun kita tahu artinya.
+
+19
+00:01:12,692 --> 00:01:14,526
+Lalu kapan ditulis?
+
+20
+00:01:14,896 --> 00:01:19,768
+Tahun 2009, Universitas Arizona menguji
+umur kulitnya dengan radiokarbon.
+
+21
+00:01:19,788 --> 00:01:24,151
+Hasilnya antara tahun 1404 dan 1438.
+
+22
+00:01:24,171 --> 00:01:26,504
+Jadi ini memang naskah abad ke-15.
+
+23
+00:01:27,217 --> 00:01:31,458
+Satu catatan penting: yang
+diuji kulitnya, bukan tintanya.
+
+24
+00:01:31,854 --> 00:01:34,132
+Tapi pemindaian
+multispektral tidak menemukan
+
+25
+00:01:34,152 --> 00:01:37,628
+tulisan lama di bawahnya,
+jadi ini bukan kulit bekas.
+
+26
+00:01:37,648 --> 00:01:40,293
+Dan hasil ini mematahkan dugaan lama bahwa
+
+27
+00:01:40,313 --> 00:01:43,050
+penulisnya Roger Bacon,
+ilmuwan abad ke-13.
+
+28
+00:01:43,750 --> 00:01:48,501
+Jejak pertamanya baru muncul hampir
+dua abad kemudian, di kota Praha.
+
+29
+00:01:48,521 --> 00:01:51,503
+Ada tanda tangan samar di
+halaman pertama: Jacobus
+
+30
+00:01:51,523 --> 00:01:54,609
+Horčický de Tepenec, yang
+diangkat jadi bangsawan kecil.
+
+31
+00:01:55,005 --> 00:01:56,709
+Siapa pemilik sebelum dia?
+
+32
+00:01:56,729 --> 00:01:58,112
+Tidak ada yang tahu pasti.
+
+33
+00:01:58,834 --> 00:02:02,162
+Menurut surat tahun 1665, Kaisar Rudolf II
+
+34
+00:02:02,182 --> 00:02:06,215
+pernah membelinya seharga 600 dukat emas.
+
+35
+00:02:06,235 --> 00:02:07,674
+Tapi itu kabar turunan.
+
+36
+00:02:07,694 --> 00:02:10,116
+Istana memang mencatat pembelian buku
+
+37
+00:02:10,136 --> 00:02:12,828
+tahun 1599, belum terbukti itu naskah ini.
+
+38
+00:02:13,542 --> 00:02:16,668
+Pemilik pertama yang pasti terdokumentasi
+
+39
+00:02:16,688 --> 00:02:19,875
+adalah Georg Baresch,
+seorang alkemis di Praha.
+
+40
+00:02:20,238 --> 00:02:23,736
+Tahun 1639 ia menulis surat
+kepada Athanasius Kircher
+
+41
+00:02:23,756 --> 00:02:27,731
+di Roma dan mengirim contoh
+tulisan dari buku itu.
+
+42
+00:02:28,459 --> 00:02:33,012
+Setelah Baresch wafat, bukunya
+diwariskan ke Johannes Marcus
+
+43
+00:02:33,032 --> 00:02:36,940
+Marci, yang mengirimnya ke
+Kircher lewat surat tahun 1665.
+
+44
+00:02:37,396 --> 00:02:40,192
+Dari surat itulah kisah
+Rudolf dan Roger Bacon
+
+45
+00:02:40,212 --> 00:02:43,102
+bermula, dan Marci
+sendiri tidak menjaminnya.
+
+46
+00:02:43,792 --> 00:02:47,853
+Naskah itu tersimpan di
+perpustakaan Jesuit di Roma selama
+
+47
+00:02:47,873 --> 00:02:51,880
+berabad-abad, sampai harta
+mereka disita tahun 1873.
+
+48
+00:02:51,900 --> 00:02:54,855
+Tahun 1912, pedagang buku
+langka Wilfrid Voynich
+
+49
+00:02:54,875 --> 00:02:58,786
+membelinya, dan namanya
+melekat sampai sekarang.
+
+50
+00:02:59,500 --> 00:03:04,231
+Setelah Voynich meninggal,
+bukunya akhirnya dibeli
+
+51
+00:03:04,251 --> 00:03:08,413
+pedagang buku Hans Kraus tahun
+1961 seharga 24.500 dolar.
+
+52
+00:03:08,856 --> 00:03:13,214
+Delapan tahun kemudian, ia menyumbangkannya
+ke Perpustakaan Beinecke di Yale.
+
+53
+00:03:13,909 --> 00:03:15,957
+Tentu banyak yang mencoba membacanya.
+
+54
+00:03:15,977 --> 00:03:18,589
+Di abad ke-20, para pemecah sandi terbaik,
+
+55
+00:03:18,609 --> 00:03:21,895
+termasuk tim William Friedman,
+ikut mengerjakannya.
+
+56
+00:03:22,355 --> 00:03:25,182
+Pendekatan utamanya
+menganggap ini sandi huruf
+
+57
+00:03:25,202 --> 00:03:27,849
+biasa, yang diacak dengan aturan tertentu.
+
+58
+00:03:27,869 --> 00:03:28,941
+Semuanya gagal.
+
+59
+00:03:29,642 --> 00:03:32,378
+Anehnya, teksnya tidak terlihat ngawur.
+
+60
+00:03:32,398 --> 00:03:35,488
+Pola kata-katanya mirip
+bahasa asli lewat hukum Zipf:
+
+61
+00:03:35,508 --> 00:03:38,107
+kata paling sering muncul
+sekitar dua kali lebih
+
+62
+00:03:38,127 --> 00:03:41,975
+sering dari kata kedua, dan
+tiga kali dari kata ketiga.
+
+63
+00:03:41,995 --> 00:03:44,286
+Itu pola yang sulit ditiru asal-asalan.
+
+64
+00:03:45,000 --> 00:03:47,809
+Tahun 2013, Marcelo
+Montemurro dan Damián Zanette
+
+65
+00:03:47,829 --> 00:03:51,204
+menemukan kata-kata kunci
+naskah ini mengelompok
+
+66
+00:03:51,224 --> 00:03:55,246
+mengikuti topik, dan bagian
+bertanaman berbagi kosakata.
+
+67
+00:03:55,638 --> 00:03:58,378
+Mereka menyimpulkan ada
+struktur layaknya bahasa.
+
+68
+00:03:58,785 --> 00:04:01,452
+Tapi itu bukan pembacaan,
+kata mereka sendiri.
+
+69
+00:04:02,150 --> 00:04:04,318
+Tapi ada sisi yang janggal juga.
+
+70
+00:04:04,338 --> 00:04:07,862
+Keteraturan huruf demi huruf,
+yang disebut entropi kondisional,
+
+71
+00:04:07,882 --> 00:04:12,157
+hanya sekitar dua, sedangkan bahasa
+alami umumnya tiga sampai empat.
+
+72
+00:04:12,177 --> 00:04:14,763
+Hurufnya terlalu mudah
+ditebak, dan itu membuat
+
+73
+00:04:14,783 --> 00:04:17,639
+sebagian peneliti ragu ini bahasa biasa.
+
+74
+00:04:18,342 --> 00:04:20,483
+Teori pertama: tipuan.
+
+75
+00:04:20,503 --> 00:04:24,000
+Tahun 2003, Gordon Rugg menunjukkan
+teks yang mirip bisa dibuat
+
+76
+00:04:24,020 --> 00:04:28,070
+dengan tabel suku kata dan
+kartu berlubang Cardan grille.
+
+77
+00:04:28,090 --> 00:04:31,334
+Tapi mirip belum tentu sama,
+dan Montemurro menilai
+
+78
+00:04:31,354 --> 00:04:34,324
+bukti strukturnya membatasi
+kemungkinan tipuan.
+
+79
+00:04:35,034 --> 00:04:37,327
+Teori kedua: ini bahasa sungguhan,
+
+80
+00:04:37,347 --> 00:04:40,707
+atau mungkin bahasa buatan
+dengan aksara khusus.
+
+81
+00:04:40,727 --> 00:04:45,000
+Usulannya banyak, dari Nahuatl,
+Ibrani, sampai Turki kuno.
+
+82
+00:04:45,020 --> 00:04:47,598
+Masalahnya, tiap usulan
+diuji peneliti lain dan
+
+83
+00:04:47,618 --> 00:04:50,791
+sampai sekarang belum ada
+satu pun yang diterima luas.
+
+84
+00:04:51,475 --> 00:04:55,034
+Tahun 2019, Gerard Cheshire
+dari Universitas Bristol mengaku
+
+85
+00:04:55,054 --> 00:04:58,885
+memecahkannya dalam dua
+minggu: bahasa proto-Romance.
+
+86
+00:04:58,905 --> 00:05:00,696
+Universitas menarik beritanya.
+
+87
+00:05:00,716 --> 00:05:03,234
+Paleograf Lisa Fagin Davis
+menyebut terjemahannya
+
+88
+00:05:03,254 --> 00:05:05,595
+melingkar dan membenarkan dirinya sendiri.
+
+89
+00:05:06,292 --> 00:05:08,234
+Ada juga klaim yang lebih hati-hati.
+
+90
+00:05:08,254 --> 00:05:11,550
+Stephen Bax, tahun 2014,
+mengusulkan pembacaan
+
+91
+00:05:11,570 --> 00:05:14,815
+sebagian: 10 nama diri dan 14 karakter.
+
+92
+00:05:14,835 --> 00:05:19,008
+Itu masih usulan, belum terbukti,
+dan Bax wafat tahun 2017.
+
+93
+00:05:19,734 --> 00:05:22,668
+Pertanyaan lain yang menarik:
+berapa orang menulisnya?
+
+94
+00:05:23,035 --> 00:05:26,605
+Lisa Fagin Davis, lewat analisis
+tulisan tangan digital tahun 2020,
+
+95
+00:05:26,625 --> 00:05:31,368
+berpendapat naskah ini dikerjakan
+beberapa penulis dalam satu komunitas.
+
+96
+00:05:31,388 --> 00:05:34,107
+Kalau benar, ini bukan
+coretan satu orang iseng.
+
+97
+00:05:34,809 --> 00:05:36,362
+Cara menimbang semua ini?
+
+98
+00:05:36,382 --> 00:05:41,792
+Anggap papan investigasi di kantor: ada
+bukti keras, ada dugaan, ada tebakan.
+
+99
+00:05:41,812 --> 00:05:47,507
+Yang keras: umur kulitnya, jalur
+kepemilikannya, dan pola statistik teksnya.
+
+100
+00:05:47,527 --> 00:05:48,972
+Sisanya masih dugaan.
+
+101
+00:05:49,667 --> 00:05:54,587
+Bayangin ruang arsip kantor penuh map
+berlabel kode yang kamusnya tidak ada.
+
+102
+00:05:54,607 --> 00:05:58,835
+Kamu bisa melihat polanya: map mana
+yang mirip, mana yang berkelompok.
+
+103
+00:05:58,855 --> 00:06:01,224
+Tapi tanpa kamus, kamu tidak tahu isinya.
+
+104
+00:06:01,591 --> 00:06:04,250
+Itulah posisi para peneliti
+Voynich sampai sekarang.
+
+105
+00:06:04,942 --> 00:06:06,041
+Kenapa susah?
+
+106
+00:06:06,061 --> 00:06:08,587
+Ada sekitar 1.000 label
+yang menempel pada gambar,
+
+107
+00:06:08,607 --> 00:06:12,342
+tapi jarang berulang, jadi
+sulit dipakai sebagai kunci.
+
+108
+00:06:12,362 --> 00:06:15,068
+Dan sampai hari ini, belum
+ada pembacaan yang diterima
+
+109
+00:06:15,088 --> 00:06:18,065
+luas oleh para ahli,
+sekeras apa pun mereka mencoba.
+
+110
+00:06:18,759 --> 00:06:20,811
+Jadi apa yang kita tahu?
+
+111
+00:06:20,831 --> 00:06:24,250
+Ini buku asli abad ke-15,
+ditulis dengan aksara unik,
+
+112
+00:06:24,270 --> 00:06:28,051
+dan menurut sebagian peneliti
+teksnya terlalu berstruktur untuk
+
+113
+00:06:28,071 --> 00:06:32,484
+sekadar tipuan, tapi juga tidak
+sepenuhnya seperti bahasa biasa.
+
+114
+00:06:32,920 --> 00:06:35,542
+Sisanya, jujur saja, masih gelap.
+
+115
+00:06:36,250 --> 00:06:38,724
+Mungkin suatu hari ada
+yang menemukan kuncinya.
+
+116
+00:06:39,101 --> 00:06:40,059
+Mungkin juga tidak.
+
+117
+00:06:40,601 --> 00:06:44,058
+Tapi buku ini sudah lama
+menemani orang-orang yang lembur
+
+118
+00:06:44,078 --> 00:06:46,811
+dengan pertanyaan yang sama,
+dan mungkin masih lama.
+
+119
+00:06:47,397 --> 00:06:51,377
+Menurutmu ini bahasa, sandi, atau tipuan?
+
+120
+00:06:51,896 --> 00:06:52,834
+Tulis di kolom komentar.
+

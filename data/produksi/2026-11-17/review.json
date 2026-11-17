@@ -1,0 +1,15 @@
+{
+ "tanggal": "2026-11-17",
+ "topik": "Naskah Voynich",
+ "durasi_detik": 420.8,
+ "isi_detik": 409.6,
+ "intro_outro": true,
+ "qc_segmen": "26/26 OK (durasi, 1920x1080, tanpa frame hitam, frame label dicek visual)",
+ "qc_subtitle": "120 cue dicek kata per kata oleh subagen independen; 1 salah ('1.438') diperbaiki",
+ "qc_audio": "-13.8 LUFS terintegrasi, LRA 3.6, limiter -1 dBFS",
+ "qc_lint": "lulus (peringatan: 10 kalimat >20 kata karena angka dieja di VO)",
+ "catatan": [
+  "Watermark ✦ Flow/Veo di pojok kanan bawah dibiarkan (penanda konten AI); deklarasi konten sintetis aktif",
+  "Klip diregang 0,94-1,22x agar pas VO; tidak ada bagian klip yang dipotong/di-crop"
+ ]
+}

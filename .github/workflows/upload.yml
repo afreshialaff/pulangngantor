@@ -33,6 +33,11 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Gabung potongan video (file >100 MB disimpan sebagai .part-aa, .part-ab, ...)
+        run: |
+          V="${{ github.event.inputs.video_path }}"
+          if [ ! -f "$V" ] && ls "$V".part-* >/dev/null 2>&1; then cat "$V".part-* > "$V"; fi
+          ls -la "$V"
       - name: Upload
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}

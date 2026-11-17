@@ -34,3 +34,12 @@ Sumber: `docs/referensi/audit-sisi-terang.md`.
 - Ukur dulu apakah chapter + atribusi sumber menaikkan retensi di Analytics channel ini; audit tidak bisa membuktikannya.
 - Uji apakah batas judul ≤70 karakter lebih baik daripada ≤100 pada channel ini (A/B judul bila YouTube mengizinkan).
 - Tambahkan contoh `naskah.json` nyata ke `samples/` setelah video pertama selesai.
+
+## 2026-11-17 (4) — Voynich: perakitan per segmen
+- VO sekali generate (399,8 dtk) dipetakan per kalimat ke jeda tanpa ASR; 83/83 kalimat pas. Hugging Face dan unduhan model Whisper diblokir di sandbox, jadi jangan bergantung pada ASR.
+- QC berjalan per segmen saat render (bukan menunggu semua), plus QC independen subagen: menemukan "1.438" (tahun diberi titik ribuan) di subtitle. Diperbaiki di subs.py dan ditambal di video tanpa render ulang penuh.
+- Noise/grain + CRF 14/18 membuat master 27 Mbps (1,45 GB). Untuk kirim: 2-pass 6,8 Mbps. File >100 MB disimpan sebagai potongan .part-* dan digabung di workflow upload.
+Tiga perbaikan berikutnya:
+1. (DITERAPKAN) Aturan angka subtitle: tahun 1000-2099 setelah "tahun"/"dan" tanpa titik ribuan; workflow upload menggabung potongan video.
+2. Kurangi kekuatan grain atau terapkan grain hanya di encode akhir agar segmen antara tidak 80 Mbps dan render lebih cepat.
+3. Watermark ✦ dari Flow/Veo tidak dihapus (penanda konten AI); kalau ingin video bersih, generate klip dengan paket yang tanpa watermark terlihat.

@@ -1,0 +1,34 @@
+# ==========================================================
+#  Pulang ngantor — konfigurasi channel YouTube
+#  Master brand: docs/MASTER-BRAND.md
+# ==========================================================
+
+channel:
+  name: "Pulang ngantor"
+  handle: "@pulangngantor"      # belum diverifikasi ketersediaannya
+  language: "id"
+  category_id: "24"             # 24 = Entertainment, 27 = Education (sesuaikan per video)
+  tagline: "Kerja boleh selesai. Rasa penasaran jangan."
+
+schedule:
+  timezone: "Asia/Jakarta"
+  publish_hour: 21              # jam tayang WIB (dipakai kalau mode scheduled)
+  shorts_per_week: 3
+  long_per_week: 1
+
+upload:
+  # Brand guideline: visibilitas awal Private sampai QC selesai.
+  mode: "private"               # private | unlisted | scheduled | public
+  ai_disclosure: true           # label konten sintetis kalau ada visual/suara AI
+  made_for_kids: false          # audiens 18-35, bukan konten anak
+
+voice:
+  provider: "google-ai-studio"  # Gemini TTS (pilihan standar pemilik)
+
+playlists:
+  - "Misteri Setelah Jam Kerja"
+  - "Arsip Konspirasi"
+  - "Isi Kepala Manusia"
+  - "Fakta yang Jarang Kamu Tahu"
+  - "Sejarah Sisi Gelap"
+  - "Pulang Ngantor Shorts"

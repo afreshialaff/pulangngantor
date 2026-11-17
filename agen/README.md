@@ -1,6 +1,9 @@
 # Agen Pulang ngantor
 
-Menyusul. Pola mengikuti Titi World (Riri riset/naskah → storyboard → aset → render → QC → metadata → upload), disesuaikan dengan master brand.
+Agen produksi: **HEXA**. Skill lengkap: [`agen/hexa/SKILL.md`](hexa/SKILL.md) (v2, dari audit Sisi Terang).
+
+Bacaan wajib tiap sesi: `docs/MASTER-BRAND.md`, `docs/PELAJARAN-HEXA.md`, `docs/referensi/audit-sisi-terang.md`.
+QC otomatis: `python tools/qc_lint.py data/produksi/<YYYY-MM-DD>`.
 
 Aturan dasar (dari `docs/MASTER-BRAND.md`, bagian 16):
 1. Pertahankan identitas Dark Mystery dan after-work storytelling; nama, tagline, konsep tidak diubah tanpa persetujuan pemilik.

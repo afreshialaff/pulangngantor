@@ -2,9 +2,9 @@
  "judul_kerja": "Naskah Voynich: Buku Abad ke-15 yang Belum Ada yang Bisa Membacanya",
  "format": "video panjang 16:9 1920x1080 24fps",
  "pilar": "Mystery & Unsolved Cases",
- "jumlah_kata": 950,
- "durasi_detik": 383.7,
- "isi_detik": 383.7,
+ "jumlah_kata": 951,
+ "durasi_detik": 390.0,
+ "isi_detik": 390.0,
  "bagian": [
   {
    "id": "S01",
@@ -28,7 +28,7 @@
   },
   {
    "id": "S02",
-   "vo": "Namanya Naskah Voynich. Di Yale kodenya Beinecke MS 408. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.",
+   "vo": "Namanya Naskah Voynich. Di Yale kodenya Beinecke MS empat ratus delapan. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.",
    "kelas": "fakta",
    "tingkat_keyakinan": null,
    "sumber": [
@@ -88,7 +88,7 @@
   },
   {
    "id": "S05",
-   "vo": "Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulit kalfnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.",
+   "vo": "Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulitnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.",
    "kelas": "fakta",
    "tingkat_keyakinan": null,
    "sumber": [

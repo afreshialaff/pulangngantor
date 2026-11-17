@@ -1,12 +1,12 @@
 # Naskah: Naskah Voynich
 
-_Kata: 950 | perkiraan isi: 384 dtk (kalibrasi ulang dari audio TTS)_
+_Kata: 951 | perkiraan isi: 390 dtk (kalibrasi ulang dari audio TTS)_
 
 **S01 · Cold open · fakta**  
 Bayangin kamu menemukan sebuah buku tua. Isinya gambar tanaman yang aneh sekali, ditulis dengan huruf yang tidak dikenal siapa pun. Ini bukan film. Bukunya nyata, tersimpan di Yale, dan sampai sekarang belum ada yang bisa membacanya.
 
 **S02 · Pengenalan · fakta**  
-Namanya Naskah Voynich. Di Yale kodenya Beinecke MS 408. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.
+Namanya Naskah Voynich. Di Yale kodenya Beinecke MS empat ratus delapan. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.
 
 **S03 · Pengenalan · fakta**  
 Menurut para peneliti, isinya terbagi enam bagian. Bagian tumbuhan paling tebal, sekitar seratus dua puluh enam halaman. Lalu ada diagram bintang, perempuan telanjang di antara kolam dan pipa, gambar botol obat, dan bagian yang mirip daftar resep.
@@ -15,7 +15,7 @@ Menurut para peneliti, isinya terbagi enam bagian. Bagian tumbuhan paling tebal,
 Tulisannya yang paling bikin pusing. Sekitar dua puluh sampai dua puluh lima karakter menyusun sebagian besar teks, mengalir dari kiri ke kanan, hampir tanpa tanda baca. Totalnya sekitar tiga puluh delapan ribu kata, tak satu pun kita tahu artinya.
 
 **S05 · Latar belakang · fakta**  
-Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulit kalfnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.
+Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulitnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.
 
 **S06 · Latar belakang · fakta**  
 Satu catatan penting: yang diuji kulitnya, bukan tintanya. Tapi pemindaian multispektral tidak menemukan tulisan lama di bawahnya, jadi ini bukan kulit bekas. Dan hasil ini mematahkan dugaan lama bahwa penulisnya Roger Bacon, ilmuwan abad ketiga belas.

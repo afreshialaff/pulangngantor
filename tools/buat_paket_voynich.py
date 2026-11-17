@@ -30,7 +30,7 @@ sc("S01","Cold open","fakta",None,["wiki","brit"],
  "0-5s: kamera dolly masuk perlahan ke buku di meja; 5-10s: debu melayang di cahaya lampu amber, lampu berkedip halus sekali; 10-15s: kamera berhenti di halaman terbuka, bayangan jendela kantor bergeser pelan.",
  None)
 sc("S02","Pengenalan","fakta",None,["wiki","brit"],
- "Namanya Naskah Voynich. Di Yale kodenya Beinecke MS 408. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.",
+ "Namanya Naskah Voynich. Di Yale kodenya Beinecke MS empat ratus delapan. Ukurannya seperti buku catatan, sekitar dua puluh tiga kali enam belas sentimeter. Sekitar dua ratus empat puluh halaman bertahan, padahal aslinya setidaknya dua ratus tujuh puluh dua.",
  "BEINECKE MS 408","static, lalu geser kiri","kertas dibalik pelan",
  "a closed small thick medieval codex with worn vellum cover beside a ruler on a dark archive table, warm amber lamp rim light, shallow depth of field",
  "0-5s: close-up sampul tua, kamera diam; 5-10s: tangan bersarung putih (tanpa wajah) membuka sampul pelan; 10-15s: kamera geser kiri menyusuri tepi halaman yang tebal.",
@@ -48,7 +48,7 @@ sc("S04","Pengenalan","fakta",None,["wiki","plos"],
  "0-5s: macro baris tulisan, kamera diam; 5-10s: fokus bergeser dari kata ke kata dari kiri ke kanan; 10-15s: kamera mundur perlahan, memperlihatkan seluruh paragraf.",
  "scan halaman teks murni")
 sc("S05","Latar belakang","fakta",None,["wiki","brit"],
- "Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulit kalfnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.",
+ "Lalu kapan ditulis? Tahun dua ribu sembilan, Universitas Arizona menguji umur kulitnya dengan radiokarbon. Hasilnya antara tahun seribu empat ratus empat dan seribu empat ratus tiga puluh delapan. Jadi ini memang naskah abad kelima belas.",
  "1404-1438","slow tilt up","dengung laboratorium halus",
  "a small vellum sample in a dim laboratory under a warm amber lamp, scientific instruments blurred in the dark background, no readable screens",
  "0-5s: tilt up dari meja lab ke sampel perkamen; 5-10s: titik cahaya amber berdenyut pelan di instrumen buram; 10-15s: kamera mendekat ke tekstur perkamen.",
@@ -180,13 +180,16 @@ sc("S26","Closing","fakta",None,["wiki"],
  "0-5s: lampu amber redup perlahan; 5-10s: kamera menarik mundur memperlihatkan kantor kosong; 10-15s: gelap, hanya lampu kota jauh.",
  None)
 
-WPS = 2.5  # kata/detik perkiraan TTS Indonesia (dikalibrasi ulang dari audio asli)
+_f = os.path.join(os.path.dirname(__file__), 'vo_30kata.json')
+VO_OVR = json.load(open(_f)) if os.path.exists(_f) else {}
+WPS = 2.05  # kata/detik perkiraan TTS Indonesia (dikalibrasi ulang dari audio asli)
 
 def main(out):
     os.makedirs(out, exist_ok=True)
     scenes = []
     t = 0.0
     for (sid, bagian, kelas, yakin, srcs, vo, onscr, kam, sfx, subjek, aksi, scan) in S:
+        vo = VO_OVR.get(sid, vo)
         n = len(vo.split())
         est = round(n / WPS + 0.3, 1)
         pakai = min(15.0, est)

@@ -1,5 +1,11 @@
 # Pelajaran HEXA
 
+## 2026-11-17 (3) — Voynich: aturan klip 15 detik
+1. Aturan lama 'adegan ≤6 dtk' bentrok dengan generator klip pemilik (15 dtk); sekarang 1 adegan = 1 klip 15 dtk, VO ±35-38 kata.
+2. Penomoran gambar wajib S01..Sxx sejak awal.
+3. Flow bisa tertahan persetujuan privasi/onboarding; cek akses Flow di awal sesi, sebelum menulis prompt gambar.
+**Perbaikan diterapkan:** agen/hexa/SKILL.md langkah 2 diperbarui; tools/buat_paket_voynich.py menghasilkan tabel durasi per scene.
+
 Dibaca di awal setiap sesi. Tambahkan entri baru di atas. Format: tanggal, 3 hal yang bisa diperbaiki, perbaikan yang diterapkan.
 
 ## 2026-11-17 (2) — Durasi ≥6 menit + intro/outro wajib

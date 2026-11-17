@@ -50,7 +50,7 @@ Repo hanya `afreshialaff/pulangngantor`. Jangan menyentuh titi-world, curioverse
 
 **1. Riset + naskah.** `naskah.md` dan `naskah.json` (Modul B). Setiap angka/klaim punya atribusi (siapa, tahun, URL) dan label kelas (fakta/dugaan/klaim/konspirasi).
 
-**2. Storyboard.** `storyboard.json` + `storyboard.md` per adegan: vo, on_screen, kamera, sfx, flow_prompt (Modul C). Adegan ≤6 detik; visual berganti mengikuti kalimat.
+**2. Storyboard.** `storyboard.json` + `storyboard.md` per adegan: vo, on_screen, kamera, sfx, flow_prompt (Modul C). Aturan klip (keputusan pemilik, 17 Nov 2026): 1 adegan = 1 gambar Flow bernama S01, S02, ... = 1 klip 15 detik. Tulis VO per adegan ±35-38 kata agar pas 15 detik (tidak terlalu cepat/lambat); pergantian gerak diatur di dalam klip lewat prompt video (0-5/5-10/10-15 dtk). Setelah VO jadi, ukur durasi nyata dan potong ekor klip; jangan memperlambat/mempercepat. Sertakan tabel durasi pakai di prompt_video.md.
 
 **3. Flow.** Generate gambar adegan, hapus varian tak terpakai, pemilik unduh/upscale bila perlu.
 

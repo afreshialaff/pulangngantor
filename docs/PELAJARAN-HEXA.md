@@ -8,6 +8,15 @@
 
 Dibaca di awal setiap sesi. Tambahkan entri baru di atas. Format: tanggal, 3 hal yang bisa diperbaiki, perbaikan yang diterapkan.
 
+## 2026-11-22 — Upgrade dari audit Jagad Mandala
+Sumber: `docs/referensi/audit-jagad-mandala.md` (auditor tidak bisa mendengar audio, hanya 2 transkrip, tanpa Analytics).
+**3 hal yang bisa diperbaiki**
+1. Skill belum menjamin awal video yang kuat: tidak ada batas untuk jeda kosong, opener basa-basi, atau kapan janji judul dibayar (di Jagad Mandala jawaban inti muncul di menit 9-15).
+2. Tidak ada kontrol variasi thumbnail, kata kunci judul di 50 karakter pertama, jadwal tetap, dan konsistensi format/seri.
+3. Audio hanya dinilai "terdengar natural"; loudness tidak pernah diukur.
+**Perbaikan yang diterapkan:** SKILL.md v2.2 (bagian "Aturan retensi & konsistensi", kerangka kritik sumber, subtitle krem/amber, baris keterangan AI, tabel keputusan audit vs brand); `tools/qc_lint.py` kini memeriksa momen jawaban ≤90 dtk, peta 3 poin, kata kunci di 50 karakter pertama, thumbnail_objek vs 3 video terakhir, baris AI di deskripsi, dan loudness via `--video`. Ketat untuk folder bertanggal ≥2026-11-22; video lama hanya mendapat PERINGATAN.
+**Perlu diuji di Analytics:** apakah momen jawaban ≤90 dtk dan peta 3 poin menaikkan retensi 30 detik pertama; batas ±3 istilah baru per 30 dtk adalah heuristik Hexa, bukan data audit.
+
 ## 2026-11-17 (2) — Durasi ≥6 menit + intro/outro wajib
 **3 hal yang bisa diperbaiki**
 1. Aturan durasi hanya di prompt/brand (8-15 menit, Shorts 30-60 dtk) dan tidak ditegakkan; video bisa lolos terlalu pendek.

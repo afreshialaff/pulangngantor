@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """Linter QC otomatis untuk satu folder produksi (pelajaran dari audit Sisi Terang).
 
-python tools/qc_lint.py data/produksi/<YYYY-MM-DD>
+python tools/qc_lint.py data/produksi/<YYYY-MM-DD> [--video out/video.mp4]
+
+Folder bertanggal >= 2026-11-22 diperiksa ketat (aturan retensi audit Jagad Mandala jadi GAGAL).
 
 Mengeluarkan GAGAL (harus diperbaiki) / PERINGATAN (periksa) / OK. Exit 1 bila ada GAGAL.
 Hanya memeriksa berkas yang ada; berkas yang belum dibuat dilaporkan sebagai PERINGATAN.
 """
+import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 
 LABEL_BERITA = re.compile(r"(?i:berita\s+terkini|breaking\s+news)|\bLANGSUNG\b|\bLIVE\b")
@@ -24,8 +28,23 @@ def baca_json(path):
         return None
 
 
-def main(folder):
+BERLAKU_KETAT = "2026-11-22"  # aturan retensi (audit Jagad Mandala) wajib untuk folder bertanggal >= ini
+
+
+def loudness(video):
+    """Kembalikan (integrated LUFS, true peak dBTP) via ffmpeg ebur128, atau (None, None)."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", video, "-vn", "-af", "ebur128=peak=true", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    teks = r.stderr.split("Summary:")[-1]
+    i = re.search(r"\bI:\s+(-?[\d.]+)\s+LUFS", teks)
+    tp = re.search(r"Peak:\s+(-?[\d.]+)\s+dBFS", teks)
+    return (float(i.group(1)) if i else None, float(tp.group(1)) if tp else None)
+
+
+def main(folder, video=None):
     hasil = []
+    ketat = os.path.basename(os.path.abspath(folder)) >= BERLAKU_KETAT
+    wajib = "GAGAL" if ketat else "PERINGATAN"
 
     def add(level, msg):
         hasil.append((level, msg))
@@ -70,12 +89,32 @@ def main(folder):
             add("GAGAL", f"isi video {isi} dtk < 360 dtk (6 menit)")
         if not durasi:
             add("PERINGATAN", "durasi_detik belum dicatat di metadata.json (hasil tools/rakit_video.py)")
+        if "|" in judul:
+            add(wajib, "judul memakai pola 'A | B | C' (terpotong di ponsel)")
+        kk = meta.get("kata_kunci_utama")
+        if not kk:
+            add(wajib, "kata_kunci_utama belum dicatat di metadata.json")
+        elif kk.lower() not in judul[:50].lower():
+            add("GAGAL", f"kata kunci '{kk}' tidak ada di 50 karakter pertama judul")
+        if not meta.get("thumbnail_objek"):
+            add(wajib, "thumbnail_objek belum dicatat (variasi thumbnail)")
+        if not meta.get("jadwal_tayang"):
+            add("PERINGATAN", "jadwal_tayang belum dicatat (jadwal tetap mingguan)")
+        if not re.search(r"\bAI\b|kecerdasan buatan", deskripsi):
+            add(wajib, "deskripsi tanpa baris keterangan konten AI (ai_disclosure)")
         if len(meta.get("judul_varian", [])) < 3:
             add("PERINGATAN", "simpan 3 varian judul di metadata.json (judul_varian)")
 
     if naskah is None:
         add("PERINGATAN", "naskah.json belum ada")
     else:
+        mj = naskah.get("momen_jawaban_detik")
+        if mj is None:
+            add(wajib, "naskah.json: momen_jawaban_detik belum dicatat")
+        elif mj > 90:
+            add("GAGAL", f"momen jawaban di detik {mj} (>90): bayar janji judul lebih awal")
+        if len(naskah.get("peta_3_poin", [])) != 3:
+            add(wajib, "naskah.json: peta_3_poin harus berisi 3 kalimat")
         kata = sum(len(b.get("vo", "").split()) for b in naskah.get("bagian", []))
         if kata and kata < 900:
             add("GAGAL", f"naskah {kata} kata; butuh >=~950 kata untuk isi 6 menit")
@@ -113,9 +152,33 @@ def main(folder):
             lain = os.path.join(induk, nama, "metadata.json")
             if nama == os.path.basename(os.path.abspath(folder)) or not os.path.exists(lain):
                 continue
-            kata2 = set(re.findall(r"\w{5,}", baca_json(lain).get("judul", "").lower()))
+            m2 = baca_json(lain)
+            kata2 = set(re.findall(r"\w{5,}", m2.get("judul", "").lower()))
             if kata and len(kata & kata2) / max(len(kata), 1) >= 0.6:
                 add("PERINGATAN", f"judul mirip dengan {nama}; cek duplikasi 60 hari")
+
+    if meta and meta.get("thumbnail_objek"):
+        lalu = []
+        for nama in sorted(os.listdir(induk)):
+            lain = os.path.join(induk, nama, "metadata.json")
+            if nama < os.path.basename(os.path.abspath(folder)) and os.path.exists(lain):
+                lalu.append(baca_json(lain).get("thumbnail_objek", ""))
+        if meta["thumbnail_objek"].strip().lower() in [x.strip().lower() for x in lalu[-3:] if x]:
+            add("GAGAL", "thumbnail_objek sama dengan salah satu dari 3 video terakhir; ganti objek/komposisi")
+
+    if video:
+        if not os.path.exists(video):
+            add("GAGAL", f"video tidak ditemukan: {video}")
+        else:
+            lufs, tp = loudness(video)
+            if lufs is None:
+                add("PERINGATAN", "loudness tidak terbaca (ffmpeg ebur128)")
+            else:
+                add("INFO", f"loudness {lufs} LUFS, true peak {tp} dBTP (catat di review.json)")
+                if not -15.5 <= lufs <= -12.5:
+                    add("GAGAL", f"loudness {lufs} LUFS di luar -15,5..-12,5 (target -14)")
+                if tp is not None and tp > -1.0:
+                    add("GAGAL", f"true peak {tp} dBTP > -1.0 (risiko clipping)")
 
     if not any(l == "GAGAL" for l, _ in hasil) and not hasil:
         add("OK", "tidak ada temuan")
@@ -125,6 +188,8 @@ def main(folder):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        sys.exit(__doc__)
-    main(sys.argv[1])
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("folder")
+    ap.add_argument("--video", default=None, help="video akhir untuk ukur loudness (ebur128)")
+    a = ap.parse_args()
+    main(a.folder, a.video)

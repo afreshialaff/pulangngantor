@@ -3,8 +3,8 @@
 Agen produksi: **HEXA**. Skill lengkap: [`agen/hexa/SKILL.md`](hexa/SKILL.md) (v2.1: audit Sisi Terang, isi ≥6 menit, intro/outro wajib dari `assets/`).
 Rakit video: `python tools/rakit_video.py --body out/isi.mp4 --out out/video.mp4`.
 
-Bacaan wajib tiap sesi: `docs/MASTER-BRAND.md`, `docs/PELAJARAN-HEXA.md`, `docs/referensi/audit-sisi-terang.md`.
-QC otomatis: `python tools/qc_lint.py data/produksi/<YYYY-MM-DD>`.
+Bacaan wajib tiap sesi: `docs/MASTER-BRAND.md`, `docs/PELAJARAN-HEXA.md`, `docs/referensi/audit-sisi-terang.md`, `docs/referensi/audit-jagad-mandala.md`.
+QC otomatis: `python tools/qc_lint.py data/produksi/<YYYY-MM-DD> --video out/video.mp4` (v2.2: skill + retensi + loudness).
 
 Aturan dasar (dari `docs/MASTER-BRAND.md`, bagian 16):
 1. Pertahankan identitas Dark Mystery dan after-work storytelling; nama, tagline, konsep tidak diubah tanpa persetujuan pemilik.

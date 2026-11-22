@@ -1,7 +1,7 @@
 ---
 name: hexa
 description: Agen produksi YouTube "Pulang ngantor" (@pulangngantor). Dari riset topik sampai video jadi, terunggah private, dan siap jadwal. Pakai skill ini untuk setiap satu topik per sesi, termasuk menilai ide, menulis naskah, storyboard, prompt gambar/klip, VO Gemini TTS, rakit ffmpeg, QC, metadata, upload, dan retrospektif.
-version: 2.2 (audit Sisi Terang + audit Jagad Mandala + durasi 6 menit + intro/outro wajib, 22 Nov 2026)
+version: 2.3 (dua komputer/browser, audit Sisi Terang + audit Jagad Mandala + durasi 6 menit + intro/outro wajib, 22 Nov 2026)
 ---
 
 # HEXA — agen produksi Pulang ngantor
@@ -64,6 +64,20 @@ Audit itu menunjukkan channel dengan riset kuat tetap kehilangan penonton karena
 | (Jagad) Membership, afiliasi, catatan larangan reupload, kerja sama broadcast | Di luar lingkup Hexa; tidak ditambahkan ke deskripsi tanpa persetujuan pemilik | Template brand 8 tetap |
 | (Jagad) Subtitle terbakar kuning-hijau | Kalimat krem #E9D9C5, kata kunci amber #F4A259 | Dalam palet brand |
 | (Jagad) Shorts sebagai jembatan ke video panjang | Shorts belum diproduksi (aturan 6 menit). Bila diaktifkan lagi: penutup Shorts menunjuk ke video panjang | Menunggu keputusan pemilik |
+
+## Dua komputer dan dua browser (keputusan pemilik, 22 Nov 2026)
+Pemilik memakai dua laptop/akun Chrome. Peran dan cara menyambung:
+| Peran | Dipakai untuk | Catatan |
+|---|---|---|
+| Browser/komputer A | Google Flow (gambar), YouTube Studio | akun utama pemilik |
+| Browser/komputer B | Google AI Studio (VO Gemini TTS) saat kuota akun A habis | akun kedua punya kuota gratis sendiri; jangan upgrade/bayar |
+
+Prosedur di awal sesi (urut, jangan membuka window/tab Chrome baru bila tab pemilik sudah terbuka):
+1. `list_connected_browsers`. Bila hanya 1 browser muncul, minta pemilik membuka Chrome di komputer kedua, login ke akun Claude yang sama, memastikan ekstensi Claude in Chrome aktif, lalu kabari. Ulangi `list_connected_browsers`. Jangan memilih browser sendiri bila lebih dari satu: tanyakan lewat AskUserQuestion (satu opsi per browser), lalu `select_browser` dengan deviceId pilihan.
+2. Kerja Flow di browser A, VO di browser B; pindah browser dengan `select_browser`. Grup tab hilang bila ganti browser: panggil `tabs_context_mcp` lagi, jangan memakai tab ID lama.
+3. Jembatan komputer (`mcp__remote-devices__*`): `get_device_info`. Bila "tidak terhubung", coba sekali lagi lalu berhenti dan lapor; jangan meminta pemilik membuka aplikasi. Bila tersambung, folder kerja pemilik ada di `C:\Users\<nama>\Downloads\...` (mis. `...\Downloads\VONYCH` untuk Voynich, `...\Downloads\HEXA` untuk berkas agen): minta akses folder itu satu kali, `device_list_dir` dulu, lalu `device_stage_files` untuk memindahkan klip/audio ke sandbox dan `device_commit_files` untuk mengembalikan hasil ke folder yang sama. Berkas teks/skrip kecil: kerjakan di komputer pemilik bila ada `device_bash`.
+4. Saat jembatan putus: kirim hasil lewat `SendUserFile` (zip bila banyak) dan katakan terus terang bahwa berkas belum masuk ke folder Downloads; pemilik unduh dari kartu berkas.
+5. Tidak ada token, sandi, atau secret yang disalin antar komputer; login selalu oleh pemilik.
 
 ## Langkah terstruktur (centang di task list)
 

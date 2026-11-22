@@ -52,3 +52,6 @@ Tiga perbaikan berikutnya:
 1. (DITERAPKAN) Aturan angka subtitle: tahun 1000-2099 setelah "tahun"/"dan" tanpa titik ribuan; workflow upload menggabung potongan video.
 2. Kurangi kekuatan grain atau terapkan grain hanya di encode akhir agar segmen antara tidak 80 Mbps dan render lebih cepat.
 3. Watermark ✦ dari Flow/Veo tidak dihapus (penanda konten AI); kalau ingin video bersih, generate klip dengan paket yang tanpa watermark terlihat.
+
+## 2026-11-22 — Dua komputer
+- Jembatan komputer sering putus saat sesi panjang dan hanya 1 browser terdaftar; pemilik ingin dua laptop tersambung. SKILL.md v2.3 kini punya prosedur dua komputer/browser (list_connected_browsers, select_browser, folder Downloads lewat jembatan, fallback SendUserFile).

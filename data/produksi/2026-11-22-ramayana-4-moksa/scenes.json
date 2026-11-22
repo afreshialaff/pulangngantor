@@ -1,0 +1,781 @@
+{
+ "meta": {
+  "part": 4,
+  "judul_kerja": "Akhir Ramayana: Rama Masuk Sungai, Hanoman Tak Pernah Pergi",
+  "judul_varian": [
+   "Akhir Ramayana: Rama Masuk Sungai, Hanoman Tak Pernah Pergi",
+   "Bagaimana Rama Wafat? Akhir Ramayana yang Jarang Diceritakan",
+   "Moksa Rama: Sinta Kembali ke Bumi, Hanoman Tetap Hidup?"
+  ],
+  "pilar": "Dark History & Unusual Science (sejarah naskah, mitos sebagai catatan kepercayaan)",
+  "playlist": "Sejarah Sisi Gelap",
+  "peta_3_poin": [
+   "Seperti apa kerajaan Rama yang disebut paling aman dalam Ramayana.",
+   "Kenapa Rama berpisah lagi dengan Sinta, dan kenapa banyak sarjana ragu bagian ini asli.",
+   "Bagaimana Rama pergi menurut Walmiki, dan kenapa Hanoman memilih tinggal."
+  ],
+  "momen_jawaban_detik": 30,
+  "analogi": [
+   "Dilema pemimpin: nama baik institusi atau keadilan bagi satu orang (S08)",
+   "Janji tertulis yang mengikat bahkan atasan (S18-S19)"
+  ],
+  "thumbnail_teks": "RAMA PERGI, HANOMAN TINGGAL",
+  "thumbnail_objek": "sungai berkabut dengan siluet cahaya",
+  "kata_kunci_utama": "akhir Ramayana"
+ },
+ "sumber": {
+  "wm_yuddha128": {
+   "atribusi": "Valmiki Ramayana, Yuddhakanda sarga 128 (terjemahan Inggris di sanskritdocuments.org)",
+   "tahun": 0,
+   "url": "https://sanskritdocuments.org/sites/valmikiramayan/yuddha/sarga128/yuddhaitrans128.htm",
+   "jenis": "primer",
+   "catatan": "Penobatan, Rama Rajya, ayat seribu dan sepuluh ribu tahun, phalashruti. Tahun terjemahan tidak tertera di halaman."
+  },
+  "wm_uk_40": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 40 'Rama takes leave of the Bears, Monkeys and Titans', terj. Hari Prasad Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424811.html",
+   "jenis": "primer",
+   "catatan": "Janji Hanoman hidup selama kisah Rama dituturkan; penomoran Shastri (111 bab), berbeda dari edisi kritis Baroda."
+  },
+  "wm_uk_43": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 43, terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424814.html",
+   "jenis": "primer",
+   "catatan": "Badra melaporkan desas-desus rakyat; Rama terpukul."
+  },
+  "wm_uk_47": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 47 dan 52, terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424818.html",
+   "jenis": "primer",
+   "catatan": "Laksmana memberi tahu Sinta di tepi Gangga; Rama diperintah desas-desus, bukan bukti. Bab 52 (Laksmana melapor kepada Rama) tidak dikutip terpisah."
+  },
+  "wm_uk_97": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 97 'Sita descends into the Earth', terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424872.html",
+   "jenis": "primer",
+   "catatan": "Sumpah Sinta, takhta dari bumi di atas kepala naga, Rama mengakui anak-anak dan mengaku mengasingkan Sinta karena takut cela publik."
+  },
+  "wm_uk_99": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 99, terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424874.html",
+   "jenis": "primer",
+   "catatan": "Arca emas Sinta, ibu-ibu Rama wafat, tahun-tahun pemerintahan. Ringkasan halaman tidak menyebut Brahma (bab 98 tidak dibuka langsung)."
+  },
+  "wm_uk_103": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 103, terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424878.html",
+   "jenis": "primer",
+   "catatan": "Pengunjung menyamar pertapa disebut 'Death' (Kematian/Waktu); syarat siapa pun yang menyela dihukum mati."
+  },
+  "wm_uk_106": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 106 'Rama banishes Lakshmana', terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424881.html",
+   "jenis": "primer",
+   "catatan": "Nasihat Wasista, Laksmana meninggalkan raga di Sarayu, dibawa Indra, 'bagian keempat Wisnu'."
+  },
+  "wm_uk_108": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 108 'Rama issues his last Commands', terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424883.html",
+   "jenis": "primer",
+   "catatan": "Wibisana memerintah Alengka; Hanoman diminta tinggal selama kisah Rama dituturkan; Jambawan tinggal hingga Kali Yuga."
+  },
+  "wm_uk_109": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 109, terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424884.html",
+   "jenis": "primer",
+   "catatan": "Mahaprasthana: Rama berjalan tanpa alas kaki ke Sarayu bersama seluruh warga."
+  },
+  "wm_uk_110": {
+   "atribusi": "Valmiki Ramayana, Uttarakanda bab 110, terj. Shastri",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424885.html",
+   "jenis": "primer",
+   "catatan": "Brahma mengajak Wisnu kembali ke wujudnya; Rama masuk air; para pengikut ke Santanaka."
+  },
+  "hindutone_uk": {
+   "atribusi": "Hindutone, 'Uttara Kanda Summary: The Last Book of the Ramayana and the Debate Over Its Authorship'",
+   "tahun": 0,
+   "url": "https://hindutone.com/stories/uttara-kanda-summary/",
+   "jenis": "sekunder",
+   "catatan": "Ringkasan bab-per-bab (penomoran Shastri) dan debat keaslian; mengutip pengantar Clay Sanskrit Library (sejak Jacobi) dan edisi kritis Baroda (U. P. Shah). Situs populer, bukan akademik; diverifikasi silang dengan sumber primer di atas."
+  },
+  "prekshaa_uk3": {
+   "atribusi": "Prekshaa, 'Uttara-kanda Part 3: Sita is Abandoned by Rama and Rescued by Valmiki' (berdasar edisi kritis Baroda)",
+   "tahun": 0,
+   "url": "https://prekshaa.in/uttara-kaanda-part-3-seetaa-is-abandoned-by-raama-rescued-by-vaalmiki",
+   "jenis": "sekunder",
+   "catatan": "Badra, perintah Rama, Laksmana, Walmiki; tak memberi nomor sarga."
+  },
+  "sahapedia": {
+   "atribusi": "Sahapedia, 'A Tale of Three Couples and their Poet'",
+   "tahun": 0,
+   "url": "https://www.sahapedia.org/tale-of-three-couples-and-their-poet",
+   "jenis": "sekunder",
+   "catatan": "Uttarakanda sebagai tambahan belakangan (mungkin hingga abad ke-3 M), Rama mengasingkan Sinta yang hamil, Lawa-Kusa, Sinta masuk bumi."
+  },
+  "wiki_ramayana": {
+   "atribusi": "Wikipedia, 'Ramayana'",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Dating Goldman, Brockington; Balakanda dan Uttarakanda dianggap tambahan; versi Jain; varian Asia. Dibaca hanya 100.000 karakter pertama dari 127.463."
+  },
+  "wiki_valmiki": {
+   "atribusi": "Wikipedia, 'Valmiki'",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Valmiki",
+   "jenis": "sekunder",
+   "catatan": "Kutipan Goldman: Uttarakanda banyak berfokus pada tokoh lain dan dituturkan tak langsung."
+  },
+  "etv_uk": {
+   "atribusi": "Srinivas Jonnalagadda, opini di ETV Bharat, 'Uttara Kanda in Valmiki Ramayana: authenticity'",
+   "tahun": 2024,
+   "url": "https://etvbharat.com/en/!opinion/uttara-kanda-in-valmiki-ramayana-authenticity-enn24082300904",
+   "jenis": "sekunder",
+   "catatan": "Opini satu penulis (bukan konsensus); argumen: ringkasan Balakanda 1.4, ayat phalashruti Yuddha 128, Ramopakhyana Mahabharata berhenti di penobatan, ketidaksesuaian Lawa-Kusa Balakanda vs Uttarakanda 94. Tidak menyebut Jacobi/Goldman."
+  },
+  "wiki_kakawin": {
+   "atribusi": "Wikipedia, 'Kakawin Ramayana' (merujuk Stuart Robson)",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Kakawin_Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Akhir abad ke-9/awal ke-10 (Robson 856-930); separuh pertama mengikuti Bhattikavya, separuh kedua berbeda; ringkasan berhenti pada penobatan Rama."
+  },
+  "leiden_uk": {
+   "atribusi": "Universiteit Leiden, siaran berita tentang disertasi Yosephin Apriastuti Rahayu (sidang 15 Juni 2026)",
+   "tahun": 2026,
+   "url": "https://www.universiteitleiden.nl/en/news/2026/06/restoring-the-reputation-of-the-javanese-tradition-of-the-uttarakanda-if-you-ignore-one-of-the-traditions-you-ignore-information-about-the-tradition",
+   "jenis": "sekunder",
+   "catatan": "Uttarakanda diparafrasekan ke Jawa Kuno akhir abad ke-10; cabang Jawa dan Bali; edisi ilmiah hanya mengacu ke versi Bali."
+  },
+  "oapen_lanka": {
+   "atribusi": "Acri, Creese, Griffiths (eds), 'From Lanka Eastwards: The Ramayana in the Literature and Visual Arts of Indonesia' (pengantar dan bab Creese, Levin)",
+   "tahun": 2011,
+   "url": "https://library.oapen.org/bitstream/20.500.12657/34587/1/399317.pdf",
+   "jenis": "sekunder",
+   "catatan": "Prosa Uttarakanda Jawa Kuno 'jauh lebih berpengaruh' bagi kakawin Bali daripada Kakawin Ramayana; sebagian relief Prambanan tampak bersumber dari Uttarakanda. Hanya 100.000 dari 500.000 karakter dibaca."
+  },
+  "wiki_prambanan": {
+   "atribusi": "Wikipedia, 'Prambanan'",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Prambanan",
+   "jenis": "sekunder",
+   "catatan": "Relief Ramayana di candi Siwa lanjut ke candi Brahma; prasasti Siwagrha 856 M; tidak merinci panel terakhir."
+  },
+  "photodharma": {
+   "atribusi": "photodharma.net, 'Rama's Story' (relief Prambanan)",
+   "tahun": 0,
+   "url": "https://www.photodharma.net/Indonesia/26-Ramas-Story/index.htm",
+   "jenis": "sekunder",
+   "catatan": "Situs non-akademik; klaim relief Brahma berlanjut ke pengasingan Sinta dan Lawa-Kusa; penulisnya menyebut panel akhir tak cocok dengan akhir mana pun. Tidak dipakai dalam VO."
+  },
+  "wiki_ramakien": {
+   "atribusi": "Wikipedia, 'Ramakien'",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Ramakien",
+   "jenis": "sekunder",
+   "catatan": "Nang Sida menghilang ke dunia bawah, Phra Isuan (Siwa) mempersatukan; versi Rama II menambah akhir bahagia."
+  },
+  "thailandfoundation": {
+   "atribusi": "Thailand Foundation, 'Ramakien: Thailand's National Epic'",
+   "tahun": 0,
+   "url": "https://thailandfoundation.or.th/ramakien-thailands-national-epic/",
+   "jenis": "sekunder",
+   "catatan": "Disusun di bawah Raja Rama I (1782-1809), 116 jilid; putra Mongkut dan Lop; Siwa mendamaikan."
+  },
+  "mbh_vana147": {
+   "atribusi": "Mahabharata, Wanaparwa (Book 3) bagian 147, pertemuan Hanoman dan Bima (terjemahan daring mahabharata-online)",
+   "tahun": 0,
+   "url": "https://mahabharata-online.github.io/3/147.html",
+   "jenis": "primer",
+   "catatan": "Hanoman berkata ia meminta hidup selama perbuatan Rama diingat; Rama memerintah lebih dari seribu tahun."
+  },
+  "wiki_hanuman": {
+   "atribusi": "Wikipedia, 'Hanuman'",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Hanuman",
+   "jenis": "sekunder",
+   "catatan": "Hanoman wayang Jawa bertapa di Kendalisada dan moksa dengan raganya; Hanoman Thai; sumber lemah, belum diverifikasi ke sumber wayang primer. Hanya 100.000 dari 145.064 karakter dibaca."
+  },
+  "zeenews_sarayu": {
+   "atribusi": "Zee News, 'Lord Rama ended his journey on earth by immersing himself in this river'",
+   "tahun": 0,
+   "url": "https://zeenews.india.com/entertainment/and-more/lord-rama-ended-his-journey-on-earth-by-immersing-himself-in-this-river_1885491.html",
+   "jenis": "sekunder",
+   "catatan": "Media populer; memuat kisah Sang Waktu dan Durwasa dan kisah cincin (Hanoman dan Wasuki) tanpa menyebut sumber teks. Kisah cincin dipakai hanya sebagai 'cerita populer'."
+  }
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_yuddha128",
+    "hindutone_uk"
+   ],
+   "rujukan": "Yuddhakanda sarga 128; Uttarakanda (penomoran Shastri) 43-110",
+   "vo": "Kamu kira Ramayana tamat saat Rama menang perang? Rahwana tumbang, Sinta kembali, Rama dinobatkan. Tapi menurut Walmiki, bab paling sunyi justru baru dimulai, dan keputusan paling berat Rama datang sesudah perang.",
+   "on_screen": "RAMAYANA BELUM TAMAT",
+   "sfx": "drone rendah, api obor berderak pelan",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang kulit silhouette of a crowned king seated on a throne behind a glowing cream screen, a single oil lamp flickering to the side, empty space on the right of the frame, a faint crimson edge on the screen border, calm but heavy mood, figure is a perforated leather puppet only",
+   "cam_en": "slow push-in toward the screen",
+   "beat1": "the oil-lamp flame sways gently and the throne silhouette trembles faintly",
+   "beat2": "soft dust motes drift across the cream screen",
+   "beat3": "the camera settles, the crowned silhouette stays still and stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S02",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "hindutone_uk",
+    "wm_uk_110",
+    "wm_uk_40"
+   ],
+   "rujukan": "Ringkasan: Uttarakanda 43-110 (Shastri)",
+   "vo": "Di video ini kita jawab tiga hal. Seperti apa kerajaan Rama yang disebut paling aman. Kenapa Rama harus berpisah lagi dengan Sinta. Dan bagaimana Rama pergi, sementara Hanoman memilih tetap tinggal.",
+   "on_screen": "TIGA PERTANYAAN",
+   "sfx": "jam dinding berdetak pelan lalu hilang",
+   "kamera": "slow dolly right",
+   "flow_subject": "Three palm-leaf lontar strips laid side by side on dark stone, unreadable carved script abstract and non-letter-like, a single amber oil lamp at the left edge casting raking light across the grooves, shallow depth of field, objects only, no figures",
+   "cam_en": "slow dolly right along the three strips",
+   "beat1": "lamp flame flickers and the carved grooves glimmer",
+   "beat2": "light slowly sweeps from the first strip to the second",
+   "beat3": "light rests on the third strip, still and stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S03",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_110",
+    "wm_uk_108",
+    "wm_uk_40"
+   ],
+   "rujukan": "Uttarakanda 110 (Rama masuk Sarayu), 108 dan 40 (Hanoman) menurut penomoran Shastri",
+   "vo": "Jawaban singkatnya, menurut Walmiki, Rama melangkah ke Sungai Sarayu di Ayodhya dan kembali ke wujud Wisnu, sang pemelihara semesta. Hanoman berjanji tetap hidup selama kisah Rama masih diceritakan. Rama membenarkannya.",
+   "on_screen": "RAMA KEMBALI JADI WISNU",
+   "sfx": "aliran sungai pelan, gema lonceng jauh",
+   "kamera": "slow tilt up",
+   "flow_subject": "A calm wide river at dusk, mist over the water, a distant stone-stepped riverbank with a single glowing amber lamp, the faint silhouette of a four-armed crowned figure formed by mist above the water, navy sky, no human faces",
+   "cam_en": "slow tilt up from water to sky",
+   "beat1": "mist drifts slowly over the water surface",
+   "beat2": "the amber lamp reflection ripples gently on the river",
+   "beat3": "the mist figure holds steady above the calm water",
+   "scan_asli": null
+  },
+  {
+   "id": "S04",
+   "bagian": "Latar belakang",
+   "kelas": "fakta",
+   "keyakinan": null,
+   "sumber": [
+    "hindutone_uk",
+    "wiki_ramayana",
+    "sahapedia"
+   ],
+   "rujukan": "Uttarakanda dan Balakanda: catatan filologi (Jacobi; Goldman; Brockington)",
+   "vo": "Satu catatan jujur dulu. Bagian akhir ini ada di kitab ketujuh, Uttarakanda, yang menurut banyak sarjana ditambahkan belakangan oleh penyusun lain. Jadi kita bercerita dengan kata menurut, bukan dengan kata pasti terjadi.",
+   "on_screen": "CATATAN: TAMBAHAN BELAKANGAN?",
+   "sfx": "gesekan lembut daun lontar",
+   "kamera": "slow push-in",
+   "flow_subject": "Seven bundled palm-leaf lontar volumes tied with cord on dark wood, the seventh volume slightly apart and lit by a single amber lamp, unreadable abstract carved marks, crimson cord on the seventh bundle, objects only, no figures",
+   "cam_en": "slow push-in toward the separated seventh bundle",
+   "beat1": "lamp flame wavers and highlights the seventh bundle",
+   "beat2": "dust drifts across the bundles in the lamp beam",
+   "beat3": "camera rests steady on the separated bundle",
+   "scan_asli": null
+  },
+  {
+   "id": "S05",
+   "bagian": "Rama Rajya",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_yuddha128",
+    "wiki_ramayana"
+   ],
+   "rujukan": "Yuddhakanda sarga 128",
+   "vo": "Bharata, adik Rama, menyerahkan kembali takhta Ayodhya. Rama dimandikan dengan air dari empat samudra dan lima ratus sungai. Sinta lalu memberi kalung mutiara kepada Hanoman, tanda terima kasih atas jasanya.",
+   "on_screen": "PENOBATAN RAMA",
+   "sfx": "gemericik air, gong kecil",
+   "kamera": "slow pan left",
+   "flow_subject": "Deeply carved volcanic-stone temple relief close-up of a seated king being sprinkled with water from vessels held by small attending figures, amber torchlight raking across the carved stone, weathered texture, crowned figure is a relief carving with no realistic face",
+   "cam_en": "slow pan left across the relief",
+   "beat1": "torchlight flickers and the carved water vessels glint",
+   "beat2": "raking light moves gently over the crowned figure",
+   "beat3": "the light settles and the frame is still",
+   "scan_asli": null
+  },
+  {
+   "id": "S06",
+   "bagian": "Rama Rajya",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_yuddha128",
+    "hindutone_uk"
+   ],
+   "rujukan": "Yuddhakanda sarga 128 (ayat sepuluh ribu dan seribu tahun)",
+   "vo": "Inilah Rama Rajya, zaman Rama. Menurut Walmiki, tak ada janda yang meratap, tak ada pencuri, hujan datang tepat waktu. Teksnya sendiri menyebut seribu tahun di satu ayat, sepuluh ribu tahun di ayat lain.",
+   "on_screen": "RAMA RAJYA",
+   "sfx": "angin sawah, kicau burung malam",
+   "kamera": "slow dolly forward",
+   "flow_subject": "A peaceful stylized landscape of terraced rice fields and a small stone gateway at blue hour, a warm amber lamp glowing in a distant village hut, fruit trees in silhouette, calm still air, navy sky, no people visible",
+   "cam_en": "slow dolly forward over the fields",
+   "beat1": "grass and leaves sway slightly in a breeze",
+   "beat2": "the village lamp flickers softly in the distance",
+   "beat3": "the scene calms into a stable wide view",
+   "scan_asli": null
+  },
+  {
+   "id": "S07",
+   "bagian": "Sinta dan keputusan kedua",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_43",
+    "hindutone_uk",
+    "prekshaa_uk3"
+   ],
+   "rujukan": "Uttarakanda 42-43 (Shastri; Badra melapor)",
+   "vo": "Lalu Sinta hamil dan ingin mengunjungi pertapaan di tepi Sungai Gangga. Rama setuju. Suatu hari, sahabatnya bernama Badra melapor dengan jujur: rakyat mempertanyakan Sinta, yang pernah tinggal di Alengka, negeri Rahwana.",
+   "on_screen": "KABAR DARI RAKYAT",
+   "sfx": "bisik-bisik jauh, nyala lampu",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang kulit tableau on a cream screen: a seated crowned silhouette on the left and a smaller bowing attendant silhouette on the right, a single oil lamp between and below them, long shadows, heavy quiet mood, perforated leather puppets only",
+   "cam_en": "slow push-in toward the two silhouettes",
+   "beat1": "the lamp flame flickers and the shadows lengthen slightly",
+   "beat2": "the bowing silhouette shifts subtly",
+   "beat3": "the crowned silhouette stays still and the frame holds",
+   "scan_asli": null
+  },
+  {
+   "id": "S08",
+   "bagian": "Sinta dan keputusan kedua",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "hindutone_uk",
+    "prekshaa_uk3",
+    "wm_uk_47"
+   ],
+   "rujukan": "Uttarakanda 44-45 (Shastri)",
+   "vo": "Rama memanggil ketiga adiknya. Ia tahu Sinta suci, tapi tak sanggup menanggung bisik-bisik rakyat. Dilema klasik pemimpin: nama baik kerajaan, atau keadilan bagi satu orang. Lalu Laksmana diperintah mengantar Sinta ke pertapaan.",
+   "on_screen": "TAHU SUCI, TETAP DIPISAH",
+   "sfx": "drone rendah, napas berat",
+   "kamera": "slow dolly left",
+   "flow_subject": "Four wayang kulit silhouettes standing in a loose half circle on a glowing cream screen, one crowned figure slightly apart with lowered head, a single oil lamp low at the center, long dramatic shadows, perforated leather puppets only",
+   "cam_en": "slow dolly left across the screen",
+   "beat1": "lamp flame wavers and the silhouettes sway faintly",
+   "beat2": "the crowned figure lowers further by a small amount",
+   "beat3": "all figures settle still for the final seconds",
+   "scan_asli": null
+  },
+  {
+   "id": "S09",
+   "bagian": "Sinta dan keputusan kedua",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_47",
+    "prekshaa_uk3",
+    "hindutone_uk"
+   ],
+   "rujukan": "Uttarakanda 46-49 (Shastri)",
+   "vo": "Laksmana membawa Sinta menyeberangi Sungai Gangga. Sinta mengira ia hanya akan berkunjung. Baru setelah tiba di seberang, Laksmana mengatakan kebenarannya. Sinta berduka, lalu diterima Walmiki, penyair kisah ini, di pertapaan sunyinya.",
+   "on_screen": "DISEBERANGKAN GANGGA",
+   "sfx": "dayung air, gema sungai",
+   "kamera": "slow pan right",
+   "flow_subject": "A wide misty river at dawn with a small wooden boat carrying two tiny wayang-style silhouettes, a far shore with a simple hermitage hut and one amber lamp glowing, dark navy water, calm and sorrowful mood, figures are small stylized silhouettes only",
+   "cam_en": "slow pan right following the boat",
+   "beat1": "the boat glides gently and the water ripples",
+   "beat2": "the amber lamp on the far shore flickers",
+   "beat3": "the boat nears the shore and the frame stabilizes",
+   "scan_asli": null
+  },
+  {
+   "id": "S10",
+   "bagian": "Catatan filologi",
+   "kelas": "dugaan",
+   "keyakinan": "didukung",
+   "sumber": [
+    "hindutone_uk",
+    "etv_uk",
+    "wiki_ramayana"
+   ],
+   "rujukan": "Balakanda sarga 1 dan 3 (ringkasan Narada, Brahma); Mahabharata Aranyaparwa (Ramopakhyana); Uttarakanda",
+   "vo": "Kenapa sarjana curiga? Ringkasan di awal kitab berhenti pada Rama yang bertakhta dengan damai. Kisah Rama dalam Mahabharata juga berhenti di penobatan. Kedua ringkasan itu tak mencatat pengasingan kedua Sinta sama sekali.",
+   "on_screen": "KENAPA SARJANA CURIGA?",
+   "sfx": "gesekan kertas, detak jam",
+   "kamera": "slow push-in",
+   "flow_subject": "Two palm-leaf lontar leaves side by side on a dark table, the left ending with a clean carved line and the right continuing with extra marks lit slightly differently, unreadable abstract carving, amber lamp from the side, objects only, no figures",
+   "cam_en": "slow push-in toward the junction of the two leaves",
+   "beat1": "lamp flame flickers across the carved grooves",
+   "beat2": "a faint crimson thread on the table shifts slightly",
+   "beat3": "camera stops, the leaves still and clear",
+   "scan_asli": null
+  },
+  {
+   "id": "S11",
+   "bagian": "Catatan versi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "wiki_kakawin",
+    "leiden_uk",
+    "oapen_lanka"
+   ],
+   "rujukan": "Kakawin Ramayana (abad ke-9; Robson 856-930); Uttarakanda Jawa Kuno (Leiden, Yosephin Apriastuti Rahayu, 2026; Creese dalam From Lanka Eastwards, 2011)",
+   "vo": "Kakawin Ramayana, puisi Jawa Kuno abad kesembilan, menurut ringkasannya berhenti di penobatan Rama. Kisah selanjutnya ada di Uttarakanda berprosa Jawa Kuno, dan di Bali pengaruhnya lebih besar daripada kakawin itu.",
+   "on_screen": "KAKAWIN BERHENTI DI PENOBATAN",
+   "sfx": "gamelan tipis dari jauh",
+   "kamera": "slow dolly right",
+   "flow_subject": "Close-up of a carved volcanic-stone relief panel in the style of Javanese temple reliefs showing a procession toward a palace gate, amber torchlight raking across weathered andesite, relief figures with no realistic faces, stone texture dominant",
+   "cam_en": "slow dolly right along the relief panel",
+   "beat1": "torchlight shimmers across the carved procession",
+   "beat2": "dust specks float through the beam",
+   "beat3": "the light holds still on the gate",
+   "scan_asli": null
+  },
+  {
+   "id": "S12",
+   "bagian": "Lawa-Kusa",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "hindutone_uk",
+    "sahapedia",
+    "wiki_ramayana"
+   ],
+   "rujukan": "Uttarakanda 66 (kelahiran), Balakanda (Lawa-Kusa murid Walmiki)",
+   "vo": "Di pertapaan Walmiki, Sinta melahirkan dua putra kembar, Lawa dan Kusa. Walmiki melindungi mereka dengan rumput kusa, lalu mengajari mereka menyanyikan kisah Rama. Rama sendiri belum tahu ia punya anak.",
+   "on_screen": "LAWA DAN KUSA",
+   "sfx": "jangkrik malam, api unggun kecil",
+   "kamera": "slow tilt down",
+   "flow_subject": "Two small wayang kulit silhouettes of boys standing beside a taller sage silhouette with a long beard on a glowing cream screen, bundles of kusa grass stylized at their feet, a single oil lamp, tender quiet mood, perforated leather puppets only",
+   "cam_en": "slow tilt down from the lamp to the figures",
+   "beat1": "lamp flame sways gently and the grass bundles tremble",
+   "beat2": "the small figures lean slightly toward the sage",
+   "beat3": "the three silhouettes settle and hold still",
+   "scan_asli": null
+  },
+  {
+   "id": "S13",
+   "bagian": "Lawa-Kusa",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "hindutone_uk",
+    "etv_uk",
+    "sahapedia"
+   ],
+   "rujukan": "Uttarakanda 93-94 (Shastri); versi lain menempatkan nyanyian di sungai Gomati (kritis 94)",
+   "vo": "Bertahun-tahun kemudian, Rama mengadakan upacara kuda persembahan. Walmiki mengirim dua anak pertapa itu bernyanyi di depan para raja, menuturkan kisah Rama. Rama mendengarkan dengan terharu, lalu menyadari bahwa mereka putranya.",
+   "on_screen": "NYANYIAN DI HADAPAN RAJA",
+   "sfx": "genta lembut, suara kuda jauh",
+   "kamera": "slow push-in",
+   "flow_subject": "A stylized sacrificial horse silhouette tethered near a tall ritual pavilion at dusk, lamps glowing along the pavilion, two tiny singing figures in silhouette on a platform in front, navy sky, wayang-style flat figures only, no faces",
+   "cam_en": "slow push-in toward the platform",
+   "beat1": "lamplight flickers along the pavilion posts",
+   "beat2": "the horse tail and banners move slightly in a breeze",
+   "beat3": "the frame stabilizes on the two small figures",
+   "scan_asli": null
+  },
+  {
+   "id": "S14",
+   "bagian": "Sinta kembali ke bumi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_97",
+    "hindutone_uk"
+   ],
+   "rujukan": "Uttarakanda 95-97 (Shastri)",
+   "vo": "Rama meminta Sinta membuktikan kesuciannya di depan majelis. Walmiki bersaksi: Sinta suci, dan kedua anak itu putra Rama. Rama membenarkan, dan mengaku ia sendiri sejak awal sudah tahu Sinta tak bersalah.",
+   "on_screen": "KESAKSIAN WALMIKI",
+   "sfx": "gumam majelis, hening",
+   "kamera": "slow dolly left",
+   "flow_subject": "A wayang kulit tableau: a tall sage silhouette with raised hand in the center of a circle of seated silhouettes on a cream screen, a single oil lamp casting long shadows, a smaller slender silhouette stands apart with bowed head, perforated puppets only",
+   "cam_en": "slow dolly left across the assembly",
+   "beat1": "lamp flame flickers and the shadows shift",
+   "beat2": "the sage silhouette's raised hand trembles slightly",
+   "beat3": "all figures settle into stillness",
+   "scan_asli": null
+  },
+  {
+   "id": "S15",
+   "bagian": "Sinta kembali ke bumi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_97",
+    "hindutone_uk",
+    "sahapedia"
+   ],
+   "rujukan": "Uttarakanda 97 (Shastri)",
+   "vo": "Sinta menunduk dan berseru kepada Ibu Bumi: bila hatinya tak pernah memikirkan siapa pun selain Rama, terimalah dia. Sebuah takhta naik dari tanah, dan Dewi Bumi memeluknya. Sinta pun masuk ke dalam bumi.",
+   "on_screen": "SINTA KEMBALI KE BUMI",
+   "sfx": "gemuruh tanah rendah, lalu sunyi",
+   "kamera": "slow tilt down",
+   "flow_subject": "A relief-style carved scene in volcanic stone of a slender figure kneeling as a carved throne rises from cracked earth supported by serpent figures, amber torchlight raking the stone, flower petals carved falling, relief figures with no realistic faces",
+   "cam_en": "slow tilt down along the carved throne",
+   "beat1": "torchlight flickers and carved petals seem to drift in the light",
+   "beat2": "soft dust falls from the stone cracks",
+   "beat3": "the light calms and the relief stands still",
+   "scan_asli": null
+  },
+  {
+   "id": "S16",
+   "bagian": "Sinta kembali ke bumi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_99",
+    "hindutone_uk"
+   ],
+   "rujukan": "Uttarakanda 98-99 (Shastri)",
+   "vo": "Rama murka dan hancur. Brahma menenangkannya. Rama tak pernah menikah lagi; dalam upacaranya ia memakai arca emas Sinta. Tahun demi tahun berlalu, dan Rama tetap setia menjalankan kewajibannya sebagai raja.",
+   "on_screen": "ARCA EMAS SINTA",
+   "sfx": "detak jam, gema jauh",
+   "kamera": "slow push-in",
+   "flow_subject": "A small golden statue of a seated woman on a stone altar in an empty dark hall, a single oil lamp beside it, long amber reflections on the polished stone floor, a stylized object with no realistic face, lonely quiet mood",
+   "cam_en": "slow push-in toward the golden statue",
+   "beat1": "lamp flame flickers and the gold glints",
+   "beat2": "a faint dust haze drifts through the beam",
+   "beat3": "the glow steadies on the statue",
+   "scan_asli": null
+  },
+  {
+   "id": "S17",
+   "bagian": "Catatan versi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "wiki_ramakien",
+    "thailandfoundation"
+   ],
+   "rujukan": "Ramakien (Thailand), disusun di bawah Raja Rama I (1782-1809)",
+   "vo": "Ramakien, Ramayana versi Thailand, mirip tapi berakhir lain. Sinta, di sana bernama Nang Sida, menolak kembali ke kota Ayutthaya dan menghilang ke dunia bawah. Dewa Siwa akhirnya turun tangan mempertemukan mereka kembali.",
+   "on_screen": "RAMAKIEN: AKHIR BERBEDA",
+   "sfx": "gamelan tipis, sunyi",
+   "kamera": "slow pan right",
+   "flow_subject": "A stylized temple-mural-inspired scene rendered as carved stone relief: a slender figure descending through a cracked opening in the earth with a standing divine figure with a trident behind, amber torchlight raking the stone, relief figures with no realistic faces",
+   "cam_en": "slow pan right across the relief",
+   "beat1": "torchlight shimmers over the carved earth crack",
+   "beat2": "fine dust drifts across the stone",
+   "beat3": "the light rests on the trident figure",
+   "scan_asli": null
+  },
+  {
+   "id": "S18",
+   "bagian": "Rama menuntaskan dharma",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_103",
+    "hindutone_uk",
+    "zeenews_sarayu"
+   ],
+   "rujukan": "Uttarakanda 103-104 (Shastri; Sang Waktu menyamar sebagai pertapa)",
+   "vo": "Waktu berlalu. Suatu hari seorang pertapa datang ke gerbang Rama, ingin bicara empat mata. Ia sebenarnya Sang Waktu. Syaratnya: siapa pun yang menyela akan dihukum mati. Laksmana berjaga di pintu.",
+   "on_screen": "SANG WAKTU DATANG",
+   "sfx": "denting jam pasir, langkah pelan",
+   "kamera": "slow dolly forward",
+   "flow_subject": "A wayang kulit silhouette of a hooded ascetic standing at a palace gate beside a sleek hourglass shape on a cream screen, a single oil lamp, long shadows, a faint crimson edge on the gate, perforated leather puppet silhouettes only",
+   "cam_en": "slow dolly forward toward the gate",
+   "beat1": "lamp flame flickers and the hooded silhouette sways slightly",
+   "beat2": "a faint crimson edge pulses softly on the gate",
+   "beat3": "the frame stabilizes with the ascetic silhouette still",
+   "scan_asli": null
+  },
+  {
+   "id": "S19",
+   "bagian": "Rama menuntaskan dharma",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_106",
+    "hindutone_uk"
+   ],
+   "rujukan": "Uttarakanda 105-106 (Shastri)",
+   "vo": "Tiba-tiba datanglah Resi Durwasa, menuntut masuk dan mengancam mengutuk kerajaan. Laksmana menyela demi menyelamatkan rakyat. Rama terikat janjinya. Atas saran gurunya, Wasista, ia menjatuhkan hukuman pada adik tercintanya itu.",
+   "on_screen": "JANJI HARUS DITEPATI",
+   "sfx": "drone rendah, gema pintu",
+   "kamera": "slow push-in",
+   "flow_subject": "A heavy carved wooden palace door slightly ajar with a thin shaft of amber light spilling through onto a stone floor, a shadow of a bowed figure across the light, dark navy hall, object and shadow only, no faces",
+   "cam_en": "slow push-in toward the ajar door",
+   "beat1": "the light shaft flickers softly",
+   "beat2": "a faint shadow shifts across the stone floor",
+   "beat3": "the shadow holds still in the steady light",
+   "scan_asli": null
+  },
+  {
+   "id": "S20",
+   "bagian": "Rama menuntaskan dharma",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_106",
+    "hindutone_uk",
+    "zeenews_sarayu"
+   ],
+   "rujukan": "Uttarakanda 106 (Shastri)",
+   "vo": "Laksmana pergi ke tepi Sungai Sarayu. Ia mandi, bermeditasi, dan berhenti bernapas. Para dewa menaburkan bunga, dan Indra membawanya ke surga. Ia dihormati sebagai seperempat Wisnu yang menjelma bersama Rama di bumi.",
+   "on_screen": "LAKSMANA PULANG LEBIH DULU",
+   "sfx": "aliran sungai, bunga berjatuhan",
+   "kamera": "slow tilt up",
+   "flow_subject": "A calm riverbank at twilight with a lone wayang-style silhouette sitting in meditation beside the water, delicate petals falling from a dark sky, a faint amber glow rising from the sky above, mist over the river, figure as a flat puppet silhouette only",
+   "cam_en": "slow tilt up from the river to the glowing sky",
+   "beat1": "petals drift down slowly",
+   "beat2": "the amber glow brightens gently above the figure",
+   "beat3": "the petals settle and the frame holds steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S21",
+   "bagian": "Rama menuntaskan dharma",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_108",
+    "wm_uk_109",
+    "hindutone_uk"
+   ],
+   "rujukan": "Uttarakanda 107-109 (Shastri)",
+   "vo": "Rama membagi kerajaan untuk Lawa dan Kusa, lalu berpesan: Wibisana harus memerintah Alengka dengan adil, Hanoman tinggal selama kisah Rama dituturkan. Pagi itu Rama berjalan tanpa alas kaki ke Sungai Sarayu, diikuti seluruh Ayodhya.",
+   "on_screen": "JALAN TERAKHIR KE SARAYU",
+   "sfx": "langkah ramai, genta jauh",
+   "kamera": "slow dolly forward",
+   "flow_subject": "A long procession of tiny wayang-style silhouettes walking along a stone road toward a distant river at dawn, a crowned lead figure in front, lanterns held by followers glowing amber, mist over the river, silhouettes as flat puppets only",
+   "cam_en": "slow dolly forward along the procession",
+   "beat1": "lantern flames sway softly as the procession moves",
+   "beat2": "mist drifts across the road",
+   "beat3": "the procession slows and the frame stabilizes",
+   "scan_asli": null
+  },
+  {
+   "id": "S22",
+   "bagian": "Rama menuntaskan dharma",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_110",
+    "wiki_valmiki"
+   ],
+   "rujukan": "Uttarakanda 110 (Shastri)",
+   "vo": "Di tepi sungai, Brahma dan para dewa datang. Brahma mengajak Wisnu kembali ke wujud sejatinya. Rama masuk ke air bersama adik-adiknya dan kembali menjadi Wisnu. Banyak orang menyebutnya moksa, pembebasan dari lahir dan mati.",
+   "on_screen": "RAMA KEMBALI JADI WISNU",
+   "sfx": "gema genta, air mengalir tenang",
+   "kamera": "slow tilt up",
+   "flow_subject": "A wide calm river at dawn with a golden shaft of light descending from the clouds onto the water, the faint silhouette of a four-armed crowned figure of light above the river, a ring of tiny wayang silhouettes on the bank bowing, navy and amber, no faces",
+   "cam_en": "slow tilt up along the shaft of light",
+   "beat1": "the golden light shimmers and the water ripples gently",
+   "beat2": "tiny silhouettes on the bank bow slightly",
+   "beat3": "the light settles into a stable glow",
+   "scan_asli": null
+  },
+  {
+   "id": "S23",
+   "bagian": "Catatan versi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "wiki_ramayana",
+    "mbh_vana147",
+    "zeenews_sarayu"
+   ],
+   "rujukan": "Ramayana Jain (Wikipedia); Mahabharata Wanaparwa 147-ringkasan; kisah cincin (cerita populer, sumber teks tak teridentifikasi)",
+   "vo": "Akhir ini tak seragam. Dalam Ramayana versi Jain, Rama menjadi pertapa dan mencapai moksa. Kisah Rama di Mahabharata berhenti di penobatan. Cerita populer menambahkan cincin Rama yang jatuh, agar Hanoman pergi sebentar.",
+   "on_screen": "AKHIR YANG TAK SERAGAM",
+   "sfx": "gemerisik lontar",
+   "kamera": "slow pan left",
+   "flow_subject": "Three different carved panels on a dark temple wall each lit by a separate small amber lamp, one showing a seated meditating figure, one a crowned figure, one a small ring on a pedestal, relief carvings with no realistic faces",
+   "cam_en": "slow pan left across the three panels",
+   "beat1": "each lamp flickers in turn",
+   "beat2": "dust motes drift through the lamplight",
+   "beat3": "the light settles on the ring panel",
+   "scan_asli": null
+  },
+  {
+   "id": "S24",
+   "bagian": "Pengabdian Hanoman",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "wm_uk_40",
+    "wm_uk_108",
+    "mbh_vana147"
+   ],
+   "rujukan": "Uttarakanda 40 dan 108 (Shastri)",
+   "vo": "Hanoman tak ikut ke sungai. Dulu, saat Rama melepas para sekutu, ia berjanji: selama kisah Rama dituturkan di dunia, hidupnya tetap ada. Rama membenarkan, dan memuji pengabdiannya yang tulus dan tanpa pamrih.",
+   "on_screen": "SELAMA KISAH DITUTURKAN",
+   "sfx": "genta lembut, napas panjang",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang kulit silhouette of a monkey figure with a long tail kneeling before a crowned silhouette on a cream screen, a single oil lamp between them, a pearl necklace shape in the monkey's hands, warm amber glow, perforated leather puppets only",
+   "cam_en": "slow push-in toward the monkey silhouette",
+   "beat1": "lamp flame sways and the necklace glints faintly",
+   "beat2": "the monkey figure bows slightly",
+   "beat3": "both silhouettes settle into stillness",
+   "scan_asli": null
+  },
+  {
+   "id": "S25",
+   "bagian": "Pengabdian Hanoman",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "mbh_vana147",
+    "wiki_hanuman"
+   ],
+   "rujukan": "Mahabharata Wanaparwa 147; tradisi wayang Jawa (ringkasan Wikipedia, belum diverifikasi ke sumber primer)",
+   "vo": "Dalam Mahabharata, Hanoman bertemu Bima di hutan dan berkata, ia meminta hidup selama perbuatan Rama diingat. Di wayang Jawa, Anoman bertapa di Gunung Kendalisada, lalu konon wafat dan moksa bersama raganya.",
+   "on_screen": "HANOMAN DI MAHABHARATA",
+   "sfx": "angin hutan, gema gunung",
+   "kamera": "slow tilt up",
+   "flow_subject": "A misty mountain peak at dusk with a small hermitage hut and a single amber lamp glowing, a monkey figure as a flat wayang silhouette sitting in meditation in front, deep navy sky with faint stars, quiet solitary mood",
+   "cam_en": "slow tilt up toward the mountain peak",
+   "beat1": "mist drifts slowly across the slope",
+   "beat2": "the lamp flickers softly",
+   "beat3": "the frame stabilizes on the meditating silhouette",
+   "scan_asli": null
+  },
+  {
+   "id": "S26",
+   "bagian": "Closing",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "hindutone_uk",
+    "wm_uk_110"
+   ],
+   "rujukan": "Penutup (Uttarakanda 99-110)",
+   "vo": "Rama pergi lewat sungai, Sinta lewat bumi, Hanoman tinggal lewat kisah. Mungkin itu sebabnya Ramayana terus dituturkan. Menurutmu, akhir mana yang paling jujur: yang kita ingat, atau yang kita tulis ulang?",
+   "on_screen": "AKHIR MANA YANG JUJUR?",
+   "sfx": "drone rendah memudar",
+   "kamera": "slow pull-back",
+   "flow_subject": "A single oil lamp burning on a stone ledge in front of a blank cream wayang screen, an empty dark hall beyond, a long stone shadow, quiet ending mood, object only, no figures",
+   "cam_en": "slow pull-back from the lamp",
+   "beat1": "lamp flame flickers softly and the screen glows",
+   "beat2": "the shadows shift slightly across the hall",
+   "beat3": "the lamp flame steadies and the frame holds",
+   "scan_asli": null
+  }
+ ]
+}

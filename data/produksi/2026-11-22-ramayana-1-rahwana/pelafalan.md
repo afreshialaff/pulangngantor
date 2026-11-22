@@ -1,0 +1,57 @@
+# Pelafalan TTS (Part 1: Rahwana)
+Ejaan dipakai konsisten di seluruh part. Format: nama: "cara baca" (tekanan huruf kapital).
+
+- Ramayana: "ra-MA-ya-na"
+- Walmiki: "WAL-mi-ki"
+- Rahwana: "RAH-wa-na"
+- Dasagriwa: "da-sa-GRI-wa"
+- Alengka: "a-LENG-ka"
+- Kubera: "KU-be-ra"
+- Wisrawa: "WIS-ra-wa"
+- Kaikasi: "kai-KA-si"
+- Sumali: "su-MA-li"
+- Pulastya: "pu-LAS-tya"
+- Kumbakarna: "kum-ba-KAR-na"
+- Wibisana: "wi-BI-sa-na"
+- Sarpakenaka: "sar-pa-ke-NA-ka" (hanya di riset; tidak ada di VO)
+- Brahma: "BRAH-ma"
+- Wisnu: "WIS-nu"
+- Siwa: "SI-wa"
+- Nandi: "NAN-di"
+- Saraswati: "sa-ras-WA-ti"
+- Puspaka: "pus-PA-ka"
+- Gokarna: "go-KAR-na"
+- Uttarakanda: "ut-ta-ra-KAN-da"
+- Balakanda: "ba-la-KAN-da"
+- Aranyakanda: "a-ran-ya-KAN-da"
+- Weda: "WE-da"
+- Mandodari: "man-do-DA-ri"
+- Maya (nama raksasa): "MA-ya"
+- Megananda: "me-ga-NAN-da"
+- Indrajit: "in-dra-JIT"
+- Indra: "IN-dra"
+- Prahasta: "pra-HAS-ta"
+- Kailasa: "kai-LA-sa"
+- Candrahasa: "can-dra-HA-sa" (c dibaca "ch/c" seperti "cinta")
+- Yama: "YA-ma"
+- Yaksa: "YAK-sa"
+- Naga: "NA-ga"
+- Ayodhya: "a-YOD-ya"
+- Anaranya: "a-na-RAN-ya"
+- Rama: "RA-ma"
+- Khara: "KA-ra" (kh dibaca k)
+- Dandaka: "dan-DA-ka"
+- Sukesi: "su-KE-si"
+- Sastrajendra: "sas-tra-JEN-dra"
+- Kakawin: "ka-KA-win"
+- Mahabharata: "ma-ha-BA-ra-ta" (bila dipakai)
+- Jain: "JAIN" (seperti "jain" Indonesia; Jaina "JAI-na")
+- Dewi: "DE-wi"
+- Gunung: "GU-nung"
+- Resi: "RE-si"
+- Raksasa: "rak-SA-sa"
+- Asura: "a-SU-ra"
+- Sarjana: "sar-JA-na"
+- Sepuluh ribu: "se-pu-luh ri-bu" (angka dieja di VO)
+
+Catatan pengecekan sebelum render: dengarkan ulang "Wibisana" (bukan "Wibisono"), "Kumbakarna", "Candrahasa", "Puspaka", "Uttarakanda" dan jeda pada kalimat berisi nama jamak.

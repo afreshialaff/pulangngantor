@@ -1,0 +1,680 @@
+{
+ "meta": {
+  "part": 2,
+  "judul_kerja": "Rama: awatara Wisnu yang lahir sebagai manusia, masa muda sampai menjelang penobatan",
+  "judul_varian": [
+   "Kenapa Dewa Wisnu Lahir Jadi Manusia? Kisah Rama Muda",
+   "Awatara Wisnu Jadi Manusia: Masa Muda Rama dan Busur Siwa",
+   "Rama Muda: Dari Lahir Sebagai Wisnu Sampai Menikahi Sinta"
+  ],
+  "pilar": "Pilar 6: Dark History & Unusual Science (sejarah, naskah, dan tradisi; dikerjakan sebagai catatan kepercayaan)",
+  "playlist": "Sejarah Sisi Gelap",
+  "peta_3_poin": [
+   "Pertama, bagaimana Rama lahir dan tumbuh.",
+   "Kedua, apa yang ia jalani bersama pertapa Wiswamitra sampai menikahi Sinta.",
+   "Ketiga, kenapa orang begitu percaya padanya."
+  ],
+  "momen_jawaban_detik": 30,
+  "analogi": [
+   "Dasarata menandatangani janji tanpa syarat sebelum membaca permintaannya (S11)",
+   "Rama seperti atasan yang hafal kabar keluarga timnya (S22)",
+   "Kabar jabatan besar esok hari dan ketenangan Rama (S26)"
+  ],
+  "thumbnail_teks": "DEWA JADI MANUSIA",
+  "thumbnail_objek": "busur patah",
+  "kata_kunci_utama": "awatara Wisnu Rama"
+ },
+ "sumber": {
+  "walmiki_bk": {
+   "atribusi": "Valmiki Ramayana, Balakanda (terjemahan Inggris di sanskritdocuments.org/valmikiramayan.net; Sanskerta + terjemahan modern, hanya diparafrasekan)",
+   "tahun": null,
+   "url": "https://sanskritdocuments.org/sites/valmikiramayan/baala/sarga18/balaitrans18.htm",
+   "jenis": "primer",
+   "catatan": "Sarga 15, 16, 18, 26, 49, 67, 75 dibaca; sarga 19-22, 73, 76 tidak terbuka. Penomoran sarga mengikuti situs ini (Griffith memakai penomoran canto sendiri)."
+  },
+  "griffith": {
+   "atribusi": "Ralph T. H. Griffith, The Ramayan of Valmiki translated into English verse (Book I-II)",
+   "tahun": 1870,
+   "url": "https://neonvagabond.xyz/mirrors/sacred-texts/hin/rama/index.htm",
+   "jenis": "primer",
+   "catatan": "Terjemahan 1870-74, domain publik. Canto XIX, XX, XXII, XXVIII, XXIX, XXXII, XLIX, LXVI, LXVII, LXXIII; Book II Canto I-IV dibaca. Cermin sacred-texts.com; edisi Gutenberg #24869 tidak terbuka."
+  },
+  "wiki_balakanda": {
+   "atribusi": "Wikipedia, Balakanda",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Balakanda",
+   "jenis": "sekunder",
+   "catatan": "Ringkasan isi dan catatan sarjana (Goldman). Ensiklopedia daring, dipakai bersama sumber lain."
+  },
+  "wiki_rama": {
+   "atribusi": "Wikipedia, Rama",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Rama",
+   "jenis": "sekunder",
+   "catatan": "Awatara Wisnu, Rama Nawami, masa muda, penanggalan (Brockington, Sankalia)."
+  },
+  "wiki_ramayana": {
+   "atribusi": "Wikipedia, Ramayana",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Penanggalan Goldman, kitab tertua, Bala dan Uttara kanda tambahan, Kakawin, Ramakien, Prambanan."
+  },
+  "clay_intro": {
+   "atribusi": "Pengantar Ramayana Book I: Boyhood, Clay Sanskrit Library (penulis tidak dipastikan dari kutipan yang terbaca)",
+   "tahun": null,
+   "url": "https://claysanskritlibrary.org/ramayana-book-i-boyhood-ancilliaries-introduction-page-3/",
+   "jenis": "sekunder",
+   "catatan": "Pandangan sarjana tentang Balakanda sebagai tambahan (Jacobi, Holtzmann, Bulcke, Tiwari); bagian petualangan awal Rama mungkin tua."
+  },
+  "wiki_kakawin": {
+   "atribusi": "Wikipedia, Kakawin Ramayana",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Kakawin_Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Abad ke-9; Robson: antara 856 dan sekitar 930; sumber kemungkinan Bhattikavya."
+  },
+  "wiki_sita": {
+   "atribusi": "Wikipedia, Sita",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Sita",
+   "jenis": "sekunder",
+   "catatan": "Asal Sinta di Walmiki (alur bajak); versi Jain, Adbhuta, wayang Jawa (putri Rahwana)."
+  },
+  "asianethnology": {
+   "atribusi": "Artikel Asian Ethnology tentang Sita sebagai putri Rahwana (menyebut Serat Kanda, Stutterheim 1925)",
+   "tahun": null,
+   "url": "https://asianethnology.org/article/1600/download",
+   "jenis": "sekunder",
+   "catatan": "Hanya satu kalimat tentang Serat Kanda; detail tidak dipakai."
+  },
+  "wiki_ramakien": {
+   "atribusi": "Wikipedia, Ramakien",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Ramakien",
+   "jenis": "sekunder",
+   "catatan": "Sida putri Totsakan, diadopsi Janaka; versi baku sekitar 1797-1807."
+  },
+  "berkala_prambanan": {
+   "atribusi": "Berkala Arkeologi (BRIN), artikel relief Ramayana Candi Siwa dan Candi Brahma",
+   "tahun": null,
+   "url": "https://ejournal.brin.go.id/berkalaarkeologi/article/download/11348/11019/41037",
+   "jenis": "sekunder",
+   "catatan": "24 panel Candi Siwa, 30 panel Candi Brahma; terbaca searah jarum jam."
+  },
+  "photodharma": {
+   "atribusi": "Photo Dharma, Rama's Story, relief Prambanan (PhD Rama)",
+   "tahun": null,
+   "url": "https://photodharma.net/Indonesia/26-Ramas-Story/index.htm",
+   "jenis": "sekunder",
+   "catatan": "Panel Siwa 01-07: Wiswamitra, Tataka, busur Siwa, Parasurama, persiapan penobatan. Situs penulis perorangan; dibaca hati-hati."
+  },
+  "bl_blog": {
+   "atribusi": "British Library, Asian and African studies blog: The Ramayana in Southeast Asia 4",
+   "tahun": 2014,
+   "url": "https://britishlibrary.typepad.co.uk/asian-and-african/2014/05/the-ramayana-in-southeast-asia-4-indonesia-and-malaysia.html",
+   "jenis": "sekunder",
+   "catatan": "Relief Prambanan sekitar 900 M; Kakawin berbasis Bhattikavya; Hikayat Seri Rama."
+  }
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Balakanda sarga 15-16 (Griffith Book I Canto XIV-XV)",
+   "vo": "Dewa pemelihara semesta bisa melakukan apa saja. Tapi menurut Walmiki, penyair kitab Ramayana, ia memilih lahir sebagai manusia biasa yang bisa lapar dan terluka. Kenapa dewa paling kuat memilih jadi yang paling rentan?",
+   "on_screen": "DEWA YANG MEMILIH JADI MANUSIA",
+   "sfx": "drone rendah, desir angin malam",
+   "kamera": "slow push-in",
+   "flow_subject": "A large wayang kulit shadow-puppet silhouette of a four-armed deity figure seen through a cream screen, backlit by a single flickering oil lamp; in front of it, a much smaller plain human-sized puppet silhouette stands alone; deep navy darkness around, centered composition.",
+   "cam_en": "slow push-in toward the screen",
+   "beat1": "oil lamp flame sways gently, shadow of the large deity puppet trembles slightly",
+   "beat2": "small human puppet silhouette slowly catches more amber light",
+   "beat3": "camera settles, both silhouettes still, flame steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S02",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_balakanda"
+   ],
+   "rujukan": "Balakanda sarga 15 (Griffith Book I Canto XIV-XV)",
+   "vo": "Di video sebelumnya, Rahwana minta kebal dari dewa dan raksasa, tapi menyepelekan manusia. Para dewa mengadu, dan Wisnu bersedia lahir sebagai putra Dasarata, raja Ayodhya. Dari janji itulah Rama lahir ke dunia.",
+   "on_screen": "KEBAL DARI SEMUA, KECUALI MANUSIA",
+   "sfx": "gema rendah, dengung halus",
+   "kamera": "slow pan right",
+   "flow_subject": "A carved volcanic-stone temple relief panel showing a row of small celestial figures with raised hands bowing before a seated deity figure on a coiled serpent; raking amber torchlight across worn andesite, deep shadow in the corners.",
+   "cam_en": "slow pan right along the relief",
+   "beat1": "torchlight flickers across the carved figures, dust motes drift",
+   "beat2": "light slides slowly toward the central seated deity",
+   "beat3": "pan stops, central figure lit warmly, stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S03",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith"
+   ],
+   "rujukan": "Balakanda sarga 15-16; Ayodhyakanda sarga 1-4 (peta isi video)",
+   "vo": "Di video ini kita jawab tiga hal. Pertama, bagaimana Rama lahir dan tumbuh. Kedua, apa yang ia jalani bersama pertapa Wiswamitra sampai menikahi Sinta. Ketiga, kenapa orang begitu percaya padanya.",
+   "on_screen": "TIGA PERTANYAAN",
+   "sfx": "gesekan kertas lontar, tik jam pelan",
+   "kamera": "slow tilt down",
+   "flow_subject": "Three palm-leaf lontar strips lying side by side on dark wood, each with rows of carved unreadable script, lit by one amber oil lamp from the left; cream palm texture, a tiny brass stylus resting across them.",
+   "cam_en": "slow tilt down across the three strips",
+   "beat1": "lamp flame wavers, soft shadows shift over carved lines",
+   "beat2": "light brightens the middle strip a little",
+   "beat3": "stable framing, all three strips visible, lamp steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S04",
+   "bagian": "Latar belakang",
+   "kelas": "fakta",
+   "keyakinan": null,
+   "sumber": [
+    "clay_intro",
+    "wiki_ramayana",
+    "wiki_balakanda"
+   ],
+   "rujukan": "Balakanda (Walmiki) secara umum; Clay Sanskrit Library, pengantar Book I",
+   "vo": "Satu catatan jujur. Banyak sarjana menilai Balakanda, kitab pertama Walmiki, ditambahkan belakangan. Bagian tertua ada di kitab kedua sampai keenam. Jadi masa kecil Rama ini kisah tradisi, bukan sejarah terbukti.",
+   "on_screen": "BALAKANDA: TAMBAHAN BELAKANGAN?",
+   "sfx": "kertas bergesek, hening",
+   "kamera": "slow push-in",
+   "flow_subject": "A stack of seven palm-leaf lontar bundles tied with cord on a dark table, the first bundle slightly apart from the others and lit brighter by one amber oil lamp; carved unreadable script on the leaves, cream and navy tones.",
+   "cam_en": "slow push-in toward the first bundle",
+   "beat1": "lamp flame sways, dust drifts in the light",
+   "beat2": "amber light gently favors the separate first bundle",
+   "beat3": "camera rests, bundles still, flame steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S05",
+   "bagian": "Kelahiran",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Balakanda sarga 8-11 (Griffith Book I Canto IX-XIII)",
+   "vo": "Dasarata, raja Ayodhya, punya tiga permaisuri dan kerajaan besar, tapi belum punya seorang putra pun. Atas saran penasihatnya, ia memanggil Resi Resyasringa, pertapa muda, untuk memimpin upacara api demi lahirnya putra-putra bagi kerajaan.",
+   "on_screen": "RAJA TANPA PUTRA",
+   "sfx": "gemerisik daun, denting lonceng kecil",
+   "kamera": "slow dolly in",
+   "flow_subject": "A shadow-puppet silhouette of an elderly crowned king seated alone on a throne seen on a cream screen, head slightly bowed, backlit by one warm oil lamp; behind him, a simple outline of palace gate; deep navy surroundings.",
+   "cam_en": "slow dolly in toward the screen",
+   "beat1": "lamp flame wavers, the king's silhouette shifts a hair",
+   "beat2": "a faint second shadow of a young ascetic appears at the right edge",
+   "beat3": "settles, king centered, still",
+   "scan_asli": null
+  },
+  {
+   "id": "S06",
+   "bagian": "Kelahiran",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_balakanda"
+   ],
+   "rujukan": "Balakanda sarga 15-16 (Griffith Book I Canto XV)",
+   "vo": "Dari api upacara muncul sosok membawa bejana emas berisi bubur suci. Dasarata membaginya: separuh untuk Kausalya, seperempat untuk Sumitra, seperdelapan untuk Kaikeyi, dan seperdelapan terakhir kembali ke Sumitra. Setelah memakannya, ketiganya mengandung.",
+   "on_screen": "BUBUR SUCI DARI API",
+   "sfx": "api berderak, dengung rendah",
+   "kamera": "slow push-in",
+   "flow_subject": "A golden ceremonial vessel with a rounded lid glowing softly on a stone altar, a sacrificial fire burning low behind it, thin smoke rising, black stone ground, single amber light from the flames, no figures.",
+   "cam_en": "slow push-in toward the vessel",
+   "beat1": "fire flickers, smoke curls upward",
+   "beat2": "glow on the vessel gently warms",
+   "beat3": "camera rests, vessel centered, steady flame",
+   "scan_asli": null
+  },
+  {
+   "id": "S07",
+   "bagian": "Kelahiran",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Balakanda sarga 18 (Griffith Book I Canto XIX)",
+   "vo": "Putra Kausalya lahir di bulan Caitra, pada hari kesembilan paruh terang, dan diberi nama Rama. Kaikeyi melahirkan Bharata. Hingga kini, banyak umat Hindu merayakan hari itu setiap musim semi sebagai Rama Nawami.",
+   "on_screen": "RAMA NAWAMI",
+   "sfx": "gamelan pelan, gema genta",
+   "kamera": "slow tilt up",
+   "flow_subject": "A deeply carved stone relief of a newborn-sized figure with a halo cradled by a seated woman figure, flanked by small kneeling attendants, lit by raking amber torchlight; weathered andesite surface, soft shadows in the carved grooves.",
+   "cam_en": "slow tilt up along the relief",
+   "beat1": "torchlight shimmers across the carving",
+   "beat2": "warm light rises to the halo of the child figure",
+   "beat3": "tilt ends on halo, calm and stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S08",
+   "bagian": "Masa kecil",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith"
+   ],
+   "rujukan": "Balakanda sarga 18 (Griffith Book I Canto XIX)",
+   "vo": "Sumitra melahirkan si kembar, Laksmana dan Satrugna. Sejak bayi, Laksmana tak mau makan atau tidur tanpa Rama. Satrugna sama lekatnya pada Bharata. Empat bersaudara itu tumbuh seperti dua pasang sahabat.",
+   "on_screen": "EMPAT BERSAUDARA",
+   "sfx": "tawa anak jauh, angin lembut",
+   "kamera": "slow pan left",
+   "flow_subject": "Four small wayang kulit silhouettes of young princes standing in two close pairs on a cream screen, each with a small crown, backlit by one amber oil lamp; simple clean outlines, dark navy edges.",
+   "cam_en": "slow pan left across the screen",
+   "beat1": "lamp flame sways, silhouettes sway a little",
+   "beat2": "the two pairs lean slightly toward each other",
+   "beat3": "pan ends, all four still, steady light",
+   "scan_asli": null
+  },
+  {
+   "id": "S09",
+   "bagian": "Masa kecil",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Ayodhyakanda sarga 1 (Griffith Book II Canto I); Balakanda sarga 18",
+   "vo": "Rama mahir memanah, berkuda, dan mengendalikan gajah. Tapi yang lebih sering dipuji dalam kitab adalah sikapnya sebagai putra: tenang, tak mudah tersulut hinaan, dan hormat pada orang yang lebih tua.",
+   "on_screen": "TENANG, BUKAN SOMBONG",
+   "sfx": "detak busur ditarik, angin",
+   "kamera": "slow push-in",
+   "flow_subject": "A wooden bow and a single arrow resting on a stone floor beside a folded cream cloth, lit by one amber oil lamp from the side; deep navy background, polished wood grain, no figures.",
+   "cam_en": "slow push-in toward the bow",
+   "beat1": "lamp flame flickers, soft light moves along the wood",
+   "beat2": "highlight drifts slowly along the bow limb",
+   "beat3": "camera rests on bow and arrow, steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S10",
+   "bagian": "Bersama Wiswamitra",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith"
+   ],
+   "rujukan": "Balakanda sarga 19-20 (Griffith Book I Canto XX-XXI)",
+   "vo": "Suatu hari pertapa Wiswamitra datang ke istana. Ritualnya terus diganggu raksasa suruhan Rahwana. Dasarata berjanji memberi apa pun yang diminta, lalu sang pertapa meminta Rama, yang masih remaja, menjaga ritualnya.",
+   "on_screen": "PERMINTAAN SANG PERTAPA",
+   "sfx": "langkah di lantai batu, gema",
+   "kamera": "slow dolly in",
+   "flow_subject": "A shadow-puppet silhouette of a tall ascetic with matted hair and staff facing a seated crowned king silhouette on a cream screen, backlit by one amber oil lamp, palace pillars in outline behind, navy darkness at the edges.",
+   "cam_en": "slow dolly in toward the screen",
+   "beat1": "lamp flame wavers, the ascetic silhouette dips a little in greeting",
+   "beat2": "the king silhouette lifts slightly, hand outstretched",
+   "beat3": "settles, two silhouettes steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S11",
+   "bagian": "Bersama Wiswamitra",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "walmiki_bk"
+   ],
+   "rujukan": "Balakanda sarga 20-21 (Griffith Book I Canto XXII-XXIII)",
+   "vo": "Dasarata gemetar. Rama baru sekitar enam belas tahun, kata Walmiki. Ia menawarkan dirinya dan pasukannya, tapi akhirnya melepas anaknya setelah dibujuk Resi Wasista. Seperti menandatangani janji sebelum sempat membaca permintaannya.",
+   "on_screen": "JANJI TANPA SYARAT",
+   "sfx": "gema pintu berat, napas panjang",
+   "kamera": "slow push-in",
+   "flow_subject": "A close-up carved stone relief of a king figure clasping the shoulders of a young prince figure, both with crowns, the sage figure standing behind them, lit by raking amber torchlight on weathered andesite, high contrast shadows.",
+   "cam_en": "slow push-in on the relief",
+   "beat1": "torchlight flickers across the carved figures",
+   "beat2": "light sweeps gently from the king to the young prince",
+   "beat3": "camera rests, composition steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S12",
+   "bagian": "Bersama Wiswamitra",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Balakanda sarga 24-26 (Griffith Book I Canto XXVI-XXVIII)",
+   "vo": "Di hutan, mereka bertemu Tataka, raksasi yang menakuti wilayah itu. Rama ragu melawan perempuan. Wiswamitra meyakinkannya bahwa melindungi orang lebih berat daripada rasa iba. Rama bertindak, dan hutan itu bebas dari kutukan.",
+   "on_screen": "TUGAS LEBIH BERAT DARI IBA",
+   "sfx": "desir hutan, burung malam jauh",
+   "kamera": "slow pan right",
+   "flow_subject": "A dark dense jungle clearing at dusk, twisted tree trunks and hanging vines, a faint amber glow low on the horizon; two tiny wayang-style puppet silhouettes standing at the edge of the clearing facing deep shadow, mist on the ground.",
+   "cam_en": "slow pan right across the clearing",
+   "beat1": "mist drifts low, leaves rustle faintly",
+   "beat2": "amber glow at the horizon brightens slowly",
+   "beat3": "pan ends, calm, silhouettes steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S13",
+   "bagian": "Bersama Wiswamitra",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "walmiki_bk"
+   ],
+   "rujukan": "Balakanda sarga 27 (Griffith Book I Canto XXIX)",
+   "vo": "Sebagai tanda percaya, Wiswamitra mewariskan senjata-senjata langit pada Rama. Menurut Walmiki, senjata itu berjanji menjadi pelayannya. Rama menerimanya dengan gembira, lalu berterima kasih dengan hormat dan melanjutkan perjalanan bersama gurunya.",
+   "on_screen": "SENJATA LANGIT",
+   "sfx": "dengung kristal, genta halus",
+   "kamera": "slow push-in",
+   "flow_subject": "A single glowing arrow with a carved shaft floating just above two open cupped hands, small sparks of amber light gathering around the arrowhead; pure black background with deep navy edges, only hands and arrow visible.",
+   "cam_en": "slow push-in toward the hands",
+   "beat1": "amber sparks drift slowly around the arrow",
+   "beat2": "arrow glow softly intensifies",
+   "beat3": "camera rests, hands and arrow steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S14",
+   "bagian": "Bersama Wiswamitra",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "walmiki_bk"
+   ],
+   "rujukan": "Balakanda sarga 30-31 (Griffith Book I Canto XXXII)",
+   "vo": "Enam hari enam malam, Rama dan Laksmana berjaga tanpa tidur. Pada hari keenam, raksasa Marica dan Subahu menyerang. Subahu gugur, sedangkan Marica terlempar jauh ke seberang laut dan selamat. Kita akan bertemu dia lagi.",
+   "on_screen": "MARICA SELAMAT",
+   "sfx": "api berderak, gemuruh jauh",
+   "kamera": "slow tilt up",
+   "flow_subject": "A ritual fire altar in a forest hermitage at night, flames rising, two small wayang-style puppet silhouettes standing guard with bows on either side, dark sky with a red-tinted smoky glow at the top, amber fire as the single light.",
+   "cam_en": "slow tilt up from the fire to the sky",
+   "beat1": "flames flicker, smoke rises",
+   "beat2": "red glow in the smoke deepens slightly then fades",
+   "beat3": "tilt ends, fire steady, guards still",
+   "scan_asli": null
+  },
+  {
+   "id": "S15",
+   "bagian": "Mithila",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Balakanda sarga 65-66 (Griffith Book I Canto LXVI)",
+   "vo": "Mereka tiba di Mithila, kota Raja Janaka. Menurut Walmiki, Janaka menemukan bayi perempuan di alur bajak, lalu menamainya Sinta, yang berarti alur. Janaka bersumpah, putrinya hanya untuk pria yang gagah perkasa.",
+   "on_screen": "SINTA, PUTRI DARI ALUR",
+   "sfx": "angin sawah, suara bajak pelan",
+   "kamera": "slow pan left",
+   "flow_subject": "A quiet freshly ploughed field at dusk with long curved furrows leading toward a small glowing amber lamp placed in one furrow, a plough resting beside it, distant simple palace roofs silhouetted, deep navy sky.",
+   "cam_en": "slow pan left along the furrows",
+   "beat1": "lamp flame sways softly, a breeze moves dry grass",
+   "beat2": "amber light spreads a little along the furrow",
+   "beat3": "pan ends, lamp steady in the furrow",
+   "scan_asli": null
+  },
+  {
+   "id": "S16",
+   "bagian": "Mithila",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "walmiki_bk"
+   ],
+   "rujukan": "Balakanda sarga 66 (Griffith Book I Canto LXVI)",
+   "vo": "Syaratnya: merentangkan busur Siwa, warisan leluhur Janaka. Para raja yang datang bahkan tak sanggup mengangkatnya. Sebagian marah dan mengepung Mithila setahun, sampai Janaka bertapa dan para dewa mengirim pasukan yang mengusir mereka.",
+   "on_screen": "BUSUR YANG TAK TERANGKAT",
+   "sfx": "dengung berat, logam bergesek",
+   "kamera": "slow push-in",
+   "flow_subject": "An ancient oversized bow lying on a stone floor in a dim palace hall, carved wood and dark metal, heavy and old, a ring of tiny kings' crowns scattered around it, lit by one amber torch from the side.",
+   "cam_en": "slow push-in toward the bow",
+   "beat1": "torch flame sways, shadows move on the floor",
+   "beat2": "light slowly climbs the length of the bow",
+   "beat3": "camera rests, bow steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S17",
+   "bagian": "Mithila",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith"
+   ],
+   "rujukan": "Balakanda sarga 67 (Griffith Book I Canto LXVII)",
+   "vo": "Busur itu disimpan dalam peti besi beroda delapan, ditarik lima ribu orang. Rama membuka peti, mengangkat busur di bagian tengah, dan menariknya hingga patah. Bunyinya menggelegar, hampir semua orang pingsan.",
+   "on_screen": "BUSUR SIWA PATAH",
+   "sfx": "dentum gemuruh, gema panjang",
+   "kamera": "slow push-in",
+   "flow_subject": "A single wayang kulit silhouette of a young archer holding a huge bow broken at its middle, the two halves arced against a cream screen, a heavy iron chest with wheels outlined at his feet, backlit by one amber oil lamp, navy darkness around.",
+   "cam_en": "slow push-in toward the screen",
+   "beat1": "lamp flame trembles as if from a shock",
+   "beat2": "dust and light flutter around the broken halves",
+   "beat3": "camera rests, silhouette steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S18",
+   "bagian": "Pernikahan",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "walmiki_bk"
+   ],
+   "rujukan": "Balakanda sarga 73 (Griffith Book I Canto LXXIII)",
+   "vo": "Janaka menyerahkan Sinta pada Rama, dengan pesan: istri setia mengikuti suaminya seperti bayangan. Hari itu tiga pasangan lain ikut menikah, yaitu Laksmana, Bharata, dan Satrugna dengan kerabat Sinta. Mereka mengelilingi api suci bersama.",
+   "on_screen": "EMPAT PASANGAN",
+   "sfx": "gamelan lembut, api suci menyala",
+   "kamera": "slow pan right",
+   "flow_subject": "A carved stone relief of four couples walking in a circle around a small sacred fire, simple figures with ornate headdresses and flowing cloth, worn andesite, raking amber torchlight, deep shadows in the carved lines.",
+   "cam_en": "slow pan right along the relief",
+   "beat1": "torchlight shimmers, drifting incense smoke in front",
+   "beat2": "light follows the circle of couples",
+   "beat3": "pan ends, calm, stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S19",
+   "bagian": "Pernikahan",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk",
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Balakanda sarga 74-76 (Griffith Book I Canto LXXIV-LXXV); sarga 76 belum dibaca langsung",
+   "vo": "Dalam perjalanan pulang, Parasurama, pertapa sakti bersenjata kapak, menghadang dan menantang Rama merentangkan busur Wisnu. Menurut Walmiki, Rama berhasil, pertapa itu mundur, dan rombongan pengantin melanjutkan perjalanan pulang ke Ayodhya.",
+   "on_screen": "BUSUR WISNU",
+   "sfx": "angin kencang, derap kaki",
+   "kamera": "slow dolly in",
+   "flow_subject": "A shadow-puppet silhouette of a fierce ascetic holding an axe facing a young archer silhouette with a drawn bow on a cream screen, backlit by one amber oil lamp, navy darkness at the edges, balanced composition.",
+   "cam_en": "slow dolly in toward the screen",
+   "beat1": "lamp flame sways, the axe silhouette lowers slightly",
+   "beat2": "the archer silhouette holds the bow steady",
+   "beat3": "settles, calm, the axe lowered, bow steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S20",
+   "bagian": "Jejak di Jawa",
+   "kelas": "fakta",
+   "keyakinan": null,
+   "sumber": [
+    "berkala_prambanan",
+    "photodharma",
+    "bl_blog"
+   ],
+   "rujukan": "Relief Ramayana Candi Siwa dan Candi Brahma, Prambanan",
+   "vo": "Kisah ini sudah lama dikenal di Jawa. Di Candi Prambanan, Yogyakarta, sekitar tahun sembilan ratus, relief Ramayana memuat Wiswamitra, busur Siwa, sampai Parasurama. Masa muda Rama sudah dipahat di batu.",
+   "on_screen": "DIPAHAT DI PRAMBANAN",
+   "sfx": "batu bergesek, burung pagi",
+   "kamera": "slow tilt up",
+   "flow_subject": "A wide view of a weathered volcanic-stone Javanese temple balustrade wall carved with narrative relief panels, lit by a low amber raking light at dusk, deep navy sky above, a row of small relief figures in the foreground.",
+   "cam_en": "slow tilt up the temple wall",
+   "beat1": "torchlight flickers along the carved panels",
+   "beat2": "the light climbs to the upper panels",
+   "beat3": "tilt ends, calm, stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S21",
+   "bagian": "Jejak di Jawa",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "wiki_kakawin",
+    "wiki_sita",
+    "asianethnology",
+    "wiki_ramakien"
+   ],
+   "rujukan": "Kakawin Ramayana; Serat Kanda; Ramakien",
+   "vo": "Versi lain berbeda. Kakawin Ramayana, puisi Jawa Kuno abad kesembilan, mengikuti Bhattikawya, bukan Walmiki. Di wayang Jawa, Sinta kadang putri Rahwana yang diangkat Janaka. Ramakien Thailand juga menyebutnya begitu, dengan nama Nang Sida.",
+   "on_screen": "VERSI JAWA BERBEDA",
+   "sfx": "kertas bergesek, genta kecil",
+   "kamera": "slow pan left",
+   "flow_subject": "Two palm-leaf lontar manuscripts lying side by side on a dark table, the left with straight carved lines and the right with curved lines, both with unreadable script, lit by one amber oil lamp, cream palm texture, a small brass stylus between them.",
+   "cam_en": "slow pan left across the two manuscripts",
+   "beat1": "lamp flame wavers, soft shadows shift",
+   "beat2": "light shifts gently from the left to the right manuscript",
+   "beat3": "pan ends, both manuscripts visible, steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S22",
+   "bagian": "Menjelang penobatan",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Ayodhyakanda sarga 1-2 (Griffith Book II Canto II)",
+   "vo": "Setelah menikah, Rama tinggal di Ayodhya dan makin dicintai. Menurut Walmiki, ia menyapa warga seperti sahabat dan menanyakan keluarga mereka. Seperti atasan yang hafal kabar keluarga timnya, kepemimpinannya terasa dekat.",
+   "on_screen": "PEMIMPIN YANG HADIR",
+   "sfx": "keramaian pasar jauh, tawa pelan",
+   "kamera": "slow pan right",
+   "flow_subject": "A wayang kulit silhouette of a young prince standing among a crowd of small townsfolk silhouettes on a cream screen, one hand extended in greeting, backlit by one amber oil lamp, navy darkness at the edges.",
+   "cam_en": "slow pan right across the screen",
+   "beat1": "lamp flame sways, townsfolk silhouettes sway gently",
+   "beat2": "the prince silhouette turns slightly toward a villager",
+   "beat3": "pan ends, calm, stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S23",
+   "bagian": "Menjelang penobatan",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Ayodhyakanda sarga 1-2 (Griffith Book II Canto I-II)",
+   "vo": "Dasarata kini menua dan lelah. Ia juga melihat pertanda buruk di langit dan bumi. Maka ia menggelar sidang besar dan mengumumkan akan menobatkan Rama sebagai putra mahkota. Sidang menyambutnya dengan sorak setuju.",
+   "on_screen": "RENCANA PENOBATAN",
+   "sfx": "gaung ruang sidang, sorak jauh",
+   "kamera": "slow push-in",
+   "flow_subject": "A grand palace assembly hall interior with tall carved pillars, an empty golden throne at the center lit by a single amber oil lamp, a crowd of dim small silhouettes along the walls, deep navy shadows, no readable text.",
+   "cam_en": "slow push-in toward the throne",
+   "beat1": "oil lamp flame flickers, dust drifts in the beam",
+   "beat2": "light brightens the throne slowly",
+   "beat3": "camera rests, throne centered, steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S24",
+   "bagian": "Menjelang penobatan",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Ayodhyakanda sarga 3-4 (Griffith Book II Canto III-IV)",
+   "vo": "Rama dipanggil, dan Dasarata berpesan: tetaplah rendah hati dan kendalikan dirimu. Ia meminta Rama dan Sinta berpuasa semalam, beralas rumput suci. Satu hal mengganjal: Bharata sedang jauh, di rumah kakeknya.",
+   "on_screen": "PUASA SEBELUM PENOBATAN",
+   "sfx": "gesekan kain, doa lirih",
+   "kamera": "slow dolly in",
+   "flow_subject": "A shadow-puppet silhouette of a crowned old king gently placing a hand on the shoulder of a young prince silhouette on a cream screen, backlit by one amber oil lamp, a small bundle of grass outlined beside them, navy edges.",
+   "cam_en": "slow dolly in toward the screen",
+   "beat1": "lamp flame sways, silhouettes sway slightly",
+   "beat2": "the old king's hand shadow moves to rest on the shoulder",
+   "beat3": "settles, calm, steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S25",
+   "bagian": "Menjelang penobatan",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Ayodhyakanda sarga 4 (Griffith Book II Canto IV)",
+   "vo": "Rama menyampaikan kabar itu pada ibunya, Kausalya, yang menangis bahagia. Pada Laksmana, ia berjanji berbagi kuasa, sebab Laksmana adalah dirinya yang kedua. Menurut Walmiki, Rama menerima semua kabar itu dengan tenang.",
+   "on_screen": "DIRINYA YANG KEDUA",
+   "sfx": "doa lirih, lonceng kecil",
+   "kamera": "slow pan left",
+   "flow_subject": "A shadow-puppet silhouette of a young prince bowing before an older queen silhouette in prayer with a smaller brother silhouette standing beside, on a cream screen, backlit by one amber oil lamp, small shrine outline behind them, navy edges.",
+   "cam_en": "slow pan left across the screen",
+   "beat1": "lamp flame sways, silhouettes sway gently",
+   "beat2": "the prince silhouette lowers into a bow",
+   "beat3": "pan ends, calm, steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S26",
+   "bagian": "Closing",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "griffith",
+    "wiki_rama"
+   ],
+   "rujukan": "Ayodhyakanda sarga 4 (Griffith Book II Canto IV); penutup naratif",
+   "vo": "Malam itu Ayodhya bersiap menyambut raja baru. Rama dan Sinta berpuasa, belum tahu rencana lain mulai disusun di balik tembok istana. Kalau besok kamu dijanjikan jabatan terbesar, bisakah kamu setenang Rama?",
+   "on_screen": "BESOK PENOBATAN?",
+   "sfx": "angin malam, gong jauh",
+   "kamera": "slow pull-back",
+   "flow_subject": "A wide night view of a silent ancient palace city with rooftops and gateway towers in dark silhouettes, one single amber lamp glowing in a high window, a crescent moon above, a faint crimson tint low on one distant wall, mist in the streets.",
+   "cam_en": "slow pull-back from the lit window",
+   "beat1": "mist drifts through the streets, lamp flickers",
+   "beat2": "moon edges slowly higher",
+   "beat3": "pull-back ends, calm and stable",
+   "scan_asli": null
+  }
+ ]
+}

@@ -1,0 +1,657 @@
+{
+ "meta": {
+  "part": 1,
+  "judul_kerja": "Rahwana sebelum menculik Sinta: dari anak resi menjadi raja para raksasa",
+  "judul_varian": [
+   "Rahwana Sebelum Menculik Sinta: Dari Pertapa Jadi Raja",
+   "Asal-Usul Rahwana: Cara Ia Merebut Alengka dari Kakaknya",
+   "Kisah Rahwana Muda: Tapa, Anugerah Brahma, dan Alengka"
+  ],
+  "pilar": "Dark History & Unusual Science (kisah epik sebagai catatan kepercayaan)",
+  "playlist": "Sejarah Sisi Gelap",
+  "peta_3_poin": [
+   "Siapa orang tua Rahwana dan seperti apa keluarganya.",
+   "Apa yang ia minta dari Brahma dan satu celah dalam permintaannya.",
+   "Bagaimana ia merebut Alengka dari kakak tirinya, Kubera, lalu menguasai banyak negeri."
+  ],
+  "momen_jawaban_detik": 45,
+  "analogi": [
+   "Alengka sebagai kantor pusat yang berganti penghuni (S03)",
+   "Kubera memilih pindah ruangan daripada rebutan kantor (S17)"
+  ],
+  "thumbnail_teks": "RAHWANA SEBELUM MENCULIK SINTA",
+  "thumbnail_objek": "mahkota",
+  "kata_kunci_utama": "kisah Rahwana"
+ },
+ "sumber": {
+  "uk_shastri": {
+   "atribusi": "Valmiki Ramayana, Uttara-kanda, terj. Inggris Hari Prasad Shastri (London: Shanti Sadan, 1952); dibaca lewat Wisdomlib, penomoran bab Shastri (selaras dengan sarga baku sampai sekitar bab 30)",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki",
+   "jenis": "primer",
+   "catatan": "Terjemahan modern berhak cipta: hanya diparafrase, tidak dikutip. Bab dipakai: 3 (doc424764), 4-6 (424765-424767), 8 (424769), 9 (424770), 10 (424771), 11 (424772), 12 (424773), 13 (424774), 14-16 (424775-424777), 18-24 (424779-424790), 26 (424792), 28 (424794), 30 (424796). Nomor sarga baku di valmikiramayan.net tidak bisa dibuka (robots/403), cocokkan sebelum publikasi."
+  },
+  "walmiki_bk15": {
+   "atribusi": "Valmiki Ramayana, Balakanda sarga 15, terj. Desiraju Hanumanta Rao",
+   "tahun": null,
+   "url": "https://valmikiramayan.net/utf8/baala/sarga15/bala_15_prose.htm",
+   "jenis": "primer",
+   "catatan": "Brahma menyatakan Rahwana hanya bisa dibunuh manusia; para dewa memohon Wisnu lahir sebagai manusia. Balakanda juga dianggap lapisan belakangan oleh sebagian sarjana."
+  },
+  "walmiki_ar32": {
+   "atribusi": "Valmiki Ramayana, Aranyakanda sarga 32 ayat 14 (3.32.14), situs vedapath.app (terjemahan tanpa atribusi)",
+   "tahun": null,
+   "url": "https://vedapath.app/en/ramayana/aranya-kanda/32/3.32.14",
+   "jenis": "primer",
+   "catatan": "Ayat ini (bagian inti Ramayana, bukan Uttarakanda) menyebut Rahwana mengalahkan Kubera di Kailasa dan merebut Puspaka. Pembicara ayat belum terverifikasi."
+  },
+  "mbh_ganguli": {
+   "atribusi": "Mahabharata, Vana Parva, Bagian CCLXXII (Ramopakhyana), terj. K. M. Ganguli (1883-96, domain publik)",
+   "tahun": 1890,
+   "url": "https://www.ibiblio.org/sripedia/ebooks/mb/m03/m03272.htm",
+   "jenis": "primer",
+   "catatan": "Silsilah Rahwana dan Kubera di Alengka. Bagian awal bab ini dibaca; kelahiran Rahwana dituturkan di bagian sesudahnya (tidak dibaca langsung)."
+  },
+  "wiki_ramopakhyana": {
+   "atribusi": "Wikipedia, Ramopakhyana",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Ramopakhyana",
+   "jenis": "sekunder",
+   "catatan": "Ringkasan: Rahwana menggulingkan Kubera dan merebut Alengka; Kumbakarna meminta tidur abadi, Wibisana meminta kebenaran. Rujukan: W. J. Johnson."
+  },
+  "wiki_ravana": {
+   "atribusi": "Wikipedia, Ravana",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Ravana",
+   "jenis": "sekunder",
+   "catatan": "Ringkasan silsilah, penebusan di Gokarna, versi Jain dan Buddha. Ensiklopedia terbuka, dipakai sebagai pembanding, bukan satu-satunya dasar."
+  },
+  "brit_ramayana": {
+   "atribusi": "Encyclopaedia Britannica, Ramayana",
+   "tahun": 2026,
+   "url": "https://www.britannica.com/topic/Ramayana-Indian-epic",
+   "jenis": "sekunder",
+   "catatan": "Uttarakanda disebut epilog yang oleh sebagian sarjana dianggap tambahan belakangan; Rahwana digambarkan terpelajar dan pemuja Siwa."
+  },
+  "brit_ravana": {
+   "atribusi": "Encyclopaedia Britannica, Ravana",
+   "tahun": 2026,
+   "url": "https://www.britannica.com/topic/Ravana",
+   "jenis": "sekunder",
+   "catatan": "Lanka kemungkinan bukan Sri Lanka modern; Rahwana mengusir Kubera; adegan mengguncang Kailasa di Ellora dan Elephanta."
+  },
+  "wiki_valmiki": {
+   "atribusi": "Wikipedia, Valmiki Ramayana (merangkum Goldman 1984; Brockington 1998; Jacobi)",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Valmiki_Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Konsensus: Buku 2-6 paling tua, Bala dan Uttara tambahan belakangan; komposisi inti sekitar 750-500 SM (Goldman) atau abad ke-5 sampai ke-4 SM (Brockington)."
+  },
+  "hooykaas1955": {
+   "atribusi": "C. Hooykaas, The Old-Javanese Ramayana Kakawin (KITLV/Nijhoff, 's-Gravenhage, 1955), akses terbuka OAPEN",
+   "tahun": 1955,
+   "url": "https://library.oapen.org/bitstream/20.500.12657/32234/1/613376.pdf",
+   "jenis": "sekunder",
+   "catatan": "Kakawin digubah oleh Yogiswara, dibuka dari Dasarata dan berakhir pada kematian Rahwana; tidak memuat masa muda Rahwana. Penanggalan Poerbatjaraka 919-929."
+  },
+  "wiki_kakawin": {
+   "atribusi": "Wikipedia, Kakawin Ramayana (merangkum Robson, Zoetmulder, Hooykaas)",
+   "tahun": 2026,
+   "url": "https://en.wikipedia.org/wiki/Kakawin_Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Akhir abad ke-9 sampai awal abad ke-10; separuh pertama dekat dengan Bhattikavya."
+  },
+  "triyogo2018": {
+   "atribusi": "YB. Rahno Triyogo, Zinah dalam Cerita Pewayangan: Studi Kasus Wisrawa dan Sukeksi, LAKON Vol. XV No. 2",
+   "tahun": 2018,
+   "url": "https://jurnal.isi-ska.ac.id/index.php/lakon/article/download/2999/2528/8646",
+   "jenis": "sekunder",
+   "catatan": "Menyajikan alur lakon Wisrawa-Sukeksi (Sastrajendra) yang bersumber dari novel Sindunata, bukan dari teks klasik. Dipakai hanya untuk menandai adanya versi Jawa."
+  },
+  "paumacariya": {
+   "atribusi": "Vimalasuri, Paumacariya (Jain, Prakerta), ringkasan K. R. Chandra (1970) via Wisdomlib",
+   "tahun": 1970,
+   "url": "https://www.wisdomlib.org/jainism/essay/paumacariya-critical-study/d/doc1459018.html",
+   "jenis": "sekunder",
+   "catatan": "Rahwana raja Widyadhara; ia mengalahkan Waisrawana dan merebut Alengka serta Puspaka. Tarikh Paumacariya diperdebatkan (ringkasan menyebut abad ke-4 M)."
+  }
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "wiki_ravana"
+   ],
+   "rujukan": "Uttarakanda sarga 10 (tapa Rahwana)",
+   "vo": "Raksasa paling terkenal dalam Ramayana ternyata dulu seorang pertapa tekun. Menurut Walmiki, ia menyerahkan kepalanya satu per satu ke api demi sebuah anugerah. Bagaimana anak seorang resi bisa menjadi raja para raksasa?",
+   "on_screen": "PERTAPA DULU, RAJA KEMUDIAN",
+   "sfx": "Api berderak pelan, drone rendah, napas panjang",
+   "kamera": "slow push-in",
+   "flow_subject": "A perforated leather wayang-kulit silhouette of a kneeling ascetic with a fan of ten small crowned heads behind him, hands extended toward a small sacred fire at the foot of the glowing cream screen, calm symmetrical composition, one dominant figure.",
+   "cam_en": "slow push-in toward the kneeling figure",
+   "beat1": "The oil-lamp flame behind the screen sways gently and the silhouette's shadow edges shift.",
+   "beat2": "Tiny sparks rise from the small fire at the foot of the screen.",
+   "beat3": "The flame settles and the figure holds still, screen glowing steadily.",
+   "scan_asli": null
+  },
+  {
+   "id": "S02",
+   "bagian": "Cold open",
+   "kelas": "fakta",
+   "keyakinan": null,
+   "sumber": [
+    "brit_ramayana",
+    "wiki_valmiki"
+   ],
+   "rujukan": "Catatan filologi: Balakanda dan Uttarakanda dianggap lapisan belakangan (Jacobi, Goldman, Brockington)",
+   "vo": "Tiga pertanyaan kita: siapa orang tuanya, apa yang ia minta dari Brahma sang pencipta, dan bagaimana ia merebut Alengka. Catatan: kisah masa mudanya bersumber dari Uttarakanda, bagian yang banyak sarjana anggap tambahan belakangan.",
+   "on_screen": "TIGA PERTANYAAN",
+   "sfx": "Gesekan daun lontar, denting halus",
+   "kamera": "slow tilt down",
+   "flow_subject": "Three palm-leaf lontar strips laid side by side on dark wood, surfaces covered in fine incised lines and unreadable abstract marks, a small oil lamp at the far end casting amber light along their length, shallow depth of field, no legible script.",
+   "cam_en": "slow lateral dolly along the three strips",
+   "beat1": "Amber light creeps along the first strip, revealing carved grain.",
+   "beat2": "The glow passes over the second strip as dust floats in the beam.",
+   "beat3": "The light rests on the third strip and the frame stays steady.",
+   "scan_asli": null
+  },
+  {
+   "id": "S03",
+   "bagian": "Latar belakang",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "mbh_ganguli"
+   ],
+   "rujukan": "Uttarakanda sarga 3, 5 dan 8 (Alengka dibangun, ditinggalkan, ditempati Kubera)",
+   "vo": "Jawaban singkatnya: Alengka bukan milik Rahwana. Kota di puncak gunung itu ditinggalkan para raksasa, lalu ditempati kakak tirinya, Kubera. Bayangkan kantor pusat yang berganti penghuni. Rahwana akan menagihnya kembali, berbekal anugerah Brahma.",
+   "on_screen": "ALENGKA BUKAN MILIK RAHWANA",
+   "sfx": "Angin gunung, gema jauh, drone rendah",
+   "kamera": "slow push-in",
+   "flow_subject": "A distant fortress city of tiered pavilion roofs crowning a steep mountain peak above a dark sea at dusk, a single amber torch glow at the gate, cool navy mist in the valleys below, wide establishing shot, no people.",
+   "cam_en": "slow push-in toward the mountain city",
+   "beat1": "Mist drifts slowly across the lower slopes and the sea ripples faintly.",
+   "beat2": "The torch glow at the gate flickers and a thin banner stirs.",
+   "beat3": "The mist settles and the city holds steady in frame.",
+   "scan_asli": null
+  },
+  {
+   "id": "S04",
+   "bagian": "Latar belakang",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "mbh_ganguli"
+   ],
+   "rujukan": "Uttarakanda sarga 3 (Waisrawana, Puspaka, Alengka)",
+   "vo": "Kubera putra Wisrawa, seorang resi, pertapa suci. Setelah bertapa seribu tahun, Brahma menjadikannya penjaga kekayaan seluruh dunia dan memberinya kereta terbang bernama Puspaka. Ayahnya lalu menunjuk Alengka yang kosong sebagai tempat tinggalnya.",
+   "on_screen": "KUBERA DAN PUSPAKA",
+   "sfx": "Api obor berdesis, nada gong rendah",
+   "kamera": "slow pan right",
+   "flow_subject": "Close-up of a volcanic-stone temple relief: a seated sage meditating beneath a carved tree, and above him a small ornate flying chariot with a pavilion roof, raking amber torchlight picking out every carved line, weathered stone texture.",
+   "cam_en": "slow pan right across the relief",
+   "beat1": "Torchlight flickers across the seated sage's carved shoulders.",
+   "beat2": "The light climbs slowly to the flying chariot above him.",
+   "beat3": "The torch steadies and the relief rests still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S05",
+   "bagian": "Latar belakang",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 5-8 (tiga putra Sukesa, Wisnu mengusir raksasa ke dunia bawah)",
+   "vo": "Sebelum Kubera, Alengka dihuni tiga raksasa bersaudara yang menindas para dewa. Wisnu turun tangan dan mengusir mereka ke dunia bawah. Salah satunya, Sumali, hidup bersembunyi di sana sambil memendam harapan memulihkan kejayaan kaumnya.",
+   "on_screen": "SUMALI TERUSIR",
+   "sfx": "Dentang logam jauh, angin, gema",
+   "kamera": "slow push-in",
+   "flow_subject": "Wayang-kulit tableau on a glowing screen: a large winged bird-mount carrying a crowned god figure above a cluster of retreating giant silhouettes who stream toward a dark gap at the bottom of the screen, one small giant lingering behind.",
+   "cam_en": "slow push-in on the lingering small giant",
+   "beat1": "The retreating silhouettes shift slightly as the lamp flickers.",
+   "beat2": "The winged bird-mount drifts a little higher on the screen.",
+   "beat3": "The lamp steadies and the tableau holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S06",
+   "bagian": "Latar belakang",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 9 (Sumali melihat Kubera, Kaikasi mencari suami)",
+   "vo": "Suatu hari Sumali melihat Kubera melintas dengan kereta terbangnya. Ia menyuruh putrinya, Kaikasi, mencari suami dari keturunan resi Pulastya. Kaikasi menemui Wisrawa, tetapi ia datang saat senja, waktu yang dianggap kurang baik.",
+   "on_screen": "SUMALI MENGIRIM KAIKASI",
+   "sfx": "Angin senja, burung malam, gamelan lirih",
+   "kamera": "slow pan up",
+   "flow_subject": "Wayang-kulit tableau: an old giant silhouette pointing toward a tiny ornate flying chariot at the top of the glowing screen, beside him a young woman silhouette with folded hands and a long cloth, dusk-orange edge of the screen.",
+   "cam_en": "slow tilt up toward the tiny chariot",
+   "beat1": "The tiny chariot silhouette glides slowly across the top of the screen.",
+   "beat2": "The old giant's raised arm sways slightly in the lamplight.",
+   "beat3": "The motion settles and the young woman figure holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S07",
+   "bagian": "Latar belakang",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 9 (peringatan Wisrawa, janji putra bungsu saleh)",
+   "vo": "Wisrawa memperingatkan bahwa anak-anak mereka akan berwatak kejam, mirip para pelaku kejahatan. Kaikasi memohon, maka sang resi berjanji putra bungsu mereka akan saleh. Begitulah sebuah keluarga lahir, setengah garis resi, setengah garis raksasa.",
+   "on_screen": "JANJI SANG RESI",
+   "sfx": "Api suci berderak, doa berbisik",
+   "kamera": "slow push-in",
+   "flow_subject": "Temple relief close-up in raking amber torchlight: a seated sage beside a fire altar at dusk, a standing woman figure with hands folded before him, smoke curls carved in stone, intimate composition, weathered andesite texture.",
+   "cam_en": "slow push-in on the two carved figures",
+   "beat1": "Torchlight wavers across the sage's carved face-less profile.",
+   "beat2": "A thin real wisp of incense smoke drifts past the relief.",
+   "beat3": "The smoke clears and the light holds steady.",
+   "scan_asli": null
+  },
+  {
+   "id": "S08",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "wiki_ravana"
+   ],
+   "rujukan": "Uttarakanda sarga 9 (kelahiran Dasagriwa dan pertanda)",
+   "vo": "Putra sulung mereka lahir dengan sepuluh kepala dan dua puluh lengan. Menurut Walmiki, pertanda buruk menyertainya: serigala melolong, hujan darah, laut bergolak. Wisrawa menamainya Dasagriwa. Nama Rahwana baru ia dapat jauh kemudian.",
+   "on_screen": "SEPULUH KEPALA",
+   "sfx": "Gemuruh jauh, lolongan serigala, ombak",
+   "kamera": "slow tilt down",
+   "flow_subject": "A night sky over a dark ocean, a hilltop with jackal silhouettes howling at the left, thin crimson rain streaks falling over restless waves, a single amber star-like light low on the horizon, no people, ominous but calm composition.",
+   "cam_en": "slow tilt down from sky to sea",
+   "beat1": "Thin crimson streaks drift downward and the waves swell gently.",
+   "beat2": "The jackal silhouettes lift their heads on the hilltop.",
+   "beat3": "The swell calms and the horizon light holds steady.",
+   "scan_asli": null
+  },
+  {
+   "id": "S09",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 9 (Kumbakarna, adik perempuan, Wibisana)",
+   "vo": "Lalu lahir Kumbakarna, raksasa bertubuh luar biasa besar, dan seorang adik perempuan. Terakhir Wibisana, bungsu yang cinta kebenaran dan mempelajari Weda, kitab suci tertua Hindu. Persis seperti janji sang ayah.",
+   "on_screen": "TIGA BERSAUDARA",
+   "sfx": "Nada gong rendah, lembaran daun lontar",
+   "kamera": "slow pan right",
+   "flow_subject": "Wayang-kulit tableau: a gigantic broad-shouldered silhouette at left, a calm slender silhouette holding a bound palm-leaf book at center, a small crowned figure at right, three distinct sizes on a glowing cream screen.",
+   "cam_en": "slow pan right across the three silhouettes",
+   "beat1": "The lamp flickers and the giant's outline trembles subtly.",
+   "beat2": "The slender figure's palm-leaf book catches a brighter glint.",
+   "beat3": "The glow evens out and all three figures hold still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S10",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 9 (Kaikasi mendesak, sumpah menyamai Kubera)",
+   "vo": "Saat tumbuh besar, mereka melihat kemegahan Kubera yang dihormati para dewa. Kaikasi mendesak Dasagriwa menyamai kakak tirinya. Ia bersumpah akan menyamai, bahkan melampauinya. Menurut kisahnya, ambisi dari pihak ibu itulah yang menyalakan semuanya.",
+   "on_screen": "SUMPAH SANG ANAK",
+   "sfx": "Api obor, gema langkah, drone rendah",
+   "kamera": "slow push-in",
+   "flow_subject": "Temple relief close-up: a young crowned figure gazing upward at a small carved flying chariot, a mother figure behind him with a hand on his shoulder, raking amber torchlight on andesite, a faint crimson stain in one carved groove.",
+   "cam_en": "slow push-in on the young figure",
+   "beat1": "Torchlight wavers over the carved mother's hand.",
+   "beat2": "The light travels up toward the carved chariot.",
+   "beat3": "The torch steadies and the relief rests still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S11",
+   "bagian": "Latar belakang",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "triyogo2018",
+    "hooykaas1955",
+    "wiki_kakawin"
+   ],
+   "rujukan": "Wayang Jawa (lakon Wisrawa-Sukesi, Sastrajendra) dan Kakawin Ramayana (dimulai dari Dasarata, tidak memuat masa muda Rahwana)",
+   "vo": "Wayang Jawa punya versi sendiri. Dalam sebagian lakon, ibunya bernama Sukesi, putri Sumali, dan kelahiran anak-anaknya terkait ajaran rahasia Sastrajendra. Kakawin Ramayana, puisi Jawa Kuno, tidak menceritakan masa muda Rahwana sama sekali.",
+   "on_screen": "VERSI JAWA BERBEDA",
+   "sfx": "Gamelan lirih, kain bergesek, nyala blencong",
+   "kamera": "slow push-in",
+   "flow_subject": "Javanese wayang-kulit screen: a leaf-shaped gunungan puppet centered with swirling carved lines, flanked by a sage silhouette at left and a woman silhouette at right, blencong lamp flame visible as a warm glow behind the cream screen.",
+   "cam_en": "slow push-in on the central gunungan puppet",
+   "beat1": "The blencong flame flickers and the gunungan's carved edges shimmer.",
+   "beat2": "The two flanking silhouettes sway almost imperceptibly.",
+   "beat3": "The light steadies and the screen holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S12",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "wiki_ravana"
+   ],
+   "rujukan": "Uttarakanda sarga 9-10 (tapa di Gokarna)",
+   "vo": "Ketiga bersaudara bertapa di Gokarna. Kumbakarna dua ribu tahun di antara lima api. Wibisana sepuluh ribu tahun, menghadap matahari. Rahwana berpuasa sepuluh ribu tahun, tiap seribu tahun mempersembahkan satu kepalanya ke api.",
+   "on_screen": "TAPA DI GOKARNA",
+   "sfx": "Jangkrik malam, api berderak, lonceng jauh",
+   "kamera": "slow crane up",
+   "flow_subject": "A wide night forest clearing with three tiny silhouetted ascetics: one seated ringed by five small fires, one standing on a single leg facing a low glowing sun, one seated still before a larger fire, smoke rising into dark trees.",
+   "cam_en": "slow crane up over the clearing",
+   "beat1": "Smoke columns drift upward from the small fires.",
+   "beat2": "The low sun glows slightly brighter and leaves sway.",
+   "beat3": "The smoke thins and the scene settles.",
+   "scan_asli": null
+  },
+  {
+   "id": "S13",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "wiki_ravana"
+   ],
+   "rujukan": "Uttarakanda sarga 10 (Brahma menolak hidup abadi, anugerah kecuali dari manusia)",
+   "vo": "Saat ia hendak menyerahkan kepala kesepuluh, Brahma muncul. Rahwana minta hidup abadi, tetapi ditolak. Maka ia minta tak bisa dibunuh dewa, naga, maupun raksasa. Manusia tidak ia sebut sama sekali, karena dianggap terlalu remeh.",
+   "on_screen": "MINTA ANUGERAH BRAHMA",
+   "sfx": "Gemuruh rendah, api membesar, gema suara",
+   "kamera": "slow push-in",
+   "flow_subject": "Wayang-kulit tableau: a tall four-faced creator silhouette appearing in glowing smoke above a small fire, hands raised in blessing, a kneeling many-headed silhouette bowing below, cream screen lit by the oil lamp.",
+   "cam_en": "slow push-in toward the tall silhouette in the smoke",
+   "beat1": "The smoke swirls and the tall figure's outline pulses softly.",
+   "beat2": "The kneeling silhouette lifts its head slightly.",
+   "beat3": "The smoke calms and the tableau holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S14",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 10 (anugerah Wibisana dan Kumbakarna, Saraswati)",
+   "vo": "Brahma mengabulkan, memulihkan kepalanya, dan memberinya kemampuan berganti rupa. Wibisana meminta hati yang selalu lurus, lalu mendapat umur abadi. Kumbakarna dibuat salah bicara oleh Dewi Saraswati, dan malah meminta tidur panjang.",
+   "on_screen": "TIDUR PANJANG KUMBAKARNA",
+   "sfx": "Dengkur dalam, petikan vina, drone rendah",
+   "kamera": "slow tilt up",
+   "flow_subject": "Wayang-kulit tableau: an enormous sleeping giant silhouette lying across the screen, a slender goddess silhouette holding a stringed vina hovering near his head, a calm slender figure kneeling at the far side, lamp-lit cream screen.",
+   "cam_en": "slow tilt up along the sleeping giant",
+   "beat1": "The giant's chest rises and falls with a slow barely visible motion.",
+   "beat2": "The goddess silhouette sways gently above him.",
+   "beat3": "The lamp steadies and the scene holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S15",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_bk15",
+    "uk_shastri"
+   ],
+   "rujukan": "Balakanda sarga 15 dan Uttarakanda sarga 10 (celah anugerah)",
+   "vo": "Celah kecil itu menentukan segalanya. Di Balakanda, Brahma menyatakan hanya manusia yang bisa mengalahkan Rahwana. Para dewa lalu memohon Wisnu lahir sebagai manusia. Itulah awal kisah Rama, yang kita bahas di video berikutnya.",
+   "on_screen": "CELAH SEBUAH ANUGERAH",
+   "sfx": "Dengung rendah, daun lontar bergesek",
+   "kamera": "slow push-in",
+   "flow_subject": "A palm-leaf lontar leaf with carved symbols forming a protective ring, the ring broken at one small point, and a tiny human-shaped amber glow standing in the break, dark wood background, single warm lamp from the side.",
+   "cam_en": "slow push-in toward the break in the ring",
+   "beat1": "Lamplight slides across the carved ring, deepening its grooves.",
+   "beat2": "The tiny glow in the break brightens softly.",
+   "beat3": "The glow steadies and the leaf holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S16",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 11 (Sumali membujuk, Prahasta berpendapat)",
+   "vo": "Sumali mendengar kabar anugerah itu, lalu menemui cucunya dan mendesaknya merebut Alengka. Rahwana menolak, karena Kubera kakaknya. Panglima Prahasta menjawab bahwa pertikaian saudara bukan hal baru. Rahwana pun mengutusnya meminta Alengka.",
+   "on_screen": "PRAHASTA MENJADI UTUSAN",
+   "sfx": "Bisikan, obor, langkah di batu",
+   "kamera": "slow pan left",
+   "flow_subject": "Wayang-kulit tableau: an old giant silhouette leaning toward a many-headed crowned silhouette as if whispering, a general silhouette with a spear standing at attention behind them, a crimson edge glowing at the bottom of the screen.",
+   "cam_en": "slow pan left across the three silhouettes",
+   "beat1": "The lamp flickers and the old giant's silhouette leans slightly closer.",
+   "beat2": "The general's spear tip glints.",
+   "beat3": "The glow evens out and the tableau holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S17",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 11 (Kubera menyerahkan Alengka, pindah ke Kailasa, Rahwana dinobatkan)",
+   "vo": "Kubera menjawab bahwa kota itu pemberian ayahnya, tetapi ia mau berbagi. Wisrawa menasihatinya mengalah, sebab anugerah telah membutakan Rahwana. Kubera memilih pindah ruangan daripada rebutan kantor, dan Rahwana dinobatkan di Alengka.",
+   "on_screen": "KUBERA PINDAH KE KAILASA",
+   "sfx": "Langkah rombongan, angin gunung, gamelan lirih",
+   "kamera": "slow pan right",
+   "flow_subject": "Wide dusk landscape: a small procession of silhouettes carrying chests leaves a mountain city gate toward distant snowy peaks, while a many-headed crowned silhouette stands at the gate beneath a lit torch, amber torch glow on stone.",
+   "cam_en": "slow pan right following the procession",
+   "beat1": "The procession moves slowly toward the peaks.",
+   "beat2": "The torch at the gate flickers and a banner sways.",
+   "beat3": "The procession fades into mist and the frame settles.",
+   "scan_asli": null
+  },
+  {
+   "id": "S18",
+   "bagian": "Bukti & analisis",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "mbh_ganguli",
+    "wiki_ramopakhyana",
+    "walmiki_ar32",
+    "paumacariya"
+   ],
+   "rujukan": "Mahabharata Vana Parva CCLXXII; Aranyakanda sarga 32 ayat 14; Paumacariya; Uttarakanda sarga 11 dan 15",
+   "vo": "Versi lain berbeda soal cara Alengka berpindah tangan. Dalam Mahabharata dan kisah Jain, Kubera dikalahkan, bukan mengalah. Walmiki menyebut dua peristiwa: Alengka diserahkan, lalu Kubera dikalahkan di Kailasa, tempat Puspaka direbut.",
+   "on_screen": "DUA CARA ALENGKA BERPINDAH",
+   "sfx": "Gesekan daun lontar, denting halus",
+   "kamera": "slow push-in",
+   "flow_subject": "Two palm-leaf manuscripts laid side by side on dark wood with a thin crimson cord laid between them, the left leaf carved with smooth flowing lines, the right with jagged broken lines, a small oil lamp lighting both from above.",
+   "cam_en": "slow push-in on the crimson cord between the leaves",
+   "beat1": "The lamp flame wavers and shadows shift over the carved lines.",
+   "beat2": "The crimson cord catches a brighter glint.",
+   "beat3": "The light steadies and the leaves rest still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S19",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 12 (Mandodari, pernikahan saudara, kelahiran Megananda)",
+   "vo": "Setelah bertakhta di Alengka, Rahwana menikahi Mandodari, putri Maya, ahli bangunan dari bangsa asura. Adik-adiknya juga dinikahkan olehnya. Putranya lahir dengan suara bagai guntur, dinamai Megananda, yang kelak terkenal sebagai Indrajit.",
+   "on_screen": "MANDODARI DAN INDRAJIT",
+   "sfx": "Lonceng pernikahan, api suci, gamelan lembut",
+   "kamera": "slow push-in",
+   "flow_subject": "Temple relief close-up: a bride and a many-headed crowned groom figure circling a sacred fire, a small carved child figure nearby, lotus motifs along the border, raking amber torchlight on weathered stone.",
+   "cam_en": "slow push-in on the carved couple",
+   "beat1": "Torchlight shimmers across the carved flames.",
+   "beat2": "The light moves slowly to the small child figure.",
+   "beat3": "The torch steadies and the relief rests still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S20",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 13 (Kumbakarna tertidur, pesan Kubera)",
+   "vo": "Kumbakarna jatuh tertidur, dan Rahwana makin berani mengusik para dewa dan resi. Kubera mengirim utusan untuk menegur adiknya. Rahwana menolak nasihat itu, lalu berangkat menyerbu Gunung Kailasa, tempat kakaknya kini tinggal.",
+   "on_screen": "KUBERA MENEGUR",
+   "sfx": "Dengkur dalam, langkah menjauh, drone rendah",
+   "kamera": "slow tilt down",
+   "flow_subject": "A colossal sleeping giant silhouette inside a jeweled chamber seen as a wayang-kulit tableau, a small many-headed crowned silhouette striding away toward a doorway of bright amber light at the right, crimson accent at the doorway.",
+   "cam_en": "slow pan right following the departing figure",
+   "beat1": "The sleeping giant's outline rises and falls slowly.",
+   "beat2": "The small crowned silhouette moves toward the bright doorway.",
+   "beat3": "The doorway glow steadies and the tableau holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S21",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "brit_ravana"
+   ],
+   "rujukan": "Uttarakanda sarga 14-15 (pasukan yaksa, kekalahan Kubera, Puspaka direbut)",
+   "vo": "Para yaksa, makhluk penjaga harta Kubera, melawan dengan gagah. Namun Rahwana menang, dan Kubera jatuh pingsan terkena gada. Para resi membawanya pergi. Rahwana merebut kereta Puspaka, lalu menuruni gunung seakan sudah menguasai tiga dunia.",
+   "on_screen": "KUBERA KALAH, PUSPAKA DIRAMPAS",
+   "sfx": "Dentang logam, gema pertempuran jauh, angin",
+   "kamera": "slow pan right",
+   "flow_subject": "Close-up of a volcanic-stone temple relief battle scene: a many-headed crowned figure swinging a mace, a crowned figure toppling backward, a small flying chariot at the right edge, raking amber torchlight, no blood, stylized stone figures.",
+   "cam_en": "slow pan right across the relief",
+   "beat1": "Torchlight flickers across the mace's carved arc.",
+   "beat2": "The light moves to the toppling figure.",
+   "beat3": "The light settles on the flying chariot and holds.",
+   "scan_asli": null
+  },
+  {
+   "id": "S22",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "brit_ravana"
+   ],
+   "rujukan": "Uttarakanda sarga 16 (Puspaka berhenti, Nandi, kutukan kera)",
+   "vo": "Tiba-tiba Puspaka berhenti di sebuah gunung milik Siwa. Nandi, penjaganya, melarang Rahwana masuk. Rahwana menertawakan rupa Nandi yang mirip kera. Nandi mengutuk: makhluk serupa kera akan menghancurkannya. Rahwana pun mengguncang gunung itu.",
+   "on_screen": "PUSPAKA TIBA-TIBA BERHENTI",
+   "sfx": "Angin gunung, bunyi tertahan, gema",
+   "kamera": "slow push-in",
+   "flow_subject": "A flying chariot hovering motionless over a snow-streaked sacred mountain at night, a small guardian silhouette standing at the mountain's base with raised hand, cold navy sky, one amber lantern glow on the chariot.",
+   "cam_en": "slow push-in toward the hovering chariot",
+   "beat1": "The chariot's lantern flickers while it hovers still.",
+   "beat2": "Wisps of snow drift across the mountainside.",
+   "beat3": "The wind quiets and the chariot holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S23",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri",
+    "brit_ravana"
+   ],
+   "rujukan": "Uttarakanda sarga 16 (Siwa menekan gunung, asal nama Rahwana, pedang Candrahasa)",
+   "vo": "Siwa menekan gunung itu dengan satu jari kakinya. Rahwana menjerit, dan jeritannya menggetarkan dunia. Setelah seribu tahun memuja Siwa, ia dibebaskan dan dinamai Rahwana, yang membuat dunia menjerit. Ia juga mendapat pedang Candrahasa.",
+   "on_screen": "NAMA RAHWANA LAHIR",
+   "sfx": "Gema jeritan, dentum rendah, napas lega",
+   "kamera": "slow push-in",
+   "flow_subject": "Temple relief close-up in raking amber torchlight: a carved mountain pressing down on a many-armed, many-headed figure trapped beneath it, a calm seated deity above with one foot extended, deep grooves in dark volcanic stone.",
+   "cam_en": "slow push-in on the pinned figure",
+   "beat1": "Torchlight flickers across the carved mountain surface.",
+   "beat2": "A thin real dust cloud drifts slowly past the relief.",
+   "beat3": "The dust clears and the relief rests still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S24",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 21-22 (Yama, tujuh hari bertarung, Brahma menghentikan)",
+   "vo": "Rahwana lalu menantang Yama, penguasa kematian. Mereka bertarung tujuh hari tanpa pemenang. Saat Yama hendak mengangkat tongkat mautnya, Brahma mencegah, sebab itu akan membuat anugerahnya sia-sia. Yama mundur, dan Rahwana mengaku menang.",
+   "on_screen": "YAMA DAN BRAHMA",
+   "sfx": "Dentang, dengung rendah, sunyi mendadak",
+   "kamera": "slow pan left",
+   "flow_subject": "Wayang-kulit tableau: a many-headed crowned silhouette facing a figure riding a buffalo and holding a long rod, a tall four-faced silhouette stepping between them with raised hand, crimson edge at screen bottom.",
+   "cam_en": "slow pan left across the duelling silhouettes",
+   "beat1": "The two duelling silhouettes tremble in the flickering lamp.",
+   "beat2": "The tall mediating figure glides between them.",
+   "beat3": "The lamp steadies and the tableau holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S25",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 19 (Anaranya) dan sarga 23 (naga di Bhogawati)",
+   "vo": "Rahwana juga menundukkan para naga, ular sakti penghuni dunia bawah, dan menantang banyak raja. Di Ayodhya, Raja Anaranya gugur sambil mengutuk: seorang keturunannya bernama Rama akan mengakhiri Rahwana. Rahwana tak menggubrisnya.",
+   "on_screen": "KUTUKAN DARI AYODHYA",
+   "sfx": "Angin, kain bergesek, gema lonceng",
+   "kamera": "slow push-in",
+   "flow_subject": "A royal crown lying on cracked earth beside a broken ceremonial parasol, a faint bow-shaped amber glow on the dark horizon, scattered petals, empty battlefield at dusk, no bodies, quiet composition.",
+   "cam_en": "slow push-in on the crown",
+   "beat1": "Wind lifts petals across the cracked earth.",
+   "beat2": "The bow-shaped horizon glow brightens slightly.",
+   "beat3": "The wind drops and the scene holds still.",
+   "scan_asli": null
+  },
+  {
+   "id": "S26",
+   "bagian": "Closing",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "uk_shastri"
+   ],
+   "rujukan": "Uttarakanda sarga 24 (Khara di Dandaka) dan sarga 28-30 (Indrajit menawan Indra)",
+   "vo": "Putranya, Indrajit, bahkan menawan Indra, raja para dewa. Rahwana menempatkan sepupunya, Khara, di hutan Dandaka. Kini ia penguasa banyak negeri. Anugerah itu menguatkan, atau membutakan? Tulis pendapatmu, lalu kita temui Rama.",
+   "on_screen": "ANUGERAH ATAU KEBUTAAN?",
+   "sfx": "Drone rendah, gamelan lirih, napas panjang",
+   "kamera": "slow pull-back",
+   "flow_subject": "A vast shadow of a many-crowned silhouette cast across a dark landscape of mountain, sea and forest, and at the far edge one small human silhouette holding a bow beside an oil lamp, vast scale contrast, amber on the small figure.",
+   "cam_en": "slow pull-back revealing the vast shadow",
+   "beat1": "The shadow ripples faintly over the landscape.",
+   "beat2": "The small figure's lamp flame flickers.",
+   "beat3": "The lamp steadies and the frame holds still.",
+   "scan_asli": null
+  }
+ ]
+}

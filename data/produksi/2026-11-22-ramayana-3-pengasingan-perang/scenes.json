@@ -1,0 +1,1017 @@
+{
+ "meta": {
+  "part": 3,
+  "judul_kerja": "Ramayana inti: Rama terbuang, Sinta direbut, perang Alengka",
+  "judul_varian": [
+   "Ramayana: Kenapa Rama Mau Dibuang, Sinta Diculik, Rahwana Gugur",
+   "Kisah Rama dan Sinta: Pengasingan, Penculikan, Perang Alengka",
+   "Ramayana Inti Cerita: Hutan Dandaka sampai Rahwana Gugur"
+  ],
+  "pilar": "Dark History & Unusual Science (mitologi, diperlakukan sebagai catatan kepercayaan)",
+  "playlist": "Sejarah Sisi Gelap",
+  "peta_3_poin": [
+   "Kenapa Rama, calon raja Ayodhya, menerima pengasingan selama empat belas tahun.",
+   "Bagaimana Sinta bisa direbut dari tengah hutan, dan siapa yang membantu Rama mencarinya.",
+   "Bagaimana perang di Alengka berakhir, dan apa yang terjadi pada Sinta sesudahnya."
+  ],
+  "momen_jawaban_detik": 60,
+  "analogi": [
+   "Janji ayah sebagai surat perjanjian yang sudah ditandatangani (S05)",
+   "Wibisana sebagai penasihat yang tak didengar dalam rapat direksi (S29)"
+  ],
+  "thumbnail_teks": "RAMA DIASINGKAN, DIA SETUJU",
+  "thumbnail_objek": "sandal",
+  "kata_kunci_utama": "Ramayana pengasingan Rama"
+ },
+ "sumber": {
+  "walmiki_sd": {
+   "atribusi": "Valmiki Ramayana (prosa/terjemahan, Ayodhya-Aranya-Sundara-Yuddhakanda), sanskritdocuments.org",
+   "tahun": 0,
+   "url": "https://sanskritdocuments.org/sites/valmikiramayan/yuddha/sarga116/yuddha_116_prose.htm",
+   "jenis": "primer",
+   "catatan": "Teks Walmiki (edisi vulgata, penomoran sarga bisa berbeda dari edisi kritis Baroda). Halaman yang berhasil dibuka: Ayodhya 19, 30, 112; Aranya 74; Sundara 1; Yuddha 59, 111, 116. Banyak halaman lain gagal dibuka (client_error)."
+  },
+  "walmiki_wl": {
+   "atribusi": "Ramayana of Valmiki, Ayodhyakanda sarga 9 (terjemahan H. P. Shastri, 1952), WisdomLib",
+   "tahun": 1952,
+   "url": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc423956.html",
+   "jenis": "primer",
+   "catatan": "Terjemahan modern berhak cipta; hanya dipakai untuk memeriksa isi sarga, bukan disalin."
+  },
+  "britannica": {
+   "atribusi": "Encyclopaedia Britannica, entri Ramayana",
+   "tahun": 0,
+   "url": "https://www.britannica.com/topic/Ramayana-Indian-epic",
+   "jenis": "sekunder",
+   "catatan": "Ringkasan alur; Uttarakanda dianggap sebagian sarjana sebagai tambahan; digubah paling cepat sekitar 300 SM."
+  },
+  "wikipedia_ramayana": {
+   "atribusi": "Wikipedia, Ramayana (merujuk Goldman 1984; Goldman dan Sutherland Goldman 2022)",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Pendataan: buku 2-6 tertua, Bala dan Uttara kanda umumnya dianggap tambahan; naskah Bengal abad ke-6 tanpa dua kanda itu."
+  },
+  "worldhistory": {
+   "atribusi": "World History Encyclopedia, The Ramayana",
+   "tahun": 0,
+   "url": "https://www.worldhistory.org/The_Ramayana/",
+   "jenis": "sekunder",
+   "catatan": "Ringkasan alur dan penanggalan (abad ke-5 SM menurut artikel ini; berbeda dengan Britannica)."
+  },
+  "ucsd_jordan": {
+   "atribusi": "David K. Jordan, ringkasan Ramayana, UC San Diego",
+   "tahun": 2011,
+   "url": "https://pages.ucsd.edu/~dkjordan/resources/ramayana/RamayanaSummary.html",
+   "jenis": "sekunder",
+   "catatan": "Ringkasan alur umum, tanpa nomor kanda."
+  },
+  "hindutone": {
+   "atribusi": "Hindutone, ringkasan per kanda (nomor sarga memakai edisi IIT Kanpur)",
+   "tahun": 0,
+   "url": "https://hindutone.com/stories/aranya-kanda-summary/",
+   "jenis": "sekunder",
+   "catatan": "Blog populer, kredibilitas akademik rendah; hanya dipakai untuk petunjuk nomor sarga. Nomor perlu dicek ke teks. Ada selisih penomoran dengan sanskritdocuments (mis. ujian api)."
+  },
+  "brin_prambanan": {
+   "atribusi": "Berkala Arkeologi (BRIN), artikel relief Rahwana di Candi Prambanan (mengutip Sugijanti 1983)",
+   "tahun": 0,
+   "url": "https://ejournal.brin.go.id/berkalaarkeologi/article/download/11348/11019/41037",
+   "jenis": "sekunder",
+   "catatan": "Jurnal arkeologi: relief Candi Siwa dan Candi Brahma abad ke-9; ujian api (agnipariksa) tidak dimuat dalam Kakawin Ramayana."
+  },
+  "wiki_kakawin": {
+   "atribusi": "Wikipedia, Kakawin Ramayana (merujuk Robson dan lainnya)",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Kakawin_Ramayana",
+   "jenis": "sekunder",
+   "catatan": "Ditulis di Jawa Tengah akhir abad ke-9 atau awal ke-10 (Robson: antara 856 dan sekitar 930); paruh pertama mengikuti Bhattikavya, paruh kedua jauh berbeda; berakhir dengan penobatan Rama."
+  },
+  "oapen_acri": {
+   "atribusi": "Acri (ed.), From Lanka Eastwards: The Ramayana in the Literature and Visual Arts of Indonesia (KITLV, 2010)",
+   "tahun": 2010,
+   "url": "https://library.oapen.org/handle/20.500.12657/34587",
+   "jenis": "sekunder",
+   "catatan": "Hanya 100 ribu karakter pertama dari 500 ribu yang terbaca; dipakai untuk hubungan Kakawin dengan Bhattikavya."
+  },
+  "bates_wayang": {
+   "atribusi": "Joko Susilo, katalog wayang kulit koleksi Eisler, Bates College",
+   "tahun": 2004,
+   "url": "https://core.ac.uk/download/230669004.pdf",
+   "jenis": "sekunder",
+   "catatan": "Versi wayang Jawa: Subali dan Sugriwa (air merah dan putih), Kumbakarna, Wibisana, Anoman. Hanya 100 ribu karakter pertama yang terbaca."
+  },
+  "uad_bahastra": {
+   "atribusi": "Jurnal Bahastra (UAD), Simbol Rama",
+   "tahun": 0,
+   "url": "https://pbsi.uad.ac.id/wp-content/uploads/SIMBOL-RAMA-JURNAL-BAHASTRA.pdf",
+   "jenis": "sekunder",
+   "catatan": "Rama Tambak, Sinta obong, Anoman obong dalam tradisi Jawa; penulis menyebut relief Lara Jonggrang dan kakawin tahun 903, yang tidak sama dengan sumber lain."
+  },
+  "wiki_ramakien": {
+   "atribusi": "Wikipedia, Ramakien",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Ramakien",
+   "jenis": "sekunder",
+   "catatan": "Versi Thai: ujian api, Hanoman lebih besar perannya, versi standar era Rama I."
+  },
+  "thailand_foundation": {
+   "atribusi": "Thailand Foundation, Ramakien: Thailand's National Epic",
+   "tahun": 0,
+   "url": "https://thailandfoundation.or.th/ramakien-thailands-national-epic/",
+   "jenis": "sekunder",
+   "catatan": "Versi Rama I (116 jilid), ujian api, Hanoman."
+  },
+  "wiki_vali": {
+   "atribusi": "Wikipedia, Vali (Ramayana)",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Vali_(Ramayana)",
+   "jenis": "sekunder",
+   "catatan": "Kisah Subali, Sugriwa, gua Mayavi, Rama memanah dari persembunyian."
+  },
+  "wiki_jatayu": {
+   "atribusi": "Wikipedia, Jatayu",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Jatayu",
+   "jenis": "sekunder",
+   "catatan": "Jatayu melawan Rahwana; Rama menyelenggarakan upacara."
+  },
+  "wiki_kumbhakarna": {
+   "atribusi": "Wikipedia, Kumbhakarna",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Kumbhakarna",
+   "jenis": "sekunder",
+   "catatan": "Anugerah tidur, nasihatnya kepada Rahwana, gugur."
+  },
+  "wiki_indrajit": {
+   "atribusi": "Wikipedia, Indrajit (Meghanada)",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Indrajit",
+   "jenis": "sekunder",
+   "catatan": "Nagapasa, Brahmastra, ritual Nikumbhila, gugur di tangan Laksmana."
+  },
+  "lakshmana_rekha": {
+   "atribusi": "Wikipedia, Lakshmana Rekha",
+   "tahun": 0,
+   "url": "https://en.wikipedia.org/wiki/Lakshmana_Rekha",
+   "jenis": "sekunder",
+   "catatan": "Garis pelindung tidak ada pada Walmiki; baru muncul pada versi belakangan."
+  },
+  "griffith": {
+   "atribusi": "Ralph T. H. Griffith, The Ramayan of Valmiki, 1870-74, Gutenberg 60188 (jilid 3, Yuddhakanda)",
+   "tahun": 1874,
+   "url": "https://gutenberg.org/cache/epub/60188/pg60188-images.html",
+   "jenis": "primer",
+   "catatan": "Domain publik. TIDAK terbuka lewat alat (robots.txt tidak terbaca). Tidak dipakai untuk kutipan."
+  }
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "britannica"
+   ],
+   "rujukan": "Ayodhyakanda sarga 19 (edisi sanskritdocuments)",
+   "vo": "Rama, pangeran Ayodhya, sudah hampir dilantik menjadi raja. Lalu ia dipanggil dan diminta pergi ke hutan selama empat belas tahun. Jawabannya cuma satu: baik. Kenapa seorang calon raja mau menerima itu?",
+   "on_screen": "HAMPIR RAJA, DIASINGKAN",
+   "sfx": "gamelan pelan jauh, desis api blencong",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang-kulit silhouette of a young prince in a tall crown standing calmly on a cream screen, a second smaller silhouette of an elderly king seated on a throne behind him, a single oil lamp flame glowing amber at the screen edge, empty dark palace pillars as perforated shapes.",
+   "cam_en": "slow push-in toward the standing prince",
+   "beat1": "oil lamp flame flickers softly",
+   "beat2": "the prince silhouette sways very slightly as if breathing",
+   "beat3": "the screen glow steadies, last second still",
+   "scan_asli": null
+  },
+  {
+   "id": "S02",
+   "bagian": "Cold open",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "britannica"
+   ],
+   "rujukan": "Ringkasan seluruh Ayodhyakanda sampai Yuddhakanda",
+   "vo": "Di video ini kita jawab tiga hal. Kenapa Rama menerima pengasingan itu. Bagaimana istrinya, Sinta, bisa direbut dari tengah hutan. Dan bagaimana perang berakhir, serta apa yang terjadi pada Sinta sesudahnya.",
+   "on_screen": "TIGA PERTANYAAN",
+   "sfx": "drone rendah, kertas lontar bergesek",
+   "kamera": "slow pan kiri ke kanan",
+   "flow_subject": "Close-up of an old palm-leaf lontar manuscript lying on dark wood, three horizontal strips of illegible incised marks, a small clay oil lamp casting amber light from the right, fine dust floating in the beam, shallow depth of field.",
+   "cam_en": "slow pan left to right along the lontar strips",
+   "beat1": "dust motes drift through the lamp beam",
+   "beat2": "lamp flame bends gently, light slides across the leaf",
+   "beat3": "camera settles, light calm and steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S03",
+   "bagian": "Latar belakang",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_wl",
+    "walmiki_sd"
+   ],
+   "rujukan": "Ayodhyakanda sarga 9",
+   "vo": "Menurut Walmiki, semuanya bermula dari Kaikeyi, istri muda Raja Dasarata. Pelayannya, Mantara, menghasutnya dan mengingatkan pada dua permintaan yang dulu dijanjikan sang raja, yang belum pernah ia tagih sampai hari itu.",
+   "on_screen": "DUA JANJI LAMA",
+   "sfx": "bisikan samar, api lampu minyak",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang-kulit silhouette of a queen with an ornate headdress on the cream screen, behind her a small hunched servant silhouette whispering close to her ear, a lit oil lamp in front casting deep amber, two small ornamental jewels as perforated shapes between them.",
+   "cam_en": "slow push-in on the whispering pair",
+   "beat1": "the lamp flame flickers",
+   "beat2": "the servant silhouette leans in slightly closer",
+   "beat3": "figures freeze, calm last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S04",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_wl",
+    "walmiki_sd"
+   ],
+   "rujukan": "Ayodhyakanda sarga 9-12",
+   "vo": "Kaikeyi menagih dua janji itu sekaligus. Pertama, putranya sendiri, Bharata, dilantik menjadi raja. Kedua, Rama diasingkan ke hutan selama empat belas tahun. Dasarata terpukul, tetapi sebagai raja ia terikat pada ucapannya.",
+   "on_screen": "JANJI DITAGIH",
+   "sfx": "detak jantung pelan, gema aula",
+   "kamera": "slow tilt down",
+   "flow_subject": "Deeply carved volcanic-stone temple relief of a seated queen facing a king, with two small raised discs carved between them as symbols of two promises, raking amber torchlight across worn stone, shadows deep in the carved grooves.",
+   "cam_en": "slow tilt down from the king to the two carved discs",
+   "beat1": "torch light flickers on the stone",
+   "beat2": "the shadow in the grooves shifts as the light moves",
+   "beat3": "light holds still, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S05",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "britannica"
+   ],
+   "rujukan": "Ayodhyakanda sarga 19",
+   "vo": "Rama tidak membantah. Ia menganggap janji ayahnya seperti surat perjanjian yang sudah ditandatangani, dan menepatinya adalah dharma, kewajiban luhur seorang anak. Ia tidak takut atau terpaksa. Ia memilih setia pada kata.",
+   "on_screen": "DHARMA: SETIA PADA KATA",
+   "sfx": "hening, satu nada gong",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang-kulit silhouette of a prince bowing calmly with folded hands before an elderly king silhouette, a rolled lontar scroll between them on the floor, warm amber lamp behind the screen, rest of the screen dark navy.",
+   "cam_en": "slow push-in on the bowing prince",
+   "beat1": "lamp flame sways",
+   "beat2": "the bowing silhouette lowers slightly in respect",
+   "beat3": "figures still, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S06",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd"
+   ],
+   "rujukan": "Ayodhyakanda sarga 30",
+   "vo": "Sinta menolak ditinggal di istana. Ia berkata tempat seorang istri ada di sisi suaminya, dan Rama akhirnya setuju. Laksmana, adik Rama, juga memilih ikut. Bertiga mereka berangkat sebagai pertapa, melepas pakaian kerajaan.",
+   "on_screen": "TIGA ORANG BERANGKAT",
+   "sfx": "langkah kaki di tanah, angin sepi",
+   "kamera": "slow tracking kanan",
+   "flow_subject": "Three wayang-kulit silhouettes walking in a line to the right across the cream screen: a prince with a bow, a woman with a slender figure, and a younger man with a quiver, discarded crowns left behind as small shapes at the screen edge, amber lamp glow.",
+   "cam_en": "slow tracking to the right with the walkers",
+   "beat1": "soft lamp flicker",
+   "beat2": "the three silhouettes advance a little",
+   "beat3": "the walkers pause, camera steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S07",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "worldhistory"
+   ],
+   "rujukan": "Ayodhyakanda sarga 64 dan seterusnya (wafatnya Dasarata); belum diverifikasi nomor tepat",
+   "vo": "Ayodhya sunyi melepas mereka. Tak lama kemudian, Dasarata wafat karena duka. Bharata pulang, menolak mahkota yang diraih ibunya dengan cara itu, lalu menyusul Rama ke hutan untuk memintanya kembali ke kota.",
+   "on_screen": "AYODHYA SUNYI",
+   "sfx": "lonceng jauh, angin gurun",
+   "kamera": "slow pull-back",
+   "flow_subject": "A wide architectural view of an empty royal courtyard at dusk, tall stone gateway with carved pillars, a single torch burning amber at its base, long shadows on bare flagstones, no people, deep navy sky with a faint crimson edge at the horizon.",
+   "cam_en": "slow pull-back from the gateway",
+   "beat1": "torch flame flickers, smoke drifts",
+   "beat2": "a little dust blows across the flagstones",
+   "beat3": "image settles, calm last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S08",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "worldhistory"
+   ],
+   "rujukan": "Ayodhyakanda sarga 112",
+   "vo": "Di Chitrakuta, tempat pertama mereka tinggal di hutan, Rama menolak pulang demi janji ayahnya. Bharata lalu membawa sandal Rama, meletakkannya di singgasana, dan memerintah atas nama sandal itu selama empat belas tahun.",
+   "on_screen": "SANDAL DI SINGGASANA",
+   "sfx": "burung hutan, desir daun",
+   "kamera": "slow push-in",
+   "flow_subject": "A pair of old wooden sandals resting on an empty carved stone throne, a small amber oil lamp placed beside them, dark palace hall with out-of-focus pillars, a single shaft of light on the sandals.",
+   "cam_en": "slow push-in on the sandals",
+   "beat1": "lamp flame flickers",
+   "beat2": "dust drifts slowly across the beam",
+   "beat3": "camera stops, light stable",
+   "scan_asli": null
+  },
+  {
+   "id": "S09",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Aranyakanda sarga 1-16 (garis besar), Dandaka dan Panchawati",
+   "vo": "Mereka lalu berpindah dari hutan ke hutan. Di rimba Dandaka, para pertapa meminta perlindungan dari raksasa pengganggu. Akhirnya mereka membangun pondok di Panchawati, di tepi sungai, dan hidup tenang selama beberapa tahun.",
+   "on_screen": "DARI HUTAN KE HUTAN",
+   "sfx": "jangkrik malam, air sungai",
+   "kamera": "slow dolly maju",
+   "flow_subject": "A moody forest landscape at dusk, dense tall trees as black silhouettes, a small thatched leaf hut at a riverbank with one lit amber lamp inside, mist over the water, faint crimson in the sky, no people.",
+   "cam_en": "slow dolly forward toward the hut",
+   "beat1": "mist drifts over the river",
+   "beat2": "the lamp inside the hut glows a little brighter",
+   "beat3": "mist settles, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S10",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Aranyakanda sarga 17-18",
+   "vo": "Lalu datang Surpanakha, adik Rahwana, raja Alengka. Ia jatuh hati pada Rama dan melamarnya. Rama menolak karena sudah beristri dan setia. Surpanakha lalu menyerang Sinta, dan Laksmana menghentikannya dengan melukainya.",
+   "on_screen": "SURPANAKHA DITOLAK",
+   "sfx": "angin tajam, kain bergesek",
+   "kamera": "slow pan kanan",
+   "flow_subject": "A wayang-kulit silhouette of a fierce woman with long hair and sharp jewelry reaching toward a calm bow-carrying prince silhouette, who holds up one hand to refuse, a smaller woman silhouette half hidden behind him, amber lamp, subtle crimson at the screen edge.",
+   "cam_en": "slow pan to the right across the confrontation",
+   "beat1": "lamp flame flickers",
+   "beat2": "the woman silhouette leans forward, the prince's hand stays raised",
+   "beat3": "motion stops, steady last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S11",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Aranyakanda sarga 32-34",
+   "vo": "Surpanakha pulang mengadu kepada Rahwana. Ia tidak hanya mengeluh. Ia menyebut kecantikan Sinta. Rahwana, yang terpelajar tetapi angkuh, memilih membalas lewat Sinta, bukan lewat pertempuran terbuka di hadapan Rama sendiri.",
+   "on_screen": "DENDAM KE ALENGKA",
+   "sfx": "drone merah rendah, gema aula batu",
+   "kamera": "slow push-in",
+   "flow_subject": "Carved volcanic-stone relief of a woman figure kneeling before a seated tall king with many crowned heads, flickering amber torchlight, deep grooves, a crimson-lit edge of stone, no text.",
+   "cam_en": "slow push-in on the kneeling figure",
+   "beat1": "torch light flickers",
+   "beat2": "shadows move slowly across the carved heads",
+   "beat3": "light holds steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S12",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Aranyakanda sarga 35-38 (belum diverifikasi nomor tepat)",
+   "vo": "Rahwana mendatangi Marica, raksasa yang pandai mengubah rupa. Marica pernah kalah dari Rama, dan ia memperingatkan: jangan cari perkara dengan Rama itu. Tetapi Rahwana mengancam, dan Marica akhirnya setuju menjadi umpan.",
+   "on_screen": "MARICA DIPAKSA",
+   "sfx": "bisikan, langkah berat",
+   "kamera": "slow tilt up",
+   "flow_subject": "A wayang-kulit silhouette of a towering demon figure in a crown bending forward with a hand on the shoulder of a smaller shapeshifter silhouette, a flame lit at the edge of the screen in deep amber, subtle crimson glow around the larger shape.",
+   "cam_en": "slow tilt up from the small figure to the large one",
+   "beat1": "lamp flame flickers",
+   "beat2": "the large silhouette leans slightly closer",
+   "beat3": "figures freeze, calm last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S13",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone",
+    "bates_wayang"
+   ],
+   "rujukan": "Aranyakanda sarga 42-43",
+   "vo": "Marica menjelma menjadi rusa emas dan berkeliaran di depan pondok. Sinta terpikat dan meminta Rama menangkapnya. Rama curiga, tetapi tetap mengejar. Ia berpesan agar Laksmana menjaga Sinta dengan sungguh-sungguh dan waspada.",
+   "on_screen": "RUSA EMAS",
+   "sfx": "denting halus, daun kering",
+   "kamera": "slow dolly maju",
+   "flow_subject": "A golden deer silhouette cut in perforated leather standing at the edge of a leaf hut on a cream screen, a woman figure silhouette reaching a hand toward it, the shadow of a forest behind, a single amber glow.",
+   "cam_en": "slow dolly forward toward the deer",
+   "beat1": "lamp flame flickers",
+   "beat2": "the deer silhouette steps slightly sideways",
+   "beat3": "figures freeze, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S14",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Aranyakanda sarga 44-45",
+   "vo": "Jauh di dalam hutan, panah Rama mengenai rusa itu. Sebelum jatuh, Marica menjerit meniru suara Rama. Sinta panik dan mendesak Laksmana untuk menolong. Dengan berat hati, Laksmana akhirnya pergi meninggalkan pondok.",
+   "on_screen": "SUARA PALSU",
+   "sfx": "gema teriakan jauh, napas",
+   "kamera": "slow push-in",
+   "flow_subject": "A dark forest at night viewed through trees, a single arrow stuck upright in the ground in the foreground catching amber light, fog at ground level, distant silhouette of a hut with a faint lamp, no people.",
+   "cam_en": "slow push-in toward the arrow",
+   "beat1": "fog drifts across the ground",
+   "beat2": "the distant lamp flickers",
+   "beat3": "camera settles, still last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S15",
+   "bagian": "Kronologi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "lakshmana_rekha",
+    "walmiki_sd"
+   ],
+   "rujukan": "Aranyakanda sarga 45 (Laksmana pergi tanpa garis pelindung); belum diverifikasi ke teks",
+   "vo": "Banyak orang mengira Laksmana menggambar garis pelindung di tanah. Menurut Walmiki, garis itu tidak ada. Ia muncul di versi yang lebih belakangan. Di kisah aslinya, Laksmana pergi hanya karena terus didesak Sinta.",
+   "on_screen": "GARIS ITU TAK ADA",
+   "sfx": "angin, bisik daun",
+   "kamera": "static, slow zoom",
+   "flow_subject": "A palm-leaf lontar leaf with a plain circle drawn on the ground in the foreground, empty, a small oil lamp beside it, deep shadows, the circle faint in the dust, no text, no figures.",
+   "cam_en": "static, very slow zoom toward the empty circle",
+   "beat1": "dust drifts in the lamp beam",
+   "beat2": "lamp flame bends softly",
+   "beat3": "the light steadies, last second still",
+   "scan_asli": null
+  },
+  {
+   "id": "S16",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone",
+    "bates_wayang"
+   ],
+   "rujukan": "Aranyakanda sarga 46-49",
+   "vo": "Rahwana datang menyamar sebagai pertapa tua dan meminta sedekah dan jamuan. Begitu Sinta mendekat, ia menampakkan wujudnya dan membawanya terbang. Sinta menjatuhkan perhiasannya di sebuah bukit, berharap ada yang menemukan jejaknya.",
+   "on_screen": "PERHIASAN DI BUKIT",
+   "sfx": "angin kencang, gemuruh kereta",
+   "kamera": "slow pan kiri",
+   "flow_subject": "A wayang-kulit silhouette of a hunched old ascetic with a staff on the cream screen suddenly revealed as a crowned figure with many heads, beside a woman silhouette, a winged chariot shape behind them, amber lamp and crimson accent.",
+   "cam_en": "slow pan to the left following the chariot",
+   "beat1": "lamp flame flickers strongly",
+   "beat2": "the crowned silhouette rises taller",
+   "beat3": "motion settles, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S17",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "wiki_jatayu",
+    "brin_prambanan"
+   ],
+   "rujukan": "Aranyakanda sarga 50-51",
+   "vo": "Burung tua bernama Jatayu, sahabat Dasarata, melihat Sinta dibawa. Ia menghadang Rahwana dan melawan sekuat tenaga. Usianya sudah renta, dan akhirnya ia jatuh terluka, tetapi masih sempat bertahan untuk membawa kabar.",
+   "on_screen": "JATAYU MENGHADANG",
+   "sfx": "kepak sayap, desing angin",
+   "kamera": "slow tilt up",
+   "flow_subject": "A wayang-kulit silhouette of a great old bird with wide wings blocking a flying chariot, the crowned many-headed silhouette leaning forward, strong amber backlight behind the screen, subtle crimson edge, feathers as perforated lines.",
+   "cam_en": "slow tilt up toward the outstretched wings",
+   "beat1": "lamp flame flickers",
+   "beat2": "the wings spread a little wider",
+   "beat3": "motion pauses, steady last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S18",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "wiki_jatayu"
+   ],
+   "rujukan": "Aranyakanda sarga 67-68 (nomor menurut hindutone, belum diverifikasi)",
+   "vo": "Rama pulang dan menemukan pondok kosong. Ia mencari ke seluruh hutan sampai menemukan Jatayu yang sekarat. Setelah memberi tahu arah Rahwana pergi, Jatayu wafat, dan Rama sendiri yang memakamkannya dengan hormat.",
+   "on_screen": "PONDOK KOSONG",
+   "sfx": "hening, desau angin lirih",
+   "kamera": "slow push-in",
+   "flow_subject": "A relief of a large old bird lying on the ground beside a kneeling prince figure carved in volcanic stone, raking amber torchlight, deep shadows in the grooves, no text.",
+   "cam_en": "slow push-in on the bird and the prince",
+   "beat1": "torch light flickers",
+   "beat2": "shadow shifts slowly across the carving",
+   "beat3": "light holds still",
+   "scan_asli": null
+  },
+  {
+   "id": "S19",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Aranyakanda sarga 74 (Sabari); sarga 69-73 (Kabandha)",
+   "vo": "Dalam pencarian, mereka tiba di pertapaan Sabari, perempuan tua yang menunggu Rama bertahun-tahun. Ia menyambut mereka dengan buah hutan. Seorang makhluk yang dibebaskan Rama dari kutukan menyarankan mereka mencari Sugriwa.",
+   "on_screen": "SABARI MENYAMBUT",
+   "sfx": "api kecil, bunyi daun",
+   "kamera": "slow dolly maju",
+   "flow_subject": "A small forest hermitage at dusk with an old woman's hut, a bowl of wild fruit on a flat stone in the foreground, warm amber oil lamp, mist among tall trees, no people.",
+   "cam_en": "slow dolly forward toward the bowl",
+   "beat1": "mist drifts slowly",
+   "beat2": "the lamp flame glows a little warmer",
+   "beat3": "image settles, calm last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S20",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Kishkindhakanda sarga 2-4",
+   "vo": "Di sebuah bukit, Sugriwa melihat dua pemburu bersenjata dan mengutus Hanoman untuk mengintai. Hanoman, kera cendekia yang pandai bicara, memberi hormat pada Rama. Lalu ia mengantar keduanya menemui Sugriwa di sana.",
+   "on_screen": "HANOMAN BERTEMU RAMA",
+   "sfx": "burung, gemerisik batu",
+   "kamera": "slow pan kanan",
+   "flow_subject": "A wayang-kulit silhouette of a monkey scholar with a long tail bowing in greeting to two bow-carrying men silhouettes on a cream screen, a rocky hill shape at one side, amber lamp glow.",
+   "cam_en": "slow pan to the right across the three figures",
+   "beat1": "lamp flame flickers",
+   "beat2": "the monkey silhouette dips lower in respect",
+   "beat3": "figures freeze, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S21",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Kishkindhakanda sarga 5 (pakta); perhiasan Sinta ditunjukkan: sarga 6 (belum diverifikasi)",
+   "vo": "Sugriwa menunjukkan perhiasan Sinta yang jatuh dari langit, dan Rama mengenalinya. Keduanya bersumpah saling membantu. Rama akan mengembalikan takhta milik Sugriwa, dan Sugriwa akan mengerahkan pasukan kera untuk mencari Sinta.",
+   "on_screen": "SUMPAH DUA SAHABAT",
+   "sfx": "api unggun, logam bergemerincing",
+   "kamera": "slow push-in",
+   "flow_subject": "A small pile of jewelry (a ring and a few ornaments) resting on a folded cloth in the foreground, a monkey-king silhouette and a prince silhouette facing each other on the cream screen behind, amber lamp, deep shadows.",
+   "cam_en": "slow push-in on the jewelry",
+   "beat1": "lamp flame flickers",
+   "beat2": "the two silhouettes lean toward each other slightly",
+   "beat3": "light holds steady",
+   "scan_asli": null
+  },
+  {
+   "id": "S22",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "wiki_vali",
+    "hindutone"
+   ],
+   "rujukan": "Kishkindhakanda sarga 14-25 (Subali: tantangan 14, teguran 17, jawaban Rama 18)",
+   "vo": "Takhta itu dirampas Subali, kakak Sugriwa. Dalam duel mereka, Rama memanah Subali dari balik pohon. Subali menegur Rama, dan Rama menjawab dengan hukum bagi raja. Para pembaca sampai kini masih memperdebatkannya.",
+   "on_screen": "PANAH DARI BALIK POHON",
+   "sfx": "denting busur, hening",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang-kulit tableau of two monkey-king silhouettes facing off, one smaller figure with a bow half hidden behind a tree shape in the background, amber lamp with a crimson accent at the edge of the screen.",
+   "cam_en": "slow push-in on the duelists",
+   "beat1": "lamp flame flickers",
+   "beat2": "the two silhouettes sway slightly, tree shape trembles",
+   "beat3": "everything stills, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S23",
+   "bagian": "Kronologi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "bates_wayang",
+    "wiki_vali"
+   ],
+   "rujukan": "Wayang Jawa: Subali dan Sugriwa (katalog Susilo 2004); tidak sama dengan Walmiki",
+   "vo": "Dalam wayang Jawa, kisahnya lain. Subali dan Sugriwa diutus dewa melawan dua raksasa di dalam gua. Air yang mengalir keluar tampak merah dan putih. Sugriwa mengira kakaknya gugur dan menutup gua. Perselisihan pun dimulai.",
+   "on_screen": "VERSI JAWA",
+   "sfx": "gamelan lirih, air mengalir",
+   "kamera": "slow pan kiri",
+   "flow_subject": "A relief-like tableau of a dark cave mouth in rock, a stream flowing out in two colors suggested by one warm amber streak and one pale cream streak, a small silhouette of a monkey standing at the entrance, deep midnight navy surroundings.",
+   "cam_en": "slow pan to the left along the stream",
+   "beat1": "water ripples gently",
+   "beat2": "the amber and cream streaks swirl slowly",
+   "beat3": "water calms, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S24",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Kishkindhakanda sarga 40-47",
+   "vo": "Pasukan kera disebar ke empat penjuru mata angin. Tiga rombongan pulang dengan tangan kosong. Rama menitipkan cincinnya kepada Hanoman sebagai tanda pengenal bagi Sinta, bila rombongan selatan berhasil menemukannya kelak.",
+   "on_screen": "EMPAT PENJURU",
+   "sfx": "langkah ribuan kaki, angin",
+   "kamera": "slow pan lebar",
+   "flow_subject": "A wide landscape of ridges at dawn with tiny monkey silhouettes dispersing in four directions across hills, a single small ring in the foreground resting on a rock catching amber light, long shadows.",
+   "cam_en": "slow wide pan across the ridges",
+   "beat1": "wind moves the grass",
+   "beat2": "a few silhouettes crawl across ridges",
+   "beat3": "camera settles on the ring",
+   "scan_asli": null
+  },
+  {
+   "id": "S25",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Kishkindhakanda sarga 56-67",
+   "vo": "Di pantai selatan, rombongan Hanoman buntu di depan lautan luas. Burung tua bernama Sampati melihat dari kejauhan bahwa Sinta berada di Alengka. Seorang tetua kera mengingatkan Hanoman pada kekuatan yang pernah ia lupakan.",
+   "on_screen": "LAUT DAN SATU KABAR",
+   "sfx": "debur ombak, angin laut",
+   "kamera": "slow push-in",
+   "flow_subject": "A rocky coast at dusk with a vast dark sea, a tiny group of monkey silhouettes gathered at the water's edge looking out, a large old bird silhouette perched on a cliff, amber light at the horizon, crimson sky line.",
+   "cam_en": "slow push-in toward the group at the shore",
+   "beat1": "waves roll gently",
+   "beat2": "the old bird shifts on the cliff",
+   "beat3": "calm sea, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S26",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Sundarakanda sarga 1",
+   "vo": "Hanoman membesarkan tubuhnya dan melompat melintasi lautan. Di tengah jalan, gunung, ular raksasa, dan penghadang lain mengujinya. Ia menyusut menjadi kecil, menembus semuanya, lalu akhirnya mendarat dengan selamat di pulau Alengka.",
+   "on_screen": "HANOMAN MELOMPAT",
+   "sfx": "angin deras, gemuruh laut",
+   "kamera": "slow tilt up",
+   "flow_subject": "A wayang-kulit silhouette of a giant monkey leaping across a cream screen from left to right, a mountain shape below, an arched sea line, strong amber backlight, a trailing line of cloud shapes.",
+   "cam_en": "slow pan to the right following the leap",
+   "beat1": "wind sound builds, lamp flickers",
+   "beat2": "the silhouette arcs upward slightly",
+   "beat3": "the silhouette glides, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S27",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "bates_wayang"
+   ],
+   "rujukan": "Sundarakanda sarga 15-38 (garis besar; nomor belum diverifikasi)",
+   "vo": "Di taman Rahwana, Hanoman menemukan Sinta duduk sedih di bawah pohon, dijaga para raksasi. Ia menyerahkan cincin Rama. Sinta menolak digendong pulang, karena menurutnya Rama sendirilah yang harus datang menjemputnya ke Alengka.",
+   "on_screen": "CINCIN UNTUK SINTA",
+   "sfx": "hening taman, daun bergoyang",
+   "kamera": "slow push-in",
+   "flow_subject": "A dark garden with a single tree and a woman figure in a simple robe silhouette seated beneath it on a cream screen, a monkey silhouette small and crouched on a branch above holding out a ring, warm amber lamp.",
+   "cam_en": "slow push-in on the woman and the ring",
+   "beat1": "lamp flame flickers",
+   "beat2": "the monkey silhouette lowers the ring a little",
+   "beat3": "figures freeze, calm last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S28",
+   "bagian": "Kronologi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "bates_wayang"
+   ],
+   "rujukan": "Sundarakanda sarga 53-54 (ekor dibakar); wayang Jawa: ditangkap Indrajit",
+   "vo": "Hanoman ditangkap dan ekornya dibakar. Tetapi ekor yang menyala itu ia pakai untuk melompat dari atap ke atap. Alengka terbakar, dan ia pulang membawa kabar penting bahwa Sinta masih hidup dan menunggu.",
+   "on_screen": "ALENGKA TERBAKAR",
+   "sfx": "api berkobar jauh, derak kayu",
+   "kamera": "slow pan kanan",
+   "flow_subject": "A silhouette of a city rooftop line in flames, bright amber fire against a deep navy sky, a monkey figure with a burning tail leaping between rooftops, crimson glow, smoke curling.",
+   "cam_en": "slow pan to the right across the rooftops",
+   "beat1": "fire crackles, flames sway",
+   "beat2": "the fire sways higher on the roofs",
+   "beat3": "flames settle, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S29",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone",
+    "thailand_foundation"
+   ],
+   "rujukan": "Yuddhakanda sarga 17-19",
+   "vo": "Di Alengka, adik Rahwana bernama Wibisana menasihati agar Sinta dikembalikan. Rahwana menolak dan mengusirnya. Seperti penasihat yang tak didengar dalam rapat direksi, Wibisana pergi dan bergabung dengan pasukan Rama tanpa menoleh.",
+   "on_screen": "PENASIHAT YANG DIUSIR",
+   "sfx": "gema aula, langkah menjauh",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang-kulit silhouette of a gentle crowned prince walking away from a large many-headed king on a throne, the throne room as perforated pillar shapes, amber lamp behind, crimson edge behind the king.",
+   "cam_en": "slow push-in on the walking figure",
+   "beat1": "lamp flame flickers",
+   "beat2": "the walking silhouette moves a few steps",
+   "beat3": "motion stops, steady last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S30",
+   "bagian": "Kronologi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone",
+    "uad_bahastra"
+   ],
+   "rujukan": "Yuddhakanda sarga 21-22 (jembatan); wayang Jawa: Rama Tambak",
+   "vo": "Pasukan sampai di pantai, tetapi laut menghadang. Dengan batu dan batang pohon, para kera membangun jembatan, dipimpin Nala. Di wayang Jawa, episode ini dikenal sebagai Rama Tambak, tambak berarti bendungan.",
+   "on_screen": "JEMBATAN DI LAUT",
+   "sfx": "ombak, batu jatuh ke air",
+   "kamera": "slow pan kiri",
+   "flow_subject": "A long causeway of stacked stones and logs stretching across a dark sea at dusk toward a distant island with a lit city, tiny monkey silhouettes carrying stones, amber sunset line, whitecaps.",
+   "cam_en": "slow pan to the left along the causeway",
+   "beat1": "waves hit stone, rocks thud",
+   "beat2": "the monkey silhouettes carry stones along the line",
+   "beat3": "scene settles, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S31",
+   "bagian": "Kronologi",
+   "kelas": "fakta",
+   "keyakinan": null,
+   "sumber": [
+    "brin_prambanan",
+    "wiki_kakawin"
+   ],
+   "rujukan": "Panel Candi Siwa XIIIe dan Candi Brahma III, VII, XII (BRIN, Berkala Arkeologi)",
+   "vo": "Kisah ini sudah lama dipahat di batu. Di candi Prambanan, Jawa Tengah, relief abad kesembilan menampilkan Rahwana menculik Sinta dan diserang Jatayu. Jadi, Ramayana sudah akrab di tanah Jawa seribu tahun lebih.",
+   "on_screen": "PRAMBANAN, ABAD 9",
+   "sfx": "pahat batu jauh, gema candi",
+   "kamera": "slow pan relief",
+   "flow_subject": "A section of a carved volcanic-stone temple relief showing a many-headed crowned king riding a winged chariot while a large bird attacks it, raking amber torchlight on weathered stone, deep grooves, no text.",
+   "cam_en": "slow pan along the relief panel",
+   "beat1": "torch light flickers",
+   "beat2": "raking light slides across the carving",
+   "beat3": "light holds still",
+   "scan_asli": null
+  },
+  {
+   "id": "S32",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Yuddhakanda sarga 59",
+   "vo": "Perang pecah. Rahwana sendiri turun ke medan dan membuat Laksmana terluka. Rama menghancurkan kereta dan mahkotanya, lalu menyuruh Rahwana pulang untuk beristirahat. Rama tidak menyerang lawan yang sedang tak berdaya.",
+   "on_screen": "RAMA MENGAMPUNI",
+   "sfx": "genderang perang jauh, derak kereta",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang-kulit silhouette of a broken chariot and a fallen crown on the cream screen, the many-headed king silhouette stands with lowered head, a calm prince silhouette lowering his bow nearby, amber lamp, crimson edge.",
+   "cam_en": "slow push-in on the lowered bow",
+   "beat1": "lamp flame flickers",
+   "beat2": "the king silhouette bows slightly",
+   "beat3": "figures freeze, calm last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S33",
+   "bagian": "Kronologi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "wiki_kumbhakarna",
+    "bates_wayang",
+    "walmiki_sd"
+   ],
+   "rujukan": "Yuddhakanda sarga 66-67; wayang Jawa: Kumbakarna pembela negeri",
+   "vo": "Adik Rahwana yang lain, Kumbakarna, dibangunkan dari tidur panjang. Ia menyalahkan kakaknya, tetapi tetap maju bertempur demi saudara dan negerinya. Dalam wayang Jawa, ia dikenang sebagai ksatria pembela tanah air.",
+   "on_screen": "KUMBAKARNA BANGUN",
+   "sfx": "napas berat, gemuruh langkah",
+   "kamera": "slow tilt up",
+   "flow_subject": "A wayang-kulit silhouette of a huge giant in a crown rising from sleep, a long bed shape under him, small soldier silhouettes at his feet, strong amber backlight, crimson accent at the screen edge.",
+   "cam_en": "slow tilt up the giant's height",
+   "beat1": "lamp flame flickers",
+   "beat2": "the giant silhouette lifts slowly",
+   "beat3": "motion settles, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S34",
+   "bagian": "Kronologi",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "wiki_indrajit",
+    "bates_wayang",
+    "hindutone"
+   ],
+   "rujukan": "Yuddhakanda sarga 85-91; wayang Jawa: Wibisana menewaskan Indrajit",
+   "vo": "Putra Rahwana, Indrajit, bertempur dengan panah ular sakti yang mengikat Rama dan Laksmana. Garuda datang membebaskan mereka. Akhirnya Indrajit gugur, di Walmiki oleh tangan Laksmana, di wayang Jawa lewat Wibisana.",
+   "on_screen": "INDRAJIT GUGUR",
+   "sfx": "desis ular, kepak sayap besar",
+   "kamera": "slow pan kanan",
+   "flow_subject": "A wayang-kulit tableau of a young warrior silhouette on a cloud with a bow, a great serpent-shaped arrow glowing amber crossing the screen, two prince silhouettes at the bottom, a huge bird silhouette descending, crimson accent.",
+   "cam_en": "slow pan to the right across the arrow",
+   "beat1": "lamp flame flickers",
+   "beat2": "the bird silhouette descends a little",
+   "beat3": "scene steadies, last second still",
+   "scan_asli": null
+  },
+  {
+   "id": "S35",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "hindutone"
+   ],
+   "rujukan": "Yuddhakanda sarga 103-111 (nomor tepat belum diverifikasi)",
+   "vo": "Rama dan Rahwana bertarung berhari-hari. Setiap kepala Rahwana yang rubuh tumbuh lagi, sampai Rama memakai panah Brahma. Menurut Walmiki, Rahwana akhirnya gugur. Para dewa menyambutnya dengan taburan bunga dari langit.",
+   "on_screen": "RAHWANA GUGUR",
+   "sfx": "gemuruh petir jauh, lalu hening",
+   "kamera": "slow push-in",
+   "flow_subject": "A relief-like carved stone panel of a duel between a crowned many-headed king and a prince with a large bow, a single heavy arrow glowing amber in the center of the panel, raking torchlight, crimson accent in the grooves, no text.",
+   "cam_en": "slow push-in on the arrow",
+   "beat1": "torch light flickers",
+   "beat2": "raking light slides across the carved heads",
+   "beat3": "light holds still",
+   "scan_asli": null
+  },
+  {
+   "id": "S36",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd"
+   ],
+   "rujukan": "Yuddhakanda sarga 111 (edisi sanskritdocuments)",
+   "vo": "Istri Rahwana, Mandodari, meratap dan mengenang kehebatan suaminya. Wibisana semula menolak mengurus jenazah kakaknya yang kejam. Rama berkata, permusuhan berakhir bersama kematian. Wibisana pun menyelenggarakan upacara lengkap sesuai tata cara Weda.",
+   "on_screen": "MUSUH PUN DIHORMATI",
+   "sfx": "api pembakaran jauh, nyanyian lirih",
+   "kamera": "slow pull-back",
+   "flow_subject": "A funeral pyre scene in a night landscape, a crowned figure laid beneath draped cloth, flames at the base glowing amber, a woman silhouette kneeling beside it, a tall man silhouette standing at distance, smoke rising.",
+   "cam_en": "slow pull-back from the pyre",
+   "beat1": "fire crackles softly",
+   "beat2": "flames sway gently",
+   "beat3": "scene settles, stable last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S37",
+   "bagian": "Kronologi",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd"
+   ],
+   "rujukan": "Yuddhakanda sarga 116 (edisi sanskritdocuments; edisi lain 118-119)",
+   "vo": "Sinta dibawa menghadap Rama. Di depan banyak orang, Rama berkata bahwa perang ini demi nama baik, lalu meragukan kesucian Sinta karena ia lama tinggal di rumah Rahwana. Sinta menjawab tegas, dan ia sangat terluka.",
+   "on_screen": "KEHORMATAN DIPERTANYAKAN",
+   "sfx": "bisik kerumunan, hening",
+   "kamera": "slow push-in",
+   "flow_subject": "A wayang-kulit silhouette of a woman standing alone before a crowd of silhouettes, a prince silhouette facing her at distance, amber lamp, crimson edge, a long cream screen with dark crowd shapes.",
+   "cam_en": "slow push-in on the woman",
+   "beat1": "lamp flame flickers",
+   "beat2": "the crowd silhouettes sway a little",
+   "beat3": "figures freeze, steady last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S38",
+   "bagian": "Bukti & analisis",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "wikipedia_ramayana"
+   ],
+   "rujukan": "Yuddhakanda sarga 116-119 (nomor bervariasi menurut edisi)",
+   "vo": "Sinta meminta Laksmana menyalakan api. Sambil mengelilingi Rama, ia memohon Agni, dewa api, melindunginya bila ia tak pernah berkhianat. Menurut Walmiki, api tak melukainya, dan Agni sendiri menyatakan Sinta suci.",
+   "on_screen": "UJIAN API",
+   "sfx": "api berderak, hening saksi",
+   "kamera": "slow push-in",
+   "flow_subject": "A bright amber fire pit in a dark clearing, flames rising straight up, a woman silhouette in a plain robe circled around it, a protective flame figure shaped as a faint gold outline above the fire, no text.",
+   "cam_en": "slow push-in on the flames",
+   "beat1": "fire crackles, silence beneath",
+   "beat2": "the flames sway upward and the outline shimmers",
+   "beat3": "flames steady, calm last second",
+   "scan_asli": null
+  },
+  {
+   "id": "S39",
+   "bagian": "Bukti & analisis",
+   "kelas": "versi",
+   "keyakinan": null,
+   "sumber": [
+    "brin_prambanan",
+    "wiki_ramakien",
+    "uad_bahastra",
+    "wikipedia_ramayana"
+   ],
+   "rujukan": "Perbandingan Walmiki, Ramakien, Kakawin Ramayana, wayang Jawa",
+   "vo": "Tidak semua versi memuat ujian api. Walmiki dan Ramakien Thailand memuatnya. Menurut penelitian arkeologi, Kakawin Jawa Kuno tidak memuatnya, dan kisahnya lanjut ke penobatan. Wayang Jawa mengenalnya sebagai Sinta obong.",
+   "on_screen": "VERSI BERBEDA, ENDING BEDA",
+   "sfx": "gamelan lirih, kertas lontar",
+   "kamera": "slow pan lembut",
+   "flow_subject": "Four side-by-side overlapping lontar leaves on dark wood, each with different faint incised marks, a small oil lamp casting amber light across them, one leaf slightly raised in front, no readable text.",
+   "cam_en": "slow pan left to right across the four leaves",
+   "beat1": "paper rustles faintly",
+   "beat2": "lamp light slides across the leaves",
+   "beat3": "camera settles, light calm",
+   "scan_asli": null
+  },
+  {
+   "id": "S40",
+   "bagian": "Kesimpulan",
+   "kelas": "kisah",
+   "keyakinan": null,
+   "sumber": [
+    "walmiki_sd",
+    "ucsd_jordan"
+   ],
+   "rujukan": "Yuddhakanda sarga 124-131 (pulang ke Ayodhya dan penobatan)",
+   "vo": "Empat belas tahun genap, dan mereka pulang ke Ayodhya. Bharata menyerahkan kembali pemerintahan, dan Rama dilantik. Pertanyaannya: kalau janji sudah ditepati demi ayah, apakah Rama juga adil kepada Sinta? Kisahnya belum selesai.",
+   "on_screen": "PULANG KE AYODHYA",
+   "sfx": "lonceng jauh, angin pagi",
+   "kamera": "slow pull-back",
+   "flow_subject": "A wide view of a grand stone city gate at dawn with a long road leading to it, a small crowd of tiny silhouettes at the gate, a flying chariot shape faint in the sky, warm amber sunrise on the horizon.",
+   "cam_en": "slow pull-back from the gate",
+   "beat1": "bells ring faintly in the distance",
+   "beat2": "a little dust drifts along the road",
+   "beat3": "image settles, stable last second",
+   "scan_asli": null
+  }
+ ]
+}

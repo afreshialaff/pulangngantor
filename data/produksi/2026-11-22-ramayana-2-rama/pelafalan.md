@@ -1,0 +1,38 @@
+# Pelafalan Part 2 (Rama), ejaan konsisten untuk TTS
+
+- Rama: "RAH-ma"
+- Wisnu: "WIS-nu"
+- Siwa: "SI-wa"
+- Walmiki: "WAL-mi-ki"
+- Ramayana: "ra-MA-ya-na"
+- Balakanda: "ba-la-KAN-da"
+- Ayodhya: "a-YOD-ya" (a-yo-dya)
+- Dasarata: "da-sa-RA-ta"
+- Kausalya: "kau-SAL-ya" (kau seperti "kau")
+- Kaikeyi: "kai-KE-yi"
+- Sumitra: "su-MI-tra"
+- Bharata: "BA-ra-ta" (h tidak dibunyikan)
+- Laksmana: "LAK-sma-na" (lak-SMA-na)
+- Satrugna: "sat-RUG-na"
+- Resi Resyasringa: "RE-si re-sya-SRING-ga"
+- Wiswamitra: "wis-wa-MI-tra"
+- Wasista: "wa-SIS-ta"
+- Tataka: "ta-TA-ka"
+- Marica: "ma-RI-tsa" (c dibaca "tsh/ca")
+- Subahu: "su-BA-hu"
+- Rahwana: "RAH-wa-na"
+- Mithila: "MI-ti-la" (th dibaca t)
+- Janaka: "ja-NA-ka"
+- Sinta: "SIN-ta"
+- Parasurama: "pa-ra-su-RA-ma"
+- Caitra: "TSAI-tra" (c dibaca "tsh")
+- Rama Nawami: "RA-ma na-WA-mi"
+- Kakawin: "ka-KA-win"
+- Bhattikawya: "bat-ti-KAW-ya"
+- Prambanan: "pram-BA-nan"
+- Ramakien: "ra-ma-KI-en"
+- putra mahkota: "PU-tra mah-KO-ta"
+- Atharwaweda: "a-tar-wa-WE-da" (tidak dipakai di VO)
+- Janji tanpa syarat: baca biasa, jeda sedikit sebelum "tanpa"
+- "enam belas": "E-nam be-LAS"; "lima ribu": "LI-ma RI-bu"; "sembilan ratus": "sem-BI-lan RA-tus"
+- Angka di VO sudah dieja: enam hari enam malam, lima ribu, tahun sembilan ratus.

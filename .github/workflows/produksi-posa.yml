@@ -10,7 +10,7 @@ on:
         description: "folder data/produksi/<tanggal>"
         required: true
       tahap:
-        description: "upload"
+        description: "upload | publish (ubah video yang sudah diunggah menjadi public)"
         default: "upload"
       privacy:
         description: "public | unlisted | private"
@@ -64,8 +64,21 @@ jobs:
           python tools/upload.py --video out/video.mp4 --meta "$D/metadata.json" $THUMB $CAP \
             --privacy "${{ github.event.inputs.privacy }}" --result "$D/upload.json"
 
+      - name: Publikasikan video yang sudah diunggah
+        if: github.event.inputs.tahap == 'publish'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_EXPECTED_CHANNEL_ID: ${{ secrets.YT_EXPECTED_CHANNEL_ID }}
+        run: |
+          [ -n "$YT_EXPECTED_CHANNEL_ID" ] || { echo "YT_EXPECTED_CHANNEL_ID kosong, dibatalkan"; exit 1; }
+          python -c "import json,sys;r=json.load(open('$D/review.json'));sys.exit(0 if r.get('status')=='lolos' else 1)" \
+            || { echo "review.json belum lolos, dibatalkan"; exit 1; }
+          python tools/publish.py "$D" --privacy "${{ github.event.inputs.privacy }}"
+
       - name: Catat hasil ke repo
-        if: always() && github.event.inputs.tahap == 'upload'
+        if: always() && (github.event.inputs.tahap == 'upload' || github.event.inputs.tahap == 'publish')
         run: |
           git config user.name "posa-bot"; git config user.email "actions@users.noreply.github.com"
           ls "$D"/video.mp4.part-* >/dev/null 2>&1 && rm -f "$D/video.mp4"

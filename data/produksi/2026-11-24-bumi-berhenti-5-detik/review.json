@@ -1,0 +1,19 @@
+{
+ "status": "lolos",
+ "diperiksa": "2026-11-26",
+ "oleh": "POSA (cek teknis + lembar kontak) atas perintah pemilik untuk posting sekarang",
+ "video": "bumi-berhenti-5-detik_SHORT_FINAL.mp4; 1080x1920, 24 fps, 93,0 dtk",
+ "durasi_detik": 93.0,
+ "loudness_lufs": -14.1,
+ "true_peak_dbtp": -1.8,
+ "qc_lint": "tidak dijalankan: tools/qc_lint.py belum punya mode Short",
+ "lembar_kontak": "18 frame (tiap 5 dtk) diperiksa visual",
+ "belum_diverifikasi": [
+  "pelafalan VO belum didengar",
+  "sumber/klaim tidak diverifikasi ulang di run ini"
+ ],
+ "catatan": [
+  "tanda air bintang Flow di kanan bawah dihapus di S01-S12 (qc_final.md); label konten sintetis tetap aktif",
+  "gaya stickman berwarna, berbeda dari palet noir master brand"
+ ]
+}

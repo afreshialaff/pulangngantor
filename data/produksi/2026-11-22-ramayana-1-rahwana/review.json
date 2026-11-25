@@ -1,0 +1,19 @@
+{
+  "status": "gagal",
+  "diperiksa": "2026-11-25",
+  "oleh": "POSA run terjadwal",
+  "video": "Downloads/RAMAYANA PART 1/OUTPUT/RAMAYANA_PART1_final.mp4 (1920x1080, 24 fps, 425,5 dtk, h264/aac)",
+  "loudness_lufs": -13.0,
+  "true_peak_dbtp": -0.2,
+  "gagal": [
+    "true peak -0.2 dBTP, batas <= -1.0 (risiko clipping): turunkan dengan limiter/normalisasi ulang audio, video tidak perlu dirender ulang",
+    "kata_kunci_utama belum dicatat di metadata.json"
+  ],
+  "peringatan": [
+    "jadwal_tayang belum dicatat (ditentukan pemilik)",
+    "naskah.json belum ada (hanya scenes.json)",
+    "metadata.json status masih DRAF dan playlist 'Sejarah Sisi Gelap' belum dikonfirmasi pemilik"
+  ],
+  "belum_diperiksa": "lembar kontak visual, pemeriksa terpisah, cek pelafalan di VO",
+  "upload": "TIDAK dilakukan: gerbang review gagal dan run terjadwal tidak memicu upload"
+}

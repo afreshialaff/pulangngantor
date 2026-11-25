@@ -13,3 +13,8 @@ Aturan dasar (dari `docs/MASTER-BRAND.md`, bagian 16):
 4. Login, password, dan pembayaran selalu oleh pemilik.
 5. Upload awal private sampai QC (checklist di master brand bagian 13) selesai.
 6. Voice-over: Google AI Studio (Gemini TTS).
+
+## POSA (25 Nov 2026)
+Agen turunan HEXA dengan jalur upload ala Titi World: [`agen/posa/SKILL.md`](posa/SKILL.md).
+Upload: `.github/workflows/produksi-posa.yml` (gerbang `review.json`, sumber repo atau Release, privasi default publik, pengaman `YT_EXPECTED_CHANNEL_ID` wajib). Jadwal otomatis: salin `docs/templat/jadwal-posa.yml`.
+Jalur HEXA (`upload.yml`, default private) tidak diubah.

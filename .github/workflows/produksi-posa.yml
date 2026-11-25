@@ -1,0 +1,73 @@
+name: POSA — upload ke YouTube (gerbang review, sumber repo atau Release)
+# Jalur POSA (25 Nov 2026), disamakan dengan Titi World: pemicu manual atau dari workflow jadwal,
+# gerbang review.json, video dari repo atau GitHub Release, privasi default publik.
+# Jalur HEXA (upload.yml, default private) tidak diubah.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tanggal:
+        description: "folder data/produksi/<tanggal>"
+        required: true
+      tahap:
+        description: "upload"
+        default: "upload"
+      privacy:
+        description: "public | unlisted | private"
+        default: "public"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: posa-${{ github.event.inputs.tanggal }}-${{ github.event.inputs.tahap }}
+  cancel-in-progress: false
+
+jobs:
+  posa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TGL: ${{ github.event.inputs.tanggal }}
+      D: data/produksi/${{ github.event.inputs.tanggal }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Upload ke YouTube
+        if: github.event.inputs.tahap == 'upload'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_EXPECTED_CHANNEL_ID: ${{ secrets.YT_EXPECTED_CHANNEL_ID }}
+        run: |
+          test -f "$D/upload.json" && { echo "sudah pernah diupload, berhenti"; cat "$D/upload.json"; exit 0; }
+          # Pengaman channel: wajib terisi (lebih ketat dari Titi; CLAUDE.md melarang menyentuh channel lain)
+          [ -n "$YT_EXPECTED_CHANNEL_ID" ] || { echo "YT_EXPECTED_CHANNEL_ID kosong, upload dibatalkan"; exit 1; }
+          # Gerbang review
+          python -c "import json,sys;r=json.load(open('$D/review.json'));sys.exit(0 if r.get('status')=='lolos' else 1)" \
+            || { echo "review.json tidak ada atau belum lolos, upload dibatalkan"; exit 1; }
+          # Sumber video: repo (termasuk potongan .part-*) atau Release produksi-<tanggal>
+          mkdir -p out
+          V="$D/video.mp4"
+          if [ ! -f "$V" ] && ls "$V".part-* >/dev/null 2>&1; then cat "$V".part-* > "$V"; fi
+          if [ -f "$V" ]; then cp "$V" out/video.mp4; else gh release download "produksi-$TGL" -p video.mp4 -D out; fi
+          if [ ! -f "$D/thumbnail.jpg" ]; then gh release download "produksi-$TGL" -p thumbnail.jpg -D "$D" || echo "thumbnail tidak ada di release"; fi
+          THUMB=""; [ -f "$D/thumbnail.jpg" ] && THUMB="--thumb $D/thumbnail.jpg"
+          CAP=""; [ -f "$D/subtitle.srt" ] && CAP="--captions $D/subtitle.srt"
+          python tools/upload.py --video out/video.mp4 --meta "$D/metadata.json" $THUMB $CAP \
+            --privacy "${{ github.event.inputs.privacy }}" --result "$D/upload.json"
+
+      - name: Catat hasil ke repo
+        if: always() && github.event.inputs.tahap == 'upload'
+        run: |
+          git config user.name "posa-bot"; git config user.email "actions@users.noreply.github.com"
+          ls "$D"/video.mp4.part-* >/dev/null 2>&1 && rm -f "$D/video.mp4"
+          git add "$D/upload.json" "$D/thumbnail.jpg" 2>/dev/null || true
+          git diff --cached --quiet || { git commit -m "posa: upload $TGL" && git pull --rebase -q origin main && git push; }

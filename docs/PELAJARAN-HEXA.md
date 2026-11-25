@@ -1,5 +1,13 @@
 # Pelajaran HEXA
 
+## 2026-11-25 — Run tanpa topik
+**3 hal yang bisa diperbaiki**
+1. Prompt task manual tidak memuat topik/pilar/format/jam tayang; agen tidak boleh menebak, jadi satu run habis hanya untuk membaca dan bertanya.
+2. Status seri Ramayana (4 part) tersebar di commit; tidak ada satu berkas yang menyebut part mana sudah sampai tahap apa (riset, scenes, gambar, prompt klip, VO, rakit, upload).
+3. `list_repos`/`add_repo` tidak selalu tersedia di sesi; uji akses cukup lewat `mcp__github__list_commits`.
+**Perbaikan yang diterapkan:** langkah awal run tanpa topik: cek `data/produksi/*` untuk seri tertunda, tulis ringkasan status di bawah, kirim notifikasi minta keputusan topik/part (bukan menebak).
+**Status per 2026-11-25:** Voynich (2026-11-17) sudah diunggah. Ramayana Part 1 punya riset, scenes.json, pelafalan, prompt_video (belum ada gambar Flow, VO, klip, rakit). Part 2-4 baru riset, scenes.json, pelafalan.
+
 ## 2026-11-17 (3) — Voynich: aturan klip 15 detik
 1. Aturan lama 'adegan ≤6 dtk' bentrok dengan generator klip pemilik (15 dtk); sekarang 1 adegan = 1 klip 15 dtk, VO ±35-38 kata.
 2. Penomoran gambar wajib S01..Sxx sejak awal.

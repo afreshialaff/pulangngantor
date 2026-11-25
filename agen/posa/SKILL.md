@@ -39,7 +39,7 @@ Berbeda dari HEXA (private dulu, manual). POSA memakai `.github/workflows/produk
 - **Sumber video:** `data/produksi/<tgl>/video.mp4` (potongan `.part-*` digabung) bila ada; jika tidak, GitHub Release `produksi-<tgl>` (aset `video.mp4`; pemilik atau POSA membuatnya dengan `gh release create`). Thumbnail dan `subtitle.srt` dari folder produksi, thumbnail juga boleh dari release.
 - **Pengaman channel dipertahankan** (`YT_EXPECTED_CHANNEL_ID`), lebih ketat dari Titi: bila kosong, upload **berhenti**, bukan hanya memperingatkan.
 - Cegah unggah ganda lewat `upload.json`. Sesudah tayang: cek status asli dari `upload.json`, lalu `send_later` +26 menit untuk memeriksa tayang.
-- Sesi interaktif: POSA **tidak membuat workflow jadwal sebelum pemilik menyebut hari dan jam tayang dan menjawab "lanjut"**. Sesi terjadwal: berlaku persetujuan tetap pemilik (25 Nov 2026) dengan syarat di bagian "Mode terjadwal (produksi penuh)".
+- Sesi interaktif: POSA **tidak membuat workflow jadwal sebelum pemilik menyebut hari dan jam tayang dan menjawab "lanjut"**. Sesi terjadwal: POSA **tidak** membuat workflow jadwal tayang. Hari dan jam tayang selalu ditentukan pemilik (keputusan 25 Nov 2026); run terjadwal berhenti di tahap 7 dan melapor "siap jadwal".
 
 ## Mode terjadwal (produksi penuh, keputusan pemilik 25 Nov 2026)
 Dalam run terjadwal POSA mengerjakan produksi seperti Titi dan Hexa, bukan hanya paket teks. Urutan tahap sama dengan "Langkah terstruktur" di bawah, ditambah kebiasaan Titi (character lock dulu, gambar bernama S01..Sxx, satu blok prompt Dreamina siap salin berisi pengaturan umum dan negative prompt, kode scene di awal prompt, gerak kamera bervariasi). Run terjadwal berjalan di laptop ASUS (butuh folder Downloads dan browser berisi login pemilik).
@@ -55,15 +55,15 @@ Dalam run terjadwal POSA mengerjakan produksi seperti Titi dan Hexa, bukan hanya
 | 5. VO | Google AI Studio (Gemini TTS), satu take, scene dipisah baris kosong; ukur durasi nyata, cek `pelafalan.md` | belum login AI Studio; durasi di luar 10% target: perbaiki naskah dulu |
 | 6. Rakit + QC | rakit (intro/outro resmi untuk video panjang), subtitle, musik; `qc_lint.py`, loudness, lembar kontak, pemeriksa terpisah; tulis `review.json` | ada `GAGAL`: tulis `status: "gagal"` beserta sebab, jangan lanjut |
 | 7. Rilis | thumbnail, `subtitle.srt`, metadata final; video ke GitHub Release `produksi-<tgl>` (atau potongan `.part-*` di repo); `review.json` `lolos` | — |
-| 8. Jadwal tayang | buat `jadwal-posa-<topik>.yml` dari `docs/templat/jadwal-posa.yml` di slot tayang berikut | slot tidak ada atau cadence terlampaui |
+| 8. Jadwal tayang | **tidak dikerjakan di run terjadwal.** Pemilik menyebut hari dan jam tayang; POSA (sesi interaktif) membuat `jadwal-posa-<topik>.yml` dari `docs/templat/jadwal-posa.yml` | selalu: status "siap jadwal, menunggu hari dan jam tayang dari pemilik" |
 
-**Slot tayang:** jam `schedule.publish_hour` di `config.yaml` (WIB), satu video per hari, minimal 24 jam dari sekarang, mengikuti cadence `long_per_week` dan `shorts_per_week`; hari yang sudah punya workflow jadwal tidak dipakai lagi. Catat `jadwal_tayang` di `metadata.json` dan STATUS.md.
+**Hari dan jam tayang ditentukan pemilik** (biasanya ia sendiri yang menyebut). Run terjadwal tidak memilih slot, tidak membuat workflow jadwal, dan tidak memicu upload. Setelah pemilik menyebut hari dan jam, POSA membuat workflow jadwal, mencatat `jadwal_tayang` di `metadata.json` dan STATUS.md, dan boleh mengingatkan bila slot bentrok dengan cadence `long_per_week`/`shorts_per_week` atau hari yang sudah terisi (keputusan tetap di pemilik).
 
-**Syarat tetap sebelum tahap 8:** `review.json` `lolos` dari QC penuh (Modul G), `YT_EXPECTED_CHANNEL_ID` terisi, `upload.json` belum ada, dan tidak ada GAGAL tersisa. Satu saja gagal: berhenti di tahap 7 dan lapor.
+**Syarat sebelum pembuatan jadwal oleh pemilik:** `review.json` `lolos` dari QC penuh (Modul G), `YT_EXPECTED_CHANNEL_ID` terisi, `upload.json` belum ada, dan tidak ada GAGAL tersisa. Satu saja gagal: berhenti di tahap 6/7 dan lapor.
 
 **Biaya dan batas:** sebelum tahap 2 dan 5 tulis estimasi kredit dan waktu di STATUS.md. Persetujuan tetap pemilik berlaku untuk satu topik per run; jangan membuka topik kedua. Jangan memasukkan data pembayaran, jangan mengetik password, jangan membeli kredit atau paket. Bila perlu login atau pembayaran, berhenti dengan "PERLU MANUSIA". Jangan menimpa atau menghapus berkas pemilik; hasil ditulis sebagai berkas baru.
 
-**Laporan akhir tiap run** lewat SendUserMessage: topik, tahap tercapai, berkas yang dibuat, yang dibutuhkan dari pemilik (mis. "buat klip Dreamina S01..S06 dari prompt_video.md"), dan jadwal tayang bila sudah dibuat. Jangan mengklaim sudah tayang sebelum `upload.json` ada.
+**Laporan akhir tiap run** lewat SendUserMessage: topik, tahap tercapai, berkas yang dibuat, yang dibutuhkan dari pemilik (mis. "buat klip Dreamina S01..S06 dari prompt_video.md"), dan jadwal tayang bila sudah dibuat. Bila video siap, katakan "siap jadwal, menunggu hari dan jam tayang dari pemilik". Jangan mengklaim sudah tayang sebelum `upload.json` ada.
 
 ## Aturan tetap (tidak boleh dilonggarkan oleh audit atau siapa pun selain pemilik)
 - Nama, tagline, konsep, palet (#0B1424, #0A0A0A, #8B1E1E, #E9D9C5, #F4A259), tipografi, dan pilar mengikuti master brand. Tidak dipindah ke gaya kanal lain.

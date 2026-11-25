@@ -13,3 +13,8 @@
 2. STATUS.md tidak mencatat bahwa Ramayana 2-4 ditahan; informasinya hanya ada di HANDOFF di Downloads. Diterapkan: alasan tahan kini tercatat di STATUS.md (versi run ini).
 3. Ada produksi di luar tabel (Short "Bumi berhenti 5 detik", 93,0 dtk, berkas bertanggal run yang sama). Usul: tiap sesi produksi, HEXA atau POSA, menambah barisnya di STATUS.md agar tidak ada kerja ganda.
 
+
+## 2026-11-25 (run terjadwal susulan, 23.52 WIB)
+1. Dua run POSA berdempetan: berkas run sebelumnya ditulis sekitar 9 detik setelah run ini dipicu. Diterapkan: cek Downloads/POSA-run-*/ sebelum mulai; hasilnya diperiksa (`git apply --check` lolos) dan dipakai ulang, 0 usulan ganda.
+2. Push ditolak di 2 dari 2 run malam ini (403), 0 commit sampai ke main; alat add_repo juga tidak tersedia di run ini. Tugas terjadwal perlu dibuat ulang dengan akses repo sebelum jadwal Senin-Jumat 08.17 WIB berikutnya.
+3. QC Short "Bumi berhenti 5 detik" (produksi di luar tabel) mencatat logo bintang kanan bawah dihapus di S01-S12, padahal prompt tugas HEXA melarang menghapus tanda air AI Flow/Veo. Usul: pemilik memutuskan sebelum unggah; tambahkan cek ini ke QC.

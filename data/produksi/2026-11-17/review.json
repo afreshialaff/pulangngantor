@@ -11,5 +11,8 @@
  "catatan": [
   "Watermark ✦ Flow/Veo di pojok kanan bawah dibiarkan (penanda konten AI); deklarasi konten sintetis aktif",
   "Klip diregang 0,94-1,22x agar pas VO; tidak ada bagian klip yang dipotong/di-crop"
- ]
+ ],
+ "status": "gagal",
+ "sebab": "Cek ulang 26 Nov 2026: true peak 0,2 dBTP, batas -1,0 dBTP (loudness -13,8 LUFS lolos). qc_audio lama hanya menyebut limiter -1 dBFS.",
+ "true_peak_dbtp": 0.2
 }

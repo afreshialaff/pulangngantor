@@ -18,3 +18,8 @@
 1. Dua run POSA berdempetan: berkas run sebelumnya ditulis sekitar 9 detik setelah run ini dipicu. Diterapkan: cek Downloads/POSA-run-*/ sebelum mulai; hasilnya diperiksa (`git apply --check` lolos) dan dipakai ulang, 0 usulan ganda.
 2. Push ditolak di 2 dari 2 run malam ini (403), 0 commit sampai ke main; alat add_repo juga tidak tersedia di run ini. Tugas terjadwal perlu dibuat ulang dengan akses repo sebelum jadwal Senin-Jumat 08.17 WIB berikutnya.
 3. QC Short "Bumi berhenti 5 detik" (produksi di luar tabel) mencatat logo bintang kanan bawah dihapus di S01-S12, padahal prompt tugas HEXA melarang menghapus tanda air AI Flow/Veo. Usul: pemilik memutuskan sebelum unggah; tambahkan cek ini ke QC.
+
+## 2026-11-26 (run terjadwal 00.04 WIB, posting Short atas permintaan pemilik)
+1. Templat jadwal selalu memicu tahap=upload, yang berhenti bila upload.json ada: video private yang dijadwalkan tidak akan pernah publik. Diterapkan: docs/templat/jadwal-posa.yml memilih tahap=publish bila upload.json ada (belum diuji lewat run jadwal).
+2. Cek ulang Voynich: true peak +0,2 dBTP (batas -1,0), review.json tanpa status. Ukur true peak (ebur128 peak=true), jangan mengandalkan setelan limiter; ditandai gagal.
+3. Playlist gagal 409 pada upload pertama (2 dari 2 upload POSA); menjalankan tahap=publish sesudahnya berhasil (1 dari 1, Short Bumi). Usul: upload.py mencoba ulang playlist dengan jeda; tambahkan juga --format short ke qc_lint.py (Short ini tayang tanpa lint otomatis).

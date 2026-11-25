@@ -11,3 +11,11 @@
 Run tanpa topik: baca tabel ini, jangan menebak; minta pemilik memilih part/topik.
 
 Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, VO sudah jadi). Video tidak ada di repo; sumber: Downloads/RAMAYANA PART 1/OUTPUT/. Upload tidak dipicu oleh run terjadwal.
+
+## Run terjadwal 25 Nov 2026 (malam)
+- Tahap tercapai: tidak ada topik di tabel yang dimajukan. Voynich dan Ramayana 1 sudah terunggah private; Ramayana 2-4 menunggu instruksi pemilik (HANDOFF-RAMAYANA-HEXA.md, 24 Nov). Modul A dijalankan: `data/produksi/USULAN-TOPIK.md`.
+- Voynich dan Ramayana 1: menunggu hari dan jam tayang dari pemilik (sudah diunggah private menurut upload.json; jangan unggah ulang).
+- Catatan: Downloads/bumi-berhenti-5-detik/ berisi Short final (93,0 dtk, QC dan teks upload ada, log menyebut Hexa). Tidak ada di tabel ini dan tidak disentuh.
+- Kredit dipakai run ini: 0 (Flow dan AI Studio tidak dibuka).
+- Dibutuhkan dari pemilik: (1) pilih topik + format; (2) hari/jam tayang; (3) beri akses push repo ke tugas terjadwal.
+

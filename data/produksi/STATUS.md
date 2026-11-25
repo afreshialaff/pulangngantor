@@ -3,7 +3,7 @@
 | Folder | Tahap tercapai | Berikutnya |
 |---|---|---|
 | 2026-11-17 (Voynich) | Terunggah PRIVATE (upload.json ada) | Pemilik: cek thumbnail di YouTube Studio, putuskan jadwal tayang |
-| 2026-11-22-ramayana-1-rahwana | Terunggah PRIVATE 25 Nov 2026 (upload.json: yOu1JLVvU-g), thumbnail ok | Pemilik: unggah subtitle.srt dan masukkan ke playlist secara manual di Studio (API gagal), lalu tentukan hari/jam tayang |
+| 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-22-ramayana-2-rama | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |

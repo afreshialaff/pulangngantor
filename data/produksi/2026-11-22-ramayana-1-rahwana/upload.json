@@ -1,11 +1,13 @@
 {
  "video_id": "yOu1JLVvU-g",
  "url": "https://youtu.be/yOu1JLVvU-g",
- "status": "private",
+ "status": "public",
  "diminta": "private",
  "diunggah": "2026-11-25T15:59:19.631087+00:00",
  "thumbnail": true,
  "captions": false,
  "captions_error": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/captions?part=snippet&alt=json&uploadType=multipart returned \"Request had insufficient authentication scopes.\". Details:",
- "playlist_error": "<HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 're"
+ "playlist_error": "<HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 're",
+ "dipublikasikan": true,
+ "catatan": "Sudah tayang menurut konfirmasi pemilik (26 Nov 2026). Dicatat manual, tidak dicek ulang lewat API. Jangan diunggah atau dipublikasikan ulang."
 }

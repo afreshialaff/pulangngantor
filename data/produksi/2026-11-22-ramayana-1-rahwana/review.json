@@ -1,19 +1,15 @@
 {
-  "status": "gagal",
+  "status": "lolos",
   "diperiksa": "2026-11-25",
-  "oleh": "POSA run terjadwal",
-  "video": "Downloads/RAMAYANA PART 1/OUTPUT/RAMAYANA_PART1_final.mp4 (1920x1080, 24 fps, 425,5 dtk, h264/aac)",
-  "loudness_lufs": -13.0,
-  "true_peak_dbtp": -0.2,
-  "gagal": [
-    "true peak -0.2 dBTP, batas <= -1.0 (risiko clipping): turunkan dengan limiter/normalisasi ulang audio, video tidak perlu dirender ulang",
-    "kata_kunci_utama belum dicatat di metadata.json"
+  "oleh": "POSA + pemilik (video ditonton dan disetujui pemilik 25 Nov 2026)",
+  "video": "RAMAYANA_PART1_final.mp4 dengan audio dinormalisasi ulang (video stream tidak diubah); 1920x1080, 24 fps, 425,6 dtk",
+  "loudness_lufs": -14.0,
+  "true_peak_dbtp": -1.1,
+  "qc_lint": "tanpa GAGAL",
+  "perbaikan": [
+    "true peak -0.2 -> -1.1 dBTP (loudnorm 2-pass, I=-14, TP=-1.5)",
+    "kata_kunci_utama diisi 'rahwana'"
   ],
-  "peringatan": [
-    "jadwal_tayang belum dicatat (ditentukan pemilik)",
-    "naskah.json belum ada (hanya scenes.json)",
-    "metadata.json status masih DRAF dan playlist 'Sejarah Sisi Gelap' belum dikonfirmasi pemilik"
-  ],
-  "belum_diperiksa": "lembar kontak visual, pemeriksa terpisah, cek pelafalan di VO",
-  "upload": "TIDAK dilakukan: gerbang review gagal dan run terjadwal tidak memicu upload"
+  "peringatan": ["jadwal_tayang belum dicatat", "naskah.json belum ada (scenes.json dipakai)", "playlist 'Sejarah Sisi Gelap' belum dikonfirmasi"],
+  "privacy_upload": "private (CLAUDE.md: upload default private)"
 }

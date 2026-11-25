@@ -1,6 +1,7 @@
+# Jam tayang mengikuti config.yaml schedule.publish_hour (WIB); ganti <JAM> (dua digit) dan sesuaikan cron: UTC = WIB - 7 jam; cron utama 35 dan 15 menit sebelum jam tayang, cadangan +15 dan +60 menit.
 # Salin ke .github/workflows/jadwal-posa-<topik>.yml. Ganti <TANGGAL_TAYANG> (YYYY-MM-DD), <TGL> (folder data/produksi),
 # <TOPIK>, dan baris cron (UTC = WIB - 7 jam; contoh tayang 20.00 WIB -> 13.00 UTC: 19.25 WIB = "25 12", 19.45 = "45 12", 20.15 = "15 13", 21.00 = "0 14").
-name: Jadwal sekali jalan POSA - <TOPIK> 20.00 WIB
+name: Jadwal sekali jalan POSA - <TOPIK> <JAM>.00 WIB
 on:
   schedule:
     - cron: "25 12 <HARI> <BULAN> *"
@@ -28,7 +29,7 @@ jobs:
           # Gerbang: review.json harus ada dan tidak berstatus gagal (QC selesai sebelum jadwal dibuat)
           python3 -c "import json,sys;r=json.load(open('$D/review.json'));sys.exit(1 if r.get('status')=='gagal' else 0)" \
             || { echo "review.json tidak ada atau gagal, jadwal dibatalkan"; exit 1; }
-          target=$(date -d "<TANGGAL_TAYANG> 20:00:00 +0700" +%s)
+          target=$(date -d "<TANGGAL_TAYANG> <JAM>:00:00 +0700" +%s)
           now=$(date +%s)
           [ $((target-now)) -gt 3000 ] && { echo "terlalu awal (>50 menit sebelum jam tayang), berhenti"; exit 0; }
           [ "$now" -lt "$target" ] && { echo "tunggu $((target-now)) detik"; sleep $((target-now)); }

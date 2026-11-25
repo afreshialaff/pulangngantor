@@ -25,6 +25,7 @@ def main():
     v = yt.videos().list(part="status", id=vid).execute()["items"][0]
     st = v["status"]
     st["privacyStatus"] = a.privacy
+    st.pop("publishAt", None)  # jadwal lama menghalangi perubahan privasi langsung
     r = yt.videos().update(part="status", body={"id": vid, "status": st}).execute()
     out["status"] = r["status"]["privacyStatus"]
     out["dipublikasikan"] = out["status"] == "public"

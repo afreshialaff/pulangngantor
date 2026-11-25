@@ -1,5 +1,11 @@
 # Pelajaran HEXA
 
+## 2026-11-25 (2) — Run kedua tanpa topik
+1. Prompt terjadwal kembali tanpa topik/part; tidak ada yang bisa menjawab AskUserQuestion.
+2. Status seri masih tersebar di commit (sudah dicatat run sebelumnya, belum ada berkas tunggal).
+3. Dua notifikasi "minta topik" di hari yang sama bisa mengganggu pemilik.
+**Perbaikan diterapkan:** `data/produksi/STATUS.md` jadi sumber status tunggal; run tanpa topik membacanya, tidak menebak, dan hanya mengirim satu notifikasi pendek berisi pilihan part.
+
 ## 2026-11-25 — Run tanpa topik
 **3 hal yang bisa diperbaiki**
 1. Prompt task manual tidak memuat topik/pilar/format/jam tayang; agen tidak boleh menebak, jadi satu run habis hanya untuk membaca dan bertanya.

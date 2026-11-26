@@ -2,7 +2,7 @@
 
 | Folder | Tahap tercapai | Berikutnya |
 |---|---|---|
-| 2026-11-17 (Voynich) | Terunggah PRIVATE; cek ulang 26 Nov **GAGAL**: true peak +0,2 dBTP (batas -1,0) | Pemilik: pilih perbaiki audio lalu unggah ulang (ID video baru), atau terima apa adanya dan publikasikan manual di Studio |
+| 2026-11-17 (Voynich) | Terunggah PRIVATE; cek ulang 26 Nov **GAGAL**: true peak +0,2 dBTP (batas -1,0) | Pemilik: pilih perbaiki audio lalu unggah ulang (ID video baru), atau terima apa adanya dan publikasikan manual di Studio. Perbaikan audio saja sudah diuji lolos (lihat run 26 Nov malam) |
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | riset, scenes.json, pelafalan | prompt_video, gambar |
@@ -32,3 +32,12 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Belum diverifikasi pada Short: pelafalan VO dan sumber/klaim. Subtitle API gagal (token tanpa scope youtube.force-ssl).
 - Kredit Flow/AI Studio dipakai: 0.
 - Dibutuhkan dari pemilik: (1) pilih topik + format (atau izinkan Ramayana 2); (2) keputusan Voynich.
+
+## Run terjadwal 26 Nov 2026 (malam, sekitar 20.00 WIB)
+- ASUS terhubung (Downloads diizinkan saat run), `git push --dry-run` lolos.
+- Tahap tercapai: tidak ada topik yang bisa dimajukan (Ramayana 2-4 ditahan menurut HANDOFF 24 Nov; Voynich menunggu keputusan; Ramayana 1 dan Short Bumi sudah tayang). Tidak ada produksi baru.
+- Modul A: USULAN-TOPIK.md 25 Nov dipakai ulang (MKUltra 24, Kantor kosong 23, Waktu terasa cepat 21); tidak ada folder produksi baru yang menduplikasi ketiganya. Sumber tidak dibaca ulang.
+- Voynich, uji di ruang kerja sementara (berkas hasil TIDAK disimpan, repo/Downloads/YouTube tidak diubah): limiter audio saja memberi -14,2 LUFS, true peak -1,3 dBTP (asli -13,8 LUFS, +0,2 dBTP); stream video identik (MD5 sama), durasi 420,79 dtk. Perintah: `ffmpeg -i asli.mp4 -map 0:v -map 0:a -c:v copy -af "aresample=192000,alimiter=limit=0.794:level=false:attack=5:release=50,aresample=48000" -c:a aac -b:a 192k -movflags +faststart baru.mp4`. Audio belum didengarkan.
+- `tools/qc_lint.py --format short` ditambahkan; Short Bumi: 0 GAGAL (peringatan: naskah.json dan pelafalan.md tidak ada di folder, hook/VO awal dicek manual).
+- Kredit Flow/AI Studio dipakai: 0.
+- Dibutuhkan dari pemilik: (1) pilih topik + format, atau izinkan Ramayana 2; (2) Voynich: "perbaiki dan unggah ulang" atau "terima apa adanya"; (3) bila Voynich diunggah ulang, tentukan juga hari dan jam tayangnya.

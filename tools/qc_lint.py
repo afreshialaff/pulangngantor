@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Linter QC otomatis untuk satu folder produksi (pelajaran dari audit Sisi Terang).
 
-python tools/qc_lint.py data/produksi/<YYYY-MM-DD> [--video out/video.mp4]
+python tools/qc_lint.py data/produksi/<YYYY-MM-DD> [--video out/video.mp4] [--format short]
+
+--format short (Short 9:16, 90 dtk): lewati cek >=360 dtk, intro/outro, chapter wajib, dan peta 3 poin;
+periksa durasi 87-95 dtk, ukuran 1080x1920, momen jawaban <=30 dtk. Default tetap video panjang.
 
 Folder bertanggal >= 2026-11-22 diperiksa ketat (aturan retensi audit Jagad Mandala jadi GAGAL).
 
@@ -41,7 +44,26 @@ def loudness(video):
     return (float(i.group(1)) if i else None, float(tp.group(1)) if tp else None)
 
 
-def main(folder, video=None):
+def info_video(video):
+    """Kembalikan (lebar, tinggi, durasi_detik) via ffprobe, atau (None, None, None)."""
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                        "stream=width,height:format=duration", "-of", "json", video], capture_output=True, text=True)
+    try:
+        d = json.loads(r.stdout)
+        v = d["streams"][0]
+        return v["width"], v["height"], float(d["format"]["duration"])
+    except (ValueError, KeyError, IndexError):
+        return None, None, None
+
+
+def cek_durasi_short(durasi, asal, add):
+    if not 87 <= durasi <= 95:
+        add("GAGAL", f"Short: durasi {asal} {durasi:.1f} dtk di luar 87-95 dtk")
+    elif durasi > 93:
+        add("PERINGATAN", f"Short: durasi {asal} {durasi:.1f} dtk di atas toleransi 93 dtk")
+
+
+def main(folder, video=None, short=False):
     hasil = []
     ketat = os.path.basename(os.path.abspath(folder)) >= BERLAKU_KETAT
     wajib = "GAGAL" if ketat else "PERINGATAN"
@@ -78,14 +100,21 @@ def main(folder, video=None):
         if len(meta.get("tag", [])) > 15:
             add("GAGAL", "tag lebih dari 15")
         durasi = (meta.get("durasi_detik") or (naskah or {}).get("durasi_detik") or 0)
+        if short:
+            if CHAPTER.search(deskripsi):
+                add("GAGAL", "Short: deskripsi tidak boleh memuat chapter/PENANDA WAKTU")
+            if "#shorts" not in deskripsi.lower():
+                add("PERINGATAN", "Short: tag #Shorts belum ada di deskripsi")
+            if durasi:
+                cek_durasi_short(durasi, "di metadata", add)
         if durasi >= 300 and len(CHAPTER.findall(deskripsi)) < 3:
             add("GAGAL", "semua video (>=6 menit) wajib punya >=3 chapter (PENANDA WAKTU, mulai 0:00)")
         if durasi >= 300 and not re.search(r"^\s*0:00\b", deskripsi, re.M):
             add("GAGAL", "chapter pertama harus 0:00")
         isi = meta.get("isi_detik") or (naskah or {}).get("isi_detik") or 0
-        if durasi and durasi < 372:
+        if not short and durasi and durasi < 372:
             add("GAGAL", f"durasi total {durasi} dtk; isi harus >=360 dtk + intro/outro (~372 dtk)")
-        if isi and isi < 360:
+        if not short and isi and isi < 360:
             add("GAGAL", f"isi video {isi} dtk < 360 dtk (6 menit)")
         if not durasi:
             add("PERINGATAN", "durasi_detik belum dicatat di metadata.json (hasil tools/rakit_video.py)")
@@ -94,8 +123,8 @@ def main(folder, video=None):
         kk = meta.get("kata_kunci_utama")
         if not kk:
             add(wajib, "kata_kunci_utama belum dicatat di metadata.json")
-        elif kk.lower() not in judul[:50].lower():
-            add("GAGAL", f"kata kunci '{kk}' tidak ada di 50 karakter pertama judul")
+        elif kk.lower() not in judul[:40 if short else 50].lower():
+            add("GAGAL", f"kata kunci '{kk}' tidak ada di {40 if short else 50} karakter pertama judul")
         if not meta.get("thumbnail_objek"):
             add(wajib, "thumbnail_objek belum dicatat (variasi thumbnail)")
         if not meta.get("jadwal_tayang"):
@@ -111,12 +140,14 @@ def main(folder, video=None):
         mj = naskah.get("momen_jawaban_detik")
         if mj is None:
             add(wajib, "naskah.json: momen_jawaban_detik belum dicatat")
-        elif mj > 90:
-            add("GAGAL", f"momen jawaban di detik {mj} (>90): bayar janji judul lebih awal")
-        if len(naskah.get("peta_3_poin", [])) != 3:
+        elif mj > (30 if short else 90):
+            add("GAGAL", f"momen jawaban di detik {mj} (>{30 if short else 90}): bayar janji judul lebih awal")
+        if not short and len(naskah.get("peta_3_poin", [])) != 3:
             add(wajib, "naskah.json: peta_3_poin harus berisi 3 kalimat")
         kata = sum(len(b.get("vo", "").split()) for b in naskah.get("bagian", []))
-        if kata and kata < 900:
+        if short and kata and not 205 <= kata <= 225:
+            add("PERINGATAN", f"Short: naskah {kata} kata (acuan 205-225)")
+        if not short and kata and kata < 900:
             add("GAGAL", f"naskah {kata} kata; butuh >=~950 kata untuk isi 6 menit")
         for b in naskah.get("bagian", []):
             if not b.get("sumber"):
@@ -136,7 +167,7 @@ def main(folder, video=None):
     else:
         add("PERINGATAN", "subtitle.srt belum ada")
 
-    for nama in ("INTRO", "OUTRO"):
+    for nama in () if short else ("INTRO", "OUTRO"):
         if not os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", f"{nama}_PULANG_NGANTOR_1080p.mp4")):
             add("GAGAL", f"assets/{nama}_PULANG_NGANTOR_1080p.mp4 tidak ada")
     if not os.path.exists(os.path.join(folder, "pelafalan.md")):
@@ -170,6 +201,15 @@ def main(folder, video=None):
         if not os.path.exists(video):
             add("GAGAL", f"video tidak ditemukan: {video}")
         else:
+            if short:
+                w, h, dur = info_video(video)
+                if dur is None:
+                    add("GAGAL", "Short: ukuran/durasi video tidak terbaca (ffprobe)")
+                else:
+                    if (w, h) != (1080, 1920):
+                        add("GAGAL", f"Short: ukuran video {w}x{h}, harus 1080x1920")
+                    cek_durasi_short(dur, "video", add)
+                add("PERINGATAN", "Short: periksa manual VO mulai detik 0 dan hook <=3 dtk")
             lufs, tp = loudness(video)
             if lufs is None:
                 add("PERINGATAN", "loudness tidak terbaca (ffmpeg ebur128)")
@@ -191,5 +231,6 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("folder")
     ap.add_argument("--video", default=None, help="video akhir untuk ukur loudness (ebur128)")
+    ap.add_argument("--format", choices=("panjang", "short"), default="panjang", help="jenis video (default panjang)")
     a = ap.parse_args()
-    main(a.folder, a.video)
+    main(a.folder, a.video, short=a.format == "short")

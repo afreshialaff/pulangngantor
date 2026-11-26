@@ -23,3 +23,8 @@
 1. Templat jadwal selalu memicu tahap=upload, yang berhenti bila upload.json ada: video private yang dijadwalkan tidak akan pernah publik. Diterapkan: docs/templat/jadwal-posa.yml memilih tahap=publish bila upload.json ada (belum diuji lewat run jadwal).
 2. Cek ulang Voynich: true peak +0,2 dBTP (batas -1,0), review.json tanpa status. Ukur true peak (ebur128 peak=true), jangan mengandalkan setelan limiter; ditandai gagal.
 3. Playlist gagal 409 pada upload pertama (2 dari 2 upload POSA); menjalankan tahap=publish sesudahnya berhasil (1 dari 1, Short Bumi). Usul: upload.py mencoba ulang playlist dengan jeda; tambahkan juga --format short ke qc_lint.py (Short ini tayang tanpa lint otomatis).
+
+## 2026-11-26 (run terjadwal malam, tanpa topik yang bisa dimajukan)
+1. Short pertama tayang tanpa lint otomatis. Diterapkan: `tools/qc_lint.py --format short` (87-95 dtk, 1080x1920, momen jawaban <=30 dtk, tanpa chapter/intro/outro). Short Bumi: sebelum 1 GAGAL palsu (aturan 360 dtk), sesudah 0 GAGAL; keluaran mode panjang di 6 folder produksi tidak berubah. `rakit_video.py --format short` belum dibuat.
+2. Voynich GAGAL hanya di audio: limiter dengan oversampling 192 kHz menurunkan true peak +0,2 menjadi -1,3 dBTP, loudness -13,8 menjadi -14,2 LUFS, video disalin tanpa render ulang. Usul: pakai rantai ini di akhir rakit.
+3. STATUS.md kini mencatat 4 run terjadwal (25-26 Nov) tanpa produksi baru karena topik menunggu keputusan pemilik. Usul: pemilik menaruh satu baris "topik berikutnya + format" di STATUS.md, atau jadwal POSA dijeda sampai ada pilihan, supaya run tidak berulang tanpa produksi.

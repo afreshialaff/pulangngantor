@@ -5,7 +5,7 @@
 | 2026-11-17 (Voynich) | Terunggah PRIVATE; cek ulang 26 Nov **GAGAL**: true peak +0,2 dBTP (batas -1,0) | Pemilik: pilih perbaiki audio lalu unggah ulang (ID video baru), atau terima apa adanya dan publikasikan manual di Studio. Perbaikan audio saja sudah diuji lolos (lihat run 26 Nov malam) |
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
-| 2026-11-22-ramayana-2-rama | 43 gambar Flow (QC lulus), VO, prompt video, copywriting (26 Nov) | Pemilik upscale gambar, lalu klip Nexabot; hari/jam tayang dari pemilik |
+| 2026-11-22-ramayana-2-rama | 43 gambar, VO, copywriting, 43 klip video 1080p di Downloads (27 Nov) | Rakit video; hari/jam tayang dari pemilik |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 

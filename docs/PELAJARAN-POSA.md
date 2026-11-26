@@ -33,3 +33,4 @@
 1. Agen Flow salah saat rename/hapus massal (1 gambar benar terbuang, 4 judul tertukar). Diterapkan: verifikasi judul lewat teks footer tiap tile sesudahnya (sebelum 39/43 judul benar, sesudah 43/43). Hapus gambar secara manual.
 2. VO satu take 10:46 pada permintaan 135 kata/menit; sesudah atempo 1,3 jadi 8:17. Usul: minta tempo lebih cepat di style prompt dan ukur sebelum membuat prompt klip.
 3. Estimasi durasi klip dari kata (479 dtk) meleset dari ukuran VO (521 dtk). Diterapkan: build.py memakai durasi.json hasil penyelarasan jeda; 2 scene dipangkas ke batas 15 dtk.
+- 27 Nov (klip Nexabot): jangan minta elemen samar (siluet wajah) "menjadi terang", wajahnya bisa berganti; minta tetap sama dari awal sampai akhir. Adegan "kalah tapi selamat" jangan memakai sinar/ledakan di akhir. QC tiap klip dengan contact sheet 1-2 fps; lompatan gambar di ujung bisa dibereskan dengan potong + perlambat tanpa generate ulang.

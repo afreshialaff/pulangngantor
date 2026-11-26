@@ -216,10 +216,10 @@ Avoid: cuts, scene change, shaky camera, fast zoom, morphing, warping faces, cha
 ```
 S14 RAMA PART 2. Image-to-video, exactly 13 seconds, 16:9 landscape, 1080p, 24 fps. The attached image is the exact first frame: keep every character, face, costume, prop, colour and background identical for the whole clip.
 Scene: Surreal wondrous cosmic interior: the tiny black crow floating in deep space surrounded by countless spiralling galaxies, many suns and moons and miniature worlds, framed by the faint gentle glowing silhouette of a smiling child's face around the edges.
-Camera: slow floating zoom-out with a slight rotation. One continuous shot, smooth and stable.
+Camera: very slow, tiny drift only, almost still. One continuous shot, smooth and stable.
 0 to 4.3 s: galaxies turn slowly around the tiny crow.
 4.3 to 8.7 s: suns and moons drift past in layers of depth.
-8.7 to 13 s: the faint smiling child silhouette around the edges brightens softly; hold.
+8.7 to 13 s: only the galaxies, suns and stars keep slowly moving; hold. The faint translucent dim-blue child silhouette around the edges stays exactly as in the first frame from the first second to the last: same face, same age, same blue tone, same opacity, same size and position. It never brightens, never becomes solid, never changes skin colour or features and is never replaced by another face.
 Style: smooth stylized 3D animated feature film, soft natural motion at a calm storytelling pace, gentle secondary motion on hair, cloth, light and particles, rich warm gold and sapphire colours. Do not add any new character, weapon or object that is not already visible in the first frame; anything hand-held stays in the same hands with the same shape. Mouths stay closed or nearly still; no dialogue. Audio: soft ambient sound only, no speech, no singing.
 Avoid: cuts, scene change, shaky camera, fast zoom, morphing, warping faces, changing costumes or hairstyle, extra or missing fingers or limbs, duplicated or new characters, objects appearing or vanishing without cause, lip-sync talking mouths, text, subtitles, letters, watermark, logo, photorealistic live-action look, 2D anime look, flicker, blur, gore, blood, modern objects.
 ```
@@ -335,8 +335,7 @@ Scene: Epic action wide shot: Rama releases a blazing blue-white arrow of energy
 Character consistency (exactly as drawn in the first frame): Rama: a lean athletic prince about sixteen, dusky warm skin with a soft blue undertone, lotus-shaped calm dark eyes, long arms, shoulder-length wavy black hair, slim gold circlet, saffron-yellow silk dhoti, deep green sash, gold armlets.
 Camera: fast-feeling but smooth wide pan following the arrow of light. One continuous shot, smooth and stable.
 0 to 3.7 s: Rama releases the blazing arrow.
-3.7 to 7.3 s: the demon is carried away backward across the sky on the beam of light.
-7.3 to 11 s: he becomes a small glint far over the distant ocean; hold on Rama lowering his bow.
+3.7 to 7.3 s: the demon is pushed backward in a long arc across the sky by the beam of light, his whole body staying solid, intact and clearly visible. 7.3 to 11 s: the beam fades away, and the demon, still whole and alive with arms waving, drops down into the distant ocean and lands with a big white water splash; hold on the splash and on Rama lowering his bow. No explosion and no burst of light at the end; the demon never disintegrates, never turns into light or sparks and is never destroyed.
 Style: smooth stylized 3D animated feature film, soft natural motion at a calm storytelling pace, gentle secondary motion on hair, cloth, light and particles, rich warm gold and sapphire colours. Do not add any new character, weapon or object that is not already visible in the first frame; anything hand-held stays in the same hands with the same shape. Mouths stay closed or nearly still; no dialogue. Audio: soft ambient sound only, no speech, no singing.
 Avoid: cuts, scene change, shaky camera, fast zoom, morphing, warping faces, changing costumes or hairstyle, extra or missing fingers or limbs, duplicated or new characters, objects appearing or vanishing without cause, lip-sync talking mouths, text, subtitles, letters, watermark, logo, photorealistic live-action look, 2D anime look, flicker, blur, gore, blood, modern objects.
 ```

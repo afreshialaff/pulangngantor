@@ -13,3 +13,11 @@
 - S26: S26_RAMA2_fix.mp4 (potong 9,6 dtk, diperlambat; ada lompatan gambar di 9,67 dtk).
 - Catatan kecil: S02 pemanah berdiri di akhir; S40 pindah bidikan sekitar detik 5; logo bintang dari gambar sumber tidak dihapus.
 - Berikutnya: rakit video (potong klip ke durasi VO) bila diminta; hari/jam tayang dari pemilik.
+
+## Rakit final (27 Nov 2026)
+- Hasil: Downloads/RAMAYANA PART 2/OUTPUT/RAMAYANA_PART2_final.mp4, 8:39 (518,6 dtk), 1080p24, -14,6 LUFS, true peak -1,1 dBTP.
+- Intro/outro resmi; transisi dissolve, fadeblack antar bagian; subtitle terbakar + subtitle.srt; musik sintesis sendiri (gamelan + tanpura + bansuri).
+- Sinkron subtitle: skrip rakit/align.py (espeak-ng + MFCC + DTW, offline) lalu batas cue ditempel ke jeda VO.
+- S31 diedit: bingkai awal ditahan sampai narasi "Busur itu patah", sisa klip (busur utuh lagi) dibuang.
+- Logo bintang Gemini tidak dihapus (penanda konten AI).
+- Belum diunggah. Hari/jam tayang dari pemilik.

@@ -2,7 +2,7 @@
 
 ## Judul (pilih satu)
 1. Kenapa Dewa Wisnu Memilih Lahir Jadi Manusia? Kisah Rama  (rekomendasi)
-2. Kisah Rama Kecil Sampai Menikahi Sinta (Ramayana Part 2)
+2. Kisah Rama Kecil Sampai Menikahi Sinta | Ramayana Part 2
 3. Rama Mematahkan Busur Siwa: Pangeran yang Dicintai Seluruh Kota
 
 ## Teks thumbnail (pilih satu)
@@ -23,14 +23,14 @@ Menurutmu, kalau impian terbesarmu mendadak lepas, bisakah kamu tetap tenang? Tu
 
 PENANDA WAKTU
 0:00 Dewa yang Memilih Jadi Manusia
-1:05 Raja Tanpa Putra
-2:00 Masa Kecil Rama
-2:56 Wiswamitra Meminta Rama
-4:32 Ahalya dan Taman Mithila
-5:18 Busur Siwa
-6:12 Dihadang Parasurama
-6:34 Rahasia Rama
-7:24 Menjelang Penobatan
+1:06 Raja Tanpa Putra
+2:02 Masa Kecil Rama
+3:00 Wiswamitra Meminta Rama
+4:36 Ahalya dan Taman Mithila
+5:22 Busur Siwa
+6:19 Dihadang Parasurama
+6:41 Rahasia Rama
+7:33 Menjelang Penobatan
 
 Sumber dan referensi
 Valmiki Ramayana, Balakanda (sarga 15, 16, 18, 26, 67, 75): https://www.valmikiramayan.net/utf8/baala/sarga15/balaitrans15.htm
@@ -57,5 +57,5 @@ Bagian mana yang paling bikin kamu kaget: gagak yang melihat semesta, Ahalya yan
 ## Catatan unggah
 - Hari dan jam tayang menunggu keputusanmu. Unggah awal: private.
 - Centang pernyataan konten buatan AI.
-- Penanda waktu sudah menghitung intro 4,3 detik; cek ulang setelah video dirakit.
+- Penanda waktu sudah disesuaikan dengan video final (termasuk intro).
 - Playlist usulan: sama dengan Part 1.

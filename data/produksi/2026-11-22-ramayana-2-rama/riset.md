@@ -116,3 +116,11 @@ Sekunder:
 - Urutan panel Prambanan hanya dari satu situs penulis perorangan.
 - Apakah wayang Jawa umumnya menyebut Rama sebagai penjelmaan Wisnu: tidak diverifikasi.
 - Kelas S19 (Parasurama): hasil duel dari ringkasan sekunder.
+
+## 7. Tambahan riset 26 Nov 2026 (naskah 43 scene; menggantikan keputusan 2.10, 2.14, dan 4 yang berbeda)
+- Ayodhyakanda sarga 1: Rama menyapa lebih dulu, bicara lembut, mengingat satu kebaikan, tidak menyimpan keburukan; sempat duduk bersama orang tua dan bijak di sela latihan senjata. https://www.valmikiramayan.net/utf8/ayodhya/sarga1/ayodhya_1_prose.htm
+- Balakanda sarga 49: Ahalya tak terlihat sampai Rama datang; versi Walmiki tidak menjadikannya batu. Kini dimasukkan (S24-S25) tanpa menyinggung sebab kutukan. https://sanskritdocuments.org/sites/valmikiramayan/baala/sarga49/balasans49.htm ; https://en.wikipedia.org/wiki/Ahalya
+- Balakanda sarga 76: panah diarahkan ke alam hasil tapa Parasurama; ia kembali ke Gunung Mahendra. https://www.valmikiramayan.net/utf8/baala/sarga76/balaitrans76.htm
+- Tulsidas (Ramcharitmanas): Kakabhushundi (S12-S14) https://en.wikipedia.org/wiki/Kakabhushundi ; Pushpavatika (S26) https://en.wikipedia.org/wiki/Baag_Taraag_Pushpavatika . Keduanya baru dari satu sumber sekunder.
+- Bala dan Atibala di tepi Sarayu: https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc423872.html
+- Koreksi: menurut Walmiki, Rama yang susah tidur dan makan tanpa Laksmana (S11).

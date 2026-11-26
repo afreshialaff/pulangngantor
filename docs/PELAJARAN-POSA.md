@@ -28,3 +28,8 @@
 1. Short pertama tayang tanpa lint otomatis. Diterapkan: `tools/qc_lint.py --format short` (87-95 dtk, 1080x1920, momen jawaban <=30 dtk, tanpa chapter/intro/outro). Short Bumi: sebelum 1 GAGAL palsu (aturan 360 dtk), sesudah 0 GAGAL; keluaran mode panjang di 6 folder produksi tidak berubah. `rakit_video.py --format short` belum dibuat.
 2. Voynich GAGAL hanya di audio: limiter dengan oversampling 192 kHz menurunkan true peak +0,2 menjadi -1,3 dBTP, loudness -13,8 menjadi -14,2 LUFS, video disalin tanpa render ulang. Usul: pakai rantai ini di akhir rakit.
 3. STATUS.md kini mencatat 4 run terjadwal (25-26 Nov) tanpa produksi baru karena topik menunggu keputusan pemilik. Usul: pemilik menaruh satu baris "topik berikutnya + format" di STATUS.md, atau jadwal POSA dijeda sampai ada pilihan, supaya run tidak berulang tanpa produksi.
+
+## 2026-11-26 (sesi pemilik, Ramayana Part 2 gambar dan VO)
+1. Agen Flow salah saat rename/hapus massal (1 gambar benar terbuang, 4 judul tertukar). Diterapkan: verifikasi judul lewat teks footer tiap tile sesudahnya (sebelum 39/43 judul benar, sesudah 43/43). Hapus gambar secara manual.
+2. VO satu take 10:46 pada permintaan 135 kata/menit; sesudah atempo 1,3 jadi 8:17. Usul: minta tempo lebih cepat di style prompt dan ukur sebelum membuat prompt klip.
+3. Estimasi durasi klip dari kata (479 dtk) meleset dari ukuran VO (521 dtk). Diterapkan: build.py memakai durasi.json hasil penyelarasan jeda; 2 scene dipangkas ke batas 15 dtk.

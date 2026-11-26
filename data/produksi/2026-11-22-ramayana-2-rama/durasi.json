@@ -1,0 +1,346 @@
+{
+ "S01": {
+  "mulai": 0,
+  "selesai": 13.13,
+  "vo": 13.13,
+  "klip": 14,
+  "jeda": 0.76,
+  "rasio": 1.04
+ },
+ "S02": {
+  "mulai": 13.13,
+  "selesai": 26.22,
+  "vo": 13.09,
+  "klip": 14,
+  "jeda": 0.73,
+  "rasio": 1.06
+ },
+ "S03": {
+  "mulai": 26.22,
+  "selesai": 38.82,
+  "vo": 12.59,
+  "klip": 13,
+  "jeda": 1.08,
+  "rasio": 1.07
+ },
+ "S04": {
+  "mulai": 38.82,
+  "selesai": 49.17,
+  "vo": 10.36,
+  "klip": 11,
+  "jeda": 0.79,
+  "rasio": 0.95
+ },
+ "S05": {
+  "mulai": 49.17,
+  "selesai": 60.82,
+  "vo": 11.64,
+  "klip": 12,
+  "jeda": 0.86,
+  "rasio": 0.96
+ },
+ "S06": {
+  "mulai": 60.82,
+  "selesai": 73.79,
+  "vo": 12.98,
+  "klip": 14,
+  "jeda": 0.69,
+  "rasio": 0.97
+ },
+ "S07": {
+  "mulai": 73.79,
+  "selesai": 84.13,
+  "vo": 10.34,
+  "klip": 11,
+  "jeda": 0.79,
+  "rasio": 0.93
+ },
+ "S08": {
+  "mulai": 84.13,
+  "selesai": 94.29,
+  "vo": 10.16,
+  "klip": 11,
+  "jeda": 0.59,
+  "rasio": 0.91
+ },
+ "S09": {
+  "mulai": 94.29,
+  "selesai": 103.65,
+  "vo": 9.36,
+  "klip": 10,
+  "jeda": 0.74,
+  "rasio": 0.9
+ },
+ "S10": {
+  "mulai": 103.65,
+  "selesai": 116.39,
+  "vo": 12.74,
+  "klip": 13,
+  "jeda": 0.84,
+  "rasio": 1.04
+ },
+ "S11": {
+  "mulai": 116.39,
+  "selesai": 126.08,
+  "vo": 9.68,
+  "klip": 10,
+  "jeda": 0.6,
+  "rasio": 0.91
+ },
+ "S12": {
+  "mulai": 126.08,
+  "selesai": 136.72,
+  "vo": 10.64,
+  "klip": 11,
+  "jeda": 0.41,
+  "rasio": 0.94
+ },
+ "S13": {
+  "mulai": 136.72,
+  "selesai": 146.75,
+  "vo": 10.03,
+  "klip": 11,
+  "jeda": 0.71,
+  "rasio": 0.94
+ },
+ "S14": {
+  "mulai": 146.75,
+  "selesai": 159.59,
+  "vo": 12.84,
+  "klip": 13,
+  "jeda": 1.54,
+  "rasio": 1.23
+ },
+ "S15": {
+  "mulai": 159.59,
+  "selesai": 172.47,
+  "vo": 12.88,
+  "klip": 14,
+  "jeda": 1.09,
+  "rasio": 1.18
+ },
+ "S16": {
+  "mulai": 172.47,
+  "selesai": 184.19,
+  "vo": 11.72,
+  "klip": 12,
+  "jeda": 1.09,
+  "rasio": 1.03
+ },
+ "S17": {
+  "mulai": 184.19,
+  "selesai": 198.34,
+  "vo": 14.15,
+  "klip": 15,
+  "jeda": 1.06,
+  "rasio": 1.06
+ },
+ "S18": {
+  "mulai": 198.34,
+  "selesai": 211.54,
+  "vo": 13.2,
+  "klip": 14,
+  "jeda": 1.19,
+  "rasio": 1.12
+ },
+ "S19": {
+  "mulai": 211.54,
+  "selesai": 222.65,
+  "vo": 11.11,
+  "klip": 12,
+  "jeda": 0.95,
+  "rasio": 0.92
+ },
+ "S20": {
+  "mulai": 222.65,
+  "selesai": 235.0,
+  "vo": 12.35,
+  "klip": 13,
+  "jeda": 1.07,
+  "rasio": 1.04
+ },
+ "S21": {
+  "mulai": 235.0,
+  "selesai": 246.51,
+  "vo": 11.51,
+  "klip": 12,
+  "jeda": 1.1,
+  "rasio": 0.98
+ },
+ "S22": {
+  "mulai": 246.51,
+  "selesai": 257.86,
+  "vo": 11.36,
+  "klip": 12,
+  "jeda": 1.18,
+  "rasio": 0.96
+ },
+ "S23": {
+  "mulai": 257.86,
+  "selesai": 267.9,
+  "vo": 10.03,
+  "klip": 11,
+  "jeda": 1.26,
+  "rasio": 0.94
+ },
+ "S24": {
+  "mulai": 267.9,
+  "selesai": 278.74,
+  "vo": 10.84,
+  "klip": 11,
+  "jeda": 0.75,
+  "rasio": 0.91
+ },
+ "S25": {
+  "mulai": 278.74,
+  "selesai": 291.24,
+  "vo": 12.5,
+  "klip": 13,
+  "jeda": 0.98,
+  "rasio": 0.96
+ },
+ "S26": {
+  "mulai": 291.24,
+  "selesai": 301.66,
+  "vo": 10.42,
+  "klip": 11,
+  "jeda": 0.83,
+  "rasio": 0.93
+ },
+ "S27": {
+  "mulai": 301.66,
+  "selesai": 313.71,
+  "vo": 12.05,
+  "klip": 13,
+  "jeda": 0.62,
+  "rasio": 1.11
+ },
+ "S28": {
+  "mulai": 313.71,
+  "selesai": 324.85,
+  "vo": 11.14,
+  "klip": 12,
+  "jeda": 0.4,
+  "rasio": 1.08
+ },
+ "S29": {
+  "mulai": 324.85,
+  "selesai": 336.21,
+  "vo": 11.36,
+  "klip": 12,
+  "jeda": 0.63,
+  "rasio": 1.03
+ },
+ "S30": {
+  "mulai": 336.21,
+  "selesai": 346.31,
+  "vo": 10.1,
+  "klip": 11,
+  "jeda": 0.7,
+  "rasio": 0.98
+ },
+ "S31": {
+  "mulai": 346.31,
+  "selesai": 357.55,
+  "vo": 11.24,
+  "klip": 12,
+  "jeda": 0.53,
+  "rasio": 1.0
+ },
+ "S32": {
+  "mulai": 357.55,
+  "selesai": 368.31,
+  "vo": 10.76,
+  "klip": 11,
+  "jeda": 0.51,
+  "rasio": 0.93
+ },
+ "S33": {
+  "mulai": 368.31,
+  "selesai": 378.12,
+  "vo": 9.81,
+  "klip": 10,
+  "jeda": 0.44,
+  "rasio": 0.93
+ },
+ "S34": {
+  "mulai": 378.12,
+  "selesai": 389.86,
+  "vo": 11.73,
+  "klip": 12,
+  "jeda": 0.7,
+  "rasio": 0.94
+ },
+ "S35": {
+  "mulai": 389.86,
+  "selesai": 400.66,
+  "vo": 10.81,
+  "klip": 11,
+  "jeda": 0.38,
+  "rasio": 0.89
+ },
+ "S36": {
+  "mulai": 400.66,
+  "selesai": 409.81,
+  "vo": 9.14,
+  "klip": 10,
+  "jeda": 0.3,
+  "rasio": 0.84
+ },
+ "S37": {
+  "mulai": 409.81,
+  "selesai": 420.17,
+  "vo": 10.37,
+  "klip": 11,
+  "jeda": 0.9,
+  "rasio": 0.9
+ },
+ "S38": {
+  "mulai": 420.17,
+  "selesai": 429.94,
+  "vo": 9.76,
+  "klip": 10,
+  "jeda": 0.28,
+  "rasio": 0.87
+ },
+ "S39": {
+  "mulai": 429.94,
+  "selesai": 440.58,
+  "vo": 10.64,
+  "klip": 11,
+  "jeda": 0.53,
+  "rasio": 0.88
+ },
+ "S40": {
+  "mulai": 440.58,
+  "selesai": 454.18,
+  "vo": 13.6,
+  "klip": 14,
+  "jeda": 0.99,
+  "rasio": 1.16
+ },
+ "S41": {
+  "mulai": 454.18,
+  "selesai": 469.03,
+  "vo": 14.85,
+  "klip": 15,
+  "jeda": 1.22,
+  "rasio": 1.31
+ },
+ "S42": {
+  "mulai": 469.03,
+  "selesai": 481.75,
+  "vo": 12.72,
+  "klip": 13,
+  "jeda": 0.94,
+  "rasio": 1.04
+ },
+ "S43": {
+  "mulai": 482.15,
+  "selesai": 497.1,
+  "vo": 14.95,
+  "klip": 15,
+  "jeda": null,
+  "rasio": 1.18
+ }
+}

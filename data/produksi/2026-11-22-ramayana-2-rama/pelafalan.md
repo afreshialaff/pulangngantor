@@ -36,3 +36,10 @@
 - Janji tanpa syarat: baca biasa, jeda sedikit sebelum "tanpa"
 - "enam belas": "E-nam be-LAS"; "lima ribu": "LI-ma RI-bu"; "sembilan ratus": "sem-BI-lan RA-tus"
 - Angka di VO sudah dieja: enam hari enam malam, lima ribu, tahun sembilan ratus.
+
+## Tambahan 26 Nov 2026
+- Tulsidas: "tul-si-DAS"
+- Ahalya: "a-HAL-ya"
+- Sarayu: "sa-RA-yu"
+- Bala dan Atibala: "BA-la", "a-ti-BA-la"
+- Candi Prambanan: "CAN-di pram-BA-nan"

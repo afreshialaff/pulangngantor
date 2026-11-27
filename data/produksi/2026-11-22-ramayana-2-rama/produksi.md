@@ -21,3 +21,7 @@
 - S31 diedit: bingkai awal ditahan sampai narasi "Busur itu patah", sisa klip (busur utuh lagi) dibuang.
 - Logo bintang Gemini tidak dihapus (penanda konten AI).
 - Belum diunggah. Hari/jam tayang dari pemilik.
+
+## Versi tanpa logo (27 Nov 2026, atas permintaan pemilik)
+- RAMAYANA_PART2_final_v2.mp4: logo bintang Gemini dihapus dari 43 klip (rakit/est.py estimasi peta alpha dari 521 crop 160x160 di x=1660,y=820; rakit/rm.py balik alpha + inpaint tipis di tepi; rakit/run.py). Lalu render ulang; audio/subtitle sama.
+- SynthID/C2PA tetap ada di sumber. Saat unggah centang pernyataan konten AI; deskripsi tetap memuat baris "Visual dan suara narator dibuat dengan bantuan AI."

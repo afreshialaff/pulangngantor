@@ -5,7 +5,7 @@
 | 2026-11-17 (Voynich) | Terunggah PRIVATE; cek ulang 26 Nov **GAGAL**: true peak +0,2 dBTP (batas -1,0) | Pemilik: pilih perbaiki audio lalu unggah ulang (ID video baru), atau terima apa adanya dan publikasikan manual di Studio. Perbaikan audio saja sudah diuji lolos (lihat run 26 Nov malam) |
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
-| 2026-11-22-ramayana-2-rama | Video final dirakit (8:39) di Downloads/RAMAYANA PART 2/OUTPUT (27 Nov); belum diunggah | Pemilik tonton, lalu tentukan hari/jam tayang; thumbnail dan upload private |
+| 2026-11-22-ramayana-2-rama | **Terunggah PRIVATE** 27 Nov 2026 (1r8pRi2lhck), thumbnail + playlist OK; subtitle gagal (scope token) | Pemilik: unggah subtitle.srt manual di Studio, tentukan hari/jam tayang |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 

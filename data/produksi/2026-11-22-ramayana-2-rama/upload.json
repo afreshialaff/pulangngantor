@@ -7,5 +7,6 @@
  "thumbnail": true,
  "captions": false,
  "captions_error": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/captions?part=snippet&alt=json&uploadType=multipart returned \"Request had insufficient authentication scopes.\". Details:",
- "playlist": "PLaUDkPis98qY"
+ "playlist": "PLaUDkPis98qY",
+ "thumbnail_diganti": "2026-11-27T07:05:30.779204+00:00"
 }

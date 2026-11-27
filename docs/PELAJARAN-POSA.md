@@ -47,3 +47,8 @@
 2. Salinan repo di ruang kerja berstatus detached HEAD dan main lokal tertinggal 28 commit; dry-run push ditolak (non-fast-forward) padahal akses ada. Usul: `git checkout main && git pull --rebase origin main` sebelum dry-run, dan bedakan 403 dari non-fast-forward.
 3. Run siang menyimpan hasil sebagai patch karena push 403; run ini memeriksa Downloads/POSA-run-*/ dan menerapkannya (`git apply --check` lolos, 2 berkas, +15/-1 baris), jadi catatannya tidak hilang.
 
+
+## 2026-11-27 (Short pareidolia, sesi interaktif)
+1. Ada dua browser Chrome tersambung; VO pertama terunduh ke komputer yang salah dan harus dibuat ulang. Usul: pastikan browser di komputer yang folder Downloads-nya tersambung sebelum mengunduh.
+2. 14 gambar diminta dalam satu pesan ke agen Flow: 11 lolos QC, 3 diperbaiki lewat edit (semak jadi harimau sungguhan, posisi lengan robot salah, poster berhuruf). Usul: untuk benda "mirip X", tulis juga larangan "bukan X sungguhan".
+3. Pengetikan prompt panjang (5.712 karakter) putus di tengah; isi kotak dicek lewat panjang teks dan kode scene sebelum dikirim.

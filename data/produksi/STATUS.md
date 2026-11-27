@@ -1,11 +1,16 @@
 # Status produksi Pulang ngantor (diperbarui tiap run HEXA)
 
+## Antrean pemilik (diisi pemilik; run POSA membaca bagian ini lebih dulu)
+- Topik berikutnya: (kosong)
+- Format (panjang / short_90): (kosong)
+- Voynich ("perbaiki dan unggah ulang" / "terima apa adanya"): (kosong)
+
 | Folder | Tahap tercapai | Berikutnya |
 |---|---|---|
 | 2026-11-17 (Voynich) | Terunggah PRIVATE; cek ulang 26 Nov **GAGAL**: true peak +0,2 dBTP (batas -1,0) | Pemilik: pilih perbaiki audio lalu unggah ulang (ID video baru), atau terima apa adanya dan publikasikan manual di Studio. Perbaikan audio saja sudah diuji lolos (lihat run 26 Nov malam) |
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
-| 2026-11-22-ramayana-2-rama | **Terunggah PRIVATE** 27 Nov 2026 (1r8pRi2lhck), thumbnail + playlist OK; subtitle gagal (scope token) | Pemilik: unggah subtitle.srt manual di Studio, tentukan hari/jam tayang |
+| 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 
@@ -41,3 +46,22 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - `tools/qc_lint.py --format short` ditambahkan; Short Bumi: 0 GAGAL (peringatan: naskah.json dan pelafalan.md tidak ada di folder, hook/VO awal dicek manual).
 - Kredit Flow/AI Studio dipakai: 0.
 - Dibutuhkan dari pemilik: (1) pilih topik + format, atau izinkan Ramayana 2; (2) Voynich: "perbaiki dan unggah ulang" atau "terima apa adanya"; (3) bila Voynich diunggah ulang, tentukan juga hari dan jam tayangnya.
+
+## Run terjadwal 27 Nov 2026 (siang, sekitar 14.15 WIB)
+- ASUS terhubung (Downloads diizinkan saat run). Clone berhasil, tetapi push ditolak (403: repo tidak masuk daftar repo yang diizinkan untuk sesi ini). Hasil run ada di Downloads/POSA-run-2026-11-27/.
+- Pesan pemilik di tengah run: Ramayana Part 2 sudah terupload.
+- QC sebagian Part 2 (video dari repo, 518,6 dtk, 1920x1080, 24 fps): qc_lint 0 GAGAL, 2 peringatan (jadwal_tayang kosong, naskah.json tidak ada); -14,6 LUFS, true peak -1,1 dBTP; pemindaian layar hitam, gambar beku, dan senyap tanpa temuan. Belum diperiksa: lembar kontak, keutuhan intro/outro, pelafalan VO, pemeriksa terpisah. review.json tidak ditulis.
+- Pemeriksaan lanjutan (lembar kontak, banding intro/outro, pemasangan alat transkripsi) ditolak pengaman izin otomatis dan tidak dicoba lagi.
+- Tidak ada topik lain yang dimajukan: Ramayana 3-4 menunggu instruksi (HANDOFF 24 Nov), Voynich menunggu keputusan. USULAN-TOPIK.md 25 Nov masih dipakai.
+- Kredit Flow/AI Studio dipakai: 0.
+- Dibutuhkan dari pemilik: (1) topik + format berikutnya, atau izinkan Ramayana 3; (2) keputusan Voynich; (3) tugas terjadwal dibuat ulang dengan akses repo.
+
+## Run terjadwal 27 Nov 2026 (sore, sekitar 14.26 WIB)
+- ASUS (laptop-e7b7q717) terhubung, Downloads diizinkan saat run. `git push --dry-run` lolos sesudah branch main lokal diperbarui (percobaan pertama ditolak non-fast-forward karena salinan lokal tertinggal 28 commit, bukan soal akses).
+- Catatan run siang (patch di Downloads/POSA-run-2026-11-27/) sudah dimasukkan ke repo; patch itu tidak perlu diterapkan lagi.
+- Tahap tercapai: tidak ada topik yang bisa dimajukan. Tidak ada instruksi baru untuk Ramayana 3-4 atau Voynich di STATUS.md, handoff, dan isi Downloads yang dicek. Tidak ada produksi baru.
+- Modul A: `USULAN-TOPIK.md` diperbarui (3 kandidat, sebagian sumber dibaca ulang).
+- Kesiapan Ramayana 3 (hanya dibaca): 40 scene, 1.244 kata VO (30-34 per scene); 16 `flow_subject` masih menyebut wayang, padahal Part 1 disetujui bergaya animasi 3D. Perkiraan bila diizinkan: 40 gambar Flow di luar character lock, 40 klip 15 dtk (dibuat pemilik), 1 take VO sekitar 8-10 menit. Biaya kredit belum dicek di Flow/AI Studio.
+- Ramayana 4 (hanya dibaca): 26 scene, 814 kata VO; S19 hanya 29 kata (minimal 30).
+- Kredit Flow/AI Studio dipakai: 0 (browser tidak dibuka).
+- Dibutuhkan dari pemilik: (1) isi "Antrean pemilik" di atas (topik + format, atau izinkan Ramayana 3); (2) keputusan Voynich; (3) Ramayana 2: pastikan status publik dan unggah subtitle.srt di Studio bila belum.

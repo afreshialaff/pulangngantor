@@ -36,3 +36,14 @@
 - 27 Nov (klip Nexabot): jangan minta elemen samar (siluet wajah) "menjadi terang", wajahnya bisa berganti; minta tetap sama dari awal sampai akhir. Adegan "kalah tapi selamat" jangan memakai sinar/ledakan di akhir. QC tiap klip dengan contact sheet 1-2 fps; lompatan gambar di ujung bisa dibereskan dengan potong + perlambat tanpa generate ulang.
 - 27 Nov (rakit Part 2): subtitle bisa disejajarkan akurat tanpa Whisper memakai espeak-ng + DTW per scene (akhir kalimat jatuh di jeda VO). Render transisi sebagai potongan kecil lalu concat, jauh lebih ringan daripada satu rantai xfade 43 input.
 - 27 Nov: pemilik memutuskan logo Gemini yang terlihat boleh dihapus (Google juga menyediakan toggle Settings > Media Watermark sejak Agustus 2026). Untuk produksi berikutnya: matikan toggle itu di Flow sebelum generate gambar, supaya tidak perlu hapus logo di klip.
+
+## 2026-11-27 (run terjadwal siang)
+1. Ramayana Part 2 terunggah tanpa review.json di folder produksi (qc_lint sesudahnya: 0 GAGAL, -14,6 LUFS, -1,1 dBTP; QC belum lengkap). Usul: tulis review.json sebelum unggah, jalur mana pun.
+2. Push ditolak lagi (403); run 26 Nov malam sempat lolos dry-run. Diterapkan: hasil run disimpan sebagai patch di Downloads/POSA-run-2026-11-27/, tanpa mencoba push ulang.
+3. Run terjadwal 25-27 Nov berulang kali berhenti karena topik menunggu keputusan. Usul: pemilik menulis satu baris "topik berikutnya + format" di STATUS.md, atau jadwal dijeda.
+
+## 2026-11-27 (run terjadwal sore)
+1. Keputusan yang ditunggu tersebar di catatan run (5 run sebelumnya, 25-27 Nov, 0 produksi baru oleh run terjadwal). Diterapkan: blok "Antrean pemilik" di atas tabel STATUS.md (sebelum 0 tempat isian, sesudah 3 baris: topik, format, Voynich). Efeknya belum teruji.
+2. Salinan repo di ruang kerja berstatus detached HEAD dan main lokal tertinggal 28 commit; dry-run push ditolak (non-fast-forward) padahal akses ada. Usul: `git checkout main && git pull --rebase origin main` sebelum dry-run, dan bedakan 403 dari non-fast-forward.
+3. Run siang menyimpan hasil sebagai patch karena push 403; run ini memeriksa Downloads/POSA-run-*/ dan menerapkannya (`git apply --check` lolos, 2 berkas, +15/-1 baris), jadi catatannya tidak hilang.
+

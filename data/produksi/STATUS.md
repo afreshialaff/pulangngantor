@@ -91,6 +91,10 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Hook S01 baru (meluruskan "artinya Wow"); dipakai karena pemilik menjawab "lanjutin" tanpa memilih, sudah diberitahukan.
 - Berikutnya: pemilik upscale ke `Downloads/SINYAL-WOW/PICTURE/` (S01..S14); lalu klip Nexabot digenerate agen (permintaan pemilik untuk topik ini).
 - Kredit Flow sebelum generate: 150.
+- 28 Nov malam: 14/14 klip Nexabot jadi (Start Frame, 9:16, 1080p, Unlimited), di `Downloads/SINYAL-WOW/VIDEO/S01-S14.mp4`; qc_klip 14/14 lolos teknis dan lembar kontak diperiksa. S05 diulang sekali (efek ledakan cahaya).
+- Catatan visual: S06 titik elektron sesekali dobel; S09 muncul rasi kecil tambahan di pojok atas; S12 ada kilat dan cincin cahaya di luar prompt. Dipakai kecuali pemilik minta ulang.
+- Tanda bintang Gemini di kanan bawah klip tidak dihapus (tombol "Remove Watermark" Nexabot tidak ditekan). Booster berbayar tidak dibeli.
+- Berikutnya: rakit (matikan audio klip, VO dengan true peak diturunkan, subtitle, teks layar).
 
 ## Sesi lanjutan 28 Nov 2026 (malam, diminta pemilik): klip Nexabot
 - Klip S02-S14 digenerate (Unlimited, kredit 0, booster berbayar tidak dibeli) dan disimpan di ASUS `PAREIDOLIA-HANTU/VIDEO/`. Semua 1080x1920, 24 fps, durasi sesuai prompt.

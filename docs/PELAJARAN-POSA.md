@@ -71,3 +71,8 @@
 1. 13 klip + 2 ulang: 11 dari 13 klip pertama bisa dipakai tanpa catatan berat; S02 ghosting dan S12 elemen hilang. Ulang S12 dengan larangan spesifik berhasil; ulang S02 dengan instruksi "tahan bingkai akhir" malah menggandakan karakter. Usul: untuk cacat di ujung klip, potong dan perlambat dulu sebelum generate ulang.
 2. Tab Chrome berganti ID beberapa kali dan tidak bisa discreenshot; membuka tab baru di alamat yang sama memulihkan, hasil generate tetap ada di daftar.
 - 28 Nov 2026 (pareidolia): periksa klaim angka ke sumber (per metode, bukan angka gabungan) SEBELUM VO direkam; kesalahan 58% baru ketahuan sesudah video jadi.
+
+## 2026-11-28 (Short Sinyal Wow!, klip Nexabot)
+1. Prompt video ditulis sebelum gambar jadi dan beberapa aksinya tidak cocok dengan isi gambar. Diterapkan: semua 14 prompt disesuaikan dengan gambar final sebelum generate (gerak kecil, hanya benda yang sudah ada).
+2. Kata "pulses once" pada S05 menghasilkan ledakan cahaya. Usul: untuk efek cahaya, tulis "steady, no burst, no orb, no sparks"; versi ulang dengan kalimat itu bersih (1 kali ulang dari 14 scene).
+3. Popup "Cooldown Booster" berbayar muncul bila Generate ditekan saat jeda Unlimited. Usul: baca teks tombol (Generate/Wait) dulu; tutup popup tanpa membeli.

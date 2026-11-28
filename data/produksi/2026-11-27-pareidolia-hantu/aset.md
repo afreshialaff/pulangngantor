@@ -10,7 +10,7 @@ Belum ada: S04-S14 (cek 28 Nov ±19.05 WIB; S02 11,03 dtk dan S03 9,02 dtk sudah
 
 Sumber aset: gambar Google Flow, VO Google AI Studio, klip Nexabot. Musik: orisinal, disusun sendiri (tools/short_rakit/music.py), SoundFont FluidR3 GM (lisensi MIT).
 
-Video final: OUTPUT/pareidolia_pulang_ngantor.mp4
+Video final: pareidolia_pulang_ngantor.mp4 (dari chat; simpan di PAREIDOLIA-HANTU/OUTPUT/). Subtitle: subtitle.srt
 
 ## Cek 28 Nov (run terjadwal)
 - S01: lembar kontak 1 fps (9 frame): karakter, jam, selimut, dan jemuran konsisten; logo bintang kecil di kanan bawah terlihat.

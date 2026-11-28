@@ -11,7 +11,7 @@
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
-| 2026-11-27-pareidolia-hantu (Short) | Tahap 4 selesai 28 Nov: klip S01-S14 lengkap di `PAREIDOLIA-HANTU/VIDEO/` (plus S12_v2) | Rakit video (tahap 5): `rakit_video.py --format short` belum ada; pemilik: putuskan durasi 127 dtk |
+| 2026-11-27-pareidolia-hantu (Short) | Tahap 4 selesai 28 Nov: klip S01-S14 lengkap di `PAREIDOLIA-HANTU/VIDEO/` (plus S12_v2) | Rakit video (tahap 5): `rakit_video.py --format short` belum ada; durasi final 132 dtk mengikuti klip (keputusan pemilik 28 Nov), VO: `VO_pareidolia_pas_klip.wav`, timing: `cuts_klip.json` |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 
@@ -96,3 +96,4 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Klip S02-S14 digenerate (Unlimited, kredit 0, booster berbayar tidak dibeli) dan disimpan di ASUS `PAREIDOLIA-HANTU/VIDEO/`. Semua 1080x1920, 24 fps, durasi sesuai prompt.
 - QC lembar kontak (S01 dari run sebelumnya). Catatan: S02 ghosting sekitar dtk 8,5-10,5 (potong di 8,5 lalu perlambat ke VO 10,65 dtk); generate ulang S02 gagal (karakter dobel mulai dtk 7,8), tidak disimpan di VIDEO. S12 lengan robot hilang sekitar dtk 7; pakai S12_v2.mp4 (lengan utuh). Minor: S04 stopwatch menghilang dtk 2,5; S07 anak sebagian keluar bingkai kiri; S06 kilau singkat dtk 9-10.
 - Logo bintang kecil kanan bawah masih ada; dibereskan saat rakit.
+- VO dipaskan ke durasi klip (hanya tambah hening di jeda scene, tempo tidak diubah): 132,0 dtk, -15,1 LUFS, true peak -2,0 dBTP. VO asli tidak diubah. Saat rakit pakai cuts_klip.json; qc_lint short (87-95 dtk) akan tetap menandai durasi.

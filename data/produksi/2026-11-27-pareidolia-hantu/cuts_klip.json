@@ -1,0 +1,119 @@
+{
+ "catatan": "Timing final: VO dipaskan ke durasi klip (permintaan pemilik 28 Nov). cuts.json = VO asli.",
+ "vo": "VIDEO/VO_pareidolia_pas_klip.wav",
+ "durasi_detik": 132.0,
+ "scene": [
+  {
+   "scene": "S01",
+   "mulai": 0.0,
+   "selesai": 9.0,
+   "vo_asli_dtk": 8.73,
+   "hening_awal": 0.0,
+   "hening_akhir": 0.27
+  },
+  {
+   "scene": "S02",
+   "mulai": 9.0,
+   "selesai": 20.0,
+   "vo_asli_dtk": 10.65,
+   "hening_awal": 0.14,
+   "hening_akhir": 0.21
+  },
+  {
+   "scene": "S03",
+   "mulai": 20.0,
+   "selesai": 29.0,
+   "vo_asli_dtk": 8.76,
+   "hening_awal": 0.1,
+   "hening_akhir": 0.14
+  },
+  {
+   "scene": "S04",
+   "mulai": 29.0,
+   "selesai": 38.0,
+   "vo_asli_dtk": 8.02,
+   "hening_awal": 0.3,
+   "hening_akhir": 0.68
+  },
+  {
+   "scene": "S05",
+   "mulai": 38.0,
+   "selesai": 45.0,
+   "vo_asli_dtk": 6.99,
+   "hening_awal": 0.0,
+   "hening_akhir": 0.01
+  },
+  {
+   "scene": "S06",
+   "mulai": 45.0,
+   "selesai": 58.0,
+   "vo_asli_dtk": 12.85,
+   "hening_awal": 0.06,
+   "hening_akhir": 0.09
+  },
+  {
+   "scene": "S07",
+   "mulai": 58.0,
+   "selesai": 67.0,
+   "vo_asli_dtk": 8.7,
+   "hening_awal": 0.12,
+   "hening_akhir": 0.18
+  },
+  {
+   "scene": "S08",
+   "mulai": 67.0,
+   "selesai": 77.0,
+   "vo_asli_dtk": 9.58,
+   "hening_awal": 0.17,
+   "hening_akhir": 0.25
+  },
+  {
+   "scene": "S09",
+   "mulai": 77.0,
+   "selesai": 85.0,
+   "vo_asli_dtk": 7.93,
+   "hening_awal": 0.03,
+   "hening_akhir": 0.04
+  },
+  {
+   "scene": "S10",
+   "mulai": 85.0,
+   "selesai": 96.0,
+   "vo_asli_dtk": 10.62,
+   "hening_awal": 0.15,
+   "hening_akhir": 0.23
+  },
+  {
+   "scene": "S11",
+   "mulai": 96.0,
+   "selesai": 106.0,
+   "vo_asli_dtk": 9.92,
+   "hening_awal": 0.03,
+   "hening_akhir": 0.05
+  },
+  {
+   "scene": "S12",
+   "mulai": 106.0,
+   "selesai": 115.0,
+   "vo_asli_dtk": 8.53,
+   "hening_awal": 0.19,
+   "hening_akhir": 0.28
+  },
+  {
+   "scene": "S13",
+   "mulai": 115.0,
+   "selesai": 124.0,
+   "vo_asli_dtk": 8.33,
+   "hening_awal": 0.27,
+   "hening_akhir": 0.4
+  },
+  {
+   "scene": "S14",
+   "mulai": 124.0,
+   "selesai": 132.0,
+   "vo_asli_dtk": 7.5,
+   "hening_awal": 0.2,
+   "hening_akhir": 0.3
+  }
+ ]
+}

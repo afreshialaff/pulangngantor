@@ -4,6 +4,7 @@
 - PICTURE/S01..S14 *_2K.jpg (14 gambar)
 - VIDEO/S01..S14.mp4 (1080x1920, 24 fps; lengkap 28 Nov)
 - VIDEO/S12_v2.mp4 (pengganti S12 yang disarankan)
+- VIDEO/VO_pareidolia_pas_klip.wav (132,0 dtk, VO final; timing di cuts_klip.json)
 
 Belum ada: S04-S14 (cek 28 Nov ±19.05 WIB; S02 11,03 dtk dan S03 9,02 dtk sudah ada).
 

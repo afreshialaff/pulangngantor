@@ -119,3 +119,7 @@ Sekunder/akademik:
 - Susunan kata "Rama menyuruh Rahwana pulang beristirahat" dari ringkasan Yuddha 59 (terjemahan Murthy); makna "kembali besok" tidak ditulis di VO.
 - Kakawin tidak memuat ujian api: hanya dari satu artikel BRIN; saya tidak membaca teks Kakawin sendiri.
 - Penanggalan Kakawin: 870 (Wikipedia Ramayana) vs 856-930 (Robson via Wikipedia Kakawin) vs 903 (Bahastra). VO tidak menyebut tahun Kakawin.
+
+## 6. Verifikasi ulang (29 Nov 2026), dasar naskah versi 48 scene
+Sarga yang berhasil dibuka (valmikiramayan.net, sanskritdocuments.org, WisdomLib): Ayodhya 9, 11, 19, 34, 37, 39, 56, 64, 112, 115; Aranya 11, 14, 18, 34, 38, 40, 43, 45, 46, 51, 54, 67, 68, 72, 74; Kishkindha 5, 6, 10, 14, 17, 18, 44, 47, 58, 66; Sundara 1, 15, 36, 37, 48, 53, 54; Yuddha 14, 16, 22, 45, 50, 59, 63, 67, 90, 107, 108, 111, 115, 116, 118, 128. Koreksi hasil verifikasi sudah dimasukkan ke VO. Tabel bagian 2 dan bagian 0 adalah catatan awal 22 Nov.
+Masih belum diverifikasi: kata-kata Sinta dan ikutnya Laksmana (hanya sebagian Ayodhya 30-31), Bharata menolak mahkota, jeritan Marica (Aranya 44), sarga penculikan (Aranya 49), pertemuan Hanoman (Kishkindha 4), alasan Rahwana memilih Sinta, pembangunan Kumbakarna (Yuddha 60).

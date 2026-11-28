@@ -43,3 +43,5 @@ Ejaan yang dipakai di seluruh part ini (satu ejaan, konsisten): Rama, Sinta, Lak
 - Rishyamukha (tidak dipakai di VO): "rish-ya-MU-kha"
 
 Catatan umum: kata "wayang Jawa" dibaca biasa; "Weda" = "WE-da". Jangan baca "Alengka" sebagai "Lanka". Tanda baca titik dua dan koma di VO dipertahankan untuk jeda alami.
+
+Tambahan naskah 48 scene: Nandigrama "nan-di-GRA-ma"; Godawari "go-da-WA-ri"; Kabandha "ka-BAN-da"; Jambawan "JAM-ba-wan"; Asoka "a-SO-ka".

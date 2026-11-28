@@ -6,3 +6,4 @@
 - Upscale pemilik 2K: `picture/` (14 berkas, dipakai sebagai start frame).
 - Klip: Nexabot Omni Flash 1.2, 1080x1920 24 fps, `VIDEO/S01.mp4`-`S14.mp4`; durasi slider 13,9,8,7,8,13,10,8,7,9,6,11,9,8. Berkas mentah: Downloads/WOW_Sxx.mp4 (S05 final = WOW_S05_v2.mp4). Prompt yang dipakai: `prompt_video.md` (salinan ASUS: prompt_video_v2.md). Klip membawa trek audio: matikan saat rakit.
 
+- Final 29 Nov: master `sinyal_wow_pulang_ngantor.mp4` (116 MB, di chat sesi rakit), ASUS `sinyal_wow_ringan.mp4` (43 MB) + `subtitle_sinyal_wow.srt`. Skrip di `rakit/`.

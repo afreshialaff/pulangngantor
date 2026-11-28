@@ -81,3 +81,8 @@
 1. Dua sesi menyentuh topik yang sama: commit klip masuk di tengah run ini. Usul: sesi yang sedang produksi menulis baris "sedang dikerjakan (jam)" di STATUS.md sebelum mulai; run terjadwal cek jam berkas Downloads sebelum memilih tahap (dilakukan di run ini, perakitan ganda dihindari).
 2. Sinyal Wow tidak ada di tabel STATUS.md. Diterapkan: barisnya ditambahkan (sebelum 0 baris, sesudah 1).
 3. Menyalin klip dari ASUS: satu panggilan berisi 15 berkas hanya berhasil 2 (13 "wall-clock timeout"); satu berkas per panggilan berhasil 13 dari 13 (sampai 22,8 MB). Usul: salin satu per satu.
+
+## 2026-11-29 (rakit Short Sinyal Wow!)
+1. cuts.json dari tebakan jeda salah di S04-S06 (sekitar 3 dtk) karena ejaan huruf "6EQUJ5" berjeda panjang. Diterapkan: diperiksa dengan DTW seluruh naskah sebelum merakit; usul: potong_vo selalu diverifikasi DTW sebelum durasi klip ditetapkan (di sini klip S04 jadi kependekan 2 dtk dan harus diperlambat).
+2. Render menahan 3 klip mentah di RAM dan terbunuh (7 GB). Diterapkan: tiap klip disiapkan ke FFV1 lalu dibaca berurutan; render ulang selesai.
+3. Salin 116 MB ke ASUS gagal 2 dari 2 (batas waktu); 43 MB berhasil. Usul: salin versi <=45 MB.

@@ -12,7 +12,7 @@
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
 | 2026-11-27-pareidolia-hantu (Short) | **SUDAH TAYANG** public 28 Nov 2026 (0Bp9u1RSxys), thumbnail dan playlist berhasil; subtitle API gagal (scope), subtitle sudah terbakar | Selesai. Jangan diunggah ulang. Lihat review.json: koreksi angka 58% hanya di deskripsi |
-| 2026-11-28-sinyal-wow (Short) | Tahap 4 selesai: 14/14 klip di `Downloads/SINYAL-WOW/VIDEO/`, VO ada | SEDANG DIRAKIT sesi interaktif (diminta pemilik 28 Nov malam). Run lain jangan merakit |
+| 2026-11-28-sinyal-wow (Short) | Tahap rakit selesai: `Downloads/SINYAL-WOW/sinyal_wow_ringan.mp4` (115,2 dtk) | Menunggu pemilik menonton. Belum diunggah. Belum diberi jadwal tayang |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 
@@ -111,3 +111,11 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Lembar kontak 2 fps dilihat: S12 ada garis kilat biru dan cincin emas; S09 di paruh akhir astronom terdorong ke tepi bawah bingkai (bisa tertutup subtitle/UI Shorts) dan muncul rasi tambahan di atas; bintang kecil kanan bawah masih terlihat. Klip belum diperiksa per frame.
 - Kredit Flow/AI Studio dipakai: 0.
 - Dibutuhkan dari pemilik: (1) pastikan siapa yang merakit Sinyal Wow (sesi yang sedang berjalan atau run POSA berikutnya); (2) terima atau ulang S09 dan S12; (3) setujui durasi sekitar 114 dtk (batas lint Short 87-95); (4) keputusan Voynich masih terbuka. Jadwal tayang belum relevan: video belum dirakit.
+
+## 29 Nov 2026 dini hari: Sinyal Wow dirakit (sesi interaktif)
+- Hasil: 1080x1920 24 fps, 115,2 dtk, -14,4 LUFS, -1,5 dBTP, decode bersih, tanpa black frame. Master 116 MB dikirim di chat (salin ke ASUS kena batas waktu); versi ringan 43 MB (SSIM 0,985) di `Downloads/SINYAL-WOW/sinyal_wow_ringan.mp4`, subtitle di folder yang sama.
+- Batas scene S04-S06 di cuts.json lama meleset sekitar 3 dtk; dipakai `cuts_rakit.json`. S04, S06, S09, S14 diubah kecepatannya (0,72x; 1,33x; 0,94x; 0,93x durasi sumber/pakai) dengan interpolasi gerak.
+- Subtitle diselaraskan otomatis (espeak-ng + DTW + jeda), belum dicek dengan telinga. Musik orisinal (MIDI), VO dan mix belum didengarkan.
+- Bintang Gemini dihapus; saat diperbesar masih ada bekas tipis di beberapa latar bergaris. SynthID (tak terlihat) tetap ada.
+- qc_lint short: GAGAL hanya durasi (115,2 dtk, batas 87-95; pemilik meminta 1,5-2,5 menit). Lint tidak diubah. metadata.json dan thumbnail belum dibuat.
+- Berikutnya: pemilik menonton; terima atau minta ulang cacat kecil S06, S09, S12; sebelum unggah buat metadata dan tandai konten AI. Status jadwal belum "siap jadwal" sampai pemilik menyetujui video.

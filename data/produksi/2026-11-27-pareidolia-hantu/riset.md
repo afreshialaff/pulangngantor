@@ -10,6 +10,7 @@ Pareidolia: melihat pola bermakna, terutama wajah, pada benda acak. Otak sangat 
 
 ## 2. Kenapa otak mudah salah alarm
 Dugaan (error management): salah mengira ada makhluk lebih murah daripada melewatkan ancaman. Ini hipotesis evolusi, bukan fakta yang terbukti.
+Haselton & Nettle 2006 (teori error management; hanya abstrak dibaca 28 Nov, tidak membahas deteksi ancaman secara khusus): https://researchportal.northumbria.ac.uk/en/publications/the-paranoid-optimist-an-integrative-evolutionary-model-of-cognit/
 
 ## 3. Harapan dan keyakinan
 Ekspektasi memengaruhi persepsi (eksperimen Liu). Riekki dkk. 2012 (47 orang): peserta yang percaya hal paranormal lebih banyak menandai area mirip wajah, sekaligus lebih banyak salah alarm. Ringkasan: https://www.bps.org.uk/research-digest/paranormal-believers-and-religious-people-are-more-prone-seeing-faces-arent-really

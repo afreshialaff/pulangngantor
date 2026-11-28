@@ -1,0 +1,228 @@
+{
+ "judul_kerja": "Kenapa Kita Gampang \"Lihat Hantu\"?",
+ "format": "short_90",
+ "catatan_format": "Pemilik meminta 1,5-2,5 menit (27 Nov); VO terukur 127,11 dtk, di luar rentang Short POSA 87-95 dtk.",
+ "pilar": "Psychology & Human Behavior",
+ "momen_jawaban_detik": 10.73,
+ "catatan_momen_jawaban": "perkiraan dari awal S02 (8,73 dtk) saat istilah pareidolia disebut; belum diukur dari audio",
+ "jumlah_kata": 283,
+ "durasi_detik": 127.11,
+ "bagian": [
+  {
+   "id": "S01",
+   "mulai": 0,
+   "selesai": 8.73,
+   "vo": "Jam dua belas malam. Ada sosok putih melambai di pojok kamar! Jantungmu langsung joget. Itu hantu... atau cuma jemuran?",
+   "kelas": "narasi",
+   "sumber": []
+  },
+  {
+   "id": "S02",
+   "mulai": 8.73,
+   "selesai": 19.38,
+   "vo": "Tenang, otakmu nggak rusak. Namanya pareidolia: melihat wajah di benda acak. Stopkontak kaget, mobil senyum, awan melotot.",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "benda mirip wajah sempat diproses mirip wajah (sekitar 160 ms), lalu bergeser (sekitar 250 ms)",
+     "atribusi": "Wardle dkk.",
+     "tahun": 2020,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7481186"
+    }
+   ],
+   "tingkat_keyakinan": "didukung"
+  },
+  {
+   "id": "S03",
+   "mulai": 19.38,
+   "selesai": 28.14,
+   "vo": "Di otakmu ada area yang sibuk banget ngurusin wajah. Namanya fusiform face area. Anggap aja satpam khusus pengecek muka.",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "pada gambar derau murni, wajah dilaporkan pada 34% percobaan; FFA kanan merespons",
+     "atribusi": "Liu dkk.",
+     "tahun": 2014,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980010"
+    }
+   ],
+   "tingkat_keyakinan": "didukung"
+  },
+  {
+   "id": "S04",
+   "mulai": 28.14,
+   "selesai": 36.16,
+   "vo": "Studi tahun dua ribu dua puluh merekam otak orang. Sekitar seperlima detik pertama, benda mirip wajah diproses mirip wajah beneran.",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "benda mirip wajah sempat diproses mirip wajah (sekitar 160 ms), lalu bergeser (sekitar 250 ms)",
+     "atribusi": "Wardle dkk.",
+     "tahun": 2020,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7481186"
+    }
+   ],
+   "tingkat_keyakinan": "didukung"
+  },
+  {
+   "id": "S05",
+   "mulai": 36.16,
+   "selesai": 43.15,
+   "vo": "Sekejap kemudian, otak meralat: eh, ternyata cuma benda! Masalahnya, jantungmu keburu lari maraton.",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "benda mirip wajah sempat diproses mirip wajah (sekitar 160 ms), lalu bergeser (sekitar 250 ms)",
+     "atribusi": "Wardle dkk.",
+     "tahun": 2020,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7481186"
+    }
+   ],
+   "tingkat_keyakinan": "didukung"
+  },
+  {
+   "id": "S06",
+   "mulai": 43.15,
+   "selesai": 56.0,
+   "vo": "Di eksperimen lain, orang diminta mencari wajah di gambar bintik acak. Katanya, separuhnya berisi wajah. Padahal kosong semua! Tapi di sekitar tiga puluh empat persen percobaan, mereka bilang: ada!",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "pada gambar derau murni, wajah dilaporkan pada 34% percobaan; FFA kanan merespons",
+     "atribusi": "Liu dkk.",
+     "tahun": 2014,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980010"
+    }
+   ],
+   "tingkat_keyakinan": "didukung"
+  },
+  {
+   "id": "S07",
+   "mulai": 56.0,
+   "selesai": 64.7,
+   "vo": "Jadi harapan ikut menyetir matamu. Kalau sudah mikir, rumah ini angker, bayangan biasa gampang naik pangkat jadi penampakan.",
+   "kelas": "dugaan",
+   "sumber": [
+    {
+     "klaim": "pada gambar derau murni, wajah dilaporkan pada 34% percobaan; FFA kanan merespons",
+     "atribusi": "Liu dkk.",
+     "tahun": 2014,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980010"
+    },
+    {
+     "klaim": "peserta yang percaya hal paranormal lebih banyak menandai area mirip wajah (ringkasan, bukan makalah asli)",
+     "atribusi": "Riekki dkk., ringkasan BPS Research Digest",
+     "tahun": 2012,
+     "url": "https://www.bps.org.uk/research-digest/paranormal-believers-and-religious-people-are-more-prone-seeing-faces-arent-really"
+    }
+   ],
+   "tingkat_keyakinan": "didukung sebagian"
+  },
+  {
+   "id": "S08",
+   "mulai": 64.7,
+   "selesai": 74.28,
+   "vo": "Kenapa begitu? Dugaan ilmuwan, salah alarm itu lebih murah. Mengira semak itu harimau cuma bikin malu. Kalau kebalik, bisa gawat.",
+   "kelas": "dugaan",
+   "sumber": [
+    {
+     "klaim": "teori error management: bila biaya dua jenis salah tidak seimbang, seleksi condong ke salah yang lebih murah (abstrak saja yang dibaca; abstrak tidak membahas deteksi ancaman, penerapan pada semak/harimau adalah analogi)",
+     "atribusi": "Haselton & Nettle, Personality and Social Psychology Review 10(1)",
+     "tahun": 2006,
+     "url": "https://researchportal.northumbria.ac.uk/en/publications/the-paranoid-optimist-an-integrative-evolutionary-model-of-cognit/"
+    }
+   ],
+   "tingkat_keyakinan": "spekulatif (hipotesis error management)"
+  },
+  {
+   "id": "S09",
+   "mulai": 74.28,
+   "selesai": 82.21,
+   "vo": "Dan bukan cuma manusia. Monyet rhesus juga menatap lebih lama benda yang mirip wajah. Radar muka ini sepertinya warisan lama.",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "monyet rhesus menatap lebih lama benda mirip wajah",
+     "atribusi": "Taubert dkk.",
+     "tahun": 2017,
+     "url": "https://researchers.mq.edu.au/en/publications/face-pareidolia-in-the-rhesus-monkey/"
+    }
+   ],
+   "tingkat_keyakinan": "didukung; 'warisan lama' masih dugaan"
+  },
+  {
+   "id": "S10",
+   "mulai": 82.21,
+   "selesai": 92.83,
+   "vo": "Cahaya redup bikin makin seru. Menatap cermin lama-lama, sebagian orang melihat wajah asing. Satu tinjauan mencatat lima puluh delapan persen, walau mutu studinya beragam.",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "tinjauan 21 studi: gabungan 58% melihat wajah asing di cermin; mutu studi beragam",
+     "atribusi": "Mash dkk.",
+     "tahun": 2023,
+     "url": "https://uhra.herts.ac.uk/id/eprint/10250/"
+    }
+   ],
+   "tingkat_keyakinan": "mutu studi beragam"
+  },
+  {
+   "id": "S11",
+   "mulai": 92.83,
+   "selesai": 102.75,
+   "vo": "Terus, ketindihan! Badan terkunci, pikiran setengah bangun, kadang muncul sosok. Di populasi umum, sekitar delapan dari seratus orang pernah lumpuh tidur.",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "prevalensi lumpuh tidur seumur hidup 7,6% populasi umum; sebagian disertai rasa ada sosok",
+     "atribusi": "Sharpless & Barber",
+     "tahun": 2011,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3156892/"
+    }
+   ],
+   "tingkat_keyakinan": "didukung"
+  },
+  {
+   "id": "S12",
+   "mulai": 102.75,
+   "selesai": 111.28,
+   "vo": "Rasa diikuti dari belakang pun pernah dibuat di lab. Robot menyentuh punggung peserta dengan jeda singkat. Sebagian merasa ada sosok tak terlihat!",
+   "kelas": "fakta",
+   "sumber": [
+    {
+     "klaim": "sentuhan robot berjeda memunculkan rasa ada kehadiran pada sebagian peserta",
+     "atribusi": "Blanke dkk.",
+     "tahun": 2014,
+     "url": "https://cris.haifa.ac.il/en/publications/neurological-and-robot-controlled-induction-of-an-apparition/"
+    }
+   ],
+   "tingkat_keyakinan": "didukung"
+  },
+  {
+   "id": "S13",
+   "mulai": 111.28,
+   "selesai": 119.61,
+   "vo": "Jadi kalau lihat sosok: nyalakan lampu, geser sudut pandang, lalu cukup tidur. Kalau sering dan bikin tersiksa, ngobrol ke dokter, ya.",
+   "kelas": "saran",
+   "sumber": []
+  },
+  {
+   "id": "S14",
+   "mulai": 119.61,
+   "selesai": 127.11,
+   "vo": "Rasanya bisa sangat nyata, tapi belum tentu ada tamunya. Benda apa di kamarmu yang paling mirip wajah? Tulis di komentar!",
+   "kelas": "narasi",
+   "sumber": []
+  }
+ ],
+ "sumber": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7481186",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980010",
+  "https://researchers.mq.edu.au/en/publications/face-pareidolia-in-the-rhesus-monkey/",
+  "https://www.bps.org.uk/research-digest/paranormal-believers-and-religious-people-are-more-prone-seeing-faces-arent-really",
+  "https://uhra.herts.ac.uk/id/eprint/10250/",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3156892/",
+  "https://cris.haifa.ac.il/en/publications/neurological-and-robot-controlled-induction-of-an-apparition/",
+  "https://researchportal.northumbria.ac.uk/en/publications/the-paranoid-optimist-an-integrative-evolutionary-model-of-cognit/"
+ ]
+}

@@ -56,3 +56,8 @@
 ## 2026-11-28 (Short pareidolia, klip Nexabot)
 1. File hasil Nexabot ada di domain supabase.co yang sempat ditolak Chrome ASUS (Privacy error), dan hasil bisa kedaluwarsa. Usul: uji unduh satu klip dulu sebelum generate scene berikutnya.
 2. Sesi tersambung ke browser komputer lain tanpa disadari; unduhan S02 tidak masuk Downloads ASUS. Usul: cek deviceId browser sebelum generate, bukan sesudah unduh.
+
+## 2026-11-28 (run terjadwal malam, Short pareidolia menunggu klip)
+1. Produksi sudah di tahap 4 tetapi paket teks belum lengkap. Diterapkan: naskah.json, pelafalan.md, draf metadata.json, aset.md (sebelum 0 dari 4 berkas, sesudah 4 dari 4); qc_lint kini bisa memeriksa naskah dan metadata.
+2. VO belum diukur sesudah dibuat: -16,5 LUFS, true peak +1,1 dBTP. Usul: ukur di tahap 5; rantai volume +2,5 dB + limiter 192 kHz memberi -15,1 LUFS, -2,0 dBTP (uji pada VO saja).
+3. Permintaan durasi 1,5-2,5 menit (VO 127,11 dtk) bertabrakan dengan batas Short 87-95 dtk. Usul: tanyakan dan catat keputusan durasi sebelum VO dibuat; lint tidak dilonggarkan tanpa persetujuan.

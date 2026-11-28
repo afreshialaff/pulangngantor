@@ -11,7 +11,7 @@
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
-| 2026-11-27-pareidolia-hantu (Short) | VO (2:07), 14 gambar 2K, prompt video; klip S01 lolos QC (VIDEO/S01.mp4); S02 digenerate, belum ada di ASUS | Ditunda pemilik 28 Nov: sambungkan Chrome ASUS, unduh/ulang S02, lanjut S03-S14 di Nexabot |
+| 2026-11-27-pareidolia-hantu (Short) | Tahap 4, **menunggu klip pemilik**: VO (2:07), 14 gambar 2K, prompt video, paket teks dilengkapi; klip di ASUS baru S01 (1/14) | Pemilik: lengkapi S02-S14 di `PAREIDOLIA-HANTU/VIDEO/` (atau lanjutkan Nexabot lewat sesi interaktif; ditunda pemilik 28 Nov), dan putuskan durasi 127 dtk |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 
@@ -66,3 +66,15 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Ramayana 4 (hanya dibaca): 26 scene, 814 kata VO; S19 hanya 29 kata (minimal 30).
 - Kredit Flow/AI Studio dipakai: 0 (browser tidak dibuka).
 - Dibutuhkan dari pemilik: (1) isi "Antrean pemilik" di atas (topik + format, atau izinkan Ramayana 3); (2) keputusan Voynich; (3) Ramayana 2: pastikan status publik dan unggah subtitle.srt di Studio bila belum.
+
+## Run terjadwal 28 Nov 2026 (sekitar 18.47 WIB)
+- ASUS (laptop-e7b7q717) terhubung, Downloads terhubung; `git push --dry-run` lolos sesudah checkout main.
+- Topik: Short pareidolia (paling maju). Tahap 4 belum lengkap: hanya `VIDEO/S01.mp4`. **Menunggu klip pemilik**; run ini tidak membuat klip dan tidak membuka browser.
+- Dibuat: `naskah.json`, `pelafalan.md`, draf `metadata.json`, `aset.md`; sumber Haselton & Nettle 2006 (abstrak) ditambahkan untuk S08.
+- QC S01 (lembar kontak 1 fps): 9,02 dtk, 1080x1920, 24 fps, visual konsisten; logo bintang kecil kanan bawah terlihat.
+- VO: 127,11 dtk, -16,5 LUFS, true peak +1,1 dBTP (perlu diproses saat rakit; uji sementara -15,1 LUFS dan -2,0 dBTP). Pelafalan belum didengarkan.
+- `qc_lint --format short`: GAGAL durasi 127,1 dtk (batas 87-95; permintaan pemilik 1,5-2,5 menit) dan S01, S13, S14 tanpa sumber (S01/S14 hook dan penutup; S13 saran praktis yang belum punya sumber). Peringatan: naskah 283 kata, jadwal kosong, subtitle dan thumbnail belum ada. review.json belum ditulis.
+- `tools/rakit_video.py --format short` belum ada; perlu dibuat sebelum rakit.
+- Kredit Flow/AI Studio dipakai: 0.
+- Dibutuhkan dari pemilik: (1) klip S02-S14; (2) setujui durasi 127 dtk (aturan lint disesuaikan) atau pendekkan VO/naskah; (3) keputusan Voynich masih terbuka.
+

@@ -61,3 +61,8 @@
 1. Produksi sudah di tahap 4 tetapi paket teks belum lengkap. Diterapkan: naskah.json, pelafalan.md, draf metadata.json, aset.md (sebelum 0 dari 4 berkas, sesudah 4 dari 4); qc_lint kini bisa memeriksa naskah dan metadata.
 2. VO belum diukur sesudah dibuat: -16,5 LUFS, true peak +1,1 dBTP. Usul: ukur di tahap 5; rantai volume +2,5 dB + limiter 192 kHz memberi -15,1 LUFS, -2,0 dBTP (uji pada VO saja).
 3. Permintaan durasi 1,5-2,5 menit (VO 127,11 dtk) bertabrakan dengan batas Short 87-95 dtk. Usul: tanyakan dan catat keputusan durasi sebelum VO dibuat; lint tidak dilonggarkan tanpa persetujuan.
+
+## 2026-11-28 (run terjadwal 19.05 WIB, klip pareidolia 3/14)
+1. Cek klip dikerjakan manual tiap run. Diterapkan: `tools/qc_klip.py` (kelengkapan, 1080x1920, 24 fps, durasi vs `cuts.json`, lembar kontak 4 fps); sebelum 0 alat, sesudah 1; hasil run: 3/14 klip, 3 lolos teknis.
+2. S02 lolos teknis (11,03 dtk untuk slot 10,65) tetapi sekitar 2 dtk terakhir berupa dissolve dua sudut gambar. Lolos teknis belum berarti lolos visual: lihat lembar kontak, terutama ujung klip.
+3. Catatan proses di Downloads (18.44 WIB) menyebut produksi klip ditunda, padahal S02 dan S03 muncul sesudahnya. Usul: cek ulang isi folder klip tepat sebelum menulis laporan (dilakukan di run ini).

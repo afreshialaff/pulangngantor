@@ -11,7 +11,7 @@
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
-| 2026-11-27-pareidolia-hantu (Short) | Tahap 4, **menunggu klip pemilik**: VO (2:07), 14 gambar 2K, prompt video, paket teks dilengkapi; klip di ASUS baru S01 (1/14) | Pemilik: lengkapi S02-S14 di `PAREIDOLIA-HANTU/VIDEO/` (atau lanjutkan Nexabot lewat sesi interaktif; ditunda pemilik 28 Nov), dan putuskan durasi 127 dtk |
+| 2026-11-27-pareidolia-hantu (Short) | Tahap 4, **menunggu klip pemilik** (cek 28 Nov ±19.05 WIB): S01-S03 ada (3/14), VO 2:07, 14 gambar 2K, prompt video, paket teks | Pemilik: lengkapi S04-S14 di `PAREIDOLIA-HANTU/VIDEO/`, putuskan S02 (dissolve di ujung) dan durasi 127 dtk |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 
@@ -78,3 +78,10 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Kredit Flow/AI Studio dipakai: 0.
 - Dibutuhkan dari pemilik: (1) klip S02-S14; (2) setujui durasi 127 dtk (aturan lint disesuaikan) atau pendekkan VO/naskah; (3) keputusan Voynich masih terbuka.
 
+## Run terjadwal 28 Nov 2026 (malam, sekitar 19.05 WIB)
+- ASUS (laptop-e7b7q717) terhubung, Downloads terhubung; `git push --dry-run` lolos sesudah checkout main.
+- Topik: Short pareidolia, tahap 4. **Menunggu klip pemilik**: S01-S03 ada, S04-S14 belum. Ada berkas `.crdownload` bertanda 19.04 di Downloads (isinya tidak diperiksa). Run ini tidak membuat klip dan tidak membuka browser.
+- QC klip (`tools/qc_klip.py`): S01-S03 1080x1920, 24 fps, durasi >= slot VO. Lembar kontak S02 dan S03 (1 fps) dilihat; S02 sekitar detik 8,7-10,8 menampilkan dua sudut gambar bertumpuk (dissolve), padahal prompt melarang transisi. Slot VO S02 10,65 dtk. Pilihan pemilik: generate ulang S02, atau potong sebelum dissolve lalu perlambat (SKILL Short melarang mengubah kecepatan, jadi perlu persetujuan). S03: tidak terlihat masalah pada 1 fps. Logo bintang kanan bawah terlihat.
+- Modul A: tidak ada topik lain yang bisa dimajukan; `USULAN-TOPIK.md` 27 Nov masih dipakai (ditambah catatan kedekatan sudut).
+- Kredit Flow/AI Studio dipakai: 0.
+- Dibutuhkan dari pemilik: (1) klip S04-S14; (2) keputusan S02; (3) setujui durasi 127 dtk atau pendekkan VO/naskah; (4) keputusan Voynich.

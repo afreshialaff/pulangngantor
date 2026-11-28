@@ -8,6 +8,8 @@ Belum ada produksi yang dimulai. Pemilik memilih topik **dan format** (video pan
 | 2 | Kenapa Kantor Kosong Terasa Lebih Menyeramkan di Malam Hari? | Psychology + Horror / Misteri Setelah Jam Kerja | 5 | 4 | 4 | 5 | 5 | **23** |
 | 3 | Kenapa Semakin Dewasa Waktu Terasa Makin Cepat? | Psychology / Isi Kepala Manusia | 5 | 3 | 4 | 4 | 5 | **21** |
 
+Catatan 28 Nov: sumber tidak dibaca ulang. Topik 2 (kantor kosong) berdekatan dengan Short pareidolia yang sedang diproduksi (sama-sama soal sensasi "ada hantu"); bila dipilih, pakai sudut yang jelas berbeda atau beri jarak.
+
 Ketiganya dari rencana peluncuran master brand bagian 12. "Belum 60 hari" dicek ke `data/produksi/` dan nama folder di Downloads ASUS (bukan ke daftar video di channel). Skor adalah penilaian agen.
 
 ## 1. MKUltra

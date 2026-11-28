@@ -85,3 +85,8 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Modul A: tidak ada topik lain yang bisa dimajukan; `USULAN-TOPIK.md` 27 Nov masih dipakai (ditambah catatan kedekatan sudut).
 - Kredit Flow/AI Studio dipakai: 0.
 - Dibutuhkan dari pemilik: (1) klip S04-S14; (2) keputusan S02; (3) setujui durasi 127 dtk atau pendekkan VO/naskah; (4) keputusan Voynich.
+
+## Sesi 28 Nov 2026: Short "Sinyal Wow!" (permintaan pemilik di chat)
+- Folder `2026-11-28-sinyal-wow`: riset, naskah (266 kata), storyboard, prompt gambar dan video, copywriting, pelafalan. Durasi per scene masih PERKIRAAN.
+- VO (Puck) sudah digenerate di AI Studio, 1:52; unduhan terhenti, belum dipastikan ada di Downloads.
+- Belum ada gambar Flow dan klip. Menunggu keputusan pemilik: hook S01 baru (VO dibuat ulang) atau naskah sekarang.

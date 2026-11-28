@@ -1,0 +1,252 @@
+{
+ "judul_kerja": "Sinyal Wow!",
+ "format": "short_90",
+ "catatan_format": "Pemilik meminta 1,5-2,5 menit (28 Nov); di luar rentang Short POSA 87-95 dtk.",
+ "pilar": "Misteri",
+ "momen_jawaban_detik": 26.36,
+ "jumlah_kata": 266,
+ "durasi_detik": 120.89,
+ "catatan_durasi": "PERKIRAAN (2,2 kata/detik), belum diukur dari VO",
+ "bagian": [
+  {
+   "id": "S01",
+   "mulai": 0.0,
+   "selesai": 10.0,
+   "vo": "Tahun seribu sembilan ratus tujuh puluh tujuh, sebuah teleskop menangkap sinyal aneh dari langit. Saking kagetnya, seorang astronom menulis satu kata: Wow!",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Tahun seribu sembilan ratus tujuh puluh tujuh, sebuah teleskop menangkap sinyal aneh dari langit. Saking kagetnya, seorang astronom menulis satu kata: Wow!",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "mulai": 10.0,
+   "selesai": 18.18,
+   "vo": "Teleskopnya bernama Big Ear, alias Telinga Raksasa, di Ohio, Amerika. Ia nggak melihat bintang. Ia mendengarkan gelombang radio.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Teleskopnya bernama Big Ear, alias Telinga Raksasa, di Ohio, Amerika. Ia nggak melihat bintang. Ia mendengarkan gelombang radio.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "mulai": 18.18,
+   "selesai": 26.36,
+   "vo": "Malam lima belas Agustus, komputer mencatat semuanya di kertas. Beberapa hari kemudian, Jerry Ehman memeriksa tumpukan cetakan itu.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Malam lima belas Agustus, komputer mencatat semuanya di kertas. Beberapa hari kemudian, Jerry Ehman memeriksa tumpukan cetakan itu.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "mulai": 26.36,
+   "selesai": 33.63,
+   "vo": "Matanya berhenti di kode: enam, E, Q, U, J, lima. Dilingkari pena merah, lalu ditulis: Wow!",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Matanya berhenti di kode: enam, E, Q, U, J, lima. Dilingkari pena merah, lalu ditulis: Wow!",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "mulai": 33.63,
+   "selesai": 43.18,
+   "vo": "Itu bukan pesan rahasia. Huruf dan angka itu ukuran kekuatan sinyal. Puncaknya sekitar tiga puluh kali lebih kuat dari bising latar.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Itu bukan pesan rahasia. Huruf dan angka itu ukuran kekuatan sinyal. Puncaknya sekitar tiga puluh kali lebih kuat dari bising latar.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "mulai": 43.18,
+   "selesai": 53.18,
+   "vo": "Frekuensinya dekat seribu empat ratus dua puluh megahertz, nada alami atom hidrogen. Ilmuwan pernah mengusulkan: alien mungkin memilih saluran ini untuk menyapa.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Frekuensinya dekat seribu empat ratus dua puluh megahertz, nada alami atom hidrogen. Ilmuwan pernah mengusulkan: alien mungkin memilih saluran ini untuk menyapa.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    },
+    {
+     "klaim": "Frekuensinya dekat seribu empat ratus dua puluh megahertz, nada alami atom hidrogen. Ilmuwan pernah mengusulkan: alien mungkin memilih saluran ini untuk menyapa.",
+     "atribusi": "Cocconi & Morrison (1959), Searching for Interstellar Communications, salinan di Big Ear",
+     "url": "https://www.bigear.org/vol1no1/interste.htm"
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "mulai": 53.18,
+   "selesai": 63.63,
+   "vo": "Sinyalnya naik lalu turun selama tujuh puluh dua detik. Pas dengan sapuan teleskop saat Bumi berputar. Artinya, sumbernya tampak ikut bergerak bersama langit.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Sinyalnya naik lalu turun selama tujuh puluh dua detik. Pas dengan sapuan teleskop saat Bumi berputar. Artinya, sumbernya tampak ikut bergerak bersama langit.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "mulai": 63.63,
+   "selesai": 71.81,
+   "vo": "Anehnya, Big Ear punya dua corong penerima. Kalau sumbernya terus menyala, harusnya tertangkap dua kali. Ternyata cuma sekali.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Anehnya, Big Ear punya dua corong penerima. Kalau sumbernya terus menyala, harusnya tertangkap dua kali. Ternyata cuma sekali.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "mulai": 71.81,
+   "selesai": 79.08,
+   "vo": "Arahnya dari rasi Sagitarius. Big Ear mengecek lokasi itu lebih dari lima puluh kali. Hasilnya? Sunyi.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Arahnya dari rasi Sagitarius. Big Ear mengecek lokasi itu lebih dari lima puluh kali. Hasilnya? Sunyi.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    },
+    {
+     "klaim": "Arahnya dari rasi Sagitarius. Big Ear mengecek lokasi itu lebih dari lima puluh kali. Hasilnya? Sunyi.",
+     "atribusi": "Planetary Society (2012), ulasan buku Robert Gray",
+     "url": "https://www.planetary.org/articles/3346"
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "mulai": 79.08,
+   "selesai": 89.53,
+   "vo": "Peneliti lain ikut berburu, pakai teleskop di Amerika dan Australia. Tahun dua ribu dua puluh dua, satu bintang kandidat ikut disimak. Tetap kosong.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Peneliti lain ikut berburu, pakai teleskop di Amerika dan Australia. Tahun dua ribu dua puluh dua, satu bintang kandidat ikut disimak. Tetap kosong.",
+     "atribusi": "Seth Shostak (2002) tentang pencarian Gray, salinan di Big Ear",
+     "url": "https://bigear.org/shostak_wow_20021205.htm"
+    },
+    {
+     "klaim": "Peneliti lain ikut berburu, pakai teleskop di Amerika dan Australia. Tahun dua ribu dua puluh dua, satu bintang kandidat ikut disimak. Tetap kosong.",
+     "atribusi": "Breakthrough Listen (2022)",
+     "url": "https://seti.berkeley.edu/wow"
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "mulai": 89.53,
+   "selesai": 95.89,
+   "vo": "Ada yang menduga komet. Tapi sejumlah astronom menolak: posisi dan perilakunya dinilai nggak cocok.",
+   "kelas": "klaim",
+   "tingkat_keyakinan": "diperdebatkan",
+   "sumber": [
+    {
+     "klaim": "Ada yang menduga komet. Tapi sejumlah astronom menolak: posisi dan perilakunya dinilai nggak cocok.",
+     "atribusi": "PHL UPR Arecibo, keberatan atas hipotesis komet",
+     "url": "https://phl.upr.edu/wow/comet"
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "mulai": 95.89,
+   "selesai": 105.89,
+   "vo": "Hipotesis baru tahun dua ribu dua puluh empat: awan hidrogen dingin mendadak terang akibat semburan magnetar, bintang supermagnet. Menarik, tapi belum terbukti.",
+   "kelas": "dugaan",
+   "tingkat_keyakinan": "spekulatif",
+   "sumber": [
+    {
+     "klaim": "Hipotesis baru tahun dua ribu dua puluh empat: awan hidrogen dingin mendadak terang akibat semburan magnetar, bintang supermagnet. Menarik, tapi belum terbukti.",
+     "atribusi": "Méndez dkk. (2024), Arecibo Wow! I, pracetak",
+     "url": "https://arxiv.org/pdf/2408.08513"
+    },
+    {
+     "klaim": "Hipotesis baru tahun dua ribu dua puluh empat: awan hidrogen dingin mendadak terang akibat semburan magnetar, bintang supermagnet. Menarik, tapi belum terbukti.",
+     "atribusi": "Méndez dkk. (2025), Arecibo Wow! II, draf pracetak",
+     "url": "https://arxiv.org/pdf/2508.10657"
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "mulai": 105.89,
+   "selesai": 113.16,
+   "vo": "Jadi, alien? Belum ada buktinya. Sebab alami? Juga belum pasti. Ehman sendiri bilang, datanya terlalu sedikit.",
+   "kelas": "fakta",
+   "tingkat_keyakinan": "didukung",
+   "sumber": [
+    {
+     "klaim": "Jadi, alien? Belum ada buktinya. Sebab alami? Juga belum pasti. Ehman sendiri bilang, datanya terlalu sedikit.",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "mulai": 113.16,
+   "selesai": 120.89,
+   "vo": "Tujuh puluh dua detik, lalu hening hampir lima puluh tahun. Menurutmu itu apa? Tulis tebakanmu di komentar!",
+   "kelas": "narasi",
+   "tingkat_keyakinan": "-",
+   "sumber": [
+    {
+     "klaim": "Tujuh puluh dua detik, lalu hening hampir lima puluh tahun. Menurutmu itu apa? Tulis tebakanmu di komentar!",
+     "atribusi": "Jerry R. Ehman, laporan 30 tahun, Big Ear (rev. 2010)",
+     "url": "https://www.bigear.org/Wow30th/wow30th.htm"
+    }
+   ]
+  }
+ ],
+ "sumber": [
+  "https://www.bigear.org/Wow30th/wow30th.htm",
+  "https://www.bigear.org/vol1no1/interste.htm",
+  "https://bigear.org/shostak_wow_20021205.htm",
+  "https://www.planetary.org/articles/3346",
+  "https://seti.berkeley.edu/wow",
+  "https://phl.upr.edu/wow/comet",
+  "https://arxiv.org/pdf/2408.08513",
+  "https://arxiv.org/pdf/2508.10657"
+ ]
+}

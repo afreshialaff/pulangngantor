@@ -52,3 +52,7 @@
 1. Ada dua browser Chrome tersambung; VO pertama terunduh ke komputer yang salah dan harus dibuat ulang. Usul: pastikan browser di komputer yang folder Downloads-nya tersambung sebelum mengunduh.
 2. 14 gambar diminta dalam satu pesan ke agen Flow: 11 lolos QC, 3 diperbaiki lewat edit (semak jadi harimau sungguhan, posisi lengan robot salah, poster berhuruf). Usul: untuk benda "mirip X", tulis juga larangan "bukan X sungguhan".
 3. Pengetikan prompt panjang (5.712 karakter) putus di tengah; isi kotak dicek lewat panjang teks dan kode scene sebelum dikirim.
+
+## 2026-11-28 (Short pareidolia, klip Nexabot)
+1. File hasil Nexabot ada di domain supabase.co yang sempat ditolak Chrome ASUS (Privacy error), dan hasil bisa kedaluwarsa. Usul: uji unduh satu klip dulu sebelum generate scene berikutnya.
+2. Sesi tersambung ke browser komputer lain tanpa disadari; unduhan S02 tidak masuk Downloads ASUS. Usul: cek deviceId browser sebelum generate, bukan sesudah unduh.

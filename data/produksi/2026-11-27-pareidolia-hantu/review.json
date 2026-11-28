@@ -1,0 +1,25 @@
+{
+ "status": "lolos",
+ "diperiksa": "2026-11-28",
+ "oleh": "keputusan pemilik: unggah public apa adanya, sesudah diberi tahu temuan pemblokir",
+ "video": "pareidolia_pulang_ngantor.mp4; 1080x1920, 24 fps, 132,0 dtk",
+ "durasi_detik": 132.0,
+ "loudness_lufs": -14.2,
+ "true_peak_dbtp": -3.2,
+ "pemeriksa_terpisah": {
+  "putusan": "GAGAL",
+  "pemblokir": "S10 (85-96 dtk): 58% disebut angka tatap cermin; menurut pemeriksa (Mash dkk. 2023) itu gabungan tatap cermin dan saling tatap wajah, khusus cermin 50%. Tidak diperbaiki di video atas keputusan pemilik; catatan koreksi ditaruh di deskripsi.",
+  "temuan_kecil": [
+   "S11: pita navy polos di bawah (bawaan klip)",
+   "S11: ekspresi santai saat narasi ketindihan",
+   "S02: stopkontak/mobil tidak terlihat saat disebut ulang; tangan berbayang ~13 dtk",
+   "S06: wajah terlihat di layar bintik",
+   "~122 dtk: gumpalan mirip asap",
+   "S04, S05, S07, S12: penyederhanaan klaim"
+  ]
+ },
+ "qc_lint": "GAGAL: durasi 132 dtk di luar 87-95 (pemilik memilih mengikuti klip); S01/S13/S14 tanpa sumber (pembuka, saran, penutup)",
+ "belum_diverifikasi": [
+  "audio, musik, pelafalan, dan sinkron suara-subtitle belum didengarkan oleh POSA"
+ ]
+}

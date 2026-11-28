@@ -11,7 +11,7 @@
 | 2026-11-22-ramayana-1-rahwana | **SUDAH TAYANG** (konfirmasi pemilik 26 Nov 2026; yOu1JLVvU-g) | Selesai. Jangan dicek, diunggah, atau dijadwalkan ulang |
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
-| 2026-11-27-pareidolia-hantu (Short) | Tahap 6: video final dirakit 28 Nov (132 dtk), dikirim lewat chat (transfer ke komputer gagal: batas waktu); SRT ada di `PAREIDOLIA-HANTU/OUTPUT/` | Pemilik: tonton dan dengarkan; lalu QC terpisah + review.json, thumbnail, metadata final. Hari/jam tayang dari pemilik |
+| 2026-11-27-pareidolia-hantu (Short) | **SUDAH TAYANG** public 28 Nov 2026 (0Bp9u1RSxys), thumbnail dan playlist berhasil; subtitle API gagal (scope), subtitle sudah terbakar | Selesai. Jangan diunggah ulang. Lihat review.json: koreksi angka 58% hanya di deskripsi |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 

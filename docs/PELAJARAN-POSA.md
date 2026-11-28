@@ -70,3 +70,4 @@
 ## 2026-11-28 (sesi lanjutan, klip S02-S14)
 1. 13 klip + 2 ulang: 11 dari 13 klip pertama bisa dipakai tanpa catatan berat; S02 ghosting dan S12 elemen hilang. Ulang S12 dengan larangan spesifik berhasil; ulang S02 dengan instruksi "tahan bingkai akhir" malah menggandakan karakter. Usul: untuk cacat di ujung klip, potong dan perlambat dulu sebelum generate ulang.
 2. Tab Chrome berganti ID beberapa kali dan tidak bisa discreenshot; membuka tab baru di alamat yang sama memulihkan, hasil generate tetap ada di daftar.
+- 28 Nov 2026 (pareidolia): periksa klaim angka ke sumber (per metode, bukan angka gabungan) SEBELUM VO direkam; kesalahan 58% baru ketahuan sesudah video jadi.

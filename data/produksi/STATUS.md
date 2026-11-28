@@ -87,6 +87,7 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Dibutuhkan dari pemilik: (1) klip S04-S14; (2) keputusan S02; (3) setujui durasi 127 dtk atau pendekkan VO/naskah; (4) keputusan Voynich.
 
 ## Sesi 28 Nov 2026: Short "Sinyal Wow!" (permintaan pemilik di chat)
-- Folder `2026-11-28-sinyal-wow`: riset, naskah (266 kata), storyboard, prompt gambar dan video, copywriting, pelafalan. Durasi per scene masih PERKIRAAN.
-- VO (Puck) sudah digenerate di AI Studio, 1:52; unduhan terhenti, belum dipastikan ada di Downloads.
-- Belum ada gambar Flow dan klip. Menunggu keputusan pemilik: hook S01 baru (VO dibuat ulang) atau naskah sekarang.
+- Tahap tercapai: gambar Flow S01-S14 jadi dan lolos QC; VO 1:54 di `Downloads/SINYAL-WOW/`; durasi klip diukur dari VO.
+- Hook S01 baru (meluruskan "artinya Wow"); dipakai karena pemilik menjawab "lanjutin" tanpa memilih, sudah diberitahukan.
+- Berikutnya: pemilik upscale ke `Downloads/SINYAL-WOW/PICTURE/` (S01..S14); lalu klip Nexabot digenerate agen (permintaan pemilik untuk topik ini).
+- Kredit Flow sebelum generate: 150.

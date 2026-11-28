@@ -18,7 +18,7 @@ NEG = ("Negative: no morphing, no warping, no melting lines, no extra limbs or f
 # id, judul, refs, vo, gambar, kamera, aksi (3 tahap), kelas, sumber
 S = [
 ("S01","Hook",["CHAR_ASTRO","CHAR_BIGEAR"],
- "Tahun seribu sembilan ratus tujuh puluh tujuh, sebuah teleskop menangkap sinyal aneh dari langit. Saking kagetnya, seorang astronom menulis satu kata: Wow!",
+ "Katanya, ada sinyal luar angkasa yang artinya Wow. Eits, salah! Tahun seribu sembilan ratus tujuh puluh tujuh, sinyal aneh tertangkap, dan astronom yang kaget mencoret kertasnya: Wow!",
  "Starry night over CHAR_BIGEAR. A thin glowing amber beam of radio waves descends from one bright point in the sky onto the telescope. In the foreground CHAR_ASTRO holds a long continuous paper printout, eyes wide and mouth open in amazement.",
  "Slow push-in from the wide sky toward the astronomer",
  ["stars twinkle and the amber wave rings travel down the beam toward the telescope","the astronomer lifts the printout and his eyes widen","his glasses catch an amber glint and he holds an amazed pose"],"fakta",["ehman"]),

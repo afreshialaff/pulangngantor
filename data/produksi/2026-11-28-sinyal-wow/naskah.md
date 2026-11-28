@@ -1,9 +1,9 @@
 # Naskah: Sinyal Wow!, 72 Detik yang Belum Terjawab
 
-266 kata.
+271 kata.
 
 ## S01 · Hook (fakta)
-Tahun seribu sembilan ratus tujuh puluh tujuh, sebuah teleskop menangkap sinyal aneh dari langit. Saking kagetnya, seorang astronom menulis satu kata: Wow!
+Katanya, ada sinyal luar angkasa yang artinya Wow. Eits, salah! Tahun seribu sembilan ratus tujuh puluh tujuh, sinyal aneh tertangkap, dan astronom yang kaget mencoret kertasnya: Wow!
 
 ## S02 · Big Ear (fakta)
 Teleskopnya bernama Big Ear, alias Telinga Raksasa, di Ohio, Amerika. Ia nggak melihat bintang. Ia mendengarkan gelombang radio.

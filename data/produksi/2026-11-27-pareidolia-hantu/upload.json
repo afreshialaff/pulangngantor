@@ -1,0 +1,11 @@
+{
+ "video_id": "0Bp9u1RSxys",
+ "url": "https://youtu.be/0Bp9u1RSxys",
+ "status": "public",
+ "diminta": "public",
+ "diunggah": "2026-11-28T14:37:12.989080+00:00",
+ "thumbnail": true,
+ "captions": false,
+ "captions_error": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/captions?part=snippet&alt=json&uploadType=multipart returned \"Request had insufficient authentication scopes.\". Details:",
+ "playlist": "PLReKJMMdRVXs"
+}

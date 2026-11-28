@@ -66,3 +66,7 @@
 1. Cek klip dikerjakan manual tiap run. Diterapkan: `tools/qc_klip.py` (kelengkapan, 1080x1920, 24 fps, durasi vs `cuts.json`, lembar kontak 4 fps); sebelum 0 alat, sesudah 1; hasil run: 3/14 klip, 3 lolos teknis.
 2. S02 lolos teknis (11,03 dtk untuk slot 10,65) tetapi sekitar 2 dtk terakhir berupa dissolve dua sudut gambar. Lolos teknis belum berarti lolos visual: lihat lembar kontak, terutama ujung klip.
 3. Catatan proses di Downloads (18.44 WIB) menyebut produksi klip ditunda, padahal S02 dan S03 muncul sesudahnya. Usul: cek ulang isi folder klip tepat sebelum menulis laporan (dilakukan di run ini).
+
+## 2026-11-28 (sesi lanjutan, klip S02-S14)
+1. 13 klip + 2 ulang: 11 dari 13 klip pertama bisa dipakai tanpa catatan berat; S02 ghosting dan S12 elemen hilang. Ulang S12 dengan larangan spesifik berhasil; ulang S02 dengan instruksi "tahan bingkai akhir" malah menggandakan karakter. Usul: untuk cacat di ujung klip, potong dan perlambat dulu sebelum generate ulang.
+2. Tab Chrome berganti ID beberapa kali dan tidak bisa discreenshot; membuka tab baru di alamat yang sama memulihkan, hasil generate tetap ada di daftar.

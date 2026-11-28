@@ -76,3 +76,8 @@
 1. Prompt video ditulis sebelum gambar jadi dan beberapa aksinya tidak cocok dengan isi gambar. Diterapkan: semua 14 prompt disesuaikan dengan gambar final sebelum generate (gerak kecil, hanya benda yang sudah ada).
 2. Kata "pulses once" pada S05 menghasilkan ledakan cahaya. Usul: untuk efek cahaya, tulis "steady, no burst, no orb, no sparks"; versi ulang dengan kalimat itu bersih (1 kali ulang dari 14 scene).
 3. Popup "Cooldown Booster" berbayar muncul bila Generate ditekan saat jeda Unlimited. Usul: baca teks tombol (Generate/Wait) dulu; tutup popup tanpa membeli.
+
+## 2026-11-28 (run terjadwal 22.00 WIB, Sinyal Wow berbarengan dengan sesi lain)
+1. Dua sesi menyentuh topik yang sama: commit klip masuk di tengah run ini. Usul: sesi yang sedang produksi menulis baris "sedang dikerjakan (jam)" di STATUS.md sebelum mulai; run terjadwal cek jam berkas Downloads sebelum memilih tahap (dilakukan di run ini, perakitan ganda dihindari).
+2. Sinyal Wow tidak ada di tabel STATUS.md. Diterapkan: barisnya ditambahkan (sebelum 0 baris, sesudah 1).
+3. Menyalin klip dari ASUS: satu panggilan berisi 15 berkas hanya berhasil 2 (13 "wall-clock timeout"); satu berkas per panggilan berhasil 13 dari 13 (sampai 22,8 MB). Usul: salin satu per satu.

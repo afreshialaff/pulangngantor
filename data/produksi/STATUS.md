@@ -12,6 +12,7 @@
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
 | 2026-11-27-pareidolia-hantu (Short) | **SUDAH TAYANG** public 28 Nov 2026 (0Bp9u1RSxys), thumbnail dan playlist berhasil; subtitle API gagal (scope), subtitle sudah terbakar | Selesai. Jangan diunggah ulang. Lihat review.json: koreksi angka 58% hanya di deskripsi |
+| 2026-11-28-sinyal-wow (Short) | Tahap 4 selesai: 14/14 klip di `Downloads/SINYAL-WOW/VIDEO/`, VO ada | Tahap 6 (rakit + QC). Run terjadwal 28 Nov 22.10 WIB tidak merakit karena sesi lain masih mengerjakan topik ini |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 
@@ -102,3 +103,11 @@ Catatan run 25 Nov 2026: Part 1 tidak perlu estimasi kredit baru (gambar, klip, 
 - Logo bintang kecil kanan bawah masih ada; dibereskan saat rakit.
 - VO dipaskan ke durasi klip (hanya tambah hening di jeda scene, tempo tidak diubah): 132,0 dtk, -15,1 LUFS, true peak -2,0 dBTP. VO asli tidak diubah. Saat rakit pakai cuts_klip.json; qc_lint short (87-95 dtk) akan tetap menandai durasi.
 - Rakit 28 Nov (diminta pemilik): tanpa intro/outro, transisi dissolve (zoom di pergantian bagian), subtitle terbakar 84 cue, musik orisinal sintesis (FluidR3 GM, MIT), bintang Gemini dihapus, S02 dipotong 8,4 dtk lalu diperlambat, S12 pakai v2. Ukur: 132,0 dtk, 1080x1920, 24 fps, -14,2 LUFS, true peak -3,2 dBTP; blackdetect/freeze tanpa temuan. Belum: didengarkan, pemeriksa terpisah, review.json.
+
+## Run terjadwal 28 Nov 2026 (sekitar 22.00 WIB)
+- ASUS (laptop-e7b7q717) terhubung, Downloads terhubung; `git push --dry-run` lolos sesudah checkout main dan pull.
+- Topik: Short Sinyal Wow!. Selama run ini sesi lain masih bekerja pada topik yang sama (klip `WOW_S05_v2.mp4` bertanda 21.54, disalin ke `VIDEO/` sekitar 22.00-22.10, commit bc07821 22.09). Supaya tidak kerja ganda, run ini berhenti sesudah memeriksa klip; tidak membuat klip, tidak merakit, tidak membuka browser.
+- `tools/qc_klip.py`: 14/14 klip lolos teknis (1080x1920, 24 fps, durasi >= slot VO). Berkas yang diperiksa berukuran sama dengan isi `VIDEO/` (S05 = versi ulang).
+- Lembar kontak 2 fps dilihat: S12 ada garis kilat biru dan cincin emas; S09 di paruh akhir astronom terdorong ke tepi bawah bingkai (bisa tertutup subtitle/UI Shorts) dan muncul rasi tambahan di atas; bintang kecil kanan bawah masih terlihat. Klip belum diperiksa per frame.
+- Kredit Flow/AI Studio dipakai: 0.
+- Dibutuhkan dari pemilik: (1) pastikan siapa yang merakit Sinyal Wow (sesi yang sedang berjalan atau run POSA berikutnya); (2) terima atau ulang S09 dan S12; (3) setujui durasi sekitar 114 dtk (batas lint Short 87-95); (4) keputusan Voynich masih terbuka. Jadwal tayang belum relevan: video belum dirakit.

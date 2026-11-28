@@ -12,7 +12,7 @@
 | 2026-11-24-bumi-berhenti-5-detik (Short) | **SUDAH TAYANG** publik 26 Nov 2026 (X-e9THx36F8), masuk playlist | Selesai. Jangan diunggah ulang. Subtitle sudah terbakar di video |
 | 2026-11-22-ramayana-2-rama | **SUDAH TERUPLOAD** (konfirmasi pemilik 27 Nov 2026; 1r8pRi2lhck). upload.json masih mencatat private dan subtitle API gagal | Jangan diunggah atau dijadwalkan ulang. Belum dipastikan: status publik dan subtitle manual |
 | 2026-11-27-pareidolia-hantu (Short) | **SUDAH TAYANG** public 28 Nov 2026 (0Bp9u1RSxys), thumbnail dan playlist berhasil; subtitle API gagal (scope), subtitle sudah terbakar | Selesai. Jangan diunggah ulang. Lihat review.json: koreksi angka 58% hanya di deskripsi |
-| 2026-11-28-sinyal-wow (Short) | Tahap 4 selesai: 14/14 klip di `Downloads/SINYAL-WOW/VIDEO/`, VO ada | Tahap 6 (rakit + QC). Run terjadwal 28 Nov 22.10 WIB tidak merakit karena sesi lain masih mengerjakan topik ini |
+| 2026-11-28-sinyal-wow (Short) | Tahap 4 selesai: 14/14 klip di `Downloads/SINYAL-WOW/VIDEO/`, VO ada | SEDANG DIRAKIT sesi interaktif (diminta pemilik 28 Nov malam). Run lain jangan merakit |
 | 2026-11-22-ramayana-3-pengasingan-perang | riset, scenes.json, pelafalan | prompt_video, gambar |
 | 2026-11-22-ramayana-4-moksa | riset, scenes.json, pelafalan | prompt_video, gambar |
 
